@@ -1,0 +1,950 @@
+#This file was created by <vineyard> Tue Jan  2 13:55:53 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+Refraction at Spherical Surfaces: Thin Lenses
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\layout Itemize
+
+To investigate thin lenses.
+\layout Standard
+
+
+\series bold 
+Introduction
+\series default 
+ 
+\layout Standard
+
+A lens converges or diverges light rays.
+ It is a transparent material bounded, in the case of thin lenses, by spherical
+ edges.
+ The line between the centers of curvature of these edges is referred to
+ as the principal axis.
+ The principal focus is the point on the principal axis where parallel incident
+ rays converge.
+ The distance from the lens to this point is known as the focal length.
+ The relation between the focal distance, 
+\latex latex 
+$f$
+\latex default 
+, the object distance, 
+\latex latex 
+$p$
+\latex default 
+, and the image distance, 
+\latex latex 
+$q$
+\latex default 
+, is:
+\layout Standard
+
+
+\latex latex 
+
+\backslash 
+begin{displaymath} 
+\backslash 
+frac{1}{p} + 
+\backslash 
+frac{1}{q} = 
+\backslash 
+frac{1}{f}.
+ 
+\backslash 
+end{displaymath}
+\layout Standard
+
+
+\series bold 
+Apparatus
+\layout Itemize
+
+light fence 
+\layout Itemize
+
+converging and diverging lenses (1 each) 
+\layout Itemize
+
+optical bench 
+\layout Itemize
+
+light bulb 
+\layout Itemize
+
+white file card
+\layout Standard
+
+
+\series bold 
+Investigation 1: The Converging Lens
+\layout Standard
+
+
+\series bold 
+Activity 1
+\layout Itemize
+
+Arrange the light source apparatus so that the parallel rays of light cross
+ a piece of paper.
+ 
+\layout Itemize
+
+Place a convex lens on the paper perpendicular to the central ray.
+ Outline its position and the path of the rays.
+ Pay particular attention to the condition near the principal focus.
+\layout Itemize
+\added_space_bottom 15mm 
+What is the focal length of this lens?
+\layout Standard
+
+
+\series bold 
+Activity 2 
+\layout Itemize
+\added_space_bottom 10mm 
+A light bulb--in particular, the lettering on a light bulb--at one end of
+ the optical bench will be the object in this investigation.
+ Choose a particularly clear letter or number on the bulb.
+ Measure and record its height, 
+\latex latex 
+$h_0$
+\latex default 
+.
+\layout Itemize
+
+Place a converging lens in its holder, turn on the light bulb, and position
+ it and the lens so that a sharp image of the lettering on the bulb appears
+ on the card.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+6 6 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( p \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( q \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( h_{i} \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( \frac{h_{i}}{h_{0}} \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( \frac{q}{p} \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( f \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\layout Itemize
+
+Make and record five measurements of image distance, 
+\latex latex 
+$q$
+\latex default 
+, for five different values of the object distance, 
+\latex latex 
+$p$
+\latex default 
+: two with
+\latex latex 
+ $p > q$
+\latex default 
+, two with 
+\latex latex 
+$p < q$
+\latex default 
+, and one with 
+\latex latex 
+$p 
+\backslash 
+approx q$
+\latex default 
+.
+ For each observation, measure the height of the image of the same letter
+ or number you measured earlier, 
+\latex latex 
+$h_i$
+\latex default 
+.
+ Calculate and record the ratios of the image and object heights, 
+\latex latex 
+$h_i / h_0$
+\latex default 
+, and the image and object distances,
+\latex latex 
+ $q / p$
+\latex default 
+.
+\layout Itemize
+
+Calculate and record the focal length, 
+\latex latex 
+$f$
+\latex default 
+, for each observation and determine an average focal length, 
+\latex latex 
+$f_{ave}$
+\latex default 
+.
+\layout Itemize
+\added_space_bottom 30mm 
+What is the relationship between the ratio of the image to object heights
+ and the ratio of image and object distances? The first ratio is called
+ the magnification.
+\layout Itemize
+
+Replace the converging lens with a diverging one.
+ Try to obtain a real image on the card.
+\layout Itemize
+\added_space_bottom 15mm 
+Why can you not form a real image with a diverging lens?
+\layout Standard
+
+
+\series bold 
+Investigation 2: Lenses in Combination
+\layout Standard
+
+
+\series bold 
+Activity
+\layout Itemize
+
+Place a converging lens and a diverging lens together into the lens holder.
+ Check to see that you can get a real image with this combination.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+6 6 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( p \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( q \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( h_{i} \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( \frac{h_{i}}{h_{0}} \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( \frac{q}{p} \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\begin_inset Formula \( f \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\layout Itemize
+\added_space_bottom 40mm 
+Repeat the five sets of observations of Investigation 1, Activity 2, to
+ get an equivalent focal length 
+\latex latex 
+$f_{ave}^{eq}$
+\latex default 
+.
+\layout Standard
+
+
+\series bold 
+Investigation 3: The Diverging Lens
+\layout Standard
+
+
+\series bold 
+Activity 1
+\layout Itemize
+
+Using the relation:
+\layout Standard
+
+
+\latex latex 
+
+\backslash 
+begin{displaymath} 
+\backslash 
+frac{1}{f^{eq}} = 
+\backslash 
+frac{1}{f_1} + 
+\backslash 
+frac{1}{f_2}, 
+\backslash 
+end{displaymath}
+\layout Quote
+\added_space_bottom 2in 
+determine the focal length of the diverging lens, 
+\latex latex 
+$f_2$
+\latex default 
+.
+ Use 
+\latex latex 
+$f^{eq}_{ave}$
+\latex default 
+ for 
+\latex latex 
+$f^{eq}$
+\latex default 
+ and 
+\latex latex 
+$f_{ave}$
+\latex default 
+ for 
+\latex latex 
+$f_1$
+\latex default 
+.
+\layout Standard
+
+
+\series bold 
+Activity 2
+\layout Itemize
+\added_space_bottom 30mm 
+Repeat the procedure of Investigation 1, Activity 1, with a concave lens.
+ Locate the principal focus by extending the refracted rays backwards.
+\layout Itemize
+\added_space_bottom 15mm 
+What is the focal length of this lens?
+\the_end

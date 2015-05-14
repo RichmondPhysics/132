@@ -1,0 +1,139 @@
+\setcounter{equation}{0}
+
+\section{RC Circuits}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\textbf{Objective}
+
+\begin{itemize}
+\item To investigate the behavior of a series RC circuit, i.e. one containing a resistor and a capacitor in series with a DC power supply of fixed emf $V_{0}$.
+\end{itemize}
+\textbf{Introduction} 
+
+For the charging circuit, the charge on the capacitor as a function of time
+is given by
+\begin{equation}
+Q(t)=CV_{0}\left(1-e^{-t/RC}\right)
+\end{equation}
+while for the discharging circuit (no emf) the charge is
+\begin{equation}
+Q(t)=Q_{0}e^{-t/RC}
+\end{equation}
+where $Q_{0}$ is the initial charge on the capacitor.  Since $Q=CV$ for the
+capacitor, the voltage across the capacitor has the same time dependence,
+namely
+\begin{equation}
+V(t)=V_{0}\left(1-e^{-t/RC}\right)
+\end{equation}
+for the charging circuit and
+\begin{equation}
+V(t)=V_{0}e^{-t/RC}
+\end{equation}
+for the discharging circuit.
+\vspace{5mm}
+
+We will use the discharging circuit in this experiment.
+For this circuit, the time required for $Q$ (or $V$) to decrease to
+$1/e$ of its initial value (the time constant) is
+\begin{equation}
+\tau=RC
+\end{equation}
+The time required for $Q$ (or $V$) to decrease to 1/2 of its initial value (the
+half-life) is
+\begin{equation}
+t_{1/2}=(ln2)\tau =.693\tau
+\end{equation}
+This will be useful because in practice it is easier to measure the half-life
+than the time constant.
+
+
+\textbf{Apparatus}
+
+\begin{itemize}
+\item DC power supply (low voltage)
+\item Electrolytic capacitor (1000-5000 $\mu$f)
+\item Voltmeter (0-3V)
+\item Stop watch
+\item Connecting leads
+\item Voltage sensor
+\end{itemize}
+\textbf{Activity 1: Proof of Equation (6)}
+
+Prove equation (6) above, beginning with equation (2).
+\vspace{3in}
+
+\textbf{Activity 2: Measurement of Half-life}
+
+The capacitor will be charged briefly, then allowed to discharge through the
+voltmeter which will act as the resistor in this case. The internal resistance
+of the voltmeter (0-3V) is about 3000 ohms.  Assume this is known to within
+10\% and the capacitance as marked is known to within 10\%.
+
+\begin{enumerate}
+\item Connect the voltmeter directly across the capacitor.  Electrolytic
+capacitors are polarity sensitive, so be sure the terminal marked with a minus
+sign is connected to the \underline{negative} terminal of the voltmeter.
+
+\item Set the power supply to about 2.5 volts and connect its negative terminal
+to the negative terminal of the capacitor.
+
+\item Connect the positive terminal of the power supply to the corresponding
+terminal of the capacitor to charge it, then disconnect the supply and observe
+the exponential decay of the voltage.  Use a stop watch to measure the
+half-life (5 trials) as follows: switch the stop watch on when the voltmeter
+reads 2.0 volts, and switch it off when the meter reads 1.0 volt. Record your
+five measurements here.\vspace{30mm}
+
+\end{enumerate}
+
+\textbf{Activity 3: Determination of Time Constant}
+
+\begin{enumerate}
+\item Experimental:  Find the average of your five half-life measurements and 
+its uncertainty (the standard deviation) and determine the time constant from 
+equation (6) above, and its uncertainty. (Note: Since the time constant and the 
+half-life are directly proportional, the fractional uncertainty in the time 
+constant will be the same as the fractional uncertainty in the half-life.)
+\vspace{40mm}
+\item Theoretical:  Calculate the time constant and its uncertainty from 
+equation (5). Do your two results agree within experimental uncertainties?
+\end{enumerate}
+
+\newpage
+
+\textbf{Activity 4: Determination of Time Constant Using Pasco Interface and Computer}
+
+We will now look at a graph of the discharge curve using the Pasco interface 
+and computer. Plug the voltage sensor into the input channel $A$ of the Pasco 
+interface. Then connect the red and black leads from the voltage sensor to the 
+terminals of the capacitor (or to the voltmeter terminals), being sure to 
+connect the red lead to positive and black lead to negative.
+\vspace{10mm}
+
+To record voltage versus time data, go to $Start$ $\rightarrow$ $Programs$ 
+$\rightarrow$ $Physics Applications$ $\rightarrow$ $Data Studio$. Select the 
+option $Create Experiment$. You will see an image of the 750 interface box. 
+On this image, single click on the channel $A$ input. You will see a list of 
+sensors. Scroll down to the $voltage sensor$ and select by clicking $OK$. 
+Finally, open a graph display by double clicking on the $Graph$ option (on 
+the left).
+\vspace{10mm}
+
+Make sure your power supply is still set at around 2.5 volts. Charge the 
+capacitor and click the $Start$ button to begin taking data. Disconnect the 
+positive lead from the power supply and you will see the discharge curve on 
+the screen as the capacitor discharges. When you have an acceptable curve, 
+click $Stop$.
+\vspace{10mm}
+
+Use the $Smart$ tool to determine the time when the voltage is 2.00 volts 
+and again when the voltage is 1.00 volt. The difference is the half-life. 
+Record it here, with an \underline{estimated} uncertainty:
+\vspace{40mm}
+
+Now calculate the time constant and its uncertainty from equation (6) and 
+compare with your value of $RC$ determined from equation (5). Do they agree 
+within experimental uncertainty (i.e. do the ranges overlap)?
+

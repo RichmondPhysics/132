@@ -1,0 +1,381 @@
+#This file was created by <vineyard> Tue Jan  2 10:24:38 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+The Charge Distribution of the H
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+O Molecule
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Introduction
+\layout Standard
+
+In this exercise you will make a theoretical investigation of the charge
+ distribution within a water molecule (H
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+O).
+ The molecule is electrically neutral and is made of 10 positive electric
+ charges and 10 negative electric charges (8 protons and electrons from
+ the oxygen atom and 1 proton and electron from each of the two hydrogen
+ atoms).
+ Despite the net electrical neutrality of the molecule it can produce an
+ electric field if the positive and negative charges within it have different
+ configurations.
+ If the most probable position of the positive charges in the molecule does
+ not coincide with the most probable position of the negative charges as
+ shown in Figure 1a, then we call that configuration an electric dipole.
+ Another candidate for the charge distribution of H
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+O is shown in Figure 1b and is called an electric quadrupole.
+ The most probable position of the positive charge is either above or below
+ the x-axis while the negative charge is most likely to be found at the
+ origin.
+ This 'probabilistic' view of the location of the charges is the basis of
+ quantum mechanics, the theory describing the subatomic world.
+ Below you will calculate the electric potential for these two charge distributi
+ons and you will use your results to find the electric field for the dipole
+ and quadrupole.
+ You will then consider the design of an experiment to distinguish between
+ the two different charge distributions.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center 
+
+\begin_inset Figure size 406 253
+file charge_dist_water_mol_fig_1.eps
+flags 9
+
+\end_inset 
+
+
+\layout Standard
+
+
+\series bold 
+Activity 1: The Electric Dipole 
+\layout Standard
+\added_space_bottom 40mm 
+(a) Calculate the electric potential, V, for the electric dipole for a point
+ along the y-axis, but at a position 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+> a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+.
+ Your final expression should depend on the position, y, the charge, q
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+, and the most probable location of the charges, a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+.
+\layout Standard
+\added_space_bottom 40mm 
+(b) Generate an expression for the potential energy, U, of the charge distributi
+on when another charge, q
+\begin_inset Formula \( _{test} \)
+\end_inset 
+
+,  placed somewhere on the y-axis with 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+> a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+.
+\layout Standard
+\added_space_bottom 40mm 
+(c) Recall the component of the force on a particle is related to the potential
+ energy of the particle by F
+\begin_inset Formula \( _{y} \)
+\end_inset 
+
+ = -
+\begin_inset Formula \( \frac{dU}{dy} \)
+\end_inset 
+
+.
+ Calculate the force on the test charge in terms of the position on the
+ y-axis, the charges, and a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+.
+\layout Standard
+\added_space_bottom 40mm 
+(d) Make the approximation that the test charge is far from the molecule,
+ i.e., 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+ 
+\begin_inset Formula \( \gg  \)
+\end_inset 
+
+ a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+, to generate a new expression for the force.
+\layout Standard
+
+
+\series bold 
+Activity 2: The Electric Quadrupole
+\series default 
+ 
+\layout Standard
+\added_space_bottom 40mm 
+(a) Calculate the electric potential, V, for the electric quadrupole for
+ a point along the y-axis, but at a position 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+ > a
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+.
+ Your final expression should depend on the position, y, the charge, q
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+, and the most probable location of the charges, a
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+.
+\layout Standard
+\added_space_bottom 40mm 
+(b) Generate an expression for the potential energy, U, of the charge distributi
+on when another charge, 
+\latex latex 
+$q_{test}$
+\latex default 
+, is placed somewhere on the y-axis with 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+ > a
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+.
+\layout Standard
+\added_space_bottom 40mm 
+(c) Calculate the force on the test charge in terms of the position on the
+ y-axis, the charges, and a
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+.
+\layout Standard
+\added_space_bottom 40mm 
+(d) Make the approximation that the test charge is far from the molecule,
+ i.e., 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+ 
+\begin_inset Formula \( \gg  \)
+\end_inset 
+
+ a
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+, to generate a new expression for the force.
+\layout Standard
+
+
+\series bold 
+Activity 3: Distinguishing Between the Two Different Charge Distributions
+\series default 
+ 
+\layout Standard
+\added_space_bottom 40mm 
+(a) Construct a table in the space below with column headings y (angstroms),
+ Dipole Force (arbitrary units), and Quadrupole Force (arbitrary units).
+ The units of distance known as angstroms are commonly used in atomic physics.
+ One angstrom is equal to 10
+\begin_inset Formula \( ^{-10} \)
+\end_inset 
+
+ m.
+\layout Standard
+
+(b) To calculate the force on the test charge one must know the charges
+ and their positions for each charge distribution (q
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+, q
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+, a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+, a
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+).
+ These quantities are unknown to us at this point.
+ However, we want to compare the behavior of the force due to each as a
+ possible probe of the molecule's charge distribution.
+ In the expressions you generated in step (d) of Activities 1 and 2 for
+ 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+ 
+\begin_inset Formula \( \gg  \)
+\end_inset 
+
+ a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+ or 
+\begin_inset Formula \( \left| y\right|  \)
+\end_inset 
+
+ 
+\begin_inset Formula \( \gg  \)
+\end_inset 
+
+ a
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+ the forces depend on some power of y.
+ For 
+\emph on 
+convenience
+\emph default 
+, set the constant in front of this power of y to unity.
+ Calculate the forces for the dipole and quadrupole at distances between
+ 1.5 angstroms and 5.0 angstroms in 0.5 angstrom steps.
+ Enter your results in the table.
+\layout Standard
+
+(c) Make a graph of the force due to the dipole and due to the quadrupole
+ as a function of y.
+ Insert a copy of the graph into your notebook.
+\layout Standard
+\added_space_bottom 40mm 
+(d) In many experiments constants like those in your expressions for the
+ force on the test charge are unknown or poorly known.
+ Suppose, however, that you are able to accurately measure the radial dependence
+ of the force on q
+\begin_inset Formula \( _{test} \)
+\end_inset 
+
+ at distances far from the H
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+O molecule.
+ If that is the case use the results from steps (b) and (c) to propose a
+ technique to distinguish between the two candidates for the charge distribution
+ of H
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+O.
+ Support your proposal with a mathematical argument.
+ (Hint: Consider a ratio involving the measured force.)
+\layout Standard
+\added_space_bottom 40mm 
+(e) Experiment has found that water behaves as an electric dipole with the
+ electric dipole moment, q
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+, measured to be 6.2 x 10
+\begin_inset Formula \( ^{-30} \)
+\end_inset 
+
+ C-m.
+ If the charge that creates the dipole, q
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+, is the charge associated with the protons and electrons of the molecule
+ calculate the separation of the charges, a
+\begin_inset Formula \( _{1} \)
+\end_inset 
+
+.
+ How does it compare with the size of the H
+\begin_inset Formula \( _{2} \)
+\end_inset 
+
+O molecule of about 1.0 angstroms?
+\the_end

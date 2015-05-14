@@ -1,0 +1,344 @@
+#This file was created by <vineyard> Tue Jan  2 10:14:47 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+The Electric Field and the Electric Potential IV
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\layout Itemize
+
+To investigate the electric fields of atoms.
+\layout Standard
+
+
+\series bold 
+Investigation 4: An 
+\begin_inset Quotes eld
+\end_inset 
+
+Atom
+\begin_inset Quotes erd
+\end_inset 
+
+
+\layout Standard
+
+
+\series bold 
+Activity
+\layout Itemize
+
+Clear the table top and build an 
+\begin_inset Quotes eld
+\end_inset 
+
+atom
+\begin_inset Quotes erd
+\end_inset 
+
+ by symmetrically surrounding a 
+\begin_inset Quotes eld
+\end_inset 
+
++4
+\begin_inset Quotes erd
+\end_inset 
+
+ charge with four (4) 
+\begin_inset Quotes eld
+\end_inset 
+
+-1
+\begin_inset Quotes erd
+\end_inset 
+
+ charges.
+\layout Itemize
+
+Repeat all instructions from Investigation 2, The Electric Field and the
+ Electric Potential II, including all questions and predictions from both
+ activities.
+ Measure the field strength along a line to the right of the 
+\begin_inset Quotes eld
+\end_inset 
+
++4
+\begin_inset Quotes erd
+\end_inset 
+
+ charge.
+ Be sure to measure only outside the charge distribution.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+10 2 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Distance (m)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Measured E (N/C)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+10 2 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Distance (m)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Measured 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+V (volts)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\layout Itemize
+\added_space_top 50mm \added_space_bottom 15mm 
+How do your results agree with previous ones?
+\layout Itemize
+\added_space_bottom 15mm 
+Atoms, and therefore molecules, are composed of equal numbers of positive
+ and negative charges (protons and electrons), each with its own electric
+ field.
+ In many circumstances, we can treat the whole atom as a neutral particle
+ with no electric field (recall, for example, our treatment of ideal gas
+ particles).
+ How do the electric fields of different charges 
+\begin_inset Quotes eld
+\end_inset 
+
+cancel
+\begin_inset Quotes erd
+\end_inset 
+
+ out to reduce the magnitude of the electric field?
+\the_end

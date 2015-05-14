@@ -1,0 +1,506 @@
+#This file was created by <vineyard> Tue Jan  2 15:54:22 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+The LR Circuit
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\series default 
+ 
+\layout Standard
+
+To investigate the relationships among the voltages in a series LR circuit.
+\layout Standard
+
+
+\series bold 
+Apparatus
+\series default 
+ 
+\layout Itemize
+
+Function generator 
+\layout Itemize
+
+Variable resistance box 
+\layout Itemize
+
+Inductor (coil of wire in metal can) 
+\layout Itemize
+
+LR Circuit VI 
+\layout Itemize
+
+Wires to complete the circuit
+\layout Standard
+
+
+\series bold 
+Introduction
+\series default 
+ 
+\layout Standard
+
+In this exercise you will study a series LR circuit.
+ If a sinusoidally varying source of emf with a frequency f is placed in
+ series with a resistor and a pure inductor, the current I will vary with
+ the same frequency as the generator, but it will be shifted in phase by
+ an angle 
+\begin_inset Formula \( \phi  \)
+\end_inset 
+
+ relative to the voltage of the generator.
+ The voltage across each of the circuit elements has its own characteristic
+ phase relationship with the current.
+ The voltage across the resistor V
+\begin_inset Formula \( _{R} \)
+\end_inset 
+
+ is in phase with the current I, the voltage across the inductor V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ leads the current by 90
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+, and the voltage across the generator leads the current by the phase angle
+ 
+\begin_inset Formula \( \phi  \)
+\end_inset 
+
+ whose value is dependent on the circuit parameters.
+ Measurements of the voltage across each element in a series circuit containing
+ an inductor, a resistor, and a sine wave generator will be used to perform
+ a detailed study of the LR circuit.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center 
+
+\begin_inset Figure size 446 213
+file lr_circuit_fig_1.eps
+width 3 75
+flags 9
+
+\end_inset 
+
+
+\layout Standard
+
+Let's begin by considering the circuit obtained by placing a pure inductance
+ L and a resistor R in series with a sine wave generator with a voltage
+ amplitude V as shown in the figure above.
+ Also shown in the figure is a phasor diagram for the circuit.
+ Note that the voltage across the resistor V
+\begin_inset Formula \( _{R} \)
+\end_inset 
+
+ is in phase with the current I, the voltage across the inductor V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ is 90
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+ ahead of I, and the generator voltage V is angle 
+\begin_inset Formula \( \phi  \)
+\end_inset 
+
+ ahead of I.
+ From the phasor diagram we can write 
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+V=\sqrt{V_{L}^{2}+V_{R}^{2}}\]
+
+\end_inset 
+
+
+\layout Standard
+
+and 
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+\tan \phi =\frac{V_{L}}{V_{R}}=\frac{I\omega L}{IR}=\frac{\omega L}{R}\]
+
+\end_inset 
+
+
+\layout Standard
+
+where 
+\begin_inset Formula \( \omega  \)
+\end_inset 
+
+ (=2
+\begin_inset Formula \( \pi  \)
+\end_inset 
+
+f) is the angular frequency of the generator.
+\layout Standard
+
+Real inductors have both an inductance L and an internal resistance r.
+ A real inductor can be represented by a pure inductance L in series with
+ a resistance r.
+ In the figure below a real inductor is shown in series with a resistor
+ R and a generator of voltage amplitude V.
+ Also shown in the figure is a phasor diagram for the circuit.
+ The voltage across the real inductor is referred to as V
+\begin_inset Formula \( _{ind} \)
+\end_inset 
+
+.
+ There is, of course, some voltage V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ across L alone, and some voltage V
+\begin_inset Formula \( _{r} \)
+\end_inset 
+
+ across r alone.
+ However, there can be no direct measurement of V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ or V
+\begin_inset Formula \( _{r} \)
+\end_inset 
+
+.
+ The only quantity which can be measured is V
+\begin_inset Formula \( _{ind} \)
+\end_inset 
+
+ which is the vector sum of V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ and V
+\begin_inset Formula \( _{r} \)
+\end_inset 
+
+.
+ Applying the law of cosines to the triangle formed by V, V
+\begin_inset Formula \( _{R} \)
+\end_inset 
+
+, and V
+\begin_inset Formula \( _{ind} \)
+\end_inset 
+
+ leads to 
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+V_{ind}^{2}=V^{2}+V_{R}^{2}-2VV_{R}\cos \phi \]
+
+\end_inset 
+
+
+\layout Standard
+
+Solving this equation for cos 
+\begin_inset Formula \( \phi  \)
+\end_inset 
+
+ we get
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+\cos \phi =\frac{V^{2}+V_{R}^{2}-V_{ind}^{2}}{2VV_{R}}\]
+
+\end_inset 
+
+
+\layout Standard
+
+Further examination of the phasor diagram shows that the unknown voltages
+ V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ and V
+\begin_inset Formula \( _{r} \)
+\end_inset 
+
+ can be determined from V, V
+\begin_inset Formula \( _{R} \)
+\end_inset 
+
+, and 
+\begin_inset Formula \( \phi  \)
+\end_inset 
+
+ by the following: 
+\layout Standard
+\align center 
+
+\begin_inset Formula \( V_{L}=V\sin \phi  \)
+\end_inset 
+
+ 
+\layout Standard
+\align center 
+
+\begin_inset Formula \( V_{r}=V\cos \phi -V_{R} \)
+\end_inset 
+
+
+\layout Standard
+
+The current I can be related to the voltage across each element by the following
+ equations:
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+V_{L}=I\omega L\]
+
+\end_inset 
+
+
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+V_{R}=IR\]
+
+\end_inset 
+
+
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+V_{r}=Ir\]
+
+\end_inset 
+
+
+\layout Standard
+
+Once V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ and V
+\begin_inset Formula \( _{r} \)
+\end_inset 
+
+ have been determined, the equations above can be used to solve for 
+\begin_inset Formula \( \omega  \)
+\end_inset 
+
+L and r by eliminating I to get 
+\layout Standard
+\align center 
+
+\begin_inset Formula \( \omega L=R\frac{V_{L}}{V_{R}} \)
+\end_inset 
+
+ 
+\layout Standard
+\align center 
+
+\begin_inset Formula \( r=R\frac{V_{r}}{V_{R}} \)
+\end_inset 
+
+
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center 
+
+\begin_inset Figure size 446 213
+file lr_circuit_fig_2.eps
+width 3 75
+flags 9
+
+\end_inset 
+
+
+\layout Standard
+
+
+\series bold 
+Activity 1: Measuring Voltages
+\series default 
+ 
+\layout Standard
+\added_space_bottom 4in 
+(a) Construct a data table with 5 columns and nine rows in the space below.
+ In the first column, label the rows R (
+\begin_inset Formula \( \Omega  \)
+\end_inset 
+
+), V (V), V
+\begin_inset Formula \( _{R} \)
+\end_inset 
+
+ (V), V
+\begin_inset Formula \( _{ind} \)
+\end_inset 
+
+ (V), 
+\begin_inset Formula \( \phi  \)
+\end_inset 
+
+ (deg), V
+\begin_inset Formula \( _{L} \)
+\end_inset 
+
+ (V), V
+\begin_inset Formula \( _{r} \)
+\end_inset 
+
+ (V), L (H), and r (
+\begin_inset Formula \( \Omega  \)
+\end_inset 
+
+).
+\layout Standard
+
+(b) Check the circuit to make sure that it corresponds to the one shown
+ in the second figure.
+ The computer is setup to measure the voltages across the generator and
+ the resistor.
+ Set the generator FREQUENCY knob to the 20-200 Hz position and the frequency
+ dial to 60.
+ This means the frequency is set to 60 Hz.
+ Put the function switch on SINE.
+ Set the OUTPUT (VOLT P-P) RANGE knob at 10 and the LEVEL knob at MAX.
+ Set the resistance box to 50 
+\begin_inset Formula \( \Omega  \)
+\end_inset 
+
+ and record this value as R in the second column of the data table.
+\layout Standard
+
+(c) Turn on the computer and open the 
+\emph on 
+LR Circuit
+\emph default 
+ virtual instrument in the 132 Workshop folder in the Apple menu.
+ Turn the POWER switch of the generator to the ON position.
+\layout Standard
+\added_space_bottom 20mm 
+(d) Run the virtual instrument.
+ The computer will display three sinusoidal voltage signals.
+ The red signal is the generator voltage V, the blue signal is the voltage
+ across the resistor V
+\begin_inset Formula \( _{R} \)
+\end_inset 
+
+, and the green signal is the voltage across the inductor V
+\begin_inset Formula \( _{ind} \)
+\end_inset 
+
+.
+ Note the phase differences of the signals.
+ Do the phase differences agree with the phasor diagrams of the two figures?
+ Explain.
+\layout Standard
+
+(e) Measure the amplitude of each of the signals and record these quantities
+ in your data table.
+ This can be done using the cursor graph accessory (see Appendix F).
+\layout Standard
+
+(f) Repeat step (e) for values of R of 100, 150, and 200 
+\begin_inset Formula \( \Omega  \)
+\end_inset 
+
+.
+\layout Standard
+
+
+\series bold 
+Activity 2: Analyzing the Circuit
+\layout Standard
+\added_space_bottom 2in 
+(a) Calculate the remaining quantities necessary to complete your data table.
+ Show the calculations for one value of R in the space below.
+\layout Standard
+\added_space_bottom 1.5in 
+(b) Determine and record the average values of L and r for your inductor.
+ Measure r with the digital multimeter and determine the % difference between
+ this value and your calculated value.
+ Make careful note of the particular inductor which you have used.
+ You may need to identify it and use it again in another laboratory exercise.
+\layout Standard
+\added_space_bottom 4in 
+(c) Construct to scale a phasor diagram like the one shown in the second
+ figure for each of the four cases in the space below.
+\layout Standard
+\added_space_bottom 20mm 
+(d) If your inductor was used in a series circuit with a 10-k
+\begin_inset Formula \( \Omega  \)
+\end_inset 
+
+ resistor and a generator with f = 20 kHz, what would be the phase angle
+ 
+\begin_inset Formula \( \phi  \)
+\end_inset 
+
+?
+\the_end

@@ -1,0 +1,264 @@
+#This file was created by <vineyard> Tue Jan  2 10:18:58 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+The Electric Field of the Atomic Nucleus
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Introduction
+\layout Standard
+
+In this exercise you will make a theoretical investigation of the electric
+ field associated with the atomic nucleus.
+ Our current understanding of the nucleus is the product of scattering experimen
+ts where a projectile (e.g.
+ an electron, photon, or even another nucleus) is given an initial kinetic
+ energy and collides with a target nucleus (see figure below).
+ 
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center 
+
+\begin_inset Figure size 267 175
+file electric_field_atomic_nuleus_fig_1.eps
+width 3 45
+flags 9
+
+\end_inset 
+
+
+\layout Standard
+
+The final energies and velocities of the products of the reaction are then
+ measured and the nature of the interaction is inferred.
+ There are several important features of the nucleus that can be learned
+ from these experiments:
+\layout Enumerate
+
+The nucleus is small, about 100,000 times smaller than the atom itself.
+\layout Enumerate
+
+Most of the matter and all of the positive charge is located in this tiny
+ object.
+\layout Enumerate
+
+There exists a force, called the strong force, that is attractive, acts
+ only within the volume of the nucleus, and is powerful enough to overcome
+ the repulsion between the positive charges concentrated in the nucleus.
+ 
+\layout Standard
+
+Below you will calculate the electric field of the 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb nucleus and the force between an incident proton and 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb.
+ You will also calculate the work necessary to penetrate the nucleus.
+\layout Standard
+
+
+\series bold 
+Activity 1: The Electric Field of 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb
+\layout Standard
+\added_space_bottom 30mm 
+(a) From scattering experiments like those described above one finds that
+ the positive charge of 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb is uniformly distributed throughout the volume of the nucleus, which
+ can be treated as a sphere of radius 7.11 x 10
+\begin_inset Formula \( ^{-15} \)
+\end_inset 
+
+ m or in units common to nuclear physics, 7.11 fm, where 
+\begin_inset Quotes eld
+\end_inset 
+
+fm
+\begin_inset Quotes erd
+\end_inset 
+
+ is known as a fermi.
+ Calculate the total charge, Q, of the 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb nucleus.
+\layout Standard
+\added_space_bottom 30mm 
+(b) Calculate the volume charge density, 
+\begin_inset Formula \( \rho  \)
+\end_inset 
+
+, of the 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb nucleus.
+\layout Standard
+\added_space_bottom 2in 
+(c) Starting with Gauss' Law, generate an expression for the electric field,
+ 
+\series bold 
+E
+\series default 
+, outside of the 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb nucleus as a function of r, the distance from the center of the sphere.
+ Show and explain each step of the calculation.
+\layout Standard
+\added_space_bottom 2in 
+(d) Use Gauss' Law to find an expression for 
+\series bold 
+E
+\series default 
+ inside the nucleus as a function of r.
+ Show and explain each step of the calculation.
+\layout Standard
+\added_space_bottom 3in 
+(e) Construct a data table with the column headings r (fm), E (N/C), and
+ F (N) in the space below.
+ Then use the expressions you derived above to calculate the electric field
+ for at least ten radial positions between 0 and 20 fm and enter the results
+ in the table.
+ Include 7.11 fm as one of your radial positions.
+\layout Standard
+
+
+\series bold 
+Activity 2: The force on a Proton
+\layout Standard
+\added_space_bottom 20mm 
+(a) Consider a head-on collision between a proton and the 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb nucleus.
+ Generate an expression for the force on the proton as a function of r outside
+ the lead nucleus.
+\layout Standard
+\added_space_top 1in \added_space_bottom 30mm 
+(b) Calculate an expression for the force on the proton as a function of
+ r inside the lead nucleus.
+\layout Standard
+
+(c) Use these expressions to calculate the force at the same radial positions
+ you calculated E and enter the results in the table.
+\layout Standard
+\added_space_bottom 10mm 
+(d) Graph F (y axis) vs.
+ r and attach a copy to the unit.
+\layout Standard
+
+
+\series bold 
+Activity 3: The Work Done by the Field
+\layout Standard
+\added_space_bottom 40mm 
+(a) Recall that the work done by a force is 
+\begin_inset Formula \( W=\int ^{r_{f}}_{r_{i}}\overrightarrow{F}\cdot d\overrightarrow{s} \)
+\end_inset 
+
+ where r
+\begin_inset Formula \( _{i} \)
+\end_inset 
+
+ and r
+\begin_inset Formula \( _{f} \)
+\end_inset 
+
+ are the initial and final positions of the object in motion.
+ Treat the 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb nucleus as a fixed target and calculate the work done by the Coulomb
+ force on the proton if the proton approaches from infinity and reaches
+ the surface of the lead nucleus.
+ Show all work.
+\layout Standard
+\added_space_bottom 15mm 
+(b) We know that the nuclear force binds particles like neutrons and protons
+ together once they enter the nucleus.
+ From the graph of the force as a function of position, what is the minimum
+ strength of the nuclear force in 
+\begin_inset Formula \( ^{208} \)
+\end_inset 
+
+Pb that will bind the proton in the nucleus? Clearly state your reasoning.
+\layout Standard
+\added_space_bottom 15mm 
+(c) Consider a proton that has just enough initial kinetic energy to move
+ from infinitely far away and just reach the surface of the lead nucleus.
+ How is the initial kinetic energy related to the work done by the field?
+\layout Standard
+\added_space_bottom 15mm 
+(d) How would the trajectory of the proton be affected if the kinetic energy
+ is less?
+\layout Standard
+\added_space_bottom 15mm 
+(e) How would the trajectory of the proton be affected if the kinetic energy
+ is greater?
+\layout Standard
+\added_space_bottom 20mm 
+(f) What minimum kinetic energy is needed for a proton to probe the nucleus?
+ Explain.
+\the_end

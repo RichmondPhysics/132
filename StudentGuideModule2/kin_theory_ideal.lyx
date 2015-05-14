@@ -1,0 +1,601 @@
+#This file was created by <vineyard> Tue Jan  2 09:07:47 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+Kinetic Theory of Ideal Gases
+\begin_float footnote 
+\layout Standard
+
+1990-93 Dept.
+ of Physics and Astronomy, Dickinson College.
+ Supported by FIPSE (U.S.
+ Dept.
+ of Ed.) and NSF.
+ Portions of this material may have been modified locally and may not have
+ been classroom tested at Dickinson College.
+\end_float 
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\series default 
+ 
+\layout Standard
+
+To derive a relationship between the macroscopic properties of an ideal
+ gas and the microscopic motion of the unseen atoms that make up the gas.
+ To do this activity you will need:
+\layout Itemize
+
+A computer with a molecular motion simulation
+\layout Itemize
+
+A stopwatch
+\layout Itemize
+
+A ruler
+\layout Standard
+
+
+\series bold 
+Introduction
+\layout Standard
+
+Do you believe in atoms? Our forefathers believed in the reality of witches.
+ In fact, they thought that they had good evidence that witches existed,
+ good enough evidence to accuse some people of being witches.
+ We believe in atoms.
+ Are we truly more scientific than they were?
+\layout Standard
+
+
+\series bold 
+Activity 1: Why Atoms!?
+\layout Standard
+\added_space_bottom 20mm 
+(a) List reasons why you do or do not believe that matter consists of atoms
+ and molecules, even though you have never seen them with your own eyes.
+\layout Standard
+\added_space_bottom 20mm 
+(b) What happens when heat energy is being transferred into a substance?
+ If you believe that substances are made of atoms and molecules, how would
+ you use their existence to explain the change in volume of a heated gas?
+\layout Standard
+
+
+\series bold 
+Models of Pressure Exerted by Molecules
+\layout Standard
+
+So far in physics we have talked about matter as if it were continuous.
+ We didn't need to invent aluminum atoms to understand how a ball rolled
+ down the track.
+ But ever since the time of the fifth century B.C.
+ Greek philosophers Leucippus and Democritus, some thinkers have believed
+ in 
+\begin_inset Quotes eld
+\end_inset 
+
+atomism
+\begin_inset Quotes erd
+\end_inset 
+
+, a picture of the universe in which everything is made up of tiny 
+\begin_inset Quotes eld
+\end_inset 
+
+eternal
+\begin_inset Quotes erd
+\end_inset 
+
+ and 
+\begin_inset Quotes eld
+\end_inset 
+
+incorruptible
+\begin_inset Quotes erd
+\end_inset 
+
+ particles, separated by 
+\begin_inset Quotes eld
+\end_inset 
+
+the void
+\begin_inset Quotes erd
+\end_inset 
+
+.
+ Today, we think of these particles as atoms and molecules.
+\layout Standard
+
+In terms of every day experience molecules and atoms are hypothetical entities.
+ In just the past 40 years or so, scientists have been able to "see" molecules
+ using electron microscopes and field ion microscopes.
+ But long before atoms and molecules could be "seen" experimentally, nineteenth
+ century scientists such as James Clerk Maxwell and Ludwig Boltzmann in
+ Europe and Josiah Willard Gibbs in the United States used these imaginary
+ microscopic entities to construct models that made the description and
+ prediction of the macroscopic behavior of thermodynamic systems possible.
+ Is it possible to describe the behavior of an ideal gas that obeys the
+ first law of thermodynamics as a collection of moving molecules? To answer
+ this question, let's observe the pressure exerted by a hypothetical molecule
+ undergoing elastic collisions with the walls of a 2D box.
+ By using the laws of mechanics we can derive a mathematical expression
+ for the pressure exerted by the molecule as a function of the volume of
+ the box.
+ If we then define temperature as being related to the average kinetic energy
+ of the molecules in an ideal gas, we can show that kinetic theory is compatible
+ with the ideal gas law and the first law of thermodynamics.
+ This compatibility doesn't prove that molecules exist, but allows us to
+ say that the molecular model would enable us to explain the experimentally
+ determined ideal gas law.
+\layout Standard
+
+
+\series bold 
+2D Molecular Motion and Pressure
+\layout Standard
+
+Consider a spherical gas molecule that has velocity 
+\begin_inset Formula \( \overrightarrow{v}=v_{x} \)
+\end_inset 
+
+
+\begin_inset Formula \( \hat{i}+v_{y} \)
+\end_inset 
+
+
+\begin_inset Formula \( \hat{j} \)
+\end_inset 
+
+
+\latex latex 
+ 
+\latex default 
+and makes perfectly elastic collisions with the walls of a two-dimensional
+ box of length l and width w.
+ Load the program called "
+\shape italic 
+Gas 2.0
+\shape default 
+" in to your computer and run it.
+ You will see a screen like the one shown below.
+ Experiment with it for a few moments.
+ Highlight 
+\series bold 
+Start
+\series default 
+ under the 
+\series bold 
+Control
+\series default 
+ menu to begin the simulation.
+ Use the 
+\series bold 
+Display
+\series default 
+ menu to change the number of molecules.
+ Each time you change something you must remix the molecules before the
+ change goes into effect.
+ Under the 
+\series bold 
+Display
+\series default 
+ menu highlight 
+\series bold 
+Remix
+\series default 
+ 
+\series bold 
+Molecules
+\series default 
+ or 
+\series bold 
+Remix
+\series default 
+ 
+\series bold 
+Molecules
+\series default 
+ 
+\series bold 
+Before
+\series default 
+ 
+\series bold 
+Start
+\series default 
+.
+ Change the 
+\series bold 
+
+\begin_inset Quotes eld
+\end_inset 
+
+Temperature
+\begin_inset Quotes erd
+\end_inset 
+
+
+\series default 
+ and 
+\series bold 
+
+\begin_inset Quotes eld
+\end_inset 
+
+% Thermal
+\begin_inset Quotes erd
+\end_inset 
+
+
+\series default 
+ slide.
+ The 
+\series bold 
+
+\begin_inset Quotes eld
+\end_inset 
+
+Temperature
+\begin_inset Quotes erd
+\end_inset 
+
+
+\series default 
+ control sets the temperature of the walls of the container in Kelvin.
+ The 
+\series bold 
+
+\begin_inset Quotes eld
+\end_inset 
+
+% Thermal
+\begin_inset Quotes erd
+\end_inset 
+
+
+\series default 
+ control sets the percentage of molecule-wall collisions in which there
+ is some thermal exchange of energy.
+ Change the size of the box containing the molecules by clicking and dragging
+ the piston that controls the position of the right side of the box.
+\layout Standard
+
+Set the 
+\series bold 
+
+\begin_inset Quotes eld
+\end_inset 
+
+% Thermal
+\begin_inset Quotes erd
+\end_inset 
+
+
+\series default 
+ slide to zero and the 
+\series bold 
+
+\begin_inset Quotes eld
+\end_inset 
+
+Temperature
+\begin_inset Quotes erd
+\end_inset 
+
+
+\series default 
+ slide to 50 K and select one molecule.
+ Do the theoretical derivations, experimental measurements and calculations
+ outlined below for either the x or y component of velocity and appropriate
+ box dimension; i.e., length d along the x axis and w along the y axis.
+ Your partner should do the other coordinate.
+\layout Standard
+
+Can we use the concept of molecules behaving like little billiard balls
+ to explain why the ideal gas law relationship might hold? In the next activity
+ you are to pretend you are looking under a giant microscope at a single
+ spherical molecule as it bounces around in a two-dimensional box by means
+ of elastic collisions and that you can time its motion and measure the
+ distances it moves as a function of time.
+ 
+\layout Standard
+
+If the molecule obeys Newton's Laws, you can calculate how the average pressure
+ that the molecule exerts on the walls of its container is related to the
+ volume of the box.
+ What is the momentum change as the molecule bounces off a wall? How does
+ this relate to the change in the velocity component perpendicular to the
+ wall? How often will our molecule "hit the wall" as a function of its component
+ of velocity perpendicular to the wall and the distance between opposite
+ walls? What happens when the molecule is more energetic and moves even
+ faster? Will the results of your calculations based on mechanics be compatible
+ with the ideal gas law?
+\layout Standard
+
+
+\series bold 
+Activity 2: The Theory of 2D Molecular Motion
+\layout Standard
+\added_space_bottom 20mm 
+(a) Suppose the molecule moves a distance d in the x-direction in a time
+ 
+\begin_inset Formula \( \Delta t_{x} \)
+\end_inset 
+
+.
+ What is the equation needed to calculate its x-component of velocity in
+ terms of d and 
+\begin_inset Formula \( \Delta t_{x} \)
+\end_inset 
+
+?
+\layout Standard
+\added_space_bottom 20mm 
+(b) Suppose the molecule moves a distance w in the y-direction in a time
+ 
+\begin_inset Formula \( \Delta t_{y} \)
+\end_inset 
+
+.
+ What is the equation needed to calculate its y-component of velocity in
+ terms of d and 
+\begin_inset Formula \( \Delta t_{y} \)
+\end_inset 
+
+?
+\layout Standard
+\added_space_bottom 20mm 
+(c) Measure the dimensions d and w of the box on your computer screen.
+\layout Standard
+\added_space_bottom 20mm 
+(d) Measure the average time, 
+\begin_inset Formula \( \Delta t_{x} \)
+\end_inset 
+
+, it takes the molecule to move from the left wall of the box to the right
+ wall.
+ Also determine 
+\begin_inset Formula \( \Delta t_{y} \)
+\end_inset 
+
+.
+\layout Standard
+\added_space_bottom 20mm 
+(e) Calculate the magnitude of the x and y components of velocity.
+\layout Standard
+\added_space_bottom 20mm 
+(f) Use your stopwatch and ruler to measure the total length of the path
+ of the molecule as it moves between two collisions and the time it takes
+ to traverse that path.
+ Then use those data to compute the speed of the molecule.
+\layout Standard
+\added_space_bottom 20mm 
+(g) How does the measured speed of your molecule compare to that determined
+ by the equation 
+\begin_inset Formula \( v_{total}=\sqrt{v_{x}^{2}+v_{y}^{2}} \)
+\end_inset 
+
+ ?
+\layout Standard
+\added_space_bottom 20mm 
+(h) Suppose the box were a three dimensional container.
+ Write the expression for 
+\begin_inset Formula \( v_{total} \)
+\end_inset 
+
+ in terms of the x, y, and z components of velocity.
+ (Hint: This is an application of the 3-dimensional Pythagorean theorem.)
+\layout Standard
+\added_space_bottom 20mm 
+(i) We would like to find the average kinetic energy of each molecule.
+ Sine the kinetic energy of a molecule is proportional to the square of
+ its total speed, you need to show that if 
+\emph on 
+on the average
+\emph default 
+ 
+\begin_inset Formula \( v_{x}^{2}=v_{y}^{2}=v_{z}^{2} \)
+\end_inset 
+
+, then 
+\begin_inset Formula \( v_{total}^{2}=3v_{x}^{2} \)
+\end_inset 
+
+.
+\layout Standard
+
+(j) If the collisions with the wall perpendicular to the x direction are
+ elastic, show that the force exerted on that wall for each collision is
+ just 
+\begin_inset Formula \( F_{x}=2m\frac{v_{x}}{\Delta t_{x}} \)
+\end_inset 
+
+where m is the mass of the particles and 
+\begin_inset Formula \( \Delta t_{x} \)
+\end_inset 
+
+ the mean interval between collisions with the wall.
+ (Hint: Think of the form of Newton's second law in which force is defined
+ in terms of the change in momentum per unit time so that 
+\begin_inset Formula \( F=\frac{\Delta p}{\Delta t} \)
+\end_inset 
+
+.)
+\layout Standard
+\added_space_bottom 20mm 
+
+\series bold 
+Warning: 
+\series default 
+Physicists too often use the same symbol to stand for more than one quantity.
+ In this case, note that 
+\begin_inset Formula \( \Delta p \)
+\end_inset 
+
+ (where 
+\begin_inset Quotes eld
+\end_inset 
+
+p
+\begin_inset Quotes erd
+\end_inset 
+
+ is in lower case) indicates the change in 
+\emph on 
+momentum
+\emph default 
+, not pressure.
+\layout Standard
+
+(k) Substitute the expression from part (a) for 
+\begin_inset Formula \( \Delta t_{x} \)
+\end_inset 
+
+ to show that 
+\layout Standard
+\added_space_bottom 20mm 
+
+\begin_inset Formula 
+\[
+F_{x}=\frac{mv_{x}^{2}}{d}\]
+
+\end_inset 
+
+
+\layout Standard
+
+(l) For simplicity, let us assume that we have a cubical box so that 
+\begin_inset Formula \( x=y=z=L \)
+\end_inset 
+
+, where L is the length of a side of the cube.
+ Show that the pressure on the wall perpendicular to the x axis caused by
+ the force 
+\begin_inset Formula \( F_{x} \)
+\end_inset 
+
+ due to 
+\emph on 
+one
+\emph default 
+ molecule is described by the following expression.
+\layout Standard
+\added_space_bottom 20mm 
+
+\begin_inset Formula 
+\[
+P=\frac{mv_{x}^{2}}{L^{3}}\]
+
+\end_inset 
+
+
+\layout Standard
+\added_space_bottom 20mm 
+(m) Let's say that there are not one but N molecules in the box.
+ What is the pressure on the wall now?
+\layout Standard
+
+(n) Next, show that if we write the volume of our box as 
+\begin_inset Formula \( V=L^{3} \)
+\end_inset 
+
+, and recalling that
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+v_{x}^{2}=\frac{v_{total}^{2}}{3}\]
+
+\end_inset 
+
+
+\layout Standard
+
+we can write the following expression.
+\layout Standard
+\added_space_bottom 20mm 
+
+\begin_inset Formula 
+\[
+P=N\frac{mv_{total}^{2}}{3V}\]
+
+\end_inset 
+
+
+\layout Standard
+
+(o) Finally, since the average kinetic energy of a molecule is just
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+<E_{kin}>=\frac{1}{2}mv_{total}^{2}\]
+
+\end_inset 
+
+
+\layout Standard
+
+show that the pressure in the box can be written in the following way.
+\layout Standard
+\added_space_bottom 20mm 
+
+\begin_inset Formula 
+\[
+P=\frac{2N<E_{kin}>}{3V}\]
+
+\end_inset 
+
+
+\the_end

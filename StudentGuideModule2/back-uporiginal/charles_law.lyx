@@ -1,0 +1,207 @@
+#This file was created by <rhall2> Fri Dec 15 16:18:42 2000
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+Charles' Law
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}+
+\layout Standard
+
+
+\series bold 
+Objectives
+\series default 
+ 
+\layout Standard
+
+To investigate the relationship between pressure and temperature for a constant
+ mass of gas at constant volume.
+ To determine the value of absolute zero.
+\layout Standard
+
+
+\series bold 
+Apparatus
+\series default 
+ 
+\layout Itemize
+
+Charles law apparatus with stand
+\layout Itemize
+
+100
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+C thermometer
+\layout Itemize
+
+Barometer
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center 
+
+\begin_inset Figure size 176 266
+file charles_law_fig_1.eps
+flags 9
+
+\end_inset 
+
+
+\layout Standard
+
+
+\series bold 
+Introduction
+\layout Standard
+\added_space_bottom 50mm 
+The experimental apparatus is shown in the figure above and consists of
+ a graduated capillary tube sealed into a bulb containing dry air and mercury.
+ The pressure on the air in the bulb is due to atmospheric pressure, pressure
+ due to the column of Hg (S - B), and a capillary correction which, for
+ this apparatus, is equal to 1.50 cm Hg.
+ Thus, the pressure in cm Hg is given by P = P
+\begin_inset Formula \( _{atm} \)
+\end_inset 
+
+ + (S - B) + 1.50.
+\layout Standard
+
+
+\series bold 
+Activity 1: P-T Relationship for a Gas
+\layout Standard
+\added_space_bottom 120mm 
+(a) Construct a data table in the space below with the column headings T
+ (
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+C), S (cm), S - B (cm), and P (cm Hg).
+\layout Standard
+\added_space_bottom 30mm 
+(b) Immerse the bulb in a beaker of cold water and stir the water with the
+ 100
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+C thermometer until the mercury level at S remains constant.
+ Record the temperature of the water and the mercury level at S in the data
+ table.
+ Also, determine the atmospheric pressure, P
+\begin_inset Formula \( _{atm} \)
+\end_inset 
+
+, and the mercury level at B, and record these values below.
+ (The graduations at B and on the capillary tube are all one scale.
+ The level at B need be read only once.
+ Why?)
+\layout Standard
+
+(c) Now heat the water with a burner until its temperature has risen about
+ 5
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+, remove the burner and stir the water until the level at S stops rising.
+ Record the temperature and the position of S in the table.
+ Repeat this procedure at approximately 5 to 7 degree intervals until the
+ boiling point of the water is approached.
+\layout Standard
+
+(d) Calculate S - B and P for each set of values and record the results
+ in the data table.
+\layout Standard
+\added_space_bottom 30mm 
+(e) Graph P (y axis) vs.
+ T and fit the data to determine the relationship.
+ Print the graph and attach a copy to the unit.
+ Write the expression for the pressure as a function of temperature in the
+ space below.
+ State in words the relationship between P and T.
+\layout Standard
+
+
+\series bold 
+Activity 2: Absolute Zero and the Kelvin Scale
+\layout Standard
+\added_space_bottom 30mm 
+(a) The absolute zero of temperature can be defined as the temperature at
+ which the pressure of an ideal gas is zero.
+ Determine absolute zero from the equation you obtained by fitting your
+ P-T data.
+\layout Standard
+\added_space_bottom 30mm 
+(b) Determine the percent difference between your value of absolute zero
+ and the accepted value of -273
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+C.
+ Do the two values agree within experimental uncertainty?
+\layout Standard
+
+(c) Change your Celsius temperature readings to the Kelvin scale and create
+ a graph of P vs.
+ T (
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+K).
+ Fit the data to find an equation for P as a function of T (
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+K).
+ Write the equation in the space below and state the relationship between
+ P and T (
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+K) in words.
+ Also, print the graph and attach a copy to the unit.
+ 
+\the_end

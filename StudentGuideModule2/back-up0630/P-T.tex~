@@ -1,0 +1,98 @@
+
+\section{The P-T Relationship of a Gas}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}+
+
+\textbf{Objectives} 
+
+To investigate the relationship between pressure and temperature for
+a constant mass of gas at constant volume and determine the value
+of absolute zero.
+
+\textbf{Apparatus} 
+
+\begin{itemize}
+\item Pressure sensor.
+\item Temperature sensor.
+\item Air chamber, tubing, and ballast.
+\item Hot plate.
+\end{itemize}
+\vspace{0.3cm}
+
+\begin{figure}[hbt]
+\begin{center}
+\includegraphics[width=6.0in]{P-T_fig1b.eps}
+\caption{P-T apparatus.}
+\end{center}
+\end{figure}
+
+\textbf{Introduction}
+
+The behavior of a gas can be described in terms of the macroscopic quantities:
+temperature (T), pressure (P), and volume (V). The relationship between these
+quantities is given by the equation of state of the gas. A real gas behaves
+approximately as an ideal gas if it is far from liquefaction. In that case,
+the equation of state of an ideal gas can be used to describe a real gas. For
+a given mass of a gas, if one of the quantities P, T, or V is changed, a change
+in the other two quantities probably will result. However, if one of the quantities
+is kept constant, the relationship between the other two can be studied. The
+relationship between temperature and pressure of an ideal gas has no particular name
+associated with it.
+
+The experimental apparatus is shown in the figure above and consists
+of an air chamber containing dry air. The volume of the gas is fixed.
+
+\textbf{Activity 1: P-T Relationship for a Gas}
+
+(a) Open the {\it P-T} activity in the 132 Workshop Folder under the
+{\bf Start} menu.
+Click on the window labeled \textit{Temperature and Pressure Table}. 
+This is where your data will be displayed as you record
+it. This table display will show the values of the gas pressure in the air chamber and
+the temperature of the heat bath.
+The data-taking procedure you will follow is described here first.
+You will slowly heat the air chamber on the hot plate
+and every so often click the {\bf Keep} button on the {\it DataStudio} interface to record the 
+temperature and pressure at that moment.
+To begin recording data click
+the {\bf Start} button on the {\it DataStudio} interface. 
+The {\bf Start} button will change to a {\bf Keep} button and the table
+display will show the value of the temperature and pressure in the table. 
+Click the {\bf Keep} button to record this pressure and temperature. 
+
+(b) Now, immerse the air chamber in a beaker of cold, tap water water and place it on
+the hot plate. Click
+{\bf Start} on the {\it DataStudio} interface. You can monitor the temperature
+on the temperature versus time plot to the right or by watching the temperature in the
+\textit{Temperature and Pressure Table}.
+Turn the hot plate on. Record the temperature and pressure at approximately 5-7$^\circ$
+intervals until the water is close to boiling.
+
+(c) How are the pressure and temperature related?
+Plot and fit your data with the appropriate function and record the results here.
+Print your plot and attach it to this unit.
+\vspace{15mm}
+
+(d) When the beaker has cooled to a point where you can touch it, empty the warm water
+in the sink, fill the beaker again with cold, tap water and repeat steps a-c.
+Record the fit to your data here.
+\vspace{15mm}
+
+
+
+\textbf{Activity 2: Absolute Zero and the Kelvin Scale}
+
+(a) The absolute zero of temperature can be defined as the temperature
+at which the pressure of an ideal gas is zero. Determine absolute
+zero from the equations you obtained by fitting your P-T data.
+\vspace{30mm}
+
+(b) Determine the percent difference between your value of absolute
+zero and the accepted value of -273\( ^{\circ } \)C. Are you happy or sad?
+\vspace{30mm}
+
+(c) Record the results from the other groups in class.
+Obtain an average and standard deviation and record it here.
+Are your results consistent with the class average? Explain.
+

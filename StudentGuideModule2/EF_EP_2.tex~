@@ -1,0 +1,201 @@
+
+\section{The Electric Field and the Electric Potential II}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\textbf{Objective}
+
+\begin{itemize}
+\item To investigate the electric field and potential of a charge distribution.
+\end{itemize}
+
+\textbf{Apparatus}
+
+\begin{itemize}
+\item Electric field and potential simulation entitled {\it EMField}.
+\end{itemize}
+
+\textbf{Introduction}
+
+In the previous unit (which we will refer to as Investigation 1) we studied the dependence
+of the electric field and the electric potential on $r$, the distance from a
+single charge.
+Now we will study the same ideas for a different charge distribution.
+
+\textbf{Investigation 2: Four Symmetrically Arranged Charges}
+
+\textbf{Activity 1: The Electric Field}
+
+(a) Start the program {\it EMField} from the {\it Physics Applications} menu or (if it's already running) use the options under the 
+\textbf{Display} menu to clear the table top and delete any charges.
+Go to the \textbf{Sources} menu and select \textbf{3D Point Charges}.
+A blank `table top' with a set of menu 
+buttons at the top and bottom will appear (see Figure 1 in Investigation 1, the previous unit).
+
+(b) Go to the \textbf{Display} menu and set {\it EMField} to
+{\bf Show Grid} and {\bf Constrain to Grid} if they are not already set.
+These choices will make the following investigation a bit easier to perform.
+
+(c) Under \textbf{Sources}, click on \textbf{3D Point Charges}. Select the
+charge labeled {}``+4'' from the available set by clicking on it.
+Add four individual charges, arranging them symmetrically within about
+1 cm of the central point where the {}``+4'' charge was located
+in Investigation 1 (the previous unit). 
+
+(d) {\bf Prediction:} How will the electric field be oriented within the region of the four charges?
+How will the field be oriented outside the region of the four charges?
+How will the field depend on $r$, the distance from the center of the four charges, at large $r$?
+\vspace{25mm}
+
+(e) Click anywhere in the table top and you will see an arrow drawn.
+The size and direction of the arrow represent the magnitude and direction of
+the electric field at that point due to the four charges.
+In what direction does the arrow point?
+Click on the opposite side of the table top.
+In what direction does this arrow point? How is it related to the first arrow?
+\vspace{15mm}
+
+(f) Click on many points so that you get a wide range of magnitudes from large
+(barely fits on the table top) to small (barely bigger than a dot).
+
+(g) Print the table top and use a ruler to measure the lengths of each of the arrows on your plot, for points \textbf{outside} the region of the four charges. Enter this data in the following table. Use the scale at the bottom of the table top to convert the length of each arrow into an electric field magnitude.
+The units of the scale electric field vector are $1.0 ~ N/C$.
+
+\vspace{0.3cm}
+{\centering \begin{tabular}{|c|c|c|}
+\hline 
+~~~Distance from Charge Center (m)~~~&
+~~~Arrow Length (m)~~~&
+~~~Measured E (N/C)~~~\\
+\hline
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline 
+&
+&
+\\
+\hline
+\end{tabular}\par}
+\vspace{0.3cm}
+
+
+(h) \textbf{Prediction}: From Coulomb's Law, we expect the spatial variation
+of the field strength to obey a power law: \( \left| E\right| =Ar^{n} \),
+where \( A \) and \( n \) are constants. What do you predict the
+value of \( n \) to be?\vspace{15mm}
+
+(i) Graph your results. Using the power fitting
+function, determine the power of the function, $n$, and record it here.
+Attach the plot to this unit.
+\vspace{15mm}
+
+(j) Does your result agree with your prediction? Explain any discrepancy.\vspace{15mm}
+
+\textbf{Activity 2: The Electric Potential}
+
+(a) Under the {\bf Display} menu click on {\bf Clean up Screen} to erase the
+electric field vectors.
+
+(b) \textbf{Prediction}: You will now take measurements of the potential.
+How do you expect the electric potential to change with distance from the center of the four charges?
+\vspace{15mm}
+ 
+(c) Click on the \textbf{Potential} option under the \textbf{Field and Potential} menu. Click on the table top and a marker will be
+placed at that point and labeled with the value of the potential there.
+Click on many spots on the table top from very close to the charges to
+far away.
+When you are finished print the table top.
+\vspace{15mm}
+
+(d) Measure and record in the following table the values of the distance from the center of the point charge region (for points outside the region of the four charges) and the potential.
+
+\vspace{0.3cm}
+{\centering \begin{tabular}{|c|c|c|}
+\hline 
+~~~Distance from Charge Center (m)~~~&
+~~~Measured V (volts)~~~\\
+\hline
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline 
+&
+\\
+\hline
+\end{tabular}\par}
+\vspace{0.3cm}
+
+
+(e) \textbf{Prediction}: From Coulomb's Law and the definition of the
+electric potential, we expect the spatial variation of the potential
+to obey a power law: \( \Delta V=Br^{m} \), where \( B \)
+and \( m \) are constants. What do you predict the value of \textbf{\( m \)}
+to be?\vspace{15mm}
+
+
+(f) Graph your results. Using the power fitting
+function, determine the power of the function, $m$, and record it here.
+\vspace{15mm}
+
+(g) Does your result agree with your prediction? Explain any discrepancy.\vspace{15mm}
+
+(h) How do your results for the power constants, $n$ and $m$, of the four
+symmetrically-arranged charges compare with the power constants you
+determined in Investigation 1 (the previous unit) for the single point charge?\vspace{15mm}
+
+(i) What can you conclude about the field and potential effects due to
+a distribution of charge outside the region of the distribution (in
+relation to a single point charge)?\vspace{15mm}
+

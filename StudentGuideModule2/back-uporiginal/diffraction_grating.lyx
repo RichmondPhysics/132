@@ -1,0 +1,378 @@
+#This file was created by <vineyard> Tue Jan  2 13:58:36 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+The Diffraction Grating
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\layout Itemize
+
+To determine the wavelength of laser light using a diffraction grating.
+\layout Standard
+
+
+\series bold 
+Introduction
+\layout Standard
+
+Light bends (a bit) around corners.
+ This phenomenon is called diffraction.
+ Interference, or the overlap of waves, is the basis for diffraction.
+ In a transmission grating, lines, about 4,000 to 8,000 per centimeter,
+ are ruled onto glass.
+ The unruled portions of the glass act as slits.
+ The interference, and thus diffraction, which results from shining a beam
+ of light through the grating permit the measurement of the wavelength of
+ the light.
+ The relevant relationship, known as the grating equation is:
+\layout Standard
+
+
+\latex latex 
+
+\backslash 
+begin{displaymath} n
+\backslash 
+lambda
+\latex default 
+ 
+\latex latex 
+=
+\latex default 
+ 
+\latex latex 
+d
+\latex default 
+ 
+\latex latex 
+
+\backslash 
+sin
+\latex default 
+ 
+\latex latex 
+
+\backslash 
+theta
+\latex default 
+ 
+\latex latex 
+
+\backslash 
+end{displaymath}
+\layout Standard
+
+where 
+\latex latex 
+$n$
+\latex default 
+ is the order of the spectrum (the number of bright spots from the center),
+ 
+\latex latex 
+$
+\backslash 
+lambda$
+\latex default 
+ is the wavelength in nanometers (10
+\begin_inset Formula \( ^{-9} \)
+\end_inset 
+
+ meters), 
+\latex latex 
+$d$
+\latex default 
+ is the separation in nanometers between grating lines, and 
+\latex latex 
+$
+\backslash 
+theta$ 
+\latex default 
+is the angle of deviation from the light beam's original direction through
+ the grating (the angle of diffraction).
+\layout Standard
+
+
+\series bold 
+Activity
+\layout Enumerate
+
+Record the separation between grating lines: 
+\begin_inset Formula \( d= \)
+\end_inset 
+
+
+\layout Enumerate
+
+Turn on the laser, being careful to avoid looking directly into the beam
+ or shining it at anyone.
+ Aim the light beam through the diffraction grating so that a horizontal
+ series of dots appears on the wall.
+ Adjust the positions of the laser and grating until you easily see at least
+ two dots on either side of the brightest (central) dot.
+\layout Enumerate
+\added_space_bottom 15mm 
+Are the dots of the interference/diffraction pattern the same intensity?
+ Describe the pattern you observe.
+\layout Enumerate
+
+Measure and record the distance from the grating to the wall, 
+\latex latex 
+$L$
+\latex default 
+, as well as the distances from the central dot to the first dot to the
+ right, 
+\latex latex 
+$x$
+\latex default 
+, and the first dot to the left, 
+\latex latex 
+$x'$
+\latex default 
+.
+ Compute the average of these 
+\latex latex 
+$x$
+\latex default 
+ values and record it as 
+\latex latex 
+$x_{ave}$
+\latex default 
+.
+\layout Enumerate
+
+Compute and record a value for 
+\latex latex 
+$
+\backslash 
+theta$
+\latex default 
+ by using the appropriate trigonometric relation between 
+\latex latex 
+$L$
+\latex default 
+ and 
+\latex latex 
+$x_{ave}$
+\latex default 
+.
+ Then, compute 
+\latex latex 
+$
+\backslash 
+sin 
+\backslash 
+theta$
+\latex default 
+.
+ Finally, compute the wavelength using equation above.
+\layout Enumerate
+
+Repeat the procedure for three additional values of 
+\latex latex 
+$L$
+\latex default 
+.
+\layout Enumerate
+\added_space_bottom 15mm 
+Compute the average of your four determinations of the laser light's wavelength
+ and compare it to the expected value of 632.8 nm.
+ What is the percentage difference?
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+5 7 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\begin_inset Formula \( L \)
+\end_inset 
+
+ (cm)
+\newline 
+
+\begin_inset Formula \( x \)
+\end_inset 
+
+ (cm)
+\newline 
+
+\begin_inset Formula \( x' \)
+\end_inset 
+
+ (cm)
+\newline 
+
+\begin_inset Formula \( x_{ave} \)
+\end_inset 
+
+ (cm)
+\newline 
+
+\begin_inset Formula \( \theta  \)
+\end_inset 
+
+ (rad)
+\newline 
+
+\begin_inset Formula \( \sin \theta  \)
+\end_inset 
+
+
+\newline 
+
+\begin_inset Formula \( \lambda  \)
+\end_inset 
+
+ (nm)
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\the_end

@@ -1,0 +1,122 @@
+#This file was created by <rhall2> Fri Dec 15 15:26:46 2000
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Subsection*
+
+Finished (barring further correction)
+\layout Itemize
+
+Galilean Relativity
+\layout Itemize
+
+Twins Paradox
+\layout Itemize
+
+Heat, Temperature, and Internal Energy
+\layout Itemize
+
+Boyle's Law
+\layout Itemize
+
+Charles' Law
+\layout Itemize
+
+Kinetic Theory of Ideal Gases
+\layout Itemize
+
+Applying Kinetic Theory
+\layout Itemize
+
+Interaction of Electric Charges
+\layout Itemize
+
+Electrostatics
+\layout Itemize
+
+Electric Fields and Equipotential Lines
+\layout Itemize
+
+Electric Potential
+\layout Itemize
+
+Electric Field and Electric Potential I, II, III, and IV
+\layout Itemize
+
+Electric Field of the Atomic Nucleus
+\layout Itemize
+
+Charge Distribution of Water Molecule
+\layout Itemize
+
+Ohm's Law
+\layout Itemize
+
+Kirchhoff's Rules
+\layout Itemize
+
+Magnetism I and II
+\layout Itemize
+
+Magnetic Field of Earth
+\layout Itemize
+
+Electromagnetic Induction
+\layout Itemize
+
+The Generator
+\layout Itemize
+
+The LR Circuit
+\layout Itemize
+
+The LRC Circuit
+\layout Itemize
+
+Refraction of Light
+\layout Itemize
+
+Refraction at Spherical Surfacs: Thin Lenses
+\layout Itemize
+
+Diffraction Grating
+\layout Itemize
+
+Radiocarbon Dating
+\layout Subsection*
+
+Still Contains VI Instruction
+\layout Itemize
+
+Calorimetry
+\layout Itemize
+
+Heat of Vaporization of Nitrogen
+\layout Subsection*
+
+Still Needs Mathematica Figures
+\layout Itemize
+
+Diffraction of Light
+\the_end

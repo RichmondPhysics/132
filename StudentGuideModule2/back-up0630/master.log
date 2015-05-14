@@ -1,0 +1,527 @@
+This is e-TeX, Version 3.141592-2.2 (MiKTeX 2.4) (preloaded format=latex 2006.6.28)  30 JUN 2006 14:03
+entering extended mode
+**master
+(master.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+(C:\texmf\tex\latex\base\article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(C:\texmf\tex\latex\base\size10.clo
+File: size10.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (C:\texmf\tex\latex\base\fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+
+(C:\texmf\tex\latex\base\t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)) (C:\texmf\tex\latex\geometry\geometry.sty
+Package: geometry 2002/07/08 v3.2 Page Geometry
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@dimlist=\toks15
+
+(C:\texmf\tex\latex\geometry\geometry.cfg))
+
+! LaTeX Error: File `fancyhdr.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.8 \pagestyle{fancy}
+                     
+? 
+(C:\texmf\tex\generic\babel\babel.sty
+Package: babel 2005/05/21 v3.8g The Babel package
+ (C:\texmf\tex\generic\babel\english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(C:\texmf\tex\generic\babel\babel.def
+File: babel.def 2005/05/21 v3.8g Babel common definitions
+\babel@savecnt=\count90
+\U@D=\dimen107
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2005/12/29 v1.2 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+) (master.aux (heat_temp_int_energy.aux) (calorimetry.aux) (heat_vap_nit.aux) (
+boyles_law.aux) (charles_law.aux)
+(P-T.aux) (kin_theory_ideal.aux) (applying_kinetic_theory.aux)
+(interactions_of_electric_charges.aux) (electrostatics.aux) (elec_grav.aux)
+(ef_equipot_lines.aux) (electric_potential.aux) (EF_EP_1.aux) (EF_EP_2.aux)
+(EF_EP_3.aux) (EF_EP_4.aux) (electric_field_atomic_nucleus.aux)
+(charge_dist_water_mol.aux) (ohms_law.aux) (kirchhoffs_rules.aux)
+(magnetism_1.aux) (magnetism_2.aux) (magnetism_3.aux) (magnetic_field_earth.aux
+) (radiocarbon_dating.aux) (electromagnetic_induction2.aux)
+(electromagnetic_induction.aux) (generator.aux) (lr_circuit.aux)
+(lrc_circuit.aux) (refraction_of_light.aux)
+(refraction_at_spherical_surfaces.aux) (diffraction_grating.aux)
+(interference_of_light.aux) (diffraction_of_light.aux) (galilean_relativity.aux
+) (twins_paradox.aux) (hydrogen.aux) (treatment_data.aux) (datastudio.aux)
+(video_analysis.aux) (instrumentation.aux) (excel.aux) (nuke_safety.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+
+-------------------- Geometry parameters
+paper: letterpaper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 92.14519pt, 0.7\paperwidth , 92.14519pt (default)
+v-parts: 95.39737pt, 0.7\paperheight , 143.09605pt (default)
+hmarginratio: 1:1
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: 
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  486.91013pt
+\textheight 656.0612pt
+\oddsidemargin  19.8752pt
+\evensidemargin 19.8752pt
+\topmargin  18.06749pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 65.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset -28.45274pt
+\voffset -42.67912pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 66.
+
+Overfull \hbox (27.17583pt too wide) in paragraph at lines 66--66
+ [][] 
+ []
+
+(master.toc [1
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
+ [2])
+\tf@toc=\write3
+ [3] (heat_temp_int_energy.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+
+(C:\texmf\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+File: heat_temp_int_energy_fig_1.eps Graphic file (type eps)
+ <heat_temp_int_energy_fig_1.eps> [4
+
+])
+[5] (calorimetry.tex
+File: calorimetry_fig_1.eps Graphic file (type eps)
+ <calorimetry_fig_1.eps> [6
+
+
+] [7]) [8] (heat_vap_nit.tex
+File: heat_vap_nit_fig_1.eps Graphic file (type eps)
+
+<heat_vap_nit_fig_1.eps> [9
+
+
+]) [10] (boyles_law.tex
+File: boyleslawfig1.eps Graphic file (type eps)
+ <boyleslawfig1.eps> [11
+
+
+]
+[12]
+File: boyleslawfig2.eps Graphic file (type eps)
+ <boyleslawfig2.eps> [13]) [14] (charles_law.tex
+File: charles_law_fig1.eps Graphic file (type eps)
+ <charles_law_fig1.eps>
+[15
+
+
+]
+Overfull \hbox (11.01068pt too wide) in paragraph at lines 103--181
+ [][] 
+ []
+
+
+Overfull \hbox (11.01068pt too wide) in paragraph at lines 195--273
+ [][] 
+ []
+
+[16]) [17] (P-T.tex
+File: P-T_fig1b.eps Graphic file (type eps)
+ <P-T_fig1b.eps> [18
+
+
+]) [19] (kin_theory_ideal.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 7.
+ [20
+
+
+]
+File: am4a.eps Graphic file (type eps)
+
+<am4a.eps> [21] [22] [23]) [24] (applying_kinetic_theory.tex [25
+
+
+] [26] [27]
+[28]) [29] (interactions_of_electric_charges.tex [30
+
+
+]
+File: int_elec_charges_fig_1.eps Graphic file (type eps)
+
+<int_elec_charges_fig_1.eps>
+Overfull \hbox (21.99112pt too wide) in paragraph at lines 97--97
+ [] 
+ []
+
+[31]
+File: int_elec_charges_fig_2.eps Graphic file (type eps)
+ <int_elec_charges_fig_2.eps> [32] [33]
+File: int_elec_charges_fig_3.eps Graphic file (type eps)
+ <int_elec_charges_fig_3.eps>
+[34] [35]) [36] (electrostatics.tex [37
+
+
+] [38] [39]) [40] (elec_grav.tex
+File: elec_grav_fig1.eps Graphic file (type eps)
+
+<elec_grav_fig1.eps>
+File: elec_grav_fig2.eps Graphic file (type eps)
+ <elec_grav_fig2.eps> [41
+
+
+]
+File: elec_grav_fig3.eps Graphic file (type eps)
+ <elec_grav_fig3.eps>
+File: elec_grav_fig4.eps Graphic file (type eps)
+
+<elec_grav_fig4.eps> [42] [43] [44]) [45] (ef_equipot_lines.tex
+File: ef_equipot_lines_fig_1.eps Graphic file (type eps)
+
+<ef_equipot_lines_fig_1.eps>
+File: ef_equipot_lines_fig_2.eps Graphic file (type eps)
+ <ef_equipot_lines_fig_2.eps> [46
+
+
+]
+File: ef_equipot_lines_fig_3.eps Graphic file (type eps)
+
+<ef_equipot_lines_fig_3.eps> [47] [48]) [49] (electric_potential.tex
+File: electric_potential_fig_1.eps Graphic file (type eps)
+
+<electric_potential_fig_1.eps>
+File: electric_potential_fig_2.eps Graphic file (type eps)
+ <electric_potential_fig_2.eps>
+File: electric_potential_fig_3.eps Graphic file (type eps)
+
+<electric_potential_fig_3.eps> [50
+
+
+]
+File: electric_potential_fig_4.eps Graphic file (type eps)
+ <electric_potential_fig_4.eps> [51]
+File: electric_potential_fig_5.eps Graphic file (type eps)
+
+<electric_potential_fig_5.eps> [52] [53]
+File: electric_potential_fig_6.eps Graphic file (type eps)
+ <electric_potential_fig_6.eps>
+[54]
+File: electric_potential_fig_7.eps Graphic file (type eps)
+ <electric_potential_fig_7.eps>
+File: electric_potential_fig_8.eps Graphic file (type eps)
+ <electric_potential_fig_8.eps>
+File: electric_potential_fig_9.eps Graphic file (type eps)
+
+<electric_potential_fig_9.eps> [55]) [56] (EF_EP_1.tex
+File: emfield1c.eps Graphic file (type eps)
+ <emfield1c.eps> [57
+
+
+]
+[58] [59]) [60] (EF_EP_2.tex [61
+
+
+] [62]) [63] (EF_EP_3.tex [64
+
+
+] [65] [66])
+[67] (EF_EP_4.tex [68
+
+
+] [69]) [70] (electric_field_atomic_nucleus.tex
+File: electric_field_atomic_nuleus_fig_1.eps Graphic file (type eps)
+
+<electric_field_atomic_nuleus_fig_1.eps> [71
+
+
+] [72]) [73]
+(charge_dist_water_mol.tex
+File: charge_dist_water_mol_fig_1.eps Graphic file (type eps)
+ <charge_dist_water_mol_fig_1.eps> [74
+
+
+] [75] [76])
+[77] (ohms_law.tex
+File: ohms_law_fig_1.eps Graphic file (type eps)
+ <ohms_law_fig_1.eps> [78
+
+
+] [79] [80]
+File: ohms_law_fig_2.eps Graphic file (type eps)
+ <ohms_law_fig_2.eps>
+[81]) [82] (kirchhoffs_rules.tex
+File: kirchhoffs_rules_fig_1.eps Graphic file (type eps)
+ <kirchhoffs_rules_fig_1.eps> [83
+
+
+] [84])
+[85] (magnetism_1.tex [86
+
+
+] [87]) [88] (magnetism_2.tex
+File: magnetism_2_fig_1.eps Graphic file (type eps)
+ <magnetism_2_fig_1.eps>
+[89
+
+
+]
+File: magnetism_2_fig_2.eps Graphic file (type eps)
+ <magnetism_2_fig_2.eps>
+File: magnetism_2_fig_3.eps Graphic file (type eps)
+ <magnetism_2_fig_3.eps> [90]) [91]
+(magnetism_3.tex [92
+
+
+]
+File: tangent_galvanometer.eps Graphic file (type eps)
+ <tangent_galvanometer.eps> [93]) [94]
+(magnetic_field_earth.tex [95
+
+
+] [96]) [97] (radiocarbon_dating.tex [98
+
+
+]
+File: rad_counter.eps Graphic file (type eps)
+
+<rad_counter.eps> [99] [100]
+File: Cs-137_decay.eps Graphic file (type eps)
+ <Cs-137_decay.eps> [101] [102] [103] [104]
+[105]
+File: pertable3.ps Graphic file (type eps)
+ <pertable3.ps>
+Overfull \hbox (20.87479pt too wide) in paragraph at lines 640--644
+[]\T1/cmr/m/n/10 P.E.Damon, D.J.Donahue, B.H.Gore, A.L.Hathaway, A.J.T.Jull, T.
+W.Linick, P.J.Sercel, L.J.Toolin, C.R.Bronk,
+ []
+
+) [106] (electromagnetic_induction2.tex [107
+
+
+]) [108]
+(electromagnetic_induction.tex [109
+
+
+] [110]) [111] (generator.tex [112
+
+
+] [113]
+[114]) [115] (lr_circuit.tex
+File: lr_circuit_fig_1.eps Graphic file (type eps)
+ <lr_circuit_fig_1.eps> [116
+
+
+]
+File: lr_circuit_fig_2.eps Graphic file (type eps)
+
+<lr_circuit_fig_2.eps> [117]
+File: lrc_circuit_fig_2.eps Graphic file (type eps)
+ <lrc_circuit_fig_2.eps> [118] [119]) [120]
+(lrc_circuit.tex
+File: lrc_circuit_fig_1.eps Graphic file (type eps)
+ <lrc_circuit_fig_1.eps> [121
+
+
+]
+File: lrc_circuit_fig_2.eps Graphic file (type eps)
+ <lrc_circuit_fig_2.eps> [122]
+[123] [124]) [125] (refraction_of_light.tex
+File: refraction_of_light_fig_1.eps Graphic file (type eps)
+ <refraction_of_light_fig_1.eps>
+[126
+
+
+] [127]) [128] (refraction_at_spherical_surfaces.tex [129
+
+
+] [130]) [131]
+(diffraction_grating.tex) [132
+
+
+] (interference_of_light.tex
+File: interference_of_light_fig1b.eps Graphic file (type eps)
+
+<interference_of_light_fig1b.eps> [133
+
+
+] [134] [135]) [136]
+(diffraction_of_light.tex
+File: interference_of_light_fig1b.eps Graphic file (type eps)
+ <interference_of_light_fig1b.eps> [137
+
+
+]
+File: diffraction_of_light_fig_2.eps Graphic file (type eps)
+
+<diffraction_of_light_fig_2.eps> [138]
+File: diffraction_of_light_fig_3.eps Graphic file (type eps)
+ <diffraction_of_light_fig_3.eps>
+[139] [140]
+File: diffraction_of_light_fig_4.eps Graphic file (type eps)
+ <diffraction_of_light_fig_4.eps> [141]) [142]
+(galilean_relativity.tex [143
+
+
+] [144] [145]) [146] (twins_paradox.tex [147
+
+
+]
+[148]) [149] (hydrogen.tex [150
+
+
+]) [151] (treatment_data.tex) [152
+
+
+] [153]
+(datastudio.tex
+File: datastudio_fig1.eps Graphic file (type eps)
+ <datastudio_fig1.eps> [154
+
+
+]) [155] (video_analysis.tex [156
+
+
+])
+[157] (instrumentation.tex [158
+
+
+]
+File: instrumentation_fig1.eps Graphic file (type eps)
+ <instrumentation_fig1.eps> [159]) [160]
+(excel.tex
+File: excelwindow.eps Graphic file (type eps)
+ <excelwindow.eps>
+File: bargraph.eps Graphic file (type eps)
+ <bargraph.eps> [161
+
+
+]
+File: excelicon.eps Graphic file (type eps)
+ <excelicon.eps>) [162]
+(nuke_safety.tex) [163
+
+
+] (master.aux (heat_temp_int_energy.aux) (calorimetry.aux) (heat_vap_nit.aux) (
+boyles_law.aux) (charles_law.aux) (P-T.aux)
+(kin_theory_ideal.aux) (applying_kinetic_theory.aux)
+(interactions_of_electric_charges.aux) (electrostatics.aux) (elec_grav.aux)
+(ef_equipot_lines.aux) (electric_potential.aux) (EF_EP_1.aux) (EF_EP_2.aux)
+(EF_EP_3.aux) (EF_EP_4.aux) (electric_field_atomic_nucleus.aux)
+(charge_dist_water_mol.aux) (ohms_law.aux) (kirchhoffs_rules.aux)
+(magnetism_1.aux) (magnetism_2.aux) (magnetism_3.aux) (magnetic_field_earth.aux
+) (radiocarbon_dating.aux) (electromagnetic_induction2.aux)
+(electromagnetic_induction.aux) (generator.aux) (lr_circuit.aux)
+(lrc_circuit.aux) (refraction_of_light.aux)
+(refraction_at_spherical_surfaces.aux) (diffraction_grating.aux)
+(interference_of_light.aux) (diffraction_of_light.aux) (galilean_relativity.aux
+) (twins_paradox.aux) (hydrogen.aux) (treatment_data.aux) (datastudio.aux)
+(video_analysis.aux) (instrumentation.aux) (excel.aux) (nuke_safety.aux)) ) 
+Here is how much of TeX's memory you used:
+ 2732 strings out of 95901
+ 32181 string characters out of 1195329
+ 87837 words of memory out of 1079333
+ 4597 multiletter control sequences out of 60000
+ 17670 words of font info for 42 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 4999
+ 30i,12n,29p,1155b,293s stack positions out of 5000i,500n,10000p,200000b,32768s
+
+Output written on master.dvi (163 pages, 409380 bytes).

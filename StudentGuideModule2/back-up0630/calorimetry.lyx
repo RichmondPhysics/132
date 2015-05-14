@@ -1,0 +1,287 @@
+#This file was created by <vineyard> Tue Jan  2 15:07:57 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+Calorimetry
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Purpose
+\layout Itemize
+
+To learn to use a method for measuring heat called calorimetry.
+\layout Itemize
+
+To use calorimetry to determine the specific heat of aluminum and the heat
+ of fusion of ice.
+\layout Standard
+
+
+\series bold 
+Apparatus
+\layout Itemize
+
+Hypsometer and stand 
+\layout Itemize
+
+Bunsen burner 
+\layout Itemize
+
+Aluminum pellets 
+\layout Itemize
+
+Ice 
+\layout Itemize
+
+Triple-beam balance 
+\layout Itemize
+
+100
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+ C thermometer or temperature meter
+\layout Itemize
+
+Temperature probe
+\layout Itemize
+
+
+\shape italic 
+DataStudio
+\shape default 
+ software (Calorimetry)
+\layout Standard
+
+
+\series bold 
+Introduction
+\series default 
+ 
+\layout Standard
+
+Calorimetry is a method for measuring heat.
+ As applied in this experiment, the method involves the mixing together
+ of substances initially at two different temperatures.
+ The substances at the higher temperature lose heat and the substances at
+ the lower temperature gain heat until thermal equilibrium is reached.
+\layout Standard
+
+
+\series bold 
+Activity 1: Statement of Conservation of Energy
+\layout Standard
+
+If no heat is transferred to the surroundings, what is the relationship
+ between the heat lost by the substances initially at high temperature and
+ the heat gained by the substances initially at low temperature.
+ Note: This is simply a statement of conservation of energy.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center 
+
+\begin_inset Figure size 324 252
+file calorimetry_fig_1.eps
+height 2 3.5
+flags 9
+
+\end_inset 
+
+ 
+\layout Standard
+
+
+\series bold 
+Experimental Equipment
+\series default 
+ 
+\layout Standard
+
+A calorimeter, shown in the above figure, is used in this experiment to
+ minimize the exchange of heat between the system and the surroundings.
+ The inner calorimeter cup is thermally insulated from the surroundings
+ by suspending it on a ring of material with low heat conductivity and surroundi
+ng it with a layer of air.
+ Also the cup is shiny to minimize radiation loss.
+ Hence, if the mixture of substances is placed inside the calorimeter cup,
+ the heat lost to or gained from the surroundings can be ignored, and the
+ above relationship can be used.
+ The only part of the calorimeter which is involved in the calculation is
+ the inner calorimeter cup which contains water and in which an exchange
+ of heat between the hot and cold bodies takes place.
+ The cup will undergo the same temperature change as the contained water.
+ Of course, an instrument will have to be introduced to measure the temperature
+ of the system, but the heat gained or lost by the instrument is small and
+ can be ignored.
+\layout Standard
+
+
+\series bold 
+Activity 2: Specific Heat of Aluminum
+\layout Standard
+
+(a) Fill the hypsometer (boiler) at least half full of water and start heating
+ the water.
+\layout Standard
+\added_space_bottom 10mm 
+(b) Determine and record the mass of the hypsometer cup, m
+\begin_inset Formula \( _{h} \)
+\end_inset 
+
+.
+ Then fill it about half full with dry aluminum pellets.
+ Determine and record the mass of the cup and pellets, m
+\begin_inset Formula \( _{hp} \)
+\end_inset 
+
+, and calculate the mass of the pellets, m
+\begin_inset Formula \( _{p} \)
+\end_inset 
+
+.
+ Record the measurements in the space below.
+\layout Standard
+
+(c) Place the cup in the top of the hypsometer and put the temperature meter
+ into the middle of the pellets.
+\layout Standard
+\added_space_bottom 10mm 
+(d) Determine and record the mass of the calorimeter cup, m
+\begin_inset Formula \( _{c} \)
+\end_inset 
+
+.
+ Fill this cup about half full of cold tap water.
+ Determine and record the mass of the cup and water, m
+\begin_inset Formula \( _{cw} \)
+\end_inset 
+
+, and calculate the mass of the water, m
+\begin_inset Formula \( _{w} \)
+\end_inset 
+
+.
+ Then place the calorimeter cup in the outer can and put the lid on.
+\layout Standard
+
+(e) Fill the plastic beaker with ice water.
+ Open the 
+\shape italic 
+Calorimetry
+\shape default 
+ application in the 132 Workshop folder in the Apple menu and start collecting
+ data.
+ Place the temperature probe in the ice water and check that it is reading
+ approximately 0
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+C.
+ If not, then consult your instructor.
+ Next, insert the temperature probe through the hole in the lid of the calorimet
+er and into the water.
+\layout Standard
+\added_space_bottom 10mm 
+(f) When the temperature of the pellets becomes constant, at or near 100
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+C, stir the water in the calorimeter GENTLY with the thermocouple and record
+ the temperature of the water as T
+\begin_inset Formula \( _{w} \)
+\end_inset 
+
+.
+ Also record the temperature of the pellets as T
+\begin_inset Formula \( _{p} \)
+\end_inset 
+
+.
+ Then remove the thermocouple from the calorimeter.
+\layout Standard
+\added_space_bottom 15mm 
+(g) Now, quickly but carefully, pour the pellets into the water in the calorimet
+er cup.
+ Put the thermocouple back into the calorimeter cup.
+ Stir the water occasionally with the thermocouple and monitor the temperature
+ of the mixture.
+ When the temperature levels off, record this value as T.
+\layout Standard
+\added_space_bottom 2in 
+(h) Write the complete heat equation and solve for the unknown specific
+ heat of the metal.
+ 
+\layout Standard
+\added_space_bottom 20mm 
+(i) Look up the accepted value for the specific heat of aluminum and calculate
+ the percent difference between this value and the one you determined above.
+ Do the two values agree within experimental uncertainties.
+ Comment on possible sources of error.
+\layout Standard
+
+
+\series bold 
+Activity 3: Heat of Fusion of Ice
+\layout Standard
+\added_space_bottom 25mm 
+(a) The heat of fusion of ice is found experimentally as follows: A known
+ mass of warm water is placed in the calorimeter cup and its temperature
+ recorded.
+ A known mass of ice at 0
+\begin_inset Formula \( ^{\circ } \)
+\end_inset 
+
+C (with no water) is added to the water and allowed to melt.
+ The final temperature of the mixture after the ice has melted is recorded.
+ Perform the experiment and record the data in the space below.
+\layout Standard
+\added_space_bottom 25mm 
+(b) Write the complete heat equation and solve for the unknown heat of fusion
+ of ice.
+\the_end

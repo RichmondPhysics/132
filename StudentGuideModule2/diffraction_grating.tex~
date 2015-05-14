@@ -1,0 +1,102 @@
+
+\section{The Diffraction Grating}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\textbf{Objective}
+
+\begin{itemize}
+\item To determine the wavelength of laser light using a diffraction grating.
+\end{itemize}
+\textbf{Introduction}
+
+Light bends (a bit) around corners. This phenomenon is called diffraction.
+Interference, or the overlap of waves, is the basis for diffraction.
+In a transmission grating, lines, about 4,000 to 8,000 per centimeter,
+are ruled onto glass. The unruled portions of the glass act as slits.
+The interference, and thus diffraction, which results from shining
+a beam of light through the grating permit the measurement of the
+wavelength of the light. The relevant relationship, known as the grating
+equation is:
+
+\begin{displaymath} n\lambda = d \sin \theta \end{displaymath}
+
+where $n$ is the order of the spectrum (the number of bright spots
+from the center), $\lambda$ is the wavelength in nanometers (10\( ^{-9} \)
+meters), $d$ is the separation in nanometers between grating lines,
+and $\theta$ is the angle of deviation from the light beam's original
+direction through the grating (the angle of diffraction).
+
+\textbf{Activity}
+
+\begin{enumerate}
+\item Record the separation between grating lines: \( d= \)
+\item Turn on the laser, being careful to avoid looking directly into the
+beam or shining it at anyone. Aim the light beam through the diffraction
+grating so that a horizontal series of dots appears on the wall. Adjust
+the positions of the laser and grating until you easily see at least
+two dots on either side of the brightest (central) dot.
+\item Are the dots of the interference/diffraction pattern the same intensity?
+Describe the pattern you observe.\vspace{15mm}
+
+\item Measure and record the distance from the grating to the wall, $L$, in the table below, 
+as well as the distances from the central dot to the first dot to
+the right, $x$, and the first dot to the left, $x'$. Compute the average
+of these $x$ values and record it as $x_{ave}$.
+\item Compute and record a value for $\theta$ by using the appropriate trigonometric
+relation between $L$ and $x_{ave}$. Then, compute $\sin \theta$. Finally,
+compute the wavelength using equation above.
+\item Repeat the procedure for three additional values of $L$.
+\item Compute the average of your four determinations of the laser light's
+wavelength. Compute the standard deviation and consider it an uncertainty in your measurement. Express the result as $\lambda$ = average plus or minus uncertainty.
+
+\end{enumerate}
+\vspace{15mm}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline 
+\( L \) (cm)&
+\( x \) (cm)&
+\( x' \) (cm)&
+\( x_{ave} \) (cm)&
+\( \theta  \) (rad)&
+\( \sin \theta  \)&
+\( \lambda  \) (nm)\\
+\hline
+\hline 
+&
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+&
+\\
+\hline
+\end{tabular}\vspace{0.3cm}
+
+\end{center}

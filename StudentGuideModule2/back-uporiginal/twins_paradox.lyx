@@ -1,0 +1,328 @@
+#This file was created by <rhall2> Tue Dec  5 14:43:41 2000
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+The Twins Paradox
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\layout Standard
+
+To investigate some of the unusual implications of Einstein's special theory
+ of relativity.
+\layout Standard
+
+
+\series bold 
+Overview
+\layout Standard
+
+Einstein's theory of special relativity leads to a variety of apparent paradoxes
+ that depart radically from our everyday expectations.
+ One of the most celebrated is the twins paradox, in which an identical
+ twin makes a long interstellar journey while the other twin remains on
+ the (roughly) stationary Earth.
+ When the space-faring twin returns she finds her partner has aged considerably
+ more than she has.
+ In this unit you will explore the quantitative aspects of the paradox and
+ some of the surprising consequences.
+\layout Standard
+
+
+\series bold 
+Activity 1: Setting Things Up
+\layout Standard
+
+Problems in special relativity are often very counterintuitive, so it is
+ instructive to consider the situation non-relativistically first.
+ Investigate this problem without applying any of the new ideas you have
+ learned about the theory of special relativity.
+\layout Standard
+
+One member of a pair of identical twins has decided to embark on a long
+ space voyage.
+ The two twins have lived their lives in close proximity to one another
+ and are very similar in appearance.
+ The adventurous twin boards a fast spacecraft and leaves the Earth behind
+ at a speed of 0.99c or 99% of the speed of light.
+ The space-faring twin's itinerary is rather monotonous, and she simply
+ travels at this constant speed for a time, turns around, and returns to
+ the Earth at the same speed.
+ She measures the time of her trip to be 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+t
+\begin_inset Formula \( _{0} \)
+\end_inset 
+
+.
+ In the meantime the Earth-bound twin has seen twenty years pass by.
+ We will refer to this time as 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+t.
+\layout Standard
+\added_space_bottom 15mm 
+(a) In mathematical terms, what is the relationship between the times 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+t
+\begin_inset Formula \( _{0} \)
+\end_inset 
+
+ and 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+t?
+\layout Standard
+\added_space_bottom 15mm 
+(b) Which time is associated with which twin?
+\layout Standard
+\added_space_bottom 15mm 
+(c) When the twins are reunited will their appearances differ?
+\layout Standard
+
+
+\series bold 
+Activity 2: Applying Special Relativity
+\layout Standard
+\added_space_bottom 35mm 
+(a) Now we want to apply the lessons of special relativity.
+ Time dilation implies that moving clocks run more slowly when observed
+ by someone in a different inertial frame.
+ For the twins paradox what does this imply about the time interval the
+ space-faring twin measures during her trip? Will it be less than, equal
+ to, or greater than the interval measured by the Earth-bound twin? Will
+ the space-faring twin age more, less, or the same amount as the Earth-bound
+ twin?
+\layout Standard
+\added_space_bottom 15mm 
+(b) What is the mathematical relationship between 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+t
+\begin_inset Formula \( _{0} \)
+\end_inset 
+
+ and 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+t according to the special theory of relativity?
+\layout Standard
+\added_space_bottom 15mm 
+(c) How much time has passed on the Earth-bound twin's clock?
+\layout Standard
+\added_space_bottom 15mm 
+(d) How much time has passed on the space-faring twin's clock?
+\layout Standard
+\added_space_bottom 15mm 
+(e) If this result is inconsistent with your prediction above how should
+ you resolve the contradiction?
+\layout Standard
+\added_space_bottom 15mm 
+(f) How will the two twins' appearances differ, if at all? Is the difference
+ only in the measurement of the time intervals or are there real physiological
+ differences between the twins after the trip?
+\layout Standard
+\added_space_bottom 15mm 
+(g) If the average speed of the space-faring twin was more like the typical
+ orbital speed of the space shuttle (about 7.4 km/s) what would the time
+ difference between the twins' clocks be?
+\layout Standard
+
+
+\series bold 
+Activity 3: Graphical Analysis
+\layout Standard
+\added_space_bottom 45mm 
+(a) Find a mathematical relationship for the ratio of the time interval
+ measured by the space-faring twin to the time interval measured by the
+ Earth-bound twin.
+ Show your work and record your result here.
+\layout Standard
+
+(b) We want to use the plotting capabilities of 
+\emph on 
+CricketGraph 
+\emph default 
+to graph the ratio you derived above as a function of 
+\begin_inset Formula \( \beta  \)
+\end_inset 
+
+, the speed of the space-faring twin's spaceship as a fraction of the speed
+ of light.
+ As an example, to graph a function like f(x) = 
+\begin_inset Formula \( \sqrt{x} \)
+\end_inset 
+
+ we first have to prepare a list of values of x where we want to calculate
+ f(x).
+ To do this in column 1 of the 
+\emph on 
+CricketGraph
+\emph default 
+ data window double click on the box at the top of column 1 that has the
+ lone 
+\begin_inset Quotes eld
+\end_inset 
+
+1
+\begin_inset Quotes erd
+\end_inset 
+
+ in it.
+ The cursor will now appear in the box at the very top of the Data window.
+ In that window use the following syntax to calculate 
+\begin_inset Formula \( \beta  \)
+\end_inset 
+
+ in steps of 0.05.
+\layout Standard
+\align center 
+=0.05*ROWNUM()
+\layout Standard
+
+where 
+\begin_inset Quotes eld
+\end_inset 
+
+ROWNUM()
+\begin_inset Quotes erd
+\end_inset 
+
+ is a function in 
+\emph on 
+CricketGraph
+\emph default 
+ that enables you to use the row number in the spreadsheet for calculations.
+ Hit the 
+\begin_inset Quotes eld
+\end_inset 
+
+Enter
+\begin_inset Quotes erd
+\end_inset 
+
+ key when you are finished.
+ You should see the series of numbers 0.0, 0.05, 0.10, 0.15, ...
+ appear in column 1.
+ If you do not, consult your instructor.
+ Now we can generate the values of the function in column 2.
+ Follow a procedure similar to the one you just performed.
+ Double click on the box at the top of column 2 and use the following syntax
+ to calculate 
+\begin_inset Formula \( \sqrt{x} \)
+\end_inset 
+
+.
+\layout Standard
+\align center 
+=SQRT(C1)
+\layout Standard
+
+where 
+\begin_inset Quotes eld
+\end_inset 
+
+C1
+\begin_inset Quotes erd
+\end_inset 
+
+ refers to the data in column 1 that will be used to calculate f(x).
+ Now you can make a line plot of column 2 versus column 1 in the usual fashion.
+\layout Standard
+\added_space_bottom 10mm 
+(c) Make a plot of the ratio of the time interval measured by the space-faring
+ twin to the time interval measured by the Earth-bound twin.
+ Restrict the range of 
+\begin_inset Formula \( \beta  \)
+\end_inset 
+
+ to 0-1.
+ At what average speed does the effect of time dilation become significant?
+ Is there a limit to the ratio? Is there any reason to restrict the range
+ of 
+\begin_inset Formula \( \beta  \)
+\end_inset 
+
+ to 0-1? Clearly state your reasoning.
+ Print your plot and attach a copy to this unit.
+\layout Standard
+\added_space_bottom 15mm 
+(d) Consider the following scenario.
+ As the space-faring twin's craft recedes from the Earth it is moving at
+ a constant speed.
+ Since no inertial frame can be considered 
+\begin_inset Quotes eld
+\end_inset 
+
+better
+\begin_inset Quotes erd
+\end_inset 
+
+ than any other there is nothing physically inconsistent with the view that
+ the space-faring twin is observing the Earth recede from her at a constant
+ velocity.
+ Hence, the space-faring twin will observe clocks on the Earth to move slowly
+ and the Earth-bound twin will age at a slower rate than the space-faring
+ one.
+ Is this reasoning flawed? How? 
+\layout Standard
+
+(e) If the scenario is not flawed how can it be that the space-faring twin
+ was found to have aged less in the original problem?
+\the_end

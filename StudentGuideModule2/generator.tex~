@@ -1,0 +1,410 @@
+
+\section{The Generator}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\textbf{Objectives}
+
+\begin{itemize}
+\item To understand Faraday's Law of Induction.
+\item To discover how an electric generator works.
+\end{itemize}
+\textbf{Introduction} 
+
+The amount of magnetic field that passes (or the number of magnetic
+field lines that pass) perpendicularly through a bounded region is
+known as the magnetic flux through that area. Mathematically, the
+flux is given by
+
+{\raggedright \begin{displaymath} \Phi = B_\perp A = BA\cos\theta \end{displaymath}\par}
+
+where the symbol $\perp$ indicates the perpendicular component and
+$\theta$ is the angle between the direction of the magnetic field
+and the normal to the surface of the area (see figure below). 
+
+\begin{center} \begin{picture}(150,150) \put(25,50){\line(5,1){100}} \put(25,50){\line(-2,5){15}} \put(125,70){\line(-3,4){26.5}} \put(10,87.5){\line(5,1){88.5}} \multiput(0,65)(15,3){9}{\line(5,1){10}} \multiput(85,45)(-7.5,15){5}{\line(-1,2){5}} \put(68,79){\vector(1,4){15}} \multiput(22.5,69.5)(15,3){6}{\vector(0,1){40}} \multiput(23,10)(15,3){6}{\line(0,1){40}} \put(40,120){\makebox(0,0){$\bf B$}} \put(82,145){\makebox(0,0){normal}} \put(72,110){\makebox(0,0){$\theta$}} \put(68,98){\oval(10,10)[tr]} \put(110,75){\makebox(0,0){$A$}} \end{picture} \end{center}
+
+When the boundary of the region is a loop of wire, and the amount
+of flux through it changes, an electromagnetic force (emf) is induced
+in the loop. Faraday's law states that the magnitude of the emf in
+a single loop is proportional to the amount of flux change in one
+unit of time: $\varepsilon = -\Delta\Phi/\Delta t$, where the minus
+sign indicates that the polarity of the coil voltage opposes the flux
+change (Lenz's Law). That is, if the flux decreases, the emf will
+cause current to flow in the coil in such a way (using the right-hand
+rule) as to create a magnetic field that compensates for the loss.
+If the flux increases, the emf will cause the current to flow in the
+opposite direction.
+
+\begin{itemize}
+\item Faraday's law was given for a single loop coil; what is Faraday's
+law for a coil of N turns? \vspace{15mm}
+
+\item Assume the coil is rotating clockwise around the axis OO$'$ (see figure
+below). In what direction (towards O or towards O$'$) does the induced
+current flow when the coil has rotated through an angle of 90$^\circ$
+from the position shown? \vspace{15mm}
+
+\end{itemize}
+\begin{center} \begin{picture}(100,100) \put(30,60){\line(0,1){10}} \put(50,70){\line(0,1){10}} \put(45,35){\line(0,1){10}} \put(30,60){\line(2,1){20}} \put(30,70){\line(2,1){20}} \put(45,45){\line(2,1){20}} \put(30,60){\line(-1,2){15}} \put(30,70){\line(-1,2){15}} \put(50,80){\line(-1,2){15}} \put(45,35){\line(1,-2){15}} \put(45,45){\line(1,-2){15}} \put(65,55){\line(1,-2){15}} \put(15,42.5){\line(2,1){20}} \put(35,52.5){\line(0,1){8}} \put(35,60.5){\line(2,1){20}} \put(55,70.5){\line(0,-1){16}} \put(55,54.5){\line(-2,-1){18}} \put(37,45.5){\line(0,1){14}} \put(37,59.5){\line(2,1){20}} \put(57,69.5){\line(0,-1){11.5}} \put(57,58){\line(2,1){25}} \put(38,81){\makebox(0,0){\bf N}} \put(59,45){\makebox(0,0){\bf S}} \multiput(-5,30)(20,10){6}{\line(2,1){10}} \put(-10,25){\makebox(0,0){O}} \put(115,90){\makebox(0,0){O$'$}} \multiput(15,40)(2,1){3}{\circle*{5}} \multiput(15,37.5)(1,.5){7}{\line(2,-5){5}} \multiput(80,72.5)(2,1){3}{\circle*{5}} \multiput(80,70)(1,.5){7}{\line(2,-5){5}} \put(20,20){\makebox(0,0){{\small brush}}} \put(80,85){\makebox(0,0){{\small slip ring}}} \end{picture} \end{center}
+
+A generator converts mechanical power into electrical power. It generally
+consists of magnets, a coil (also called the armature), and a device
+(like a pair of slip rings and brushes) to connect the coil to terminals.
+
+\begin{itemize}
+\item What happens to the potential difference across the terminals as the
+armature rotates? Explain. \vspace{15mm}
+
+\item Recalling that magnetic field lines run from north pole to south pole,
+what will be the magnitude of the emf as it passes through the position
+shown in the drawing above. \vspace{15mm}
+
+\item At what angle, $\theta$, will the current be a maximum?\vspace{15mm}
+
+\end{itemize}
+The change in flux through a single loop is determined by taking the
+derivative of the first equation:
+
+\begin{displaymath} \Delta\Phi = \Delta (BA\cos\theta) = -BA\Delta\theta\sin\theta. \end{displaymath}
+
+Then the emf is $\varepsilon = BA\omega\sin\theta$, since $\varepsilon = -\Delta\Phi/\Delta t$
+and $\Delta\theta/\Delta t = \omega$. So, the induced emf is proportional
+to $\sin\theta$.
+
+\begin{itemize}
+\item What is the induced emf in terms of $\sin\theta$ for a coil with $N$
+turns? \vspace{15mm}
+
+\item \textbf{Prediction}: Sketch a graph of the induced emf you expect
+in the multiple-loop armature of a generator as a function of angle,
+$\theta$. Make your prediction for angles: $0^\circ < \theta < 360^\circ$.
+Under the reasonable assumption that the resistance is constant as
+the coil rotates, what do you expect a graph of the current in the
+coil as a function of $\theta$ to look like?\vspace{15mm}
+
+\end{itemize}
+\textbf{Note}: The model generator you will use in this experiment
+consists of a coil which rotates in a nearly uniform field produced
+by two sets of permanent horseshoe magnets. A spring-and-ratchet mechanism
+rotates the coil in equal steps: the spring providing a torque and
+a ratchet wheel turning 10$^\circ$ each time the ratchet is released.
+The spring is loaded by pushing down on a catch arm, and the ratchet
+is released by tipping it to one side or the other.
+
+\textbf{Apparatus}
+
+\begin{itemize}
+\item model generator
+\item galvanometer 
+\end{itemize}
+\textbf{Activity}
+
+\begin{enumerate}
+\item Connect the armature terminals of the model generator to the galvanometer,
+which in this configuration measures current.
+\item Rotate the coil through a 10$^\circ$ interval. Observe and record
+(under the Deflection (I) column of the table below) the maximum deflection
+of the galvanometer. The maximum value will be reached instantaneously,
+so observe carefully along with at least one lab partner. It gets
+easier with practice.
+\item Repeat the procedure for each 10$^\circ$ rotation of the coil over
+one complete revolution. The numbers on the wheel are 1/10 the angles
+of the coil with respect to the vertical. Reload the spring after
+every second rotation to ensure the spring tension, and therefore,
+the speed of rotation remains the same. Hold the wheel while reloading
+to prevent it from moving. Note that the deflection of the galvanometer
+corresponds to the position of the coil at the middle of its movement.
+\item Take another set of data and record it under Deflection (II).
+\item Average the two readings for each angle and record in the appropriate
+column.
+\item Plot Average Deflection (y-axis) vs. angle (x-axis) and draw a smooth
+curve as best you can through the points.
+%\item Also plot Average Deflection $\times \sin\theta$ vs. angle.
+\item How do the curves compare to your prediction? Explain.\vspace{15mm}
+
+\item If the resistance of the model generator coil were doubled, while
+the size, shape and number of turns remained the same, what would
+be the effect on the e.m.f. produced in the coil?\vspace{15mm}
+
+\item If the coil resistance were doubled, what would be the effect on the
+galvanometer deflection?\vspace{15mm}
+
+\item What effect would changing the speed of rotation have on the galvanometer
+deflection?\vspace{15mm}
+
+\end{enumerate}
+\vspace{0.3cm}
+\begin{center} 
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+Coil Setting&
+Deflection&
+Deflection&
+Average &
+\( \sin \theta  \)&
+Avg. Deflection\\
+(\( \theta  \)) {[}degrees{]}&
+(I)&
+(II)&
+Deflection&
+&
+\( \times  \) \( \sin \theta  \)\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline 
+&
+&
+&
+&
+&
+\\
+\hline
+\end{tabular}\vspace{0.3cm}
+
+\end{center}
+

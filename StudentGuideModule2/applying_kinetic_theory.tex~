@@ -1,0 +1,334 @@
+
+\section{Applying the Kinetic Theory\footnote{%
+1990-93 Dept. of Physics and Astronomy, Dickinson College. Supported
+by FIPSE (U.S. Dept. of Ed.) and NSF. Portions of this material may
+have been modified locally and may not have been classroom tested
+at Dickinson College.
+}}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\textbf{Objective}
+
+To derive the relationship between temperature and the kinematic properties
+of the monatomic molecules of an ideal gas. We will also calculate
+the specific heat per mole of an ideal, monatomic gas at constant
+volume using the kinetic theory and compare the prediction with data.
+To do this activity you will need:
+
+\begin{itemize}
+\item A computer with an atomic and molecular motion simulation
+\end{itemize}
+
+\textbf{Kinetic Energy, Internal Energy, and Temperature}
+
+We have hypothesized the existence of non-interacting molecules to
+provide the basis for a particle model of ideal gas behavior. We have
+shown that the pressure of such a gas can be related to the average
+kinetic energy of each molecule:
+
+{\centering \( P=\frac{2N\left\langle E_{kin}\right\rangle }{3V} \)
+or \( PV=\frac{2}{3}N\left\langle E_{kin}\right\rangle  \)\par}
+
+Pressure increases with kinetic energy per molecule and decreases
+with volume. This result makes intuitive sense. The more energetic
+the motions of the molecules, the more pressure we would expect them
+to exert on the walls. Increasing the volume of the box decreases
+the frequency of collisions with the walls, since the molecules will
+have to travel longer before reaching them, so increasing volume should
+decrease pressure if \( \left\langle E_{kin}\right\rangle  \) stays
+the same.
+
+\textbf{The Molar Specific Heat}
+
+The kinetic theory of gases uses the atomic theory to relate the macroscopic
+properties of gases to the microscopic features of the atoms and molecules
+that make up the gas. In this laboratory we will extend the calculations
+that we have made so far to include the molar specific heat of an
+ideal, monatomic gas. The success of that extension of the theory
+depends on how well the calculations reproduce the measured heat capacities
+of a variety of real (not ideal) gases.
+
+\textbf{Activity 1: Experimenting with the Gas Simulation Program}
+
+Open the {\it Atoms in Motion} program (in {\it Physics Applications}) on the {\it Start} menu.
+We are first going to explore the relationship between pressure and volume in
+our kinetic theory using the simulation. 
+
+(a) According to the ideal gas law \( PV = nRT = Nk_{B}T \), where \( R \) is the universal gas constant and \( k_{B} \) is Boltzmann's constant. What
+should happen to the pressure of an ideal gas as its volume increases
+or decreases?
+\vspace{1.0in}
+
+(b) We now want to run a more realistic simulation.
+Under the {\it ATOM} menu set the number of Type A atoms to 50 and set all the others to zero.
+Click on the {\it BOX} button and a new dialog box will appear.
+Check the box beside `Floor conducts heat' and set the temperature to $200~K$.
+Notice at the top that the box width is $l=50 \times 10^{-10}~m$.
+We have now set up a situation where one side of the cube is held at a constant
+temperature ({\it e.g.} it's sitting on a stove) so the collisions of the atoms with the
+floor are no longer elastic.
+The remaining sides of the
+cube do not transfer any energy (they're insulated) so elastic collisions still occur 
+at those walls.
+
+Start
+the simulation and make sure you are averaging the pressure over many time steps.
+You should see the number of averaged time steps increasing on the right-hand side 
+of the {\it Atoms-in-Motion} window. 
+If you don't see this information, click on {\it AVG} and it should appear.
+
+\newpage
+
+(c) What happens to the pressure?
+What happens to the temperature of the gas? 
+You will find that it can take several minutes of computer time for the temperature of the gas to reach equilibrium with the floor.
+Once the gas temperature is within $8-10~K$ of the floor temperature, we can consider the gas and the floor to be in thermal equilibrium. Record the volume, pressure and temperature of the gas in the first line of the table below.
+\vspace{20mm}
+
+(d) Record the volume, pressure and temperature of the gas for five more volumes of the cube. Change the volume of the cube using the
+{\it BOX} menu and adjusting the box width. The volume is printed on the
+{\it Atoms-in-Motion} window.
+Plot your results and attach the graph
+to this unit. Are your results consistent with the ideal gas law and
+your prediction in part (a)? Are they consistent with the results of Experiment 4?
+%\vspace{1.5in}
+
+\vspace{0.3cm}
+{\centering \begin{tabular}{|c|c|c|}
+\hline 
+~~~~{}Volume of Box~~~~&
+~~~~Average Pressure~~~&
+~~~~~~Temperature~~~~~~~\\
+\hline
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline
+\end{tabular}\par}
+\vspace{0.3cm}
+
+(e) In the procedure above you should have found the pressure to be inversely
+proportional to the volume. How could you modify your plot to show
+the pressure is proportional to \( 1/V \)? Make such a plot and fit it.
+How close is your data to following a straight line? Attach the plot
+to this unit.
+\vspace{1.5in}
+
+(f) According to the ideal gas law \( PV = nRT = Nk_{B}T \). What
+should happen to the pressure of an ideal gas as the number of particles
+increases or decreases?
+We will explore this idea with the simulation next.
+\vspace{1.5in}
+
+(g) Start off with the gas parameters from the last `run' of the 
+simulation.
+Record the number of atoms, temperature, and pressure in the table below.
+Use the {\it ATOM} menu to change the number of atoms (or molecules) in the cube.
+Start
+the simulation. What happens to the pressure? Record the pressure
+and the number of molecules for four more values of the number of
+molecules and plot your results. Attach the plot to this unit. Are your results consistent with
+the ideal gas law and your prediction in part (f)?
+\vspace{1.5in}
+
+\vspace{0.3cm}
+{\centering \begin{tabular}{|c|c|c|}
+\hline 
+~~~~Number of Molecules~~~~&
+~~~~Average Pressure~~~~&
+~~~~~~Temperature~~~~~~~\\
+\hline
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline 
+& &
+\\
+\hline
+\end{tabular}\par}
+\vspace{0.3cm}
+
+\textbf{Kinetic Theory and the Definition of Temperature}
+
+The model of an ideal gas we have just derived requires that
+
+{\centering \( PV=\frac{2}{3}N\left\langle E_{kin}\right\rangle  \)\par}
+
+But we have determined experimentally the ideal gas law:
+
+{\centering \( PV = Nk_{B}T \)\par}
+
+What can we say about the average kinetic energy per molecule for
+an ideal gas? You can derive a relationship between temperature and
+the energy of molecules that serves as a microscopic (i.e. molecular)
+definition of temperature.
+
+\textbf{Activity 2: Microscopic Definition of Temperature}
+
+(a) From the two equations above, derive an expression relating \( \left\langle E_{kin}\right\rangle  \)
+and \( T \). Show the steps in your derivation.
+\vspace{1.5in}
+
+(b) In general, molecules can store energy by rotating or vibrating,
+but for an ideal gas of \emph{point} particles (monatomic gas), the only possible form of kinetic energy is the translational motion of the particles. If we can ignore potential energy due to gravity or electrical forces, then the internal
+energy \( E_{int} \) of a gas of \( N \) particles is \( E_{int}=N\left\langle E_{kin}\right\rangle  \).
+Use this and the formulas above to show that for an ideal gas of point particles, E\( _{int} \)
+\emph{depends only on N and T}. Derive the equation that relates \( E_{int} \),
+\( N \) and \( T \). Show the steps.
+\vspace{1.5in}
+
+The microscopic and the macroscopic definitions of temperature are
+equivalent. The microscopic definition of temperature which you just
+derived is fundamental to the understanding of all thermodynamics!
+
+\textbf{Activity 3: Calculating the Molar Specific Heat}
+
+In this section we will generate a series of equations that we will
+then bring together in order to predict the molar specific heat at
+constant volume.
+\vspace{1in}
+
+(a) Consider an ideal gas in a rigid container that has a fixed volume.
+How is the molar specific heat defined in terms of the heat added \( Q \)?
+\vspace{1in}
+
+(b) If the gas is heated by an amount \( Q \), then how much work is done
+against the fixed container? Recall the first law of thermodynamics
+and incorporate this result into your statement of the first law.
+\vspace{1in}
+
+(c) Now use the equations of parts (a) and (b) to relate the change
+in internal energy \( \Delta E_{int} \) to the molar specific heat.
+\vspace{1in}
+
+%(d) We now want to find another expression for the change in internal
+%energy \( \Delta E_{int} \) that is related to the average kinetic
+%energy of the particles in the gas. How do you think the internal
+%energy of an ideal, monatomic gas is related to \( \left\langle E_{kin}\right\rangle  \)
+%(notice you are calculating the internal energy \( E_{int} \) here,
+%not \( \Delta E_{int} \))?
+%\vspace{1in}
+
+(d) Write down an expression for  the change in internal
+energy of the ideal gas in terms of \( \left\langle E_{kin}\right\rangle  \).
+(Suggestion: see part (b) of Activity 2.)
+How is \( \left\langle E_{kin}\right\rangle  \) related to the temperature?
+Incorporate this relationship into your expression for the change
+in the internal energy. You should find that
+
+{\centering \( \Delta E_{int}=\frac{3}{2}Nk_{B}\Delta T \)\par}
+
+where \( k_{B} \) is Boltzmann's constant and N is the number of
+molecules in the gas.
+\vspace{1in}
+
+(e) Use the equations is parts (c) and (d) to relate the molar specific
+heat to the number of particles \( N \) and Boltzmann's constant \( k_{B} \).
+You should find that
+\vspace{1in}
+
+{\centering \( nC_{V}=\frac{3}{2}Nk_{B} \)\par}
+
+where \( n \) is the number of moles.
+\vspace{1.5in}
+
+(f) How is the number of molecules in the gas \( N \) related to the number
+of moles \( n \) and Avogadro's number \( N_{A} \)? Use this expression
+and the result of part (e) to show
+
+{\centering \( C_{V}=\frac{3}{2}N_{A}k_{B} \) or \( \frac{C_{V}}{N_{A}k_{B}}=\frac{3}{2} \)\par}
+\vspace{1.5in}
+
+Since \( N_{A}k_{B}=R \), this can be written as
+
+{\centering \( C_{V}=\frac{3}{2}R \) or \( \frac{C_{V}}{R}=\frac{3}{2} \)\par}
+\vspace{0.3in}
+
+\textbf{Activity 4: Comparing Calculations and Data}
+
+We now want to compare our calculation of the molar specific heat
+of an ideal, monatomic gas with the measured molar specific heats
+of some real gases. The table below lists some of those measurements.
+
+\vspace{0.3cm}
+{\centering \begin{tabular}{|c|c|c|c|}
+\hline 
+Molecule&
+\( \frac{C_{V}}{R} \)&
+Molecule&
+\( \frac{C_{V}}{R} \)\\
+\hline
+\hline 
+He&
+1.50&
+CO&
+2.52\\
+\hline 
+Ar&
+1.50&
+Cl\( _{2} \)&
+3.08\\
+\hline 
+Ne&
+1.51&
+H\( _{2} \)O&
+3.25\\
+\hline 
+Kr&
+1.49&
+SO\( _{2} \)&
+3.77\\
+\hline 
+H\( _{2} \)&
+2.48&
+CO\( _{2} \)&
+3.42\\
+\hline 
+N\( _{2} \)&
+2.51&
+CH\( _{4} \)&
+3.25\\
+\hline 
+O\( _{2} \)&
+2.53&
+&
+\\
+\hline
+\end{tabular}\par}
+\vspace{0.3cm}
+
+(a) Has our theoretical calculation been successful at all? Which
+gases appear to be consistent with our calculation? Which gases are
+not? How do these two groups of real gases differ?
+\vspace{1in}
+
+(b) Can you suggest an explanation for the partial success of the
+theory? Which one of the original assumptions that went into our kinetic
+theory might be wrong? (See Activity 2(b).)\vspace{2in}
+

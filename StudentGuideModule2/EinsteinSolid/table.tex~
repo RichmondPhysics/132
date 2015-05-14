@@ -1,0 +1,53 @@
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{verbose,letterpaper}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{babel}
+\setlength\parskip{\medskipamount}
+\setlength\parindent{0pt}
+\usepackage{graphicx}
+%\usepackage{amsmath}
+
+% define a strut for extra vertical space in tables.
+\newcommand{\hi}{\rule[-2mm]{0mm}{6mm}}
+
+\setlength\topmargin{0.25in}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newenvironment{LyXParagraphIndent}[1]%
+{
+  \begin{list}{}{%
+    \setlength\topsep{0pt}%
+    \addtolength{\leftmargin}{#1}
+    \setlength\parsep{0pt plus 1pt}%
+  }
+  \item[]
+}
+{\end{list}}
+%% Special footnote code from the package 'stblftnt.sty'
+%% Author: Robin Fairbairns -- Last revised Dec 13 1996
+\let\SF@@footnote\footnote
+\def\footnote{\ifx\protect\@typeset@protect
+    \expandafter\SF@@footnote
+  \else
+    \expandafter\SF@gobble@opt
+  \fi
+}
+\expandafter\def\csname SF@gobble@opt \endcsname{\@ifnextchar[%]
+  \SF@gobble@twobracket
+  \@gobble
+}
+\edef\SF@gobble@opt{\noexpand\protect
+  \expandafter\noexpand\csname SF@gobble@opt \endcsname}
+\def\SF@gobble@twobracket[#1]#2{}
+
+\makeatother
+\begin{document}
+
+
+\end{document}

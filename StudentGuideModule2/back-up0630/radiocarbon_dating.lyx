@@ -1,0 +1,964 @@
+#This file was created by <vineyard> Tue Jan  2 14:21:45 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+Radiocarbon Dating
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\layout Standard
+
+To develop an understanding of the use of the radioactive decay of atomic
+ nuclei to date objects and material.
+\layout Standard
+
+
+\series bold 
+Introduction
+\layout Standard
+
+Atoms can be broken down into light, negatively-charged, electrons, and
+ a small, dense, positively-charged nucleus.
+ These atomic nuclei can spontaneously break apart into smaller nuclei in
+ a process called radioactive decay.
+ By measuring the rate of this decay under the appropriate circumstances
+ one can develop a 
+\begin_inset Quotes eld
+\end_inset 
+
+clock
+\begin_inset Quotes erd
+\end_inset 
+
+ that can be used to determine how long ago in the past an event occurred.
+ In this laboratory we will apply this notion to a particular object, the
+ Shroud of Turin which is purported to be the burial cloth of Jesus Christ.
+\layout Standard
+
+
+\series bold 
+Activity 1: Nuclear Terminology 
+\layout Standard
+
+Atomic nuclei can be constructed from protons and neutrons.
+ The number of protons in a nucleus is called the atomic number and is represent
+ed by the letter Z while the number of neutrons is represented by the letter
+ N.
+ The protons carry a charge of +e while the neutrons are electrically neutral.
+ The sum of these two quantities is the mass number A.
+\layout Standard
+\align center 
+A = N + Z
+\layout Standard
+
+Protons and neutrons are often referred to as nucleons.
+\layout Standard
+
+Nuclei are represented using their chemical symbol (determined by the atomic
+ number) and the mass number.
+ For example, the most common form of carbon has six protons and six neutrons
+ in its nucleus and is written as 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C.
+ If another neutron is added to this nucleus, then one has an isotope of
+ carbon, 
+\begin_inset Formula \( ^{13} \)
+\end_inset 
+
+C.
+ Isotopes of an element have the same atomic number(Z), but have a different
+ numbers of neutrons (N) and a different mass number (A).
+ The difference is reflected in the value of the superscript on the chemical
+ symbol.
+\layout Standard
+
+(a) Consider the following list of the number of protons and neutrons that
+ combine to form an element.
+ In the third column enter the chemical symbol and mass number as shown
+ above (e.g., 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C).
+ Use the periodic chart of the elements to determine what to enter in the
+ third column.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+4 3 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+Number of Protons
+\newline 
+Number of Neutrons
+\newline 
+Nucleus
+\newline 
+7
+\newline 
+8
+\newline 
+
+\newline 
+79
+\newline 
+118
+\newline 
+
+\newline 
+26
+\newline 
+30
+\newline 
+
+\layout Standard
+
+(b) Consider the following list of atomic nuclei.
+ In the second and third columns enter the number of protons and neutrons
+ in each nucleus.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+4 3 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+Nucleus
+\newline 
+Number of Protons
+\newline 
+Number of Neutrons
+\newline 
+
+\begin_inset Formula \( ^{4} \)
+\end_inset 
+
+He
+\newline 
+
+\newline 
+
+\newline 
+
+\begin_inset Formula \( ^{235} \)
+\end_inset 
+
+U
+\newline 
+
+\newline 
+
+\newline 
+
+\begin_inset Formula \( ^{108} \)
+\end_inset 
+
+Ag
+\newline 
+
+\newline 
+
+\layout Standard
+
+Some isotopes of an element can spontaneously decay into other nuclei.
+ In many of these decays the number of nucleons is conserved.
+ This means that the number of protons and neutrons in the element before
+ the decay must be the same in the final products.
+\layout Standard
+
+(c) In the table below a nuclear decay is shown in the first column.
+ In each case the original nucleus (often referred to as the parent) produces
+ two smaller nuclei (called the daughters).
+ Only one of the daughter nuclei is listed.
+ In the adjacent column list the missing nucleus.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+4 2 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Decay
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Unknown
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\begin_inset Formula \( ^{190} \)
+\end_inset 
+
+Po 
+\begin_inset Formula \( \rightarrow  \)
+\end_inset 
+
+ 
+\begin_inset Formula \( ^{4} \)
+\end_inset 
+
+He + ?
+\newline 
+
+\newline 
+
+\begin_inset Formula \( ^{210} \)
+\end_inset 
+
+Th 
+\begin_inset Formula \( \rightarrow  \)
+\end_inset 
+
+ 
+\begin_inset Formula \( ^{4} \)
+\end_inset 
+
+He + ?
+\newline 
+
+\newline 
+
+\begin_inset Formula \( ^{16} \)
+\end_inset 
+
+Ne 
+\begin_inset Formula \( \rightarrow  \)
+\end_inset 
+
+ p + ?
+\newline 
+
+\layout Standard
+
+
+\series bold 
+Activity 2: Radioactive Decay 
+\layout Standard
+
+Observation of a sample of radioactive material reveals that the decay of
+ the atomic nuclei in the sample is determined by statistical processes.
+ In other words, the number of nuclei N
+\begin_inset Formula \( _{nuc} \)
+\end_inset 
+
+ that decay per unit time is proportional to the number of nuclei in the
+ sample.
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+\frac{dN_{nuc}}{dt}\propto N_{nuc}\]
+
+\end_inset 
+
+
+\layout Standard
+
+This expression can be turned into an equality by inserting a constant of
+ proportionality 
+\begin_inset Formula \( \lambda  \)
+\end_inset 
+
+ so
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+\frac{dN_{nuc}}{dt}=-\lambda N_{nuc}\]
+
+\end_inset 
+
+
+\layout Standard
+
+where the minus sign is needed because the number of nuclei N
+\begin_inset Formula \( _{nuc} \)
+\end_inset 
+
+ decreases with time.
+ The decay constant 
+\begin_inset Formula \( \lambda  \)
+\end_inset 
+
+ is a characteristic of each atomic nucleus.
+ 
+\layout Standard
+
+(a) It is claimed the solution of the differential equation above describing
+ nuclear decay is the following expression.
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+N_{nuc}(t)=N_{0}e^{-\lambda t}\]
+
+\end_inset 
+
+
+\layout Standard
+\added_space_bottom 40mm 
+Prove this statement by taking the derivative of N
+\begin_inset Formula \( _{nuc} \)
+\end_inset 
+
+(t) and showing it satisfies the original differential equation.
+ Make a sketch of the function and describe it in words.
+\layout Standard
+
+(b) The decay of atomic nuclei is often characterized by a quantity known
+ as the half-life 
+\begin_inset Formula \( \tau  \)
+\end_inset 
+
+.
+ The half-life is the period of time for one-half of the original sample
+ to disappear via radioactive decay.
+ This statement can be expressed mathematically in the following way.
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+N_{nuc}(t=\tau )=\frac{N_{0}}{2}\]
+
+\end_inset 
+
+
+\layout Standard
+
+Starting with the above expression show that the decay constant 
+\begin_inset Formula \( \lambda  \)
+\end_inset 
+
+ and the half-life are related by the following equation.
+\layout Standard
+
+
+\begin_inset Formula 
+\[
+\tau =\frac{\ln 2}{\lambda }\]
+
+\end_inset 
+
+
+\layout Standard
+\added_space_top 2in \added_space_bottom 2in 
+(c) Consider the following example.
+ A sample of the isotope of iodine 
+\begin_inset Formula \( ^{131} \)
+\end_inset 
+
+I has an initial decay rate of 1.8 x 10
+\begin_inset Formula \( ^{5} \)
+\end_inset 
+
+ decays/s.
+ This isotope has a half-life of 8.04 days.
+ It is shipped to a medical diagnostic laboratory where it will be used
+ as a radioactive tracer.
+ When the shipment arrives at the lab the decay rate has fallen to 1.4 x
+ 10
+\begin_inset Formula \( ^{5} \)
+\end_inset 
+
+ decays/s.
+ How long did it take for the shipment to reach the laboratory?
+\layout Standard
+
+
+\series bold 
+Activity 3: Dating the Shroud of Turin 
+\layout Standard
+
+The previous example shows how one can use the measured decay rate of an
+ atomic nucleus as a 
+\begin_inset Quotes eld
+\end_inset 
+
+clock
+\begin_inset Quotes erd
+\end_inset 
+
+ to determine the passage of time.
+ The same concept is used in radiocarbon dating.
+ Carbon on the planet Earth consists largely of three isotopes with A =
+ 12, 13, and 14.
+ The most common form is 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C and only a very small fraction of the carbon is 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C.
+ However, 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C decays via 
+\layout Standard
+\align center 
+
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C 
+\begin_inset Formula \( \rightarrow  \)
+\end_inset 
+
+ 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+N + 
+\begin_inset Formula \( \beta ^{-} \)
+\end_inset 
+
+ + 
+\begin_inset Formula \( \overline{\nu } \)
+\end_inset 
+
+
+\layout Standard
+
+where 
+\begin_inset Formula \( \beta ^{-} \)
+\end_inset 
+
+ is an electron and 
+\begin_inset Formula \( \overline{\nu } \)
+\end_inset 
+
+ is a particle known as a neutrino.
+ Notice this decay does NOT preserve the number of protons and neutrons
+ in the original nucleus.
+ The ratio R of 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C to 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C on the Earth is 1.30 x 10
+\begin_inset Formula \( ^{-12} \)
+\end_inset 
+
+ and is roughly constant despite the fact that the 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C constantly disappears.
+ The ratio is constant because the supply of 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C in the atmosphere is replenished by the reaction of cosmic rays from outer
+ space with the nitrogen in the upper atmosphere.
+\layout Standard
+
+Living organisms contain large quantities of carbon and are constantly exchangin
+g carbon with their surroundings.
+ They contain the same proportion of 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C to 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C as observed in the atmosphere.
+ However, this proportion begins to change after the organism dies.
+ The 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C remains in the dead body, but the 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C turns into gaseous 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+N (see decay above) and leaves the body.
+ Hence, the proportion of 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C decreases with time, and one has a 
+\begin_inset Quotes eld
+\end_inset 
+
+clock
+\begin_inset Quotes erd
+\end_inset 
+
+ that can be used to determine when an organism died.
+ 
+\layout Standard
+
+The Shroud of Turin is a piece of cloth that bears the image of a man who
+ appears to have been crucified.
+ It was first displayed in France in the fourteenth century and has been
+ kept at the Royal Chapel of Turin Cathedral in a special shrine since 1694.
+ Many believe the image on the Shroud is of Christ and the cloth is his
+ burial wrap.
+ In 1989, three laboratories in Arizona in the USA, Oxford in the UK, and
+ Zurich in Switzerland used advanced methods of radiocarbon dating in an
+ attempt to determine the age of the Shroud[1].
+ The Shroud is woven of cloth made from plants.
+ Like a living organism that has died, the 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C in the Shroud began to gradually disappear after the plants used to make
+ it were harvested.
+\layout Standard
+\added_space_bottom 25mm 
+(a) The half-life of 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C is 5730 years.
+ What is the decay constant 
+\begin_inset Formula \( \lambda  \)
+\end_inset 
+
+?
+\layout Standard
+
+(b) The three laboratories obtained the following results for the ratio
+ R of 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C to 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C.
+ The ratio of 
+\begin_inset Formula \( ^{14} \)
+\end_inset 
+
+C to 
+\begin_inset Formula \( ^{12} \)
+\end_inset 
+
+C in the atmosphere is R
+\begin_inset Formula \( _{i} \)
+\end_inset 
+
+ = 1.30 x 10
+\begin_inset Formula \( ^{-12} \)
+\end_inset 
+
+.
+ What is the implied age of the Shroud for each measurement? Use the space
+ below for your calculations and enter the results in the table.
+ 
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+4 3 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Laboratory
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+R
+\begin_inset Formula \( _{f} \)
+\end_inset 
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Age (years)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+Arizona
+\newline 
+1.20 x 10
+\begin_inset Formula \( ^{-12} \)
+\end_inset 
+
+
+\newline 
+
+\newline 
+Oxford
+\newline 
+1.18 x 10
+\begin_inset Formula \( ^{-12} \)
+\end_inset 
+
+
+\newline 
+
+\newline 
+Zurich
+\newline 
+1.19 x 10
+\begin_inset Formula \( ^{-12} \)
+\end_inset 
+
+
+\newline 
+
+\layout Standard
+\added_space_top 5in \added_space_bottom 1in 
+(c) What is the average age of the Shroud? 
+\layout Standard
+\added_space_bottom 1in 
+(d) The typical uncertainty in these measurements is a standard deviation
+ of 
+\begin_inset Formula \( \pm  \)
+\end_inset 
+
+40 years.
+ Are the results of the three laboratories consistent? 
+\layout Standard
+\added_space_top 15mm \added_space_bottom 1in 
+(e) Is the age of the Shroud consistent with it being the burial wrap of
+ Christ? 
+\layout Standard
+\added_space_bottom 1in 
+(f) Are there any reasons to doubt these results?
+\layout Standard
+
+
+\series bold 
+Homework
+\series default 
+ 
+\layout Enumerate
+
+The half-life of a particular radioactive isotope is 6.5 h.
+ If there are initially 48 x 10
+\begin_inset Formula \( ^{19} \)
+\end_inset 
+
+ atoms of this isotope, how many atoms of this isotope remain after 26 h?
+ 
+\layout Enumerate
+
+A radioactive isotope of mercury, 
+\begin_inset Formula \( ^{197} \)
+\end_inset 
+
+Hg, decays into gold, 
+\begin_inset Formula \( ^{197} \)
+\end_inset 
+
+Au, with a disintegration constant of 0.0108 h
+\begin_inset Formula \( ^{-1} \)
+\end_inset 
+
+.
+ (a) What is its half-life? (b) What fraction of the original amount will
+ remain after three half-lives? (c) What fraction will remain after 10.0
+ days?
+\layout Enumerate
+
+The radionuclide 
+\begin_inset Formula \( ^{64} \)
+\end_inset 
+
+Cu has a half-life of 12.7 h.
+ How much of an initially pure, 5.50-g sample of 
+\begin_inset Formula \( ^{64} \)
+\end_inset 
+
+Cu will decay during the 2.0-h period beginning 14.0 h later? 
+\layout Standard
+
+
+\series bold 
+References
+\layout Enumerate
+
+P.E.Damon, D.J.Donahue, B.H.Gore, A.L.Hathaway, A.J.T.Jull, T.W.Linick, P.J.Sercel, L.J.Toolin,
+ C.R.Bronk, E.T.Hall, R.E.M.Hedges, R.Housley, I.A.Law, C.Perry, G.Bonani, S.Trumbore,
+ W.Woelfli, J.C.Ambers, S.G.E.Bowman, M.N.Leese, and M.S.Tite, 
+\emph on 
+Nature
+\emph default 
+, Vol.
+ 
+\series bold 
+337
+\series default 
+, No.
+ 16, P.
+ 611-615.
+\the_end

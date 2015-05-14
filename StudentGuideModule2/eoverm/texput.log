@@ -1,0 +1,19 @@
+This is e-TeX, Version 3.141592-2.2 (MiKTeX 2.4) (preloaded format=latex 2006.6.28)  16 DEC 2008 16:04
+entering extended mode
+**\nonstopmode\input master.tex
+
+! Emergency stop.
+<*> \nonstopmode\input master.tex
+                                 
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 3 strings out of 95901
+ 20 string characters out of 1195329
+ 44793 words of memory out of 1048577
+ 3139 multiletter control sequences out of 60000
+ 3640 words of font info for 14 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 4999
+ 4i,0n,3p,1b,8s stack positions out of 5000i,500n,10000p,200000b,32768s
+No pages of output.

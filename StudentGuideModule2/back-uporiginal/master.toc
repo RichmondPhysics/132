@@ -1,0 +1,49 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Heat, Temperature, and Internal Energy}{4}
+\contentsline {section}{\numberline {2}Calorimetry}{6}
+\contentsline {section}{\numberline {3}Heat of Vaporization of Nitrogen}{9}
+\contentsline {section}{\numberline {4}Boyle's Law}{11}
+\contentsline {section}{\numberline {5}Charles' Law}{15}
+\contentsline {section}{\numberline {6}The P-T Relationship of a Gas}{18}
+\contentsline {section}{\numberline {7}Kinetic Theory of Ideal Gases\SF@gobble@opt {1990-93 Dept. of Physics and Astronomy, Dickinson College. Supported by FIPSE (U.S. Dept. of Ed.) and NSF. Portions of this material may have been modified locally and may not have been classroom tested at Dickinson College. }}{20}
+\contentsline {section}{\numberline {8}Applying the Kinetic Theory\SF@gobble@opt {1990-93 Dept. of Physics and Astronomy, Dickinson College. Supported by FIPSE (U.S. Dept. of Ed.) and NSF. Portions of this material may have been modified locally and may not have been classroom tested at Dickinson College. }}{26}
+\contentsline {section}{\numberline {9}The Interactions of Electric Charges\SF@gobble@opt {Adapted from A. Arons, \relax $\@@underline {\hbox {\setbox \tw@ \hbox {\color@setgroup A Guide to Introductory Physics Teaching\color@endgroup }\dp \tw@ \z@ \box \tw@ }}\mathsurround \z@ $\relax , Wiley \& Sons, 1990; and R. Chabay and B. Sherwood, \relax $\@@underline {\hbox {\setbox \tw@ \hbox {\color@setgroup Electric \& Magnetic Interactions\color@endgroup }\dp \tw@ \z@ \box \tw@ }}\mathsurround \z@ $\relax , Wiley \& Sons, 1995. }}{31}
+\contentsline {section}{\numberline {10}Electrostatics}{38}
+\contentsline {section}{\numberline {11}The Electrical and Gravitational Forces\SF@gobble@opt { 1990-93 Dept. of Physics and Astronomy, Dickinson College. Supported by FIPSE (U.S. Dept. of Ed.) and NSF. Portions of this material have been modified locally and may not have been classroom tested at Dickinson College. } }{42}
+\contentsline {section}{\numberline {12}Electric Fields and Equipotential Lines}{47}
+\contentsline {section}{\numberline {13}The Electric Potential\SF@gobble@opt {1990-93 Dept. of Physics and Astronomy, Dickinson College. Supported by FIPSE (U.S. Dept. of Ed.) and NSF. Portions of this material may have been modified locally and may not have been classroom tested at Dickinson College. }}{51}
+\contentsline {section}{\numberline {14}The Electric Field and the Electric Potential I}{58}
+\contentsline {section}{\numberline {15}The Electric Field and the Electric Potential II}{62}
+\contentsline {section}{\numberline {16}The Electric Field and the Electric Potential III}{65}
+\contentsline {section}{\numberline {17}The Electric Field and the Electric Potential IV}{69}
+\contentsline {section}{\numberline {18}The Electric Field of the Atomic Nucleus}{72}
+\contentsline {section}{\numberline {19}The Charge Distribution of the H\( _{2}\)O Molecule}{75}
+\contentsline {section}{\numberline {20}Ohm's Law}{79}
+\contentsline {section}{\numberline {21}Kirchhoff's Rules}{84}
+\contentsline {section}{\numberline {22}Magnetism I}{87}
+\contentsline {section}{\numberline {23}Magnetism II}{90}
+\contentsline {section}{\numberline {24}Magnetism III}{93}
+\contentsline {section}{\numberline {25}Magnetic Field of the Earth}{96}
+\contentsline {section}{\numberline {26}Nuclear Decay and Radiocarbon Dating}{99}
+\contentsline {section}{\numberline {27}Electromagnetic Induction I}{108}
+\contentsline {section}{\numberline {28}Electromagnetic Induction II}{110}
+\contentsline {section}{\numberline {29}The Generator}{113}
+\contentsline {section}{\numberline {30}The LR Circuit}{117}
+\contentsline {section}{\numberline {31}The LRC Circuit}{122}
+\contentsline {section}{\numberline {32}Refraction of Light}{127}
+\contentsline {section}{\numberline {33}Refraction at Spherical Surfaces: Thin Lenses}{130}
+\contentsline {section}{\numberline {34}The Diffraction Grating}{133}
+\contentsline {section}{\numberline {35}The Interference of Light}{134}
+\contentsline {section}{\numberline {36}Diffraction of Light}{138}
+\contentsline {section}{\numberline {37}Galilean Relativity}{144}
+\contentsline {section}{\numberline {38}The Twins Paradox}{148}
+\contentsline {section}{\numberline {39}The Optical Spectrum of Hydrogen}{151}
+\contentsline {section}{\numberline {A}Treatment of Experimental Data}{153}
+\contentsline {section}{\numberline {B}Introduction to DataStudio}{155}
+\contentsline {section}{\numberline {C}Video Analysis}{157}
+\contentsline {section}{\numberline {D}Instrumentation}{159}
+\contentsline {section}{\numberline {E}Introduction to Excel}{162}
+\contentsline {subsection}{\numberline {E.1}Data and formulae}{162}
+\contentsline {subsection}{\numberline {E.2}Graphs}{163}
+\contentsline {subsection}{\numberline {E.3}Fitting lines and curves}{163}
+\contentsline {section}{\numberline {F}Nuclear Safety}{164}

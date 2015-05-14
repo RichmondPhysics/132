@@ -1,0 +1,136 @@
+\section{Diffraction 2}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\textbf{Objective}
+
+\begin{itemize}
+\item To investigate the diffraction of light from a single slit and to see how 
+this diffraction combines with interference from multiple slits.
+\end{itemize}
+
+\textbf{Apparatus}
+
+\begin{itemize}
+\item Basic optics diode laser
+\item Optical bench with rotary motion sensor
+\item Phototransistor for measuring light intensity (mounted on rotary motion 
+sensor
+\item ``Single Slit Set'' slit accessory
+\item ``Multople Slit Set'' slit accessory
+\item {\it DataStudio} 750 Interface
+\end{itemize}
+
+\textbf{Introduction}
+
+The set-up for this experiment is the same as for the Interference of Light 
+experiment. Mount the laser on the optical bench on the opposite end from the 
+rotary motion sensor. 
+
+\textbf{Activity 1 - Single Slit Diffraction}
+
+(a) On the ``Single Slit Set'' slit accessory, select a slit of width .08 mm. 
+Rotate the wheel so that this single slit is at the center of the opening. 
+Position the single slit about 70 cm from the phototransistor mount. Measure 
+the distance from the slit to the phototransistor carefully, realizing that 
+the phototransistor lies 25.4 mm behind the opening in the mount. This is the 
+distance $L$ below. Record the distance here.
+\vspace{10mm}
+
+(b) Turn on the laser and adjust the beam direction so that it falls on the 
+single slit you have selected. (There are two adjustment screws on the back 
+of the laser.) You should see the diffraction pattern on the phototransistor 
+mount.
+
+(c) Position the phototransistor mount so the diffraction pattern is at the 
+same height as the opening in the center of the phototransistor mount. The 
+phototransistor is mounted behind this hole. Slide the phototransistor mount 
+back and forth to make sure that it stays centered on the diffraction pattern. 
+Then set it at one side of the pattern to begin the experiment. Start the 
+``Interference'' activity in the \textbf{132 Workshop} folder. When you are 
+ready, click \textbf{Start} and move the phototransistor from one slide of the 
+slide to the other as you did in the Interference of Light experiment, taking 
+4-5 seconds to complete the motion. Click \textbf{Stop}. The diffraction 
+pattern will appear on the computer screen. In theory, the pattern should look 
+like Fig. 3 of the Diffraction of Light experiment (also see p. 921 of your 
+textbook). Add the title ``Single Slit Diffraction Pattern'' and the axis 
+labels ``Relative Intensity'' (vertical) and ``Position (m)'' (horizontal). 
+Print the graph and attach it to this unit.
+
+(d) Use the \textbf{Smart Tool} to measure the positions of the first minima 
+on either side of the central maximum and record them here. Estimate an 
+uncertainty in each measurement.
+\vspace{15mm}
+
+\newpage
+
+(e) Determine the difference between these two measurements (with uncertainty).
+\vspace{15mm}
+
+(f) The width of the central maximum is given by (see text p. 922)
+
+\[\Delta y = \frac{2 \lambda L}{a}\]
+
+where \( \lambda \) in the wavelength of the laser beam, $L$ is the distance 
+from the slit to the phototransistor, and $a$ is the slit width. Using your 
+data from above, calculate the wavelength of the laser beam and its uncertainty.
+\vspace{30mm}
+
+\textbf{Activity 2 - Double Slit Interference/Diffraction Pattern}
+
+(a) Replace the ``Single Slit Set'' accessory with the ``Multiple Slit Set'' 
+accessory that you used in the Interference of Light experiment.  Select a 
+double slit of width .04 mm and separation .125 mm. Position the double slit 
+about 70 cm from the phototransistor, measure the distance carefully, and run 
+the scan as you did in the Interference experiment. The result should look like 
+Fig. 4 of the Diffraction of Light experiment. This is the same pattern you did 
+in Activity 2 of the Interference experiment. Include an appropriate title and 
+axis labels and print the graph. Use the \textbf{Smart Tool} to read the 
+positions of the maxima in the left column of the table below, with the 
+central peak half way down the column.
+
+\vspace{0.3cm}
+{\centering \begin{tabular}{|c|c|}
+\hline
+Position Reading (m)&
+Change in Reading (m)\\
+\hline
+\hline
+&
+\\
+\hline
+&
+\\
+\hline
+&
+\\
+\hline
+&
+\\
+\hline
+&
+\\
+\hline
+&
+\\
+\hline
+&
+\\
+\hline
+\end{tabular}\par}
+\vspace{0.3cm}
+
+(b) Calculate the difference between each pair of adjacent readings and record 
+it in the right column of the above table. Calculate the average and standard 
+deviation of the separation between adjacent peaks and record them here.
+\vspace{20mm}
+
+(c) Calculate the wavelength of the laser beam as you did in the Interference 
+experiment. Determine an uncertainty and express both in nanometers.
+
+
+
+
+
+

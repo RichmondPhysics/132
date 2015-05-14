@@ -1,0 +1,353 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     13993,        344]
+NotebookOptionsPosition[     13477,        322]
+NotebookOutlinePosition[     13890,        338]
+CellTagsIndexPosition[     13847,        335]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Hydrogen Atom Probability Density", "Title",
+ Evaluatable->False,
+ CellChangeTimes->{{3.5634662799668837`*^9, 3.563466280341642*^9}, {
+  3.563534479156671*^9, 3.563534486573901*^9}},
+ AspectRatioFixed->True],
+
+Cell[TextData[{
+ "To use this ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " notebook you have to execute the commands in the cell below. The cell is \
+defined by the closest square bracket on the right. Click anywhere in the \
+cell and then hit the ",
+ StyleBox["Enter",
+  FontFamily->"Monospace",
+  FontWeight->"Bold"],
+ " key (NOT the ",
+ StyleBox["Return",
+  FontFamily->"Monospace",
+  FontWeight->"Bold"],
+ " key). If you don\[CloseCurlyQuote]t see an ",
+ StyleBox["Enter",
+  FontFamily->"Monospace",
+  FontWeight->"Bold"],
+ " key on your keyboard (laptops often leave this out), then try ",
+ StyleBox["shift-Return",
+  FontFamily->"Monospace",
+  FontWeight->"Bold"],
+ ". Once you have done that you can change the values used to calculate the \
+probability density by clicking on the buttons on the interface. It may take \
+a few seconds to update the display so be patient."
+}], "Text",
+ CellChangeTimes->{{3.602500512258111*^9, 3.602500629661737*^9}, {
+  3.602500705949539*^9, 3.6025007209577303`*^9}, {3.6025007626536427`*^9, 
+  3.602500805277964*^9}, {3.602500927485798*^9, 3.6025009418539753`*^9}, {
+  3.6025011070897627`*^9, 3.60250112721489*^9}, {3.6025015666491337`*^9, 
+  3.6025015958559513`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Define", " ", "the", " ", "pieces", " ", "of", " ", "the", " ", 
+    "hydrogen", " ", "wave", " ", 
+    RowBox[{"functions", "."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"Rnl", "[", 
+      RowBox[{"n_", ",", "l_", ",", "r_"}], "]"}], ":=", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"r", "^", "l"}], ")"}], "*", 
+      RowBox[{"Exp", "[", 
+       RowBox[{
+        RowBox[{"-", "r"}], "/", "2"}], "]"}], "*", 
+      RowBox[{"LaguerreL", "[", 
+       RowBox[{
+        RowBox[{"n", "-", "l", "-", "1"}], ",", 
+        RowBox[{
+         RowBox[{"2", "*", "l"}], "+", "1"}], ",", "r"}], "]"}]}]}], ";", 
+    RowBox[{
+     RowBox[{"Ylm", "[", 
+      RowBox[{"l_", ",", "m_", ",", "theta_", ",", "phi_"}], "]"}], ":=", 
+     RowBox[{"SphericalHarmonicY", "[", 
+      RowBox[{"l", ",", "m", ",", "theta", ",", "phi"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Now", " ", "do", " ", "the", " ", "interface", " ", "with", " ", "the", 
+     " ", "actual", " ", 
+     RowBox[{"calculation", "."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"Manipulate", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"l", "\[GreaterEqual]", "n"}], ",", 
+        RowBox[{"l", "=", 
+         RowBox[{"n", "-", "1"}]}]}], "]"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"m", ">", "l"}], ",", 
+        RowBox[{"m", "=", "l"}]}], "]"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"DensityPlot", "[", 
+       RowBox[{
+        RowBox[{"Module", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"r", "=", 
+            RowBox[{"Norm", "[", 
+             RowBox[{"{", 
+              RowBox[{"x", ",", "0", ",", "z"}], "}"}], "]"}]}], "}"}], ",", 
+          "\[IndentingNewLine]", 
+          RowBox[{"(*", " ", 
+           RowBox[{"factor", " ", "0", "f", " ", "4", 
+            SuperscriptBox["\[Pi]r", "2"], " ", "in", " ", "included", " ", 
+            "to", " ", "make", " ", "scaling", " ", "the", " ", "plots", " ", 
+            
+            RowBox[{"easier", "."}]}], " ", "*)"}], 
+          RowBox[{"4", " ", "\[Pi]", " ", 
+           RowBox[{"r", "^", "2"}], " ", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"Rnl", "[", 
+              RowBox[{"n", ",", "l", ",", "r"}], "]"}], ")"}], "^", "2"}], 
+           " ", 
+           RowBox[{"Re", "[", 
+            RowBox[{
+             RowBox[{"Ylm", "[", 
+              RowBox[{"l", ",", "m", ",", 
+               RowBox[{"ArcCos", "[", 
+                RowBox[{"z", "/", "r"}], "]"}], ",", 
+               RowBox[{"ArcTan", "[", 
+                RowBox[{"x", ",", "0"}], "]"}]}], "]"}], "*", 
+             RowBox[{"Conjugate", "[", 
+              RowBox[{"Ylm", "[", 
+               RowBox[{"l", ",", "m", ",", 
+                RowBox[{"ArcCos", "[", 
+                 RowBox[{"z", "/", "r"}], "]"}], ",", 
+                RowBox[{"ArcTan", "[", 
+                 RowBox[{"x", ",", "0"}], "]"}]}], "]"}], "]"}]}], "]"}]}]}], 
+         "\[IndentingNewLine]", " ", "]"}], 
+        RowBox[{"(*", " ", 
+         RowBox[{"end", " ", "of", " ", "Module"}], " ", "*)"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", 
+          RowBox[{"-", "side"}], ",", "side"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"z", ",", 
+          RowBox[{"-", "side"}], ",", "side"}], "}"}], ",", 
+        RowBox[{"Mesh", "\[Rule]", "False"}], ",", 
+        RowBox[{"Frame", "\[Rule]", "False"}], ",", 
+        RowBox[{"PlotPoints", "\[Rule]", 
+         RowBox[{"Round", "[", "resolution", "]"}]}], ",", 
+        RowBox[{"ColorFunctionScaling", "\[Rule]", "True"}], ",", 
+        RowBox[{"ColorFunction", "\[Rule]", "\"\<SunsetColors\>\""}], ",", 
+        RowBox[{"PlotRange", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", 
+           RowBox[{"10", "^", "scale"}]}], "}"}]}]}], "]"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"n", ",", "8", ",", "\"\<principal quantum number\>\""}], 
+        "}"}], ",", "1", ",", "8", ",", "1", ",", 
+       RowBox[{"ControlType", "\[Rule]", "Setter"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"l", ",", "3", ",", "\"\<angular momentum\>\""}], "}"}], ",", 
+       
+       RowBox[{"Range", "[", 
+        RowBox[{"0", ",", 
+         RowBox[{"n", "-", "1"}]}], "]"}], ",", 
+       RowBox[{"ControlType", "\[Rule]", "SetterBar"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"m", ",", "1", ",", "\"\<magnetic quantum number\>\""}], 
+        "}"}], ",", 
+       RowBox[{"Range", "[", 
+        RowBox[{"0", ",", "l"}], "]"}], ",", 
+       RowBox[{"ControlType", "\[Rule]", "SetterBar"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"side", ",", "40", ",", "\"\<Length of a side\>\""}], "}"}], 
+       ",", "1", ",", "200", ",", 
+       RowBox[{"ControlType", "\[Rule]", 
+        RowBox[{"Slider", "[", 
+         RowBox[{"Dynamic", "[", "side", "]"}], "]"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"scale", ",", "16", ",", "\"\<Vertical Scale\>\""}], "}"}], 
+       ",", "1", ",", "30", ",", 
+       RowBox[{"ControlType", "\[Rule]", 
+        RowBox[{"Slider", "[", 
+         RowBox[{"Dynamic", "[", "scale", "]"}], "]"}]}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"resolution", ",", "40", ",", "\"\<Resolution\>\""}], "}"}], 
+       ",", "30", ",", "100", ",", 
+       RowBox[{"ControlType", "\[Rule]", 
+        RowBox[{"Slider", "[", 
+         RowBox[{"Dynamic", "[", "scale", "]"}], "]"}]}]}], "}"}]}], 
+    "\[IndentingNewLine]", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.563464095580614*^9, 3.5634640955848846`*^9}, {
+   3.5634641580396557`*^9, 3.563464158461391*^9}, {3.563469017461768*^9, 
+   3.563469017671096*^9}, {3.5634690597446527`*^9, 3.56346908808565*^9}, {
+   3.563469324810752*^9, 3.5634693259068403`*^9}, {3.563469364694085*^9, 
+   3.563469381170945*^9}, {3.56346941467188*^9, 3.5634694185309343`*^9}, {
+   3.5634695314278307`*^9, 3.563469541384169*^9}, {3.563469813124949*^9, 
+   3.563469860310522*^9}, 3.563745622390526*^9, {3.5637457655973997`*^9, 
+   3.563745783485305*^9}, {3.5637488188223658`*^9, 3.5637488827256002`*^9}, {
+   3.563749278338357*^9, 3.563749322989469*^9}, {3.563749353136346*^9, 
+   3.563749359498769*^9}, {3.563749639136737*^9, 3.563749639505324*^9}, {
+   3.6025003832185698`*^9, 3.602500415899791*^9}, 3.602500456802813*^9, {
+   3.60250116711784*^9, 3.602501182173962*^9}, {3.602501731527356*^9, 
+   3.602501755087058*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`l$$ = 3, $CellContext`m$$ = 
+    1, $CellContext`n$$ = 8, $CellContext`resolution$$ = 
+    40, $CellContext`scale$$ = 16, $CellContext`side$$ = 40, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`n$$], 8, "principal quantum number"}, 1, 8, 1}, {{
+       Hold[$CellContext`l$$], 3, "angular momentum"}, 
+      Dynamic[
+       Range[0, $CellContext`n$$ - 1]]}, {{
+       Hold[$CellContext`m$$], 1, "magnetic quantum number"}, 
+      Dynamic[
+       Range[0, $CellContext`l$$]]}, {{
+       Hold[$CellContext`side$$], 40, "Length of a side"}, 1, 200}, {{
+       Hold[$CellContext`scale$$], 16, "Vertical Scale"}, 1, 30}, {{
+       Hold[$CellContext`resolution$$], 40, "Resolution"}, 30, 100}}, 
+    Typeset`size$$ = {360., {177., 183.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`n$8856$$ =
+     0, $CellContext`side$8857$$ = 0, $CellContext`scale$8858$$ = 
+    0, $CellContext`resolution$8859$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`l$$ = 3, $CellContext`m$$ = 
+        1, $CellContext`n$$ = 8, $CellContext`resolution$$ = 
+        40, $CellContext`scale$$ = 16, $CellContext`side$$ = 40}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`n$$, $CellContext`n$8856$$, 0], 
+        Hold[$CellContext`side$$, $CellContext`side$8857$$, 0], 
+        Hold[$CellContext`scale$$, $CellContext`scale$8858$$, 0], 
+        Hold[$CellContext`resolution$$, $CellContext`resolution$8859$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> (
+       If[$CellContext`l$$ >= $CellContext`n$$, $CellContext`l$$ = \
+$CellContext`n$$ - 1]; 
+       If[$CellContext`m$$ > $CellContext`l$$, $CellContext`m$$ = \
+$CellContext`l$$]; DensityPlot[
+         Module[{$CellContext`r$ = Norm[{$CellContext`x, 0, $CellContext`z}]},
+           4 Pi $CellContext`r$^2 $CellContext`Rnl[$CellContext`n$$, \
+$CellContext`l$$, $CellContext`r$]^2 
+          Re[$CellContext`Ylm[$CellContext`l$$, $CellContext`m$$, 
+              ArcCos[$CellContext`z/$CellContext`r$], 
+              ArcTan[$CellContext`x, 0]] Conjugate[
+              $CellContext`Ylm[$CellContext`l$$, $CellContext`m$$, 
+               ArcCos[$CellContext`z/$CellContext`r$], 
+               
+               ArcTan[$CellContext`x, 
+                0]]]]], {$CellContext`x, -$CellContext`side$$, \
+$CellContext`side$$}, {$CellContext`z, -$CellContext`side$$, \
+$CellContext`side$$}, Mesh -> False, Frame -> False, PlotPoints -> 
+         Round[$CellContext`resolution$$], ColorFunctionScaling -> True, 
+         ColorFunction -> "SunsetColors", 
+         PlotRange -> {0, 10^$CellContext`scale$$}]), 
+      "Specifications" :> {{{$CellContext`n$$, 8, "principal quantum number"},
+          1, 8, 1, ControlType -> 
+         Setter}, {{$CellContext`l$$, 3, "angular momentum"}, 
+         Dynamic[
+          Range[0, $CellContext`n$$ - 1]], ControlType -> 
+         SetterBar}, {{$CellContext`m$$, 1, "magnetic quantum number"}, 
+         Dynamic[
+          Range[0, $CellContext`l$$]], ControlType -> 
+         SetterBar}, {{$CellContext`side$$, 40, "Length of a side"}, 1, 200, 
+         ControlType -> Dynamic[
+           Slider[
+            Dynamic[$CellContext`side$$]]]}, {{$CellContext`scale$$, 16, 
+          "Vertical Scale"}, 1, 30, ControlType -> Dynamic[
+           Slider[
+            Dynamic[$CellContext`scale$$]]]}, {{$CellContext`resolution$$, 40,
+           "Resolution"}, 30, 100, ControlType -> Dynamic[
+           Slider[
+            Dynamic[$CellContext`scale$$]]]}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{407., {289., 295.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.602501689000443*^9, 3.602501804635624*^9, 
+  3.6026984474357347`*^9, 3.637770983798747*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1086, 842},
+WindowMargins->{{69, Automatic}, {Automatic, 16}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 213, 4, 96, "Title",
+ Evaluatable->False],
+Cell[795, 28, 1220, 30, 99, "Text"],
+Cell[CellGroupData[{
+Cell[2040, 62, 6846, 165, 461, "Input"],
+Cell[8889, 229, 4560, 89, 601, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

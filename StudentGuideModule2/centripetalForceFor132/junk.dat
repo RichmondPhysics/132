@@ -1,0 +1,233 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+(./iqsCentripetalForce.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+! Undefined control sequence.
+l.2 \section
+            {Centripetal Force\footnote{
+? ! Interruption.
+<to be read again> 
+                   {
+l.2 \section{
+             Centripetal Force\footnote{
+? 
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \section{C
+              entripetal Force\footnote{
+? ! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.6 }
+     }
+? ! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.6 }
+     }
+? 
+Overfull \hbox (23.33339pt too wide) in paragraph at lines 6--6
+[][]\OT1/cmr/m/n/10 1990-
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 93
+
+Overfull \hbox (24.3056pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Dept.
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 of
+
+Overfull \hbox (32.47227pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Physics
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 and
+
+Overfull \hbox (14.77779pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 As-
+
+Overfull \hbox (21.69449pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 tron-
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 omy,
+
+Overfull \hbox (23.19447pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Dick-
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 in-
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 son
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Col-
+
+Overfull \hbox (19.44447pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 lege.
+
+Overfull \hbox (20.00005pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Sup-
+
+Overfull \hbox (28.63896pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 ported
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 by
+
+Overfull \hbox (29.30563pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 FIPSE
+
+Overfull \hbox (22.50006pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 (U.S.
+
+Overfull \hbox (24.3056pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Dept.
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 of
+
+Overfull \hbox (19.02783pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Ed.)
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 and
+
+Overfull \hbox (22.36118pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 NSF.
+
+Overfull \hbox (18.7778pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Por-
+
+Overfull \hbox (21.16672pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 tions
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 of
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 this
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 ma-
+
+Overfull \hbox (11.66667pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 te-
+
+Overfull \hbox (14.47226pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 rial
+
+Overfull \hbox (19.72226pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 have
+
+Overfull \hbox (20.27782pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 been
+
+Overfull \hbox (22.50006pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 mod-
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 i-
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 fied
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 lo-
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 cally
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 and
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 may
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 not
+
+Overfull \hbox (19.72226pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 have
+
+Overfull \hbox (20.27782pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 been
+
+Overfull \hbox (23.44446pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 class-
+
+Overfull \hbox (22.52785pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 room
+
+Overfull \hbox (26.1667pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 tested
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 at
+
+Overfull \hbox (23.19447pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Dick-
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 in-
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 son
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 Col-
+
+Overfull \hbox (19.44447pt too wide) in paragraph at lines 6--6
+\OT1/cmr/m/n/10 lege.| 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--7
+[]
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 2--7
+[] 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 N
+     ame \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date ...
+
+? 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+[]
+
+Overfull \hbox (144.54pt too wide) in paragraph at lines 8--9
+[]
+
+Overfull \hbox (72.26999pt too wide) in paragraph at lines 8--9
+[]
+
+Overfull \hbox (72.26999pt too wide) in paragraph at lines 8--9
+[] 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \textbf{Objective}
+                       
+? 

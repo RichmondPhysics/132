@@ -1,0 +1,189 @@
+#This file was created by <vineyard> Tue Jan  2 10:42:00 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+Magnetism I
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objectives
+\layout Itemize
+
+To investigate the characteristics of magnets.
+\layout Itemize
+
+To understand how a compass works.
+\layout Standard
+
+
+\series bold 
+Introduction
+\series default 
+ 
+\layout Standard
+
+The electric interaction, you probably know, is not the only one in which
+ opposites attract and likes repel.
+ Magnetic interactions have similar characteristics.
+ All simple magnets, regardless of size, are bipolar: there are two magnetic
+ poles.
+ Consider this question, then: Can we talk about like and unlike as we do
+ for electricity?
+\layout Standard
+
+
+\series bold 
+Apparatus
+\layout Itemize
+
+2 bar magnets 
+\layout Itemize
+
+2 cylindrical magnets 
+\layout Itemize
+
+wooden stand
+\layout Itemize
+
+wool cloth
+\layout Itemize
+
+rubber rod
+\layout Standard
+
+
+\series bold 
+Activity 1: The Characteristics of Magnets
+\layout Enumerate
+\added_space_bottom 15mm 
+Feel the attraction between two magnets when pulled apart after having come
+ together without effort on your part.
+ Describe qualitatively in terms of strength and separation.
+\layout Enumerate
+\added_space_bottom 15mm 
+Feel the repulsion when one of them is turned around and pushed toward the
+ other.
+ Describe as in step 1.
+\layout Enumerate
+\added_space_bottom 15mm 
+Note and describe the difference in (strength and direction of) interactions
+ between the ends and the middle.
+\layout Standard
+
+
+\series bold 
+Activity 2: How a Compass Works
+\layout Enumerate
+
+Identify geographic north and south.
+\layout Enumerate
+
+Hang one of the cylindrical magnets horizontally from the yoke.
+\layout Enumerate
+\added_space_bottom 15mm 
+When it comes to rest, along which geographical line does the magnet lie?
+ 
+\layout Enumerate
+\added_space_bottom 15mm 
+Which end (colored or uncolored) is the "north-seeking" end?
+\layout Enumerate
+\added_space_bottom 15mm 
+Remove the cylindrical magnet from the yoke and repeat step 2 with the second
+ cylindrical magnet.
+ Answer, again, the questions above.
+\layout Enumerate
+\added_space_bottom 15mm 
+What happens when you bring the "north-seeking" end of the first magnet
+ near the hanging one's north-seeking end?
+\layout Enumerate
+\added_space_bottom 15mm 
+What happens when you bring the first magnet's opposite end near the second's
+ north-seeking end?
+\layout Enumerate
+\added_space_bottom 15mm 
+What about the first magnet's north-seeking end near the opposite end of
+ the hanging one?
+\layout Enumerate
+\added_space_bottom 15mm 
+What happens when you bring the opposite ends near one another?
+\layout Enumerate
+\added_space_bottom 15mm 
+Define in your own words like and unlike poles?
+\layout Enumerate
+\added_space_bottom 15mm 
+What always happens between like poles?
+\layout Enumerate
+\added_space_bottom 15mm 
+What always happens between unlike poles?
+\layout Enumerate
+
+Determine with a labelled bar magnet which end of your hanging magnet should
+ be identified as the north pole and which the south.
+\layout Enumerate
+\added_space_top 10mm \added_space_bottom 15mm 
+Why do we identify one end of a magnet as the north pole and the other as
+ the south?
+\layout Enumerate
+\added_space_bottom 15mm 
+In your own words, explain a compass?
+\layout Enumerate
+\added_space_bottom 15mm 
+In terms of magnetism, what is the earth?
+\layout Enumerate
+\added_space_bottom 15mm 
+Charge a rubber rod with the wool cloth and bring it near the ends of the
+ suspended magnet; describe its effect on the magnet.
+\layout Enumerate
+\added_space_bottom 15mm 
+Does a south magnetic pole repel a negative electric charge?
+\layout Enumerate
+\added_space_bottom 15mm 
+Does a north magnetic pole attract a negative electric charge?
+\the_end

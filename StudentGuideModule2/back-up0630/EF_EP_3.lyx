@@ -1,0 +1,359 @@
+#This file was created by <vineyard> Tue Jan  2 10:12:59 2001
+#LyX 1.0 (C) 1995-1999 Matthias Ettrich and the LyX Team
+\lyxformat 2.15
+\textclass article
+\language default
+\inputencoding default
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 1
+\use_amsmath 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+
+\layout Section
+
+The Electric Field and the Electric Potential III
+\layout Standard
+
+Name 
+\latex latex 
+
+\backslash 
+rule{2.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Section 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\latex default 
+
+\hfill 
+Date 
+\latex latex 
+
+\backslash 
+rule{1.0in}{0.1pt}
+\layout Standard
+
+
+\series bold 
+Objective
+\layout Itemize
+
+To investigate the relationship between the electric potential and the electric
+ field.
+\layout Standard
+
+
+\series bold 
+Investigation 3: An Electric Dipole
+\layout Standard
+
+
+\series bold 
+Activity
+\layout Itemize
+
+Clear the table top and build an electric dipole by placing two magnitude
+ 
+\begin_inset Quotes eld
+\end_inset 
+
+4
+\begin_inset Quotes erd
+\end_inset 
+
+ charges of opposite sign a distance 2 cm apart near the left of the table
+ top.
+\layout Itemize
+
+Repeat all the instructions from Investigation 2, The Electric Field and
+ the Electric Potential II, including all questions and predictions from
+ both activities.
+ Measure the field strength along a line perpendicular to the midpoint of
+ the line joining the positions of the two charges.
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+10 2 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Distance (m)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Measured E (N/C)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\layout Standard
+\added_space_top 0.3cm \added_space_bottom 0.3cm \align center \LyXTable
+multicol5
+10 2 0 0 -1 -1 -1 -1
+1 1 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 0 0 0
+1 1 0 0
+8 1 0 "" ""
+8 1 1 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+0 8 1 0 0 0 0 "" ""
+
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Distance (m)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+Measured 
+\begin_inset Formula \( \Delta  \)
+\end_inset 
+
+V (volts)
+\protected_separator 
+
+\protected_separator 
+
+\protected_separator 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\newline 
+
+\layout Itemize
+\added_space_bottom 15mm 
+How do your results compare with the power law constants you found in Investigat
+ions 1 and 2? Explain.
+\layout Itemize
+
+Under the 
+\series bold 
+Plot
+\series default 
+ menu, drag down to 
+\series bold 
+Equipotentials
+\series default 
+.
+ When you roll the cursor onto the table top, a box to the left will give
+ the reading of the electric potential.
+ Click the mouse and a dotted line will be drawn representing the equipotential
+ line.
+ [If the curve does not close (i.e., the last point drawn doesn't match up
+ with the starting point), consult the instructor.] Map out the equipotential
+ lines by moving the cursor across the table top away from each charge and
+ clicking the mouse at regular intervals.
+\layout Itemize
+\added_space_bottom 15mm 
+What do these curves represent?
+\layout Itemize
+\added_space_bottom 15mm 
+Where is the potential attractive and where is it repulsive for a positive
+ charge?
+\layout Itemize
+
+Click 
+\series bold 
+Done
+\series default 
+ under the 
+\series bold 
+Potential
+\series default 
+ reading.
+\layout Itemize
+\added_space_bottom 30mm 
+Under the 
+\series bold 
+Plot
+\series default 
+ menu, click on 
+\series bold 
+Field Lines--Auto
+\series default 
+.
+ The field lines of the charge distribution will be drawn.
+ [If 
+\shape italic 
+FastPlots
+\shape default 
+ takes a long time to draw one of the field lines, consult your instructor.]
+ Make a sketch of the resulting picture indicating both field and equipotential
+ lines.
+\layout Itemize
+\added_space_bottom 15mm 
+How are the field lines and the equipotential lines related to one another
+ at the point where they cross?
+\the_end
