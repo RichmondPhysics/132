@@ -1,0 +1,54 @@
+
+\section{Heat of Vaporization of Nitrogen}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\textbf{Objective}
+
+To measure the heat of vaporization of nitrogen.
+
+\textbf{Apparatus}
+
+\begin{itemize}
+\item Force probe
+\item Lab stand
+\item Styrofoam cup
+\item Liquid nitrogen
+\item Power resistor
+\item Power supply
+\item Digital multimeter
+  % 5/18/2015: Added the DMM back in.  Although the DMM is not strictly necessary (since our power supplies have current and voltage measurement on them) students should have a DMM in case they want to measure resistance or trouble-shoot something.
+  
+%\item Digital voltmeter
+%\item Ammeter (0-3 A)
+\item Wires
+\item \textit{DataStudio} Software (NitrogenVap)
+\end{itemize}
+\vspace{0.3cm}
+{\centering \resizebox*{0.5\textwidth}{!}{\includegraphics{heat_vap_nit_fig_1.eps}} \par}
+\vspace{0.3cm}
+
+Your task is to measure the latent heat of vaporization for nitrogen.
+Your basic strategy will be to use a resistor ''heater'' to put a known amount of thermal
+energy into a container of liquid nitrogen, and to simultaneously use a force probe to
+measure the amount of nitrogen changed from a liquid into a gas.
+
+Some points to keep in mind:
+
+\begin{enumerate}
+
+\item You can measure three quantities that can help you find the power
+dissipated in the resistor: I, V, and R. Be aware that the''R'' may change drastically with temperature.
+
+\item Some liquid nitrogen will boil away even with your heater turned off, just due to lousy thermal insulation. You'll have to account for this somehow.
+
+\item Check your force measurements with known weights to make sure your force probe is properly calibrated and not giving completely bogus results.
+
+\item The boiling point of nitrogen is 77 K.  You will probably have to assume that the nitrogen gas given off is at 77 Kelvin, even though it could be slightly hotter. Can you think of some good ways to either minimize this problem or account for it somehow?
+
+\item Yes, you will need to estimate your uncertainty for this experiment. Does the accepted value for the latent heat of nitrogen fall within the range of your uncertainty?
+
+\end{enumerate}
+
+Good Luck!  :-)
