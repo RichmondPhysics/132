@@ -12,18 +12,18 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{comment}
-%\usepackage{amsmath}
+\usepackage{amsmath} %uncommented by MT 5/2015, used in "E near charged rod"
 \setlength\topmargin{0.2in}
 \addtolength{\hoffset}{-1.0cm}
 \addtolength{\textwidth}{2.0cm}
-%\addtolength{\voffset}{-1.5cm}
+\addtolength{\voffset}{-1.5cm} %This line is apparently needed on MikTex XeLatex.  Comment out if your pages appear shifted too high.
 \addtolength{\textheight}{3.5cm}
 % define a strut for extra vertical space in tables.
 \newcommand{\hi}{\rule[-2mm]{0mm}{6mm}}
 
 %The \includonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
-%\includeonly{boyles_law}
+\includeonly{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
 
 \makeatletter
 
@@ -166,6 +166,8 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 \include{electrostatics}
 
 \include{elec_grav}
+
+\include{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
 
 \include{electric_potential}
 
