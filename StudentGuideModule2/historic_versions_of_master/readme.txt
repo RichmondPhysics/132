@@ -1,0 +1,1 @@
+This directory contains various master.tex and pdf versions of the lab manual from the time before we started using github.  Since these are the only digital record of what we used, I figured they should be preserved.  --MT, 5/28/2015.
