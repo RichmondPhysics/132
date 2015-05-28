@@ -1,0 +1,2 @@
+#this file excludes files we don't want as part of the repository.
+*.aux
