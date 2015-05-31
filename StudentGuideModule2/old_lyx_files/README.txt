@@ -1,1 +1,1 @@
-To keep the main directory clear of old junk, I moved some of the old .lyx files here.  (For labs with their own subdirectories, I kept the .lyx files there with the current .tex files, but for labs still in the main directory I've moved the .lyx files here.  --MT, 5/30/2015
+To keep the main directory clear of old junk, I moved some of the old .lyx files here. (For labs with their own subdirectories, I kept the .lyx files there with the current .tex files, but for labs still in the main directory I've moved the .lyx files here.)  --MT, 5/30/2015
