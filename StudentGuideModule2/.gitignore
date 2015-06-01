@@ -9,3 +9,5 @@ master.synctex.gz
 master.synctex.gz(busy)
 master.toc
 master.pdf
+**/*eps-converted-to.pdf
+
