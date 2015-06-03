@@ -14,6 +14,7 @@
 \usepackage{epstopdf} %this package apparently allows pdflatex to work on this document, since all we use are eps figures.
 \usepackage{comment}
 \usepackage{amsmath} %uncommented by MT 5/2015, used in "E near charged rod"
+\usepackage{mathtools} %added by MT 6/2015, for access to dcases environment
 \setlength\topmargin{0.2in}
 \addtolength{\hoffset}{-1.0cm}
 \addtolength{\textwidth}{2.0cm}
@@ -24,7 +25,7 @@
 
 %The \includonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
-%\includeonly{standing_waves_strings/standing_waves_strings}
+%\includeonly{finding_v_from_e/finding_v_from_e}
 
 \makeatletter
 
@@ -185,6 +186,8 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 \include{electric_potential/electric_potential}
 
 \include{electric_fields_and_equipotential_lines/ef_equipot_lines}
+
+\include{finding_v_from_e/finding_v_from_e}
 
 \include{electric_field_and_electric_potential/EF_EP_1}
 

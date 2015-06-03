@@ -1,0 +1,148 @@
+
+\section{Finding Potential from the Electric Field}
+
+\begin{comment}
+This lab was originally written by Matt Trawick in spring 2015.  I found that students are really terrible at figuring out potential from electric field, and especially the idea of a reference potential.  The goal of this lab is to help them get better at this.  
+\end{comment}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\vspace{0.4in}
+\textbf{Introduction:}
+
+In this lab, you will calculate and graph the electric potential $V$ from a known electric field $E$.  Keep in mind that the relationship between these two can be written as either a definite or indefinite integral:
+\begin{displaymath}
+\Delta V_{AB} = -\int_A^B{\vec{E} \cdot \vec{ds}} \, \textrm{ or } \,
+V =-\int{\vec{E} \cdot \vec{ds}} 
+\end{displaymath}
+When evaluating the indefinite integral, remember that you always need a constant of integration, $+C$.  
+\vspace{0.4in}
+
+\begin{wrapfigure}[5]{r}{0.4\textwidth}
+%\vspace{-0.2 in}
+    \includegraphics[width=0.4\textwidth]{finding_v_from_e/fig1.eps}
+\end{wrapfigure}
+
+\textbf{Activity 1} 
+
+The graph to the right shows a region of a uniform electric field $E(x)$.  
+
+(a) If a positively charged particle starts at $x=0$ and is accelerated by the electric field to $x=2$, would the particle's kinetic energy $K$ \textit{increase} or \textit{decrease}?
+\vspace{0.7in}
+
+(b) In part (a), would the particle's potential energy $U$ \textit{increase} or \textit{decrease}?
+\vspace{0.7in}
+
+(c) Calculate the change in electric potential $\Delta V$ from x=0 to x=2. (Careful with your signs!)
+\vspace{0.9in}
+
+(d) If the potential at the origin is defined as $V(0)=0$ volts (our ``reference''), what is the value of the potential $V$ at $x=2$?
+\vspace{0.7in}
+
+\pagebreak
+(e) Draw a graph of the electric potential on the axes below.  Include a scale on the vertical axis.
+\begin{center}
+\includegraphics[width=0.4\textwidth]{finding_v_from_e/fig2.eps}
+\end{center}
+
+(f) Calculate the change in electric potential $\Delta V$ between $x=2$ and $x=3$.
+\vspace{0.5in}
+
+(g) Recalling your answers to parts (d) and (f), what is the value of the electric potential $V$ at $x=3$?  (After you've answered this, you may want to go back and fix up your graph in part (e) to clarify $V(x)$ for $x>2$.
+\vspace{0.7in}
+
+(h) Draw a graph showing the potential if we chose our reference so that $V(\infty)=0$ instead.  
+\begin{center}
+\includegraphics[width=0.4\textwidth]{finding_v_from_e/fig2.eps}
+\end{center}
+(i) Write an equation describing $V(x)$ based on your graph above.
+\vspace{0.9in}
+
+\pagebreak
+\begin{wrapfigure}[5]{r}{0.5\textwidth}
+%\vspace{-0.2 in}
+    \includegraphics[width=0.5\textwidth]{finding_v_from_e/fig3.eps}
+\end{wrapfigure}
+
+\textbf{Activity 2} 
+
+The graph to the right shows the electric field $E(x)$ in some other region.
+(a) Calculate the change in electric potential $\Delta V$ between $x=0$ and $x=2$.
+\vspace{0.7in}
+
+(b) Calculate the change in electric potential $\Delta V$ between $x=2$ and $x=5$.
+\vspace{0.7in}
+
+(c) Draw a graph showing the potential, where the reference is $V(\infty)=0$.
+\begin{center}
+\includegraphics[width=0.45\textwidth]{finding_v_from_e/fig4.eps}
+\end{center}
+
+(d) Use the indefinite integral $V =-\int{\vec{E} \cdot \vec{ds}}$  to write an equation for $V(x)$ in the region $2<x<5$.  (Remember to include an integration constant, $+C$.  What equation should you use to find the value of $C$?)
+\vspace{1.2in}
+
+
+(e) Write an equation describing $V(x)$ for all $x>0$.  It will be of the form
+\begin{displaymath}
+V(x) = \begin{cases}
+        blah \, blah \, blah  & \textrm{when } 0<x<2\\
+        yada \, yada \, yada & \textrm{when }  2<x<5\\
+        something \, else & \textrm{when }  5 < x
+        \end{cases}
+\end{displaymath}
+\vspace{1.2in}
+
+\pagebreak
+\textbf{Activity 3} 
+
+The graph below shows the electric field $E(x)$ in yet another region.
+\begin{center}
+\includegraphics[width=0.6\textwidth]{finding_v_from_e/fig5.eps}
+\end{center}
+
+(a) Calculate the change in electric potential $\Delta V$ over each of the three regions shown.
+\vspace{1.2in}
+
+(b) Draw a graph of the potential $V(x)$, where the reference is $V(\infty)=0$.
+\begin{center}
+\includegraphics[width=0.6\textwidth]{finding_v_from_e/fig6.eps}
+\end{center}
+
+(c) Is $V=0$ at $x=3$ (bearing in mind that the correct answer is ``No'')?
+\vspace{0.6in}
+
+(d) In general, if $E=0$, does it follow that $V=0$?
+\vspace{0.6in}
+
+(e) Where on your graph does $V=0$?  In general, if $V=0$, does it follow that $E=0$?
+\vspace{0.6in}
+
+\pagebreak
+\begin{wrapfigure}[8]{r}{0.4\textwidth}
+%\vspace{-0.2 in}
+    \includegraphics[width=0.4\textwidth]{finding_v_from_e/fig7.eps}
+\end{wrapfigure}
+
+\textbf{Activity 4} 
+
+The graph to the right shows the electric field $E(r)$ near a uniformly charged sphere of radius $R$.  The electric field is given by
+\begin{displaymath}
+V(x) = \begin{dcases}
+        \frac{k_eQr}{R^3}  &  0<r<R\\
+        \frac{k_eQ}{r^2}  &  R<r
+        \end{dcases}
+\end{displaymath}
+(a) Use a definite integral to calculate $\Delta V$  between $r=R$ and $r=\infty$.
+\vspace{1.1in}
+
+(b) Use a definite integral to calculate $\Delta V$ between $r=0$ and $r=R$.
+\vspace{1.1in}
+
+(c) Draw a graph of the potential $V(r)$, using $V(\infty)=0$ as a reference.
+\begin{center}
+\includegraphics[width=0.5\textwidth]{finding_v_from_e/fig8.eps}
+\end{center}
+
+(d) Use indefinite integrals to write equations for $V(r)$ for each of the two regions, using $V(\infty)=0$ as your reference.  Be careful with signs, and remember the integration constants!
+\vspace{1.3in}
