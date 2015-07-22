@@ -5,7 +5,6 @@
 \usepackage{geometry}
 \geometry{verbose,letterpaper}
 \usepackage{fancyhdr}
-\pagestyle{fancy}
 \usepackage{babel}
 \setlength\parskip{\medskipamount}
 \setlength\parindent{0pt}
@@ -17,6 +16,9 @@
 \usepackage{mathtools} %added by MT 6/2015, for access to dcases environment in finding_v_from_e
 \usepackage{tabularx} %added by MT 6/2015, for fixed width columns, used in rc_circuits
 
+\addtolength{\oddsidemargin}{1.3cm} %without these two lines, larger margin is on the OUTSIDE.  We want the larger edge on the INSIDE, to allow room for the three hole punches
+\addtolength{\evensidemargin}{-1.3cm}
+
 \setlength\topmargin{0.2in}
 \addtolength{\hoffset}{-1.0cm}
 \addtolength{\textwidth}{2.0cm}
@@ -24,6 +26,12 @@
 \addtolength{\textheight}{3.5cm}
 % define a strut for extra vertical space in tables.
 \newcommand{\hi}{\rule[-2mm]{0mm}{6mm}}
+
+\pagestyle{fancy}
+%\fancyhead[LE,RO]{\slshape \rightmark} %This is the default for fancy page style
+%\fancyhead[LO,RE]{\slshape \leftmark}
+\fancyhead[LO,RE]{\slshape \rightmark} 
+\fancyhead[LE,RO]{\slshape \leftmark} % Reversed LE, RO to  LO,RE to make headers come out correctly on even/odd pages
 
 %The \includonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
@@ -138,7 +146,7 @@ assistance.
 \newpage
 
 \
-\setcounter{page}{2} %changed from 1 to 2 on 6/9/15 by MT.  The reason is that in the circuit labs, the even/odd pages need to correspond with front/back, respectively, to get the cutout figures to appear on the correct side.
+\setcounter{page}{2} %changed from 1 to 2 on 6/9/15 by MT.  The reason is that in the circuit labs, the odd pages need to be on the right (the fronts of each sheet of paper) and the even pages need to be on the left.  This is critical, because these labs have some pages that are meant to be cut out with scissors, so the backs have to be left blank.  This is done by using the \cleardoublepage command, which requires that the odd/even pages not be reversed from the usual.
 
 \vfill
 
