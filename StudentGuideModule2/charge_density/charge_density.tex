@@ -1,0 +1,72 @@
+\section{Charge, Charge Density, and Fun with Integrals}
+
+\begin{comment}
+This lab is more of a worksheet than it is a lab.  But I've used versions of if in my 132 classes for a while, so I thought it was time to include it here in the lab manual for others as well.  
+
+I find this kind of exercise is important to do, because students typically suck at setting up this kind of integral, where instead of just dx, they have dstuff, where the ``stuff'' actually means something.  They'll need to do this later when they set up integrals over dq to find field or potential, and it's good for them to get some practice earlier when they only need to worry about Q.   
+
+--Matt Trawick, 7/2015
+
+\end{comment}
+
+Name \rule{2.0in}{0.1pt}\hfill{}Section \rule{1.0in}{0.1pt}\hfill{}Date
+\rule{1.0in}{0.1pt}
+
+\vspace{0.1in}
+\textbf{Objective:} To practice setting up integrals over $dq$, and get more comfortable with charge densities.
+
+\vspace{0.1in}
+The total amount of electric charge on a whole object is usually denoted by the letter $Q$. But sometimes we are interested in the distribution of the charge over an object, in which case we need the "charge density."  For a thin rod or wire, we usually use $\lambda$ for the linear charge density, or charge per unit length, where $Q = \lambda \ell$. For thicker objects, we use $\rho$ (pronounced "rho") for the charge per unit volume, where $Q = \rho V$. 
+
+1. In the pictures below, the thin rod and the rectangular block each have two different charge densities.  Write the total charge $Q$ for each of them, in terms of the variables given in the pictures.
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charge_density/fig1.eps}
+\end{center}
+
+2. In general, if there are lots of bits o' charge $\Delta q$, then the total charge is given by their sum, $Q = \sum_i \Delta q_i$. For the thin rod, you just used $\Delta q_i = \lambda_i \Delta x$.  For the rectangular bar in the figure below, express the bit o' charge $\Delta q_i$ in terms of the quantities given in the picture: $h$, $w$, $\Delta x$ and $\rho_i$
+
+\vspace{-0.2 in}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charge_density/fig2.eps}
+\end{center}
+What if, instead of a finite number of discrete charge densities, the charge density of your object varies continuously, forming a smooth gradient. Instead of a discrete set of $\lambda_i$, your charge density would be some continuous function of position like $\lambda(x)$.  (That is, $lambda$ as a function of $x$, not times $x$.) No problem! Just imagine your finite $\Delta q$ shrinking to an infinitessimal $dq$.  For the thin rod, instead of $Q= \sum_i \Delta q_i = \sum \lambda_i \Delta x$, you would use $Q = \int dq = \int \lambda \left(x\right) dx$. 
+
+%\begin{center}
+%\includegraphics[width=0.35\textwidth]{charge_density/fig3.eps}
+%\end{center}
+\begin{wrapfigure}[4]{r}{0.4\textwidth}
+\vspace{-0.4 in}
+    \includegraphics[width=0.4\textwidth]{charge_density/fig3.eps}
+\end{wrapfigure}
+\vspace{0.2 in}
+3. In the picture to the right, suppose $\lambda = Cx$, where $C$ is some constant. Write the integral to find the total charge $Q$ of the rod, starting with $Q = \int dq$, including the limits of integration.  Evaluate the integral to get $Q$.
+
+\newpage
+
+In the picture below, suppose $\rho = Cx^2$, where $C$ is some constant. To find the total charge $Q$, you will again use $Q = \int dq$, but this time you'll write $dq = \rho \,dV$.  
+\vspace{-0.2 in}
+\begin{center}
+\includegraphics[width=0.40\textwidth]{charge_density/fig4.eps}
+\end{center}
+
+4.  What is $dV$, in terms of quantities given in the picture?
+\vspace{0.3in}
+
+5.  Write the integral, with limits, to find the total charge $Q$ of the block.  Evaluate the integral to get $Q$.
+\vspace{1.0in}
+
+Finally, we'll consider a solid cylinder of charge with height $h$ and radius $R$, where the charge density varies as $\rho = Cr$.  Again, we'll find the total charge by setting up an integral. 
+
+For the rectangular block, we cut it into slices along the $x$ axis, so that each slice only had one value of $\rho$.  To cut the cylinder so that each slice has only one value of $\rho$, we'll have to cut it into concentric rings of radius $r$ like the picture below, then imagine unrolling each ring into a thin rectangular sheet.
+
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charge_density/cylinders.eps}
+\end{center}
+
+6. What is the volume $dV$ of the thin rectangular sheet, expressed in terms of the quantities given in the picture above?
+\vspace{0.3in}
+
+7. Find the charge $Q$ of the cylinder by evaluating an integral over $dr$, starting with $Q = \int dq$.  What are the limits of integration? 
+
+
+
