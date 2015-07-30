@@ -15,6 +15,11 @@
 \usepackage{amsmath} %uncommented by MT 5/2015, used in "E near charged rod"
 \usepackage{mathtools} %added by MT 6/2015, for access to dcases environment in finding_v_from_e
 \usepackage{tabularx} %added by MT 6/2015, for fixed width columns, used in rc_circuits
+%For fixed width columns:
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
 
 \addtolength{\oddsidemargin}{1.3cm} %without these two lines, larger margin is on the OUTSIDE.  We want the larger edge on the INSIDE, to allow room for the three hole punches
 \addtolength{\evensidemargin}{-1.3cm}
