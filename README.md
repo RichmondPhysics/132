@@ -3,7 +3,7 @@ Source for Physics 132 lab manual.
 
 ----
 Note by Matt Trawick, 9/3/2015:
-The 131 manual and the 131 manual are now coupled together, in the sense that they share some files and refer explicitely to each other.  If you want 132 to work, you need to have 131 cloned locally as well. This arose to avoid having two different versions of the same lab in the two repos.  Here's what I propose, and will gradually start to implement:
+The 131 manual and the 132 manual are now coupled together, in the sense that they share some files and refer explicitely to each other.  If you want 132 to work, you need to have 131 cloned locally as well. This arose to avoid having two different versions of the same lab in the two repos.  Here's what I propose, and will gradually start to implement:
 
 * Any lab used by 131 and 132 will live in only one of those places, generally the one where it more naturally belongs.  (Mechanics stuff in 131, e&m in 132, and appendices in 131 by default.)
 
