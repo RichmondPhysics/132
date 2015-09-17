@@ -7,6 +7,7 @@
 \usepackage{geometry}
 \usepackage{tocloft} %Allow us to leave page numbers for Parts out of table of contents
 \cftpagenumbersoff{part} %No page numbers for Parts out of table of contents
+\usepackage{newclude} %Allows use of /include*{}, which does not give page break at end, so better with \part
 \geometry{verbose,letterpaper}
 \usepackage{fancyhdr}
 \usepackage{babel}
@@ -179,7 +180,9 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 %is wrongly listed as the last section of the previous part.
 \include{standing_waves_strings/standing_waves_strings}
 \include{resonance_tubes}
-\include{doppler_shift/doppler_shift}
+\include*{doppler_shift/doppler_shift}
+%Also Note that the \include*{} command is used before each new \part{} to avoid an extra blank page.
+%This is an awkard fix, and somebody else welcome to find a better solution.
 
 %--------------------------------------------
 \part{Electrostatics}
@@ -199,7 +202,7 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 	\include{electric_field_and_electric_potential/EF_EP_4}
 	\include{electric_field_atomic_nucleus/electric_field_atomic_nucleus}
 	\include{charge_dist_water_mol/charge_dist_water_mol}
-	\include{capacitance}
+	\include*{capacitance}
 
 %--------------------------------------------circuits
 \part{Electric Circuits}
@@ -212,7 +215,7 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 \include{rc_circuits/rc_circuits}
 	\include{rc_circuit}
 	\include{lr_circuit/lr_circuit}
-	\include{lrc_circuit/lrc_circuit} %not used in 2015
+	\include*{lrc_circuit/lrc_circuit} %not used in 2015
 
 %--------------------------------------------
 \part{Magnetism}
@@ -221,7 +224,7 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 \include{magnetism_2/magnetism_2}
 \include{magnetism_3/magnetism_3}
 	\include{magnetic_field_earth}
-\include{eoverm/eoverm}
+\include*{eoverm/eoverm}
 
 %--------------------------------------------
 \part{Induction and Electromagnetic Waves}
@@ -230,7 +233,7 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 \include{induction2/induction2}
 	\include{generator} %not used in 2015
 \include{deriving_em_waves/deriving_em_waves}
-\include{plane_waves/plane_waves}
+\include*{plane_waves/plane_waves}
 
 %--------------------------------------------
 \part{Wave Optics}
@@ -238,14 +241,14 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 \include{interference_of_light/interference_of_light}
 \include{diffraction_of_light/diffraction_of_light}
 	\include{diffraction2}
-	\include{diffraction_grating}
+	\include*{diffraction_grating}
 
 
 %--------------------------------------------
 \part{Geometric Optics}
 \
 	\include{refraction_of_light/refraction_of_light}
-	\include{refraction_at_spherical_surfaces}
+	\include*{refraction_at_spherical_surfaces}
 
 %--------------------------------------------
 \part{Thermodynamics}
@@ -261,7 +264,7 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 	\include{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit}
 \include{ideal_gas_cycles/ideal_gas_cycles}
 	\include{EinsteinSolid/einstein_solid}
-	\include{S+T/entropy_temperature}
+	\include*{S+T/entropy_temperature}
 
 %--------------------------------------------
 \part{Quantum Mechanics}
@@ -269,7 +272,7 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 	\include{hydrogen}
 	\include{solveSE/solveSE}
 	\include{qmProbability/qmProbability}
-	\include{radiocarbon_dating/radiocarbon_dating}
+	\include*{radiocarbon_dating/radiocarbon_dating}
 
 %--------------------------------------------
 \part{Other Topics}
@@ -278,10 +281,10 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 	\include{cons_ang_momFor132/cons_ang_mom}
 	\include{impulseFor132/impulse}
 	\include{galilean_relativity}
-	\include{twins_paradox}
+	\include*{twins_paradox}
 
 %--------------------------------------------
-\part{Appendices}
+\part*{Appendices}
 \
 \appendix
 \include{appendices/treatment_data_from131}
@@ -292,5 +295,4 @@ Cover art: The atom consists of smaller electrons and a nucleus consisting of pr
 	\include{appendices/video_analysis_tracker_from131}
 	\include{appendices/nuke_safety/nuke_safety}
 	\include{appendices/instrumentation_from131}
-
 \end{document}
