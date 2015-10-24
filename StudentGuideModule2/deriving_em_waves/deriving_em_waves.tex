@@ -24,7 +24,7 @@ In this lab, you will work through the logic that James Clerk Maxwell used to de
 
 \textbf{Activity 1: What's Wrong with Amp\`ere's Law?}
 
-(a) You have already learned that Amp\'ere's law, $\oint \vec B \cdot \vec{ds} = \mu_0I_{enc}$, can be used to help you calculate the magnetic field near wires carrying electric current.  In the figure below, what is the direction of the magnetic field at the point shown, just above the current carrying wire?
+(a) You have already learned that Amp\'ere's law, $\oint \vv B \cdot \vv{ds} = \mu_0I_{enc}$, can be used to help you calculate the magnetic field near wires carrying electric current.  In the figure below, what is the direction of the magnetic field at the point shown, just above the current carrying wire?
 
 \begin{center}
     \includegraphics[width=0.4\textwidth]{deriving_em_waves/wire_and_loop.eps}
@@ -38,23 +38,23 @@ In the 1850s, Amp\'ere's law was well understood.  But a very clever Scotsman na
 (b) Suppose you draw the circular path for Amp\`ere's law (the ``Amperian loop'') around the gap between the two capacitor plates as shown above.  Is there any actual current flowing between the two plates that is ``enclosed'' by that loop?   
 \vspace{0.5in}
 
-(c) According to a straightforward interpretation of $\oint \vec B \cdot \vec{ds} = \mu_0I_{enc}$, what is the magnetic field at the point shown in the figure above?  
+(c) According to a straightforward interpretation of $\oint \vv B \cdot \vv{ds} = \mu_0I_{enc}$, what is the magnetic field at the point shown in the figure above?  
 \vspace{0.5in}
 
-%\pagebreak
+\pagebreak
 (d) Ampere's law, as we've written it so far, seems to imply that the magnetic field above the wire can change discontinuously to zero if you move by even one \textit{nanometer} to the right, depending on whether your loop is just to the left or just to the right of the capacitor plate.  Does it seem plausible to you that the magnetic field would change discontinuously like that?
 \vspace{0.5in}
 
 (e)  There's another, more sophisticated argument against the magnetic field going to zero that's based on a mathematical idea known as Stoke's Theorem.  When we say ``current enclosed by a loop,'' what we really mean is ``current going through a surface bound by a loop.'' But there's nothing that says that the surface has to be flat, or even that the loop has to lie in a plane.  In the drawings below, do the two surfaces both have the same current flowing through them?
 \begin{center}
 \vspace{-0.1in}
-    \includegraphics[width=0.5\textwidth]{deriving_em_waves/two_surfaces.eps}
+    \includegraphics[width=0.6\textwidth]{deriving_em_waves/two_surfaces.eps}
 \vspace{-0.1in}
 \end{center}
 
-So according to $\oint \vec B \cdot \vec{ds} = \mu_0I_{enc}$, the magnetic field B at a point near a wire can change from zero to nonzero by either moving the point to the left or right by an infinitessimally small amount, or worse, by just imagining a different shape surface in your head!  Maxwell knew that couldn't be right: Ampere's law was broken!
+So according to $\oint \vv B \cdot \vv{ds} = \mu_0I_{enc}$, the magnetic field $\vv B$ at a point near a wire can change from zero to nonzero by either moving the point to the left or right by an infinitessimally small amount, or worse, by just imagining a different shape surface in your head!  Maxwell knew that couldn't be right: Ampere's law was broken!
 
-Maxwell knew about Faraday's law of induction, $\varepsilon=-d \Phi/dt$, where the emf $\varepsilon$ is a voltage, given by $\oint \vec{E} \cdot \vec{ds}$.  The picture below shows an example where Faraday's law applies.  
+Maxwell knew about Faraday's law of induction, $\varepsilon=-d \Phi_B/dt$, where the emf $\varepsilon$ is a voltage, given by $\oint \vv{E} \cdot \vv{ds}$.  The picture below shows an example where Faraday's law applies.  
 \begin{center}
 \vspace{-0.1in}
     \includegraphics[width=0.4\textwidth]{deriving_em_waves/faradays_law.eps}
@@ -67,7 +67,7 @@ Maxwell knew about Faraday's law of induction, $\varepsilon=-d \Phi/dt$, where t
 Faraday sez: ``A changing \underline{\hspace{1in}} field induces a(n) \underline{\hspace{1in}} field.''
 \end{center}
    
-(g) Maxwell wondered if the reverse was also true: could a changing electric field also induce a magnetic field?  In the picture below, draw lines showing the electric field E as the capacitor charges up.  Is the electric field  increasing, decreasing, or staying the same?
+(g) Maxwell wondered if the reverse was also true: could a changing electric field also induce a magnetic field?  In the picture below, draw lines showing the electric field $\vv{E}$ as the capacitor charges up.  Is the electric field  increasing, decreasing, or staying the same?
 \begin{center}
 \vspace{-0.2in}
     \includegraphics[width=0.6\textwidth]{deriving_em_waves/capacitor2.eps}
@@ -76,14 +76,14 @@ Faraday sez: ``A changing \underline{\hspace{1in}} field induces a(n) \underline
 \pagebreak
 \textbf{Activity 2: Help Maxwell Fix Up Ampere's Law!}
 
-Maxwell decided to add a term involving $d\Phi_E)/dt$ to Amp\`ere's law, to account for magnetic field due to the change in electric field.
+Maxwell decided to add a term involving $d\Phi_E/dt$ to Amp\`ere's law, to account for magnetic field due to the change in electric field.
 \begin{center}
 \vspace{-0.2in}
     \includegraphics[width=0.55\textwidth]{deriving_em_waves/two_loops_with_equation.eps}
 \vspace{-0.1in}
 \end{center}
 
-In this activity, you'll help Maxwell find the right value for the constant, so that $\vec B$ is the same around either of the dashed loops in the picture above.  This means finding the right value of the constant so that
+In this activity, you'll help Maxwell find the right value for the constant, so that $\vv B$ is the same around either of the dashed loops in the picture above.  This means finding the right value of the constant so that
 \begin{displaymath}
 \mu_0I = [CONSTANT] \frac{d\Phi_E}{dt}.
 \end{displaymath}
@@ -92,7 +92,7 @@ In this activity, you'll help Maxwell find the right value for the constant, so 
 \vspace{0.4in}
 
 (b) What is the area $A$ you just used: the circular area of the loop, or the area of the capacitor plate?
-\vspace{0.5in}
+\vspace{0.4in}
 
 (c) If the plates have charge $+Q$ and $-Q$ on them, what is the electric field $E$ between the plates, in terms of $Q$ and $A$?
 \vspace{0.6in}
@@ -101,17 +101,19 @@ In this activity, you'll help Maxwell find the right value for the constant, so 
 \vspace{0.5in}
 
 (e) What is the relationship between current $I$ and charge $Q$? (Hint: Perhaps something with a time derivative?)
-\vspace{0.5in}
+\vspace{0.3in}
 
 (f) Rewrite your equation from (d) in terms of $I$.
 \vspace{0.5in}
 
 (g) At this point it should be clear what that constant should be.  Rewrite the new, fixed-up version of Amp\`ere's law using the constant you've found.  Maxwell thanks you!  
-\vspace{0.5in}
+%\vspace{0.5in}
+\vfill
+\newpage
 
-\pagebreak
-\textbf{Activity 3} \newline
-Maxwell must have been pretty excited to figure this out!  He already knew that a changing $\vec B$ could cause a $\vec E$, and now he knew that a changing $\vec E$ could cause a $\vec B$.  What if the two could keep causing each other?  Maybe a changing $\vec E$ could cause a $\vec B$, and then that could cause anothe $\vec E$, and so on, forever?  What would that look like? To find out, we'll look at the case of $\vec E$ and $\vec B$ shown in the figure below.
+%\pagebreak
+\textbf{Activity 3: How do changing fields affect each other?} \newline
+Maxwell must have been pretty excited to figure this out!  He already knew that a changing $\vv B$ could cause a $\vv E$, and now he knew that a changing $\vv E$ could cause a $\vv B$.  What if the two could keep causing each other?  Maybe a changing $\vv E$ could cause a $\vv B$, and then that could cause anothe $\vv E$, and so on, forever?  What would that look like? To find out, we'll look at the case of $\vv E$ and $\vv B$ shown in the figure below.
 
 %Our goal now is to take the two equations we already have, Faraday's law and the newly fixed-up Amp\`ere's law, and see what kind of behavior they lead to in $\vec E$ and $\vec B$.  We'll do this by looking at a case where $\vec B$ is in the $z$ direction,and the electric field is along the $y$ axis, as shown in the figure below.  
 
@@ -121,7 +123,7 @@ Maxwell must have been pretty excited to figure this out!  He already knew that 
 \includegraphics[width=0.9\textwidth]{deriving_em_waves/change_in_E_bw.eps}
 \newpage
 
-In equations (1) and (2) we now have equations that link time and spacial derivatives of $\vec E$ and $\vec B$ together.  Now, we'll do just a little more math to separate \textit{just} $\vec E$ in one equation, and \textit{just} $\vec B$ in another.  Again, we'll show you how to do it for one of them, then you'll do the other one.
+In equations (1) and (2) we now have equations that link time and spacial derivatives of $\vv E$ and $\vv B$ together.  Now, we'll do just a little more math to separate \textit{just} $\vv E$ in one equation, and \textit{just} $\vv B$ in another.  Again, we'll show you how to do it for one of them, then you'll do the other one.
 \vspace{-0.2in}
 
 \begin{center}
@@ -137,12 +139,12 @@ You've seen equations like these before when you studied waves.  You know that i
 \end{displaymath}
 where $v$ is the speed of the wave.  Maxwell knew this too, of course, and he was eager to find out how fast this new kind of wave traveled.
 
-(a) Comparing the equations for $E$ and $B$ that you just derived with the wave equation above, what is the speed of the waves $\vec E(x,t)$ and $\vec B(x,t)$, in terms of $\mu_0$ and $\varepsilon_0$?
+(a) Comparing the equations for $E$ and $B$ that you just derived with the wave equation above, what is the speed of the waves $\vv E(x,t)$ and $\vv B(x,t)$, in terms of $\mu_0$ and $\varepsilon_0$?
 \vspace{0.5in}
 
 (b)  The accepted values for $\mu_0$ and $\varepsilon_0$ are $\mu_0=4\pi \times 10^{-7}$ N$\cdot$s$^2$/C$^2$ and 
 $\varepsilon_0=8.85 \times 10^{-12}$ C$^2$/N$\cdot $m$^2$.  Calculate a numerical value for the speed of the waves 
-$\vec E(x,t)$ and $\vec B(x,t)$.
+$\vv E(x,t)$ and $\vv B(x,t)$.
 \vspace{0.5in}
 
 (c) What else do you know that goes that fast?
