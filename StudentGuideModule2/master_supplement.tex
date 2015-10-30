@@ -8,61 +8,67 @@
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
 %\includeonly{biot_savart_law/biot_savart_law}
 
-\titleformat{\section}{\normalfont\Large\bfseries}{S\thesection}{1em}{}
+\newcommand{\supplementmark}{S}
+
+\titleformat{\section}{\normalfont\Large\bfseries}{\supplementmark \thesection}{1em}{}
 \fancyhead[LO,RE]{\slshape \rightmark} 
-\fancyhead[LE,RO]{\slshape S\leftmark} % Reversed LE, RO to  LO,RE to make headers come out correctly on even/odd 
+\fancyhead[LE,RO]{\slshape \supplementmark \leftmark} % Reversed LE, RO to  LO,RE to make headers come out correctly on even/odd 
 \begin{document}
 
-\setcounter{page}{201} 
+\setcounter{page}{501} 
 
-\include{standing_waves_strings/standing_waves_strings}
-\include{resonance_tubes}
-\include{doppler_shift/doppler_shift}
+%--------------------------------------------
+%\part{Mechanical Waves}
+%\
+%\include{standing_waves_strings/standing_waves_strings}
+%\include{resonance_tubes}
+%\include{doppler_shift/doppler_shift}
 
 %--------------------------------------------
 %\part{Electrostatics}
 %\
-	\include{electrostatics}
-	\include{interactions_of_electric_charges/interactions_of_electric_charges} %not used in 2015
-\include{charge_density/charge_density}
-	\include{elec_grav/elec_grav}
+%	\include{electrostatics}
+%	\include{interactions_of_electric_charges/interactions_of_electric_charges} %not used in 2015
+%\include{charge_density/charge_density}
+%	\include{elec_grav/elec_grav}
 
-\begin{comment}
-\include{electric_fields_and_equipotential_lines/ef_equipot_lines}
-\include{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
-\include{elec_potential_example/elec_potential_example}
-\include{electric_potential/electric_potential}
-\include{finding_v_from_e/finding_v_from_e}
-	\include{electric_field_and_electric_potential/EF_EP_1}
-	\include{electric_field_and_electric_potential/EF_EP_2}
-	\include{electric_field_and_electric_potential/EF_EP_3}
-	\include{electric_field_and_electric_potential/EF_EP_4}
-	\include{electric_field_atomic_nucleus/electric_field_atomic_nucleus}
-	\include{charge_dist_water_mol/charge_dist_water_mol}
-	\include*{capacitance}
-
-%--------------------------------------------circuits
-\part{Electric Circuits}
-\
-\include{electric_circuits/electric_circuits}
-\include{electric_circuits2/electric_circuits2}
-	\include{ohms_law/ohms_law}
-	\include{kirchhoffs_rules/kirchhoffs_rules}
-\include{electric_power/electric_power}
-\include{rc_circuits/rc_circuits}
-	\include{rc_circuit}
-	\include{lr_circuit/lr_circuit}
-	\include*{lrc_circuit/lrc_circuit} %not used in 2015
+%\include{electric_fields_and_equipotential_lines/ef_equipot_lines}
+%\include{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
+%\include{elec_potential_example/elec_potential_example}
+%\include{electric_potential/electric_potential}
+%\include{finding_v_from_e/finding_v_from_e}
+%	\include{electric_field_and_electric_potential/EF_EP_1}
+%	\include{electric_field_and_electric_potential/EF_EP_2}
+%	\include{electric_field_and_electric_potential/EF_EP_3}
+%	\include{electric_field_and_electric_potential/EF_EP_4}
+%	\include{electric_field_atomic_nucleus/electric_field_atomic_nucleus}
+%	\include{charge_dist_water_mol/charge_dist_water_mol}
+%	\include*{capacitance}
 
 %--------------------------------------------
-\part{Magnetism}
-\
-	\include{magnetism_1}
-\include{magnetism_2/magnetism_2}
-\include{magnetism_3/magnetism_3}
-	\include{magnetic_field_earth}
+%\part{Electric Circuits}
+%\
+%\include{electric_circuits/electric_circuits}
+%\include{electric_circuits2/electric_circuits2}
+%	\include{ohms_law/ohms_law}
+%	\include{kirchhoffs_rules/kirchhoffs_rules}
+%\include{electric_power/electric_power}
+%\include{rc_circuits/rc_circuits}
+%	\include{rc_circuit}
+%	\include{lr_circuit/lr_circuit}
+%	\include*{lrc_circuit/lrc_circuit} %not used in 2015
+
+%--------------------------------------------
+%\part{Magnetism}
+%\
+%	\include{magnetism_1}
+%\include{magnetism_2/magnetism_2}
+%\include{magnetism_3/magnetism_3}
+%	\include{magnetic_field_earth}
 	\include{biot_savart_law/biot_savart_law}
-\include*{eoverm/eoverm}
+%\include*{eoverm/eoverm}
+
+\begin{comment}
 
 %--------------------------------------------
 \part{Induction and Electromagnetic Waves}
