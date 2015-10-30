@@ -1,2 +1,0 @@
-\select@language {english}
-\contentsline {section}{\numberline {1}A Theory for the Hydrogen Atom}{3}
