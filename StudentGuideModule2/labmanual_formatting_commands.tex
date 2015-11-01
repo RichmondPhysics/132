@@ -2,7 +2,7 @@
 %% Do not edit unless you really know what you are doing.
 
 \usepackage[T1]{fontenc}
-\usepackage{geometry}
+\usepackage[nomarginpar]{geometry}
 \usepackage{tocloft} %Allow us to leave page numbers for Parts out of table of contents
 \cftpagenumbersoff{part} %No page numbers for Parts out of table of contents
 \renewcommand{\cftsecdotsep}{\cftsubsecdotsep}
@@ -15,12 +15,13 @@
 \setlength\parindent{0pt}
 \usepackage{graphicx}
 \usepackage{wrapfig}
-\usepackage{epstopdf} %this package apparently allows pdflatex to work on this document, since all we use are eps figures.
+%\usepackage{epstopdf} %this package apparently allows pdflatex to work on this document, since all we use are eps figures.
 \usepackage{comment}
 \usepackage{esvect}
 \usepackage{amsmath} %uncommented by MT 5/2015, used in "E near charged rod"
 \usepackage{mathtools} %added by MT 6/2015, for access to dcases environment in finding_v_from_e
 \usepackage{tabularx} %added by MT 6/2015, for fixed width columns, used in rc_circuits
+\usepackage{microtype}
 \usepackage{titlesec}
 \usepackage{xr}
 
@@ -78,7 +79,6 @@
 \edef\SF@gobble@opt{\noexpand\protect
   \expandafter\noexpand\csname SF@gobble@opt \endcsname}
 \def\SF@gobble@twobracket[#1]#2{}
-
 \makeatother
 
 
