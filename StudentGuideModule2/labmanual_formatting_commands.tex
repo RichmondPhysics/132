@@ -111,5 +111,15 @@
 
 \newcounter{activity}
 
-%\newcommand{\answerspace}[1]{\vspace*{#1}\vfill}
 \newcommand{\answerspace}[1]{\vspace*{#1 plus #1}}
+
+\newif\ifincludealllabs
+\newcommand{\includelab}[2]{
+	\ifnum#1=1
+		\include{#2}
+	\else {
+		\ifincludealllabs
+		 	\include{#2}
+		\fi}
+	\fi
+}
