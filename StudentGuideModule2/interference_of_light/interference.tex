@@ -1,6 +1,6 @@
 
-\section{The Interference and Diffraction of Light}
-
+\section{Interference of Light From Multiple Slits}
+\label{interference_lab}
 \makelabheader %(Space for student name, etc., defined in master.tex)
 
 \textbf{Objective}
@@ -16,7 +16,9 @@ a set of slits.
 \item Optical bench with rotary motion sensor
 \item Phototransistor for measuring light intensity (mounted on rotary motion sensor)
 \item ``Multiple Slit Set'' slit accessory
-\item Glass plate with sets of narrow slits
+%\item ``Single Slit Set'' slit accessory
+\item Small plastic ruler
+%\item Glass plate with sets of narrow slits
 \item {\it DataStudio} 750 Interface
 \end{itemize}
 \textbf{Introduction}
@@ -54,7 +56,8 @@ predicts different behavior from the wave theory.
 (a) Consider a laser beam shining on a circular hole. If a beam of
 light consisted of small, unseen particles that behaved as tiny billiard
 balls what would you see on a screen that is downstream from the circular
-hole? A sketch might be useful here.
+hole? A sketch might be useful here.  (This question and the next one aren't hard.
+They're just getting at your common sense notions about how shadows work.)
 \answerspace{30mm}
 
 (b) Now consider the same laser beam shining on a pair of narrow slits.
@@ -106,7 +109,7 @@ Be sure to label your axes!
 
 \textit{(If your instructor requests it, make a hardcopy of this graph and attach it to this unit.)}
 
-\textbf{What's going on?}
+\textbf{What's Going On?}
 
 Let's think about why your interference pattern looks the way it does.  When the laser hits the two slits, 
 light comes out of the slits in all directions all at once, as in the diagram (a) below.  
@@ -115,29 +118,31 @@ We'll define $\theta$ as the angle of the rays, where $\theta=0$ means straight 
 
 \vspace{-0.2in}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{interference_and_diffraction/rays.eps}
+\includegraphics[width=0.63\textwidth]{interference_of_light/rays.eps}
 \end{center}
 \vspace{-0.2in}
 
 The pair of rays will converge at the same spot on the screen or at the detector.  (``Wait!  How can they converge if they're parallel?!?''  Okay, they're not \textit{perfectly} parallel, but they're pretty close.  After all, the two slits are only separated by a fraction of a millimeter, and the detector is almost a meter away.  The math is way easier if we approximate the rays as parallel.)
-What makes the series of bright and dark areas on the screen or at the detector is that the rays travel slightly different distances to get there.
-The difference in path distance is shown on the diagram above as $\Delta r$.  
+What makes the series of bright and dark areas on the screen or at the detector is that the rays travel slightly different distances to get there.  
+The difference in path length is shown on the diagram above as $\Delta r$.  
 
 (f) For a particular angle $\theta$, if the path difference $\Delta r$ happens to be an exact integer multiple of the light's wavelength $\lambda$, will the two waves combine \textit{CONstructively} or \textit{DEstructively}?  (And does that correspond to a bright spot or a dark spot?)
 \answerspace{0.5in}
 
-(g) For a particular angle $\theta$, if the path difference $\Delta r$ happens to be an exact half-integer multiple of the light's wavelength $\lambda$ (like $1.5\lambda$ or $2.5\lambda$), will the two waves combine \textit{CONstructively} or \textit{DEstructively}?
+(g) For a particular angle $\theta$, if the path difference $\Delta r$ happens to be an exact half-integer multiple of the light's wavelength $\lambda$ (like $0.5\lambda$ or $3.5\lambda$), will the two waves combine \textit{CONstructively} or \textit{DEstructively}?
 \answerspace{0.5in}
 
 (h) What about if the path difference $\Delta r$ happens to be something in between, like $\Delta r = 2.3\lambda$, or $0.8\lambda$? Would that place on the screen be bright? Or dark? Or something in between?
 \answerspace{0.5in}
+
+\textit{Imagine slowly increasing $\theta$, starting from zero.   As the path difference $\Delta r$ increases, the interference between the two rays oscillates between constructive and destructive, causing the oscillating pattern on your graph.}
 
 \pagebreak[2]
 \textbf{Activity 3: Determining the Wavelength of the Laser }
 
 Now you'll use the geometry of your setup to measure the actual wavelength $\lambda$ of the light from your laser!
 
-(a) Looking at your graph, the highest maximum is straight ahead of the slits ($\theta=0$), where $\Delta r=0$.  Does the next maximum to the right of that correspond to $\Delta r=2\lambda$?  Or $3\lambda$?  Or $19\lambda$?
+(a) Looking at your graph, the highest maximum is straight ahead of the slits ($\theta=0$), where $\Delta r=0$.  Does the next maximum to the right of that correspond to $\Delta r=2\lambda$?  Or $3\lambda$?  Or $19\lambda$?  Or something else?
 
 \vspace{0.1in}
 \hspace{0.8in}$\Delta r=$
@@ -193,21 +198,24 @@ to ``3'', and run the pattern again.  What about the interference pattern has ch
 \answerspace{0.4in}
 
 \pagebreak[2]
-(g) Suppose you have five rays, 1, 2, 3, 4, and 5, and suppose we consider an angle $\theta$ at which the path difference between the first two is $\Delta r_{12} = 0.8\lambda$.  What are the distances $\Delta r_{13}$, $\Delta r_{14}$, and $\Delta r_{15}$?
+(g) Suppose you have five rays, 1, 2, 3, 4, and 5, and suppose we consider an angle $\theta$ at which the path difference between the first two is $\Delta r_{12} = 0.8\lambda$.  What are the distances $\Delta r_{13}$, $\Delta r_{14}$, and $\Delta r_{15}$?  (Again, a good picture would help.)
+\answerspace{2.5in}
+
+(h) In the case in (g), would rays 1 and 3 interfere \textit{CON-structively} or \textit{DE-structively}?  What about rays 1 and 4?
+\answerspace{0.8in}
+
+(i) If you combined all five rays together, would the result at the detector be a place of high intensity or low intensity? 
 \answerspace{0.6in}
 
-(h) In the case in (g), would rays 1 and 3 interfere \textit{CONstructively} or \textit{DEstructively}?  What about rays 1 and 4?
-\answerspace{0.8in}
+(j) If there were only TWO slits, and you combined only TWO rays together with a path difference of $\Delta r_{12} = 0.8\lambda$, would the result at the detector be a place of high intensity or low intensity? 
+\answerspace{0.6in}
 
-(i) In general, as you increase the number of slits, do the maxima in the interference pattern become broader or narrower?  Does the maximum intensity increase or decrease?
-\answerspace{0.8in}
+(k) In general, as you increase the number of slits, do the maxima in the interference pattern become broader or narrower?  Does the maximum intensity increase or decrease?
+\answerspace{0.6in}
 
-(j) By the way, remember the earlier discussion of Newton's corpuscular theory of
+\textbf{Activity 5: One More Thing...}
+
+Remember the earlier discussion in Activity 1 of Newton's corpuscular theory of
 light? You've taken a ton of data by now.  Does your data support Newton's theory or the wave theory of light?
 Why?
 \answerspace{1.0in}
-
-
-
-
-
