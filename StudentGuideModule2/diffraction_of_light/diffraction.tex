@@ -23,33 +23,13 @@ a single, narrow slit.
 \end{itemize}
 \textbf{Introduction}
 
-\begin{comment}
-In this laboratory you will investigate the interference of light
-produced by a laser beam passing through a set of narrow, adjacent
-slits. When light passes the slits each opening acts as an independent
-source of waves that can overlap one another to produce a distinctive
-pattern of bright and dark spots on a screen. The position of the
-bright spots depends on the separation of the adjacent slits and the
-wavelength of the incident light. 
-
-You can measure this interference pattern with the setup shown below. 
-(This is a \underline{top} view of the set-up.) 
-A phototransistor is seated behind the narrow opening on top of the large,
-metal mount sitting on a rail. The phototransistor can translate the intensity 
-of the light falling on it into a voltage signal that can be read by the
-computer. In addition, the phototransistor can be moved back and
-forth on a rotary motion sensor that measures the position of the 
-mount. These two signals can be combined to
-make a graph of the intensity as a function of position.
-\end{comment}
-
 \textbf{Activity 1: Making Predictions and Taking Data}
 
 (a) In the previous lab, you saw that laser light emitted from two slits can interfere with each other.  If you shine laser light through a single slit, do you predict that you will see any evidence of constructive or destructive interference?  Why or why not?
 \answerspace{0.8in}
 
 
-Well, let's try it!  The setup for this experiment is exactly the same as that for Lab \ref{interference_lab},  but instead of a double slit, you will use the ``Single Slit Set'' slit accessory.  Place it on the optical bench about 70 cm away from the detector, and select the slit with a width of $a = 0.16$ mm.  Use the computer to take data on the intensity as a function of position by moving the detector slowly across the series of bright spots.  
+Well, let's try it!  The setup for this experiment is exactly the same as that for Lab \ref{interference_lab},  but instead of a double slit, you will use the ``Single Slit Set'' slit accessory.  Place it on the optical bench about 70 cm away from the detector, and select the slit with a width of $a = 0.16$ mm.   Set the gain switch to 100 and use the aperture marked ``3''.   Start the program interference.ds and use the computer to take data on the intensity as a function of position by moving the detector slowly across the series of bright spots.  
 
 Your goal is to get as large a signal as you can without having the intensity pinned at its maximum value.  (If the peaks on your graph appear perfectly flat on top, that's probably what's happening.) You may need to adjust either the gain of your detector or the size of its aperture.
 
@@ -121,7 +101,7 @@ The upshot of this is is that for a single slit, you should have an intensity mi
 
 \pagebreak[3]
 
-(g) Measure the angular separation $\theta$ between the central maximum and any numbered minimum you choose in your data.  (You'll need to measure the distance from the slit to the detector and do some calculations.)  Use your value for $\theta$ and your expression in part (d) to calculate the width $a$ of the slit.  Does it agree with what is written on the slit?
+(g) Measure the angular separation $\theta$ between the central maximum and any numbered minimum you choose in your data.  Use your value for $\theta$ and your expression in part (d) to calculate the width $a$ of the slit.  (The wavelength of the light from your laser is 650 nm.  To get $\theta$, you'll need to measure the distance from the slit to the detector and do some calculations.)    Does your value of $a$ agree with what is written on the slit?
 \answerspace{1.0in}
 
 
@@ -135,12 +115,12 @@ The diagram below shows what happens when all of the rays in a single direction 
 \end{center}
 \vspace{-0.2in}
 
-The diagram on the left shows rays at an angle $\theta$ where $\frac{a}{3} \sin \theta = \frac{\lambda}{2}$.  In the upper shaded area of the diagram, each ray can be \textit{paired up} with another one exactly $180^{\circ}$ out of phase, so that all of the rays inside that shaded area cancel each other out.  The intensity at the screen or the detector  comes from the upaired rays that aren't shaded out.
+The diagram on the left shows rays at an angle $\theta$ where $\frac{a}{3} \sin \theta = \frac{\lambda}{2}$.  In the upper shaded area of the diagram, each ray can be \textit{paired up} with another one exactly $180^{\circ}$ out of phase, so that all of the rays inside that shaded area cancel each other out.  The intensity at the screen or the detector  comes from the unpaired rays that aren't shaded out.
 
-(a) If $\theta$ were \textit{just a little} smaller that what's shown in the left diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}? (Hint: Would there be more or fewer unpaired rays?)
+(a) If $\theta$ were \textit{just a little} smaller than what's shown in the left diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}? (Hint: Would there be more or fewer unpaired rays?)
 \answerspace{0.4in}
 
-(b) If $theta$ were \textit{just a little} bigger that what's shown in the diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}?  (Hint: would all of the rays in the lower portion remain unpaired?)
+(b) If $theta$ were \textit{just a little} bigger than what's shown in the diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}?  (Hint: would all of the rays in the lower portion remain unpaired?)
 \answerspace{0.4in}
 
 (c) The particular $\theta$ shown in the diagram on the left is a maximum in the diffraction pattern.  Is the intensity of that maximum \textit{greater than}, \textit{less than}, or \textit{equal to} the intensity of the maximum at $\theta = 0$?  Why?
@@ -160,7 +140,7 @@ Although the derivation goes beyond the scope of this course, the intensity $I_{
 I_{\rm{diff}} = I_{\rm{max}} \left( \frac {\sin \left(\frac {\pi a} {\lambda} \sin \theta \right)} {\frac {\pi a} {\lambda} \sin \theta} \right)^2 \end{displaymath}
 
 where $a$ is the width of the single slit, \( \theta  \) is the angular
-position of the phototransistor relative to the incident beam, and $I_{m}$
+position of the phototransistor relative to the incident beam, and $I_{\rm{max}}$
 is the maximum intensity at the center of the diffraction pattern.
 
 \pagebreak[2]
@@ -168,7 +148,7 @@ is the maximum intensity at the center of the diffraction pattern.
 
 (a) Replace the single slit with the ``Multiple Slit Set'' slit accessory, and select the pair of two slits with separation $d=0.125$ mm and width $a=0.04$ mm, labeled with the number ``2''.  Get some good clean data on the intensity $I$ vs. position.
 
-(b) As we described it in Lab \ref{interference_lab}, the interference pattern you see occurs because as the angle $\theta$ increases from zero, the path difference $\Delta r$ between rays from the two slits grows.  Because $\Delta r$ is sometimes an integer multiple of $\lambda$ and sometimes a half-integer multiple of $\lambda$, the intensity oscillates between a maximum (constructive interference) and a minimum (destructive interference).  But if that were all that were going on, your interference pattern would just look like a simple sinusoidal function, with all maxima at exactly the same intensity.  Is that actually what you see?
+(b) As we described it in Lab \ref{interference_lab}, the interference pattern you see occurs because as the angle $\theta$ increases from zero, the path difference $\Delta r$ between rays from the two slits grows.  Because $\Delta r$ is sometimes an integer multiple of $\lambda$ and sometimes a half-integer multiple of $\lambda$, the intensity oscillates between a maximum (constructive interference) and a minimum (destructive interference).  But if that were all that were going on, your interference pattern would be a simple periodic function with all maxima at exactly the same intensity.  Is that actually what you see?
 \answerspace{0.4in}
 
 (c) In fact, you probably see something like the figure below, with some large maxima near the center, and several other much smaller maxima on either side.  (If you didn't see this, try increasing your signal strength, or consult your instructor.)
