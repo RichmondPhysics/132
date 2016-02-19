@@ -12,7 +12,7 @@ This lab was originally written by Matt Trawick in spring 2015.  I found that st
 
 In this lab, you will calculate and graph the electric potential $V$ from a known electric field $E$.  Keep in mind that the relationship between these two can be written as either a definite or indefinite integral:
 \begin{displaymath}
-\Delta V_{AB} = -\int_A^B{\vec{E} \cdot \vec{ds}} \, \textrm{ or } \,
+\Delta V_{AB} = -\int_A^B{\vec{E} \cdot \vec{ds}} \qquad \textrm{ or } \qquad
 V =-\int{\vec{E} \cdot \vec{ds}} 
 \end{displaymath}
 When evaluating the indefinite integral, remember that you always need a constant of integration, $+C$.  
@@ -126,8 +126,8 @@ The graph below shows the electric field $E(x)$ in yet another region.
 \vspace{0.6in}
 
 \pagebreak[2]
-\begin{wrapfigure}[8]{r}{0.4\textwidth}
-%\vspace{-0.2 in}
+\begin{wrapfigure}[6]{r}{0.4\textwidth}
+\vspace{0.2 in}
     \includegraphics[width=0.4\textwidth]{finding_v_from_e/fig7.eps}
 \end{wrapfigure}
 
@@ -140,16 +140,24 @@ E(r) = \begin{dcases}
         \frac{k_eQ}{r^2}  &  R<r
         \end{dcases}
 \end{displaymath}
-(a) Use a definite integral to calculate $\Delta V$  between $r=R$ and $r=\infty$.
-\vspace{1.1in}
 
-(b) Use a definite integral to calculate $\Delta V$ between $r=0$ and $r=R$.
-\vspace{1.1in}
+%(a) Use a definite integral to calculate $\Delta V$  between $r=R$ and $r=\infty$.
+%\vspace{1.1in}
 
-(c) Draw a graph of the potential $V(r)$, using $V(\infty)=0$ as a reference.
+%(b) Use a definite integral to calculate $\Delta V$ between $r=0$ and $r=R$.
+%\vspace{1.1in}
+
+%Removed these last two parts, 2/14/2015. --MT.  These questions hurt more than they helped; students were trying to use the results of the definite integrals to figure out the constants of integration.  No big loss; it's not like this lab was too short before
+
+\vspace{0.5in}
+
+(a) Draw a graph of the potential $V(r)$, using $V(\infty)=0$ as a reference.  (Hints: try telling yourself a story about how much potential energy you'd be adding to the system if you used your hand to push a small positive particle in from $r=\infty$.  Also remember that $E = - \frac{dV}{dr}$.  If you're not sure, sketch your best guess with a dotted line and go on to the next question.)
 \begin{center}
 \includegraphics[width=0.5\textwidth]{finding_v_from_e/fig8.eps}
 \end{center}
 
-(d) Use indefinite integrals to write equations for $V(r)$ for each of the two regions, using $V(\infty)=0$ as your reference.  Be careful with signs, and remember the integration constants!
-\vspace{1.3in}
+(b) Use indefinite integrals to write equations for $V(r)$ for each of the two regions, using $V(\infty)=0$ as your reference.  Be careful with signs, and remember the integration constants!
+\answerspace{1.3in}
+
+\vfill
+(c) Now that you've calculated $V(r)$ exactly, go back and look at your graph in part (a).  Are your answers consistent?
