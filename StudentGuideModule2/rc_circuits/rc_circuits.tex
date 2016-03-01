@@ -35,8 +35,8 @@ The values of resistors and capacitors used here are not an accident.  The RC ti
 \setlength\itemsep{-4pt}
 \setlength\topsep{-6pt}
 \setlength\partopsep{-6pt}
-\vspace{-0.2in}  %There's gotta be a better way to tame this list spacing than this!  --MT
-\item Digital multimeter 
+\vspace{-0.15in}  %There's gotta be a better way to tame this list spacing than this!  --MT
+\item Digital multimeters (2) 
 \item DC power supply 
 \item Pasco 750 interface, with voltage leads
 \item Resistors: 10 k$\Omega$ and 27 k$\Omega$
@@ -46,7 +46,7 @@ The values of resistors and capacitors used here are not an accident.  The RC ti
 \item About six connecting wires
 \end{itemize}
 
-\textbf{Activity 1}
+\textbf{Activity 1: What's happening?}
 
 Build the circuit shown in the diagram below.  The switch terminal labeled ``2'' in the diagram is the center terminal on your switch.
 
@@ -76,29 +76,53 @@ Build the circuit shown in the diagram below.  The switch terminal labeled ``2''
 (c)  Now move the switch to position ``3,'' so that terminals 2 and 3 are connected.  What happens to the voltage difference $\Delta V_C$ and the charge $Q$ on the capacitor?
 \answerspace{0.7in}
 
-\pagebreak
-\textbf{Activity 2}
+\pagebreak[2]
+(d) Starting with $\Delta V_C$ near zero, (say $\Delta V_C \lesssim 1$~V) move the switch to position ``1'' (charging) and observe the current $I$ measured by your DMM.  (You'll need to set your DMM to a low current scale.)  As the capacitor's charge increases, does the current you measure increase, decrease, or remain constant?
+\answerspace{0.5in}
+
+(e) Once the capacitor has been charged (say $\Delta V_C \gtrsim 9$~V) move the switch to position ``3'' (discharging).  Is the sign of the current on your meter the same as in part (d), or is it different?  What is the physical meaning of the sign?
+\answerspace{0.7in}
+
+\textbf{Activity 2: Drawing graphs}
 
 Because the voltage $\Delta V_C$ is changing, it will be useful to use your computer to graph $\Delta V_C$ \textit{vs.} time.  Put the two red and black leads from the 750 interface box where your digital voltmeter is connected to your circuit.  (You can keep the DMM plugged in too.)
 
 To record voltage versus time data, go to \textit{Start $\longrightarrow$ Programs $\longrightarrow$ PhysicsApplications $\longrightarrow$ Datastudio}. Select the option Create Experiment.  You will see an image of the 750 interface box.  On this image, click on the channel A input.  You will see a list of sensors.  Scroll down to the Voltage Sensor and select by clicking OK.  Finally open a graph display by double clicking on the Graph option (on the left).
 
-(a)  Now take some data.  Draw sketches below showing $\Delta V_C$ \textit{vs.} time when the switch is moved into position ``1'' (charging) and position ``3'' (discharging).
-\vspace{1.5in}
+(a)  Now take some data.  On the axes below, draw sketches below showing $\Delta V_C$ \textit{vs.} time starting when the switch is moved into position ``1'' (charging) and position ``3'' (discharging).  Include a scale on the vertical axis.
 
-(b)  Helpful hint: if you get tired of waiting forever for $\Delta V_C$ to rise and fall, you can briefly “short out” the resistor by connecting an additional wire across it, like this.  
+%\vspace{1.5in}
 \begin{center}
-\vspace{-0.2 in}
-\includegraphics[width=0.05\textwidth]{rc_circuits/shorted_resistor_bw.eps}
-\vspace{-0.2 in}
+\vspace{-0.4 in}
+\includegraphics[width=0.95\textwidth]{rc_circuits/vc_axes.eps}
+\vspace{-0.1 in}
 \end{center}
-How does “shorting out” the resistor affect $\Delta V_C$ when the capacitor is charging?  When the capacitor is discharging?
+
+(b) Repeat the experiment above, this time focusing on the current measured by your DMM.  On the axes below, draw sketches below showing $I$ \textit{vs.} time when the capacitor is charging and discharging.  Include a scale on the vertical axis.
+\begin{center}
+\vspace{-0.3 in}
+\includegraphics[width=0.95\textwidth]{rc_circuits/current_axes.eps}
+%\includegraphics[width=0.6\textwidth]{rc_circuits/current_axes.eps}
+\vspace{-0.1 in}
+\end{center}
+
+\begin{wrapfigure}[5]{r}{0.07\textwidth}
+    \vspace{-0.2 in}
+\includegraphics[width=0.07\textwidth]{rc_circuits/shorted_resistor_bw.eps}
+\end{wrapfigure}
+
+
+(c)  Helpful hint: if you get tired of waiting forever for $\Delta V_C$ to rise and fall, you can briefly ``short out'' the resistor by connecting an additional wire across it, as shown to the right.  
+How does ``shorting out'' the resistor affect $\Delta V_C$ when the capacitor is charging?  When the capacitor is discharging?
+\answerspace{0.7in}
+
+\pagebreak[2]
+\textbf{Activity 3: Measuring the time constant}
+
+(a) Start with the capacitor fully charged at about 10 volts.  Then (with the resistor not shorted out) move the switch to position “3” to discharge the capacitor.  How long does it take for $\Delta V_C$ to drop to 1/3 of its original level (that is, from 10 volts to about 3.3 volts)?
 \vspace{0.8in}
 
-(c) Start with the capacitor fully charged at about 10 volts.  Then (with the resistor not shorted out) move the switch to position “3” to discharge the capacitor.  How long does it take for $\Delta V_C$ to drop to 1/3 of its original level (that is, from 10 volts to about 3.3 volts)?
-\vspace{0.8in}
-
-(d) If you repeat part (c) with a resistance $R = 10$ k$\Omega$ how do you expect your result to change?  Make a prediction and then test it.
+(b) If you repeat part (a) with a resistance $R = 10$ k$\Omega$ how do you expect your result to change?  Make a prediction and then test it.
 
 \vspace{0.2 in}
 \hspace{0.4 in} Prediction:
@@ -107,8 +131,8 @@ How does “shorting out” the resistor affect $\Delta V_C$ when the capacitor 
 \hspace{0.4 in} Measurement:  
 \vspace{0.2 in}
 
-\pagebreak
-(e) Go back to using the 27 k$\Omega$ resistor.  Now, if you repeat part (c) with a capacitance of $C=1000$ $\mu$F, how do you expect your result to change?  Make a prediction and then test it.
+%\pagebreak
+(c) Go back to using the 27 k$\Omega$ resistor.  Now, if you repeat part (a) with a capacitance of $C=1000$ $\mu$F, how do you expect your result to change?  Make a prediction and then test it.
 
 \vspace{0.2 in}
 \hspace{0.4 in} Prediction:
@@ -117,7 +141,7 @@ How does “shorting out” the resistor affect $\Delta V_C$ when the capacitor 
 \hspace{0.4 in} Measurement:  
 \vspace{0.2 in}
 
-(f) The time it takes for $\Delta V_C$ to fall to about a third of its original value (actually to $1/e$ of its value, where $e=2.71828…$) is called the time constant, $\tau$.   Fill in the following table:
+(d) The time it takes for $\Delta V_C$ to fall to about a third of its original value (actually to $1/e$ of its value, where $e=2.71828…$) is called the time constant, $\tau$.   Fill in the following table:
 
 %For fixed width columns:
 %These are now defined in master.text, to avoid  warnings when the definition is repeated in each file.
@@ -138,10 +162,10 @@ $R$ & $C$ & $\tau$ \\ \hline
 27 k$\Omega$ & 1000 $\mu$F &\\ \hline
 \end{tabular}
 \renewcommand{\arraystretch}{1.0}
-\vspace{0.3in}
+\vspace{0.2in}
 
-(g) What is the relationship between $R$, $C$, and $\tau$?
+(e) What is the mathematical relationship between $R$, $C$, and $\tau$? Write a single equation that relates the three.
 \vspace{0.7in}
 
-(h) Looking at your graphs, what is the functional form of $\Delta V_C$ \textit{vs.} time  for a discharging capacitor?  Try moving your data to Excel and fitting it to test your hypothesis.
+(f) Looking at your graphs, what is the functional form of $\Delta V_C$ \textit{vs.} time  for a discharging capacitor?  Try moving your data to Excel and fitting it to test your hypothesis.
 \vspace{0.7in}
