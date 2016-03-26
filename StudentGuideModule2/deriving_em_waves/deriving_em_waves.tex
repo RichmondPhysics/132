@@ -45,33 +45,34 @@ In the 1850s, Amp\'ere's law was well understood.  But a very clever Scotsman na
 (d) Ampere's law, as we've written it so far, seems to imply that the magnetic field above the wire can change discontinuously to zero if you move by even one \textit{nanometer} to the right, depending on whether your loop is just to the left or just to the right of the capacitor plate.  Does it seem plausible to you that the magnetic field would change discontinuously like that?
 \vspace{0.5in}
 
-(e)  There's another, more sophisticated argument against the magnetic field going to zero that's based on a mathematical idea known as Stoke's Theorem.  When we say ``current enclosed by a loop,'' what we really mean is ``current piercing through a surface bound by a loop.'' But there's nothing that says that the surface has to be flat, or even that the loop has to lie in a plane.  In the drawing on the left, the gray surface is a flat disk.  On the right, the surface is stretched into a hollow hemisphere around the capacitor plate.  Do the two surfaces both have the same current flowing through them?
+(e)  There's another, more sophisticated argument against the magnetic field going to zero that's based on a mathematical idea known as Stoke's Theorem.  When we say ``current enclosed by a loop,'' what we really mean is ``current piercing through a surface bound by a loop.'' But there's nothing that says that the surface has to be flat.  In the drawing on the left, the gray surface is a flat disk.  On the right, the surface is stretched into a hollow hemisphere around the capacitor plate.  Do the two surfaces both have the same current piercing through them?
 \begin{center}
 \vspace{-0.1in}
     \includegraphics[width=0.6\textwidth]{deriving_em_waves/two_surfaces.eps}
 \vspace{-0.1in}
 \end{center}
 
-So according to $\oint \vv B \cdot \vv{ds} = \mu_0I_{enc}$, the magnetic field $\vv B$ at a point near a wire can change from zero to nonzero by either moving the point to the left or right by an infinitessimally small amount, or worse, by just imagining a different shape surface in your head!  Maxwell knew that couldn't be right: Ampere's law was broken!
+So according to $\oint \vv B \cdot \vv{ds} = \mu_0I_{enc}$, the magnetic field $\vv B$ at a point near a wire can change from zero to nonzero by either moving the point to the left or right by an infinitessimally small amount, or worse, by just imagining a different shape surface in your head!  Maxwell knew that couldn't be right: \textit{Ampere's law was broken!}
 
-Maxwell knew about Faraday's law of induction, $\varepsilon=-d \Phi_B/dt$, where the emf $\varepsilon$ is a voltage, given by $\oint \vv{E} \cdot \vv{ds}$.  The picture below shows an example where Faraday's law applies.  
-\begin{center}
-\vspace{-0.1in}
-    \includegraphics[width=0.4\textwidth]{deriving_em_waves/faradays_law.eps}
-\vspace{-0.1in}
-\end{center}
-
-(f) In words, what does Faraday's law mean?
-
+(f) Maxwell knew about Faraday's law of induction, $\varepsilon=-d \Phi_B/dt$, where the emf $\varepsilon$ is a voltage, given by $\oint \vv{E} \cdot \vv{ds}$.  In words, what does Faraday's law mean?
 \begin{center}
 Faraday sez: ``A changing \underline{\hspace{1in}} field induces a(n) \underline{\hspace{1in}} field.''
 \end{center}
-   
-(g) Maxwell wondered if the reverse was also true: could a changing electric field also induce a magnetic field?  In the picture below, draw lines showing the electric field $\vv{E}$ as the capacitor charges up.  Is the electric field  increasing, decreasing, or staying the same?
+(g) When the switch is closed in the picture below on the left, in the brief time that current starts to flow, the magnetic field between the solenoids increases, which according to Faraday's law induces an electric field nearby, including along the dotted line.  Maxwell wondered if the reverse of Faraday's law was also true: could a changing electric field also induce a magnetic field?  In the picture below on the right, draw lines showing the electric field $\vv{E}$ as the capacitor charges up. 
 \begin{center}
-\vspace{-0.2in}
-    \includegraphics[width=0.6\textwidth]{deriving_em_waves/capacitor2.eps}
+\vspace{-0.1in}
+    \includegraphics[width=0.4\textwidth]{deriving_em_waves/faradays_law.eps}
+    \hspace{0.5in}
+    \includegraphics[width=0.4\textwidth]{deriving_em_waves/capacitor_and_loop.eps}
+\vspace{-0.1in}
 \end{center}
+
+(h) As current flows in the picture on the right, is the electric field between the plates increasing, decreasing, or staying the same?
+\answerspace{0.3in}
+%\begin{center}
+%\vspace{-0.1in}
+%    \includegraphics[width=0.6\textwidth]{deriving_em_waves/capacitor2.eps}
+%\end{center}
 
 \pagebreak
 \textbf{Activity 2: Help Maxwell Fix Up Ampere's Law!}
