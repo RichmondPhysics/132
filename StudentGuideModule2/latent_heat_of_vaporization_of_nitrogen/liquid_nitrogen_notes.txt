@@ -1,0 +1,11 @@
+I ran the liquid nitrogen lab myself the other day.  I’m attaching for you both my raw data and a file where I calculated some slopes.
+
+A few conclusions I drew:
+•	The background boil-off rate varies by about a factor of two depending on how full the cup is.  I suspect that this is the biggest source of discrepancy for the students: they measure with power on when the cup is full, then measure with power off when the cup is half empty.  (This is especially a big deal if they choose a low heater power.)  So apparently it’s important to refill the cups to the same level before each run.
+•	I was curious whether I would see discrepancies at very high heater power due to gas given off at T > 77K.  I saw no evidence of that, as I obtained quite reasonable numbers even with V=30 volts.
+•	There’s (possibly) a small effect of gas at T>77K when the resistor is too close to the liquid surface.  (I was able to get a value for L about 7% too high in that case.)  Be sure the resistor is down near the bottom of the cup.
+•	For heater voltages of 20V, 25V, and 30V, I got values of latent heat within 1% of accepted value.  For lower voltages my values are off by more like 5% in either direction, suggesting I haven’t adequately accounted for uncertainty in the slope measurement.
+
+Incidentally, I posted my raw data online for my students after the lab day.  For those with catastrophic failures in their data, I told them to analyze my data instead and base their brief write-ups on that.  
+
+--Matt Trawick, Spring 2016
