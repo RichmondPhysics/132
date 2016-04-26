@@ -1,0 +1,9 @@
+There's an issue with the colors on the cover that we'll need to check before print time.
+
+In powerpoint, I made a dark blue background (RGB: 0,0,160). For a few of the graphics elements (RC circuit, capacitor image, and the two induction coils), there were part parts that were transparent, allowing the dark blue background to show through.  For some weird reason I totally don't understand, these look just fine onscreen, BUT show up as a different shade of blue when printing to some printers, including our big Ricoh printer.  The HP laserjet 4700 worked fine, though.
+
+I tried googling to find out about the problem; apparently it's a known issue in powerpoint and is VERY complicated.  There is no easy magic-bullet fix for it.
+
+Before printing 100 of these for next semester, we should do one of two things: (1) have printing make a single test page of the cover.  (2) Try converting the entire powerpoint file to a single large TIFF file first, and convert that tiff to a PDF.  Maybe that would work?
+
+--MT, April 26, 2016
