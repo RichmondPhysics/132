@@ -1,0 +1,139 @@
+\section{Expansion of a gas at constant pressure}
+\begin{comment}
+This lab was written by Ted Bunn for spring of 2016.  It was edited slightly by Matt Trawick for this manual in April 2016.
+
+\end{comment}
+
+\makelabheader %(Space for student name, etc., defined in master.tex)
+
+\bigskip
+
+\textbf{Introduction}
+
+This is another of those simulation-based labs using the ``Atoms in
+Motion'' program.  You will work out theoretically how much energy it
+should take to heat up a gas from an initial temperature $T_i$
+to a final temperature $T_f$, assuming constant pressure.  Then you will
+test your predictions on the computer.
+
+\bigskip
+
+\textbf{Activity 1: Predictions}
+
+(a) Suppose that we have a sample of $n$ moles of monatomic gas.
+We put this sample of gas in a container with a movable
+piston, and we keep the system at a constant pressure $P$.  The initial
+temperature of the gas is $T_i$.  Express the initial volume $V_i$ of 
+the gas in terms of $P,n,T_i$ (and constants).  
+
+\answerspace{0.8in}
+
+(b) Now suppose we raise the temperature of the gas to some final value
+$T_f$.  What is the final volume of the gas (in terms of $P,n,T_f$)?
+
+\answerspace{0.8in}
+
+(c) Using the relation between work, pressure, and volume, find
+the relationship between the work done on the gas and the change in temperature
+$\Delta T$.
+
+\answerspace{1in}%1+?
+
+(d) How much internal energy did the gas have initially (when it
+was at temperature $T_i$)?  How much did it have at the end (when
+it was at temperature $T_f$)?  Express the change in internal energy
+in terms of $\Delta T$.
+
+\answerspace{1.1in}%was 1.5
+
+(e) How much heat $Q$ had to be added to the gas in order to cause
+this rise in temperature?  
+
+\answerspace{1.1in}
+
+\pagebreak[3]
+(f) We define the ``molar specific heat at constant pressure,''
+$C_P$, to be the amount of heat added to the gas per mole and per
+degree of temperature rise.  What is the molar specific heat at
+constant pressure of a monatomic gas?  (Your answer should be a
+constant, not depending on $P$, $T$, or any of those things.)
+
+\answerspace{1.4in}
+
+(g) Is the molar specific heat at constant pressure more than, less, than, or
+the same as the molar specific heat at constant volume?  Explain
+briefly why this makes sense.
+
+\answerspace{1.4in}
+
+\textbf{Activity 2: Tests}
+
+(a) Start up the ``Atoms in Motion'' program.  We're going to begin
+by setting up a gas with given values of pressure and temperature.
+Click on ``Atom''
+and let there be 50 atoms of type A and none of any other type.
+Click on ``Box'' and turn on both the piston and the ``floor conducts
+heat'' options.  Let the piston pressure be $30\times 10^5$ Pa and
+the temperature be 200 K.  Start the simulation running, and let it
+run for a few minutes, until the gas seems to have settled down
+to equilibrium.  (The piston will still jiggle up and down some.)
+
+(b) At this point, the gas should be at a temperature of about 200 K.
+Click ``Box'' again, and turn off the ``floor conducts heat'' option.
+Now no energy can enter or leave the system.  Its temperature should remain
+approximately constant at 200 K.  Turn on the $\sum$ (average) option,
+and look at the numbers.  The temperature should settle down to about 200 K
+and the pressure to about $30\times 10^5$ Pa,
+although as before there'll still be some jiggling around these values.  
+(If they don't seem to have settled down to the right values, check with me.)
+Stop the simulation, and 
+record the pressure, volume, and temperature of the gas here:
+
+\answerspace{1in}
+
+(c) Calculate the internal energy of the gas from the given values.  
+(Suggestion: how many moles are there?  How is internal energy related
+to the number of moles?)
+
+\answerspace{1.5in}
+
+\pagebreak[3]
+(d) Once you have calculated the internal energy, click on the ``KE''
+box.  This will tell you the total kinetic energy of all the molecules
+in the gas.  What is the total kinetic energy?  
+Does it agree reasonably well with what you found in the last question?
+\label{ke}
+
+\answerspace{1in}
+
+(e) Now suppose we suddenly add an amount $Q$ of heat to the gas that's
+equal to the internal energy right at this moment.  Using the rule you
+found before for the molar specific heat at constant pressure, calculate
+$\Delta T$, the expected rise in temperature.  What would you expect the
+final temperature of the gas to be after adding this much heat?
+
+\answerspace{1.5in}
+
+(f) We can test this by simply raising the kinetic energy of the 
+molecules.  After clicking on the ``KE'' box, you'll see that you can
+add any given amount of energy to the system.  Add an amount that's
+equal to the amount that's already there.  (This is the
+same as suddenly adding heat to the system.) Then start the simulation going
+again.  After it seems to have settled down to equilibrium, what is the
+temperature?  Does this agree with your prediction?
+
+\answerspace{1.5in}
+
+(g) Check the total kinetic energy of the molecules (by clicking on ``KE''
+again).  In the previous step, we took the initial energy (as found
+in step \ref{ke}) and doubled it, so we might expect the total energy
+now to be twice what it was in step \ref{ke}.  Is this the case?  Why not?
+Where did the ``missing energy'' go?
+
+\answerspace{1in}
+
+(h) Record the final volume of the gas here.  Using the result, check
+whether your answer to the previous question is correct.  (Sorry
+this question's kind of vague, but if I make it more specific I'll
+give away the answer to the previous question.  If you're not sure
+what I'm getting at, ask me.)
