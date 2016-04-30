@@ -1,0 +1,208 @@
+\documentclass{article}
+\usepackage{epsf}
+\usepackage{graphicx}
+\textwidth 6in
+\textheight 9.5in
+\topmargin -0.8in
+\oddsidemargin 0in
+\evensidemargin 0in
+\parindent 0pt
+\parskip 6pt
+
+\begin{document}
+
+\title{Physics 132\\
+Biot-Savart Law Calculations}
+\maketitle
+
+
+\bigskip\bigskip
+
+
+{\bf Part 1: Magnetic field above a current loop.}
+
+We have a horizontal 
+circular current loop of radius $R$, carrying
+current $I$.  We want to determine the magnetic field at a point a
+height $z$ directly above the center of the loop.
+
+These pictures shows the situation.  In the left,
+the red circle is the current loop, and the red dot is the point at
+which we're trying to evaluate the magnetic field.
+The right picture shows a side view of the situation. The
+gray bar shows the current loop, viewed edge-on.
+The black rectangle
+at the lower left is a current element (that is, a small segment of 
+the current loop).  The current in this part of the loop is flowing
+out of the page towards you, and P marks the point at which we're
+evaluating the field..
+
+\vskip 0.7in
+\centerline{\includegraphics[width=3.5in]{figs/newbiotfig1.eps}\hfil
+\includegraphics[width=2in]{figs/biot1.eps}}
+\medskip
+
+\begin{enumerate}
+\item Sketch a copy of the right-hand picture above on your own paper, 
+and draw the direction of the vector $d\vec{B}$,
+which is the magnetic field produced by that current element.  Put the
+tail of the vector at the point P, which is the place where the field
+is being evaluated.  
+
+\item \label{mag}
+Use the Biot-Savart law to express the magnitude of $d\vec{B}$
+in terms of the various given quantities in the problem such as $ds, I,
+R,z$.
+
+\item Now suppose that we consider a current element on the exact opposite
+side of the loop.  Draw the direction of the magnetic field $d\vec{B}$
+caused by this current element.  Label this one $d\vec{B}_2$ to distinguish
+it from the earlier one.
+
+
+\item When we eventually add up (i.e., integrate) all the $d\vec{B}$'s from
+all the different current elements, what will be the direction of  
+the resulting
+vector?
+
+\item \label{component}
+Before we do the integration, we need to pick out just that
+one component of $d\vec{B}$.  Indicate an appropriate angle $\theta$
+on your drawing, and write down an expression giving the
+relevent component of $d\vec{B}$ in terms of the magnitude
+$dB$ and the angle $\theta$.
+
+\item \label{triangle}
+We need to express the angle $\theta$ in terms of the given
+quantities in the problem.  In order to do this, identify a right
+triangle containing $\theta$ and also the dimensions $R,z$.  Use this triangle
+to express the relevant trigonometric function of $\theta$
+in terms of $R,z$.  
+
+\item Put your answers to questions \ref{mag}, \ref{component},
+\ref{triangle} together
+to give an expression giving the relevant component of $d\vec{B}$
+in terms of the various given quantities $I,R,z$, and $ds$.
+
+\item \label{answer1}
+Integrate the previous expression to get the magnitude of the
+magnetic field produced by the entire loop of current.  (Note: if you
+find yourself doing a hard integral, you're thinking about it the wrong
+way.)
+
+\item What does your answer say about the strength of the magnetic
+field right at the center of the loop (that is, at the point $z=0$)?
+The result should agree with the expression we got earlier for 
+this quantity, namely $B=\mu_0I/(2R)$.
+
+\end{enumerate}
+
+\bigskip
+
+{\bf Part 2: Magnetic field above a square loop.}
+
+Now suppose that we have a loop of wire shaped like a square as shown.
+The square lies in the $xy$ plane and is centered on the origin.
+Each side has length $2a$, so that it extends from $-a$ to $a$.
+It carries current $I$ going counterclockwise.  As in the previous
+part, our goal is to calculate the magnetic field at a point 
+located a height $z$ above the center of the loop.  (That is, we're
+considering a point lying above the plane of this piece of paper.)
+
+\medskip
+\centerline{\includegraphics{figs/newbiotfig2.eps}}
+\medskip
+
+
+To do this, we'll have to consider one side of the square at a time.  In
+each case, we'll want to know the magnetic field produced by 
+a straight segment of current.  Fortunately, you worked out
+that expression in Lab 21. 
+
+
+Let's start by considering 
+the side on the left of the picture, which extends from
+$(x,y)=(-a,-a)$ to $(x,y)=(-a,a)$.
+
+\begin{enumerate}
+
+\item Draw an arrow indicating the 
+direction of the magnetic field due to this segment.
+Call it $\vec{B}_1$.
+
+\item The magnitude of $\vec{B}_1$ is given by the formula
+you derived in Lab 21. What is it? Note: the thing
+called $y$ in that lab is the distance from the center of
+the wire to the point at which the field is being evaluated. 
+In this case, what is that quantity (in terms of $z,a$)?
+
+\item When we add up the contributions from all four sides, only
+one component is going to matter.  Decide which
+component that is. Then indicate an
+appropriate angle $\theta$ on your drawing, and 
+write down an expression giving
+the magnitude of the relevant component of $\vec{B}_1$ in terms of $\theta$.  
+
+\item Draw a triangle showing the angle $\theta$ from the previous part,
+as well as lengths such as $z,a$.  Express the relevant trigonometric
+function of $\theta$ in terms of these quantities.
+
+\item Put the last three steps together to get an expression giving the
+relevant component of $\vec{B}_1$ in terms of the given quantities of the
+problem, such as $I,a,z$.  
+
+\item \label{answer2}
+The other three sides of the square will give contributions
+$\vec{B}_2,\vec{B}_3,\vec{B}_4$ to the magnetic field.  When you add
+up all four sides, what will the resulting magnetic field be?
+This is the final answer to the question we originally posed.
+
+\item What is the strength of the magnetic field right at the
+center of the square (that is, at $z=0$)?
+
+\end{enumerate}
+
+\bigskip
+
+{\bf Part 3: The field at very great distances.}
+
+In this part, I want to consider the results of the previous
+two calculations in the case where $z$ is very large -- that is,
+the case where we're very far away from the current loop.
+
+\begin{enumerate}
+\item Take your expression from question \ref{answer1} of part 1,
+giving the magnetic field above a circular current loop.
+Suppose that we're extremely far away from the loop, that is,
+that $z$ is much, much greater than $R$.  In that case, we can approximate
+$z^2+R^2\approx z^2$.  Write down the expression for the magnetic
+field strength in this approximation.  
+
+\item Your answer to the previous question should have $R$'s in it.
+For reasons that we'll see in a minute, it turns out to be nice
+to express the answer in terms of the area $A$ of the loop instead of the
+radius.  Make the appropriate substitution to get an expression
+giving $B$ in terms of $I,A,z$.
+
+Next, we'll play the same game with the square loop.  
+
+\item Using your expression from question \ref{answer2} of Part 2,
+write down an approximate expression for $B$ assuming that the distance
+$z$ is very large.
+
+\item What is the area of the square loop (in terms of $a$)?  
+Express the answer to the previous question in terms of the area $A$
+instead of the length $a$.
+\end{enumerate}
+
+You should find that the expressions are the same for the circular
+and square loops.  If you did not find this, talk to me.  
+
+This result turns out to be true for loops of all shapes: as long as you're
+far away from the loop, the magnetic field depends on the area of the loop,
+but not on its exact shape.
+
+
+
+
+\end{document}
