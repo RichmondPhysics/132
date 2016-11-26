@@ -6,7 +6,7 @@
 
 %The \includeonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
-%\includeonly{deriving_em_waves/deriving_em_waves}
+%\includeonly{induction1/electromagnetic_induction,induction2/induction2}
 
 %Use the following line to override all of the 1's and 0's in the \includelab statements below
 %\includealllabstrue
@@ -20,25 +20,6 @@
 
 %use \includelab[1] to include, or \includelab[0] to exclude.  Can be overridden with \includealllabstrue
 %--------------------------------------------
-\part{Thermodynamics}
-
-\includelab{1}{heat_temp_int_energy/heat_temp_int_energy}
-%\includelab{1}{calorimetry/calorimetry}
-\includelab{1}{boyles_law/boyles_law}
-\includelab{0}{charles_law/charles_law}
-\includelab{1}{P-T_relationship_of_gas/P-T}
-\includelab{1}{kin_theory_ideal/kin_theory_ideal}
-\includelab{1}{applying_kinetic_theory/applying_kinetic_theory}
-\includelab{1}{calorimetry/calorimetry}
-\includelab{0}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit_minimalist}
-\includelab{0}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit}
-\includelab{0}{expansion_constant_pressure/expansion_constant_pressure}
-\includelab{0}{ideal_gas_cycles/ideal_gas_cycles}
-\includelab{0}{EinsteinSolid/einstein_solid}
-\includelab{0}{S+T/entropy_temperature}
-\includelab{0}{entropy_is_it_possible/entropy_is_it_possible}
-
-%--------------------------------------------
 \part{Mechanical Waves}
 
 \includelab{1}{standing_waves_strings/standing_waves_strings}
@@ -46,42 +27,22 @@
 \includelab{0}{doppler_shift/doppler_shift}
 
 %--------------------------------------------
-\part{Geometric Optics}
-
-\includelab{1}{refraction_of_light/refraction_of_light}
-\includelab{1}{refraction_at_spherical_surfaces}
-
-%--------------------------------------------
-\part{Wave Optics}
-
-\includelab{0}{interference_of_light/interference_of_light_old} %need to fix Rotate 270 warning for grayscale figure
-\includelab{1}{interference_of_light/interference} %need to fix Rotate 270 warning for grayscale figure
-\includelab{0}{diffraction_of_light/diffraction_of_light_old} %need to fix Rotate 270 warning for grayscale figure
-\includelab{1}{diffraction_of_light/diffraction}
-\includelab{0}{diffraction2}
-\includelab{1}{diffraction_grating}
-
-%--------------------------------------------
 \part{Electrostatics}
 
 \includelab{0}{electrostatics/electrostatics_pre2016}
 \includelab{1}{electrostatics/electrostatics_post2016}
 \includelab{0}{interactions_of_electric_charges/interactions_of_electric_charges}
-%\includelab{1}{charge_density/charge_density}
+\includelab{1}{charge_density/charge_density}
 \includelab{1}{elec_grav/elec_grav}
-%\includelab{1}{electric_fields_and_equipotential_lines/ef_equipot_lines}
-%\includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
+\includelab{1}{electric_fields_and_equipotential_lines/ef_equipot_lines}
+\includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
 \includelab{0}{elec_potential_example/elec_potential_example}
-%\includelab{1}{electric_potential/electric_potential}
+\includelab{1}{electric_potential/electric_potential}
 \includelab{0}{finding_v_from_e/finding_v_from_e}
 \includelab{1}{electric_field_and_electric_potential/EF_EP_1}
 \includelab{1}{electric_field_and_electric_potential/EF_EP_2}
 \includelab{1}{electric_field_and_electric_potential/EF_EP_3}
 \includelab{0}{electric_field_and_electric_potential/EF_EP_4}
-\includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
-\includelab{1}{charge_density/charge_density}
-\includelab{1}{electric_potential/electric_potential}
-\includelab{1}{electric_fields_and_equipotential_lines/ef_equipot_lines}
 \includelab{0}{electric_field_atomic_nucleus/electric_field_atomic_nucleus}
 \includelab{0}{charge_dist_water_mol/charge_dist_water_mol}
 \includelab{1}{capacitance}
@@ -118,19 +79,51 @@
 \includelab{0}{generator}
 \includelab{0}{deriving_em_waves/deriving_em_waves}
 \includelab{1}{plane_waves/plane_waves}
-\includelab{1}{hydrogen} %this would normally go in the quantum section, I think. --MT
-
 
 %--------------------------------------------
-%\part{Quantum Mechanics}
+\part{Wave Optics}
 
-%\includelab{1}{hydrogen} %moved to optics for fall 2015
+%\includelab{0}{interference_of_light/interference_of_light_old} %need to fix Rotate 270 warning for grayscale figure
+\includelab{1}{interference_of_light/interference} %need to fix Rotate 270 warning for grayscale figure
+%\includelab{0}{diffraction_of_light/diffraction_of_light_old} %need to fix Rotate 270 warning for grayscale figure
+\includelab{1}{diffraction_of_light/diffraction}
+%\includelab{0}{diffraction2}
+\includelab{1}{diffraction_grating}
+
+%--------------------------------------------
+\part{Geometric Optics}
+
+\includelab{1}{refraction_of_light/refraction_of_light}
+\includelab{1}{refraction_at_spherical_surfaces}
+
+%--------------------------------------------
+\part{Thermodynamics}
+
+\includelab{1}{heat_temp_int_energy/heat_temp_int_energy}
+\includelab{1}{calorimetry/calorimetry}
+\includelab{1}{boyles_law/boyles_law}
+\includelab{0}{charles_law/charles_law}
+\includelab{1}{P-T_relationship_of_gas/P-T}
+\includelab{1}{kin_theory_ideal/kin_theory_ideal}
+\includelab{1}{applying_kinetic_theory/applying_kinetic_theory}
+\includelab{0}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit_minimalist}
+\includelab{0}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit}
+\includelab{0}{expansion_constant_pressure/expansion_constant_pressure}
+\includelab{0}{ideal_gas_cycles/ideal_gas_cycles}
+\includelab{0}{EinsteinSolid/einstein_solid}
+\includelab{0}{S+T/entropy_temperature}
+\includelab{0}{entropy_is_it_possible/entropy_is_it_possible}
+
+%--------------------------------------------
+\part{Quantum Mechanics}
+
+\includelab{1}{hydrogen} %moved to optics for fall 2015
 \includelab{0}{solveSE/solveSE}
 \includelab{0}{qmProbability/qmProbability}
 \includelab{0}{radiocarbon_dating/radiocarbon_dating}
 
 %--------------------------------------------
-%\part{Other Topics}
+\part{Other Topics}
 
 \includelab{0}{centripetalForceFor132/centripetalForceFor132}
 \includelab{0}{cons_ang_momFor132/cons_ang_mom}
@@ -143,7 +136,7 @@
 \immediateaddcontentsline{toc}{part}{Appendices} %Avoids a Roman part number for the Appendices in the toc
 \appendix
 
-\includelab{1}{appendices/datastudio_from131}
+%\includelab{1}{appendices/datastudio_from131}
 \includelab{0}{appendices/capstone_from131}
 \includelab{1}{appendices/treatment_data_from131}
 \includelab{1}{appendices/one_page_uncertainty_from131}
