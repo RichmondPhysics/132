@@ -6,7 +6,7 @@
 
 %The \includeonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
-%\includeonly{charge_dist_water_mol/charge_dist_water_mol}
+%\includeonly{induction_intro/induction_intro,induction_sinusoidal/induction_sinusoidal}
 
 %Use the following line to override all of the 1's and 0's in the \includelab statements below
 %\includealllabstrue
@@ -29,9 +29,7 @@
 %--------------------------------------------
 \part{Electrostatics}
 
-\includelab{0}{electrostatics/electrostatics_pre2016}
-\includelab{1}{electrostatics/electrostatics_post2016}
-\includelab{0}{interactions_of_electric_charges/interactions_of_electric_charges}
+\includelab{1}{electroscope/electroscope}
 \includelab{1}{charge_density/charge_density}
 \includelab{0}{elec_grav/elec_grav}
 \includelab{1}{electric_fields_and_equipotential_lines/ef_equipot_lines}
@@ -52,8 +50,6 @@
 
 \includelab{1}{electric_circuits/electric_circuits}
 \includelab{1}{electric_circuits2/electric_circuits2}
-\includelab{0}{ohms_law/ohms_law}
-\includelab{0}{kirchhoffs_rules/kirchhoffs_rules}
 \includelab{1}{electric_power/electric_power}
 \includelab{1}{rc_circuits/rc_circuits}
 \includelab{0}{lr_circuit/lr_circuit}
@@ -62,9 +58,9 @@
 %--------------------------------------------
 \part{Magnetism}
 
-\includelab{0}{magnetism_1}
-\includelab{1}{magnetism_2/magnetism_2}
-\includelab{1}{magnetism_3/magnetism_3} %need to fix Rotate 270 warning for grayscale figure
+\includelab{0}{magnetism_qualitative}
+\includelab{1}{magnetism_field_perm_mag/magnetism_field_perm_mag}
+\includelab{1}{magnetism_currents/magnetism_currents} %need to fix Rotate 270 warning for grayscale figure
 \includelab{1}{magnetic_field_earth}
 \includelab{1}{biot_savart_straight_wire/biot_savart_straight_wire} 
 \includelab{1}{biot_savart_above_loops/biot_savart_above_loops} 
@@ -74,8 +70,8 @@
 %--------------------------------------------
 \part{Induction and Electromagnetic Waves}
 
-\includelab{1}{induction1/electromagnetic_induction} %need to fix Rotate 270 warning for grayscale figure
-\includelab{1}{induction2/induction2}
+\includelab{1}{induction_intro/induction_intro} %need to fix Rotate 270 warning for grayscale figure
+\includelab{1}{induction_sinusoidal/induction_sinusoidal}
 \includelab{0}{generator}
 \includelab{1}{deriving_em_waves/deriving_em_waves}
 \includelab{1}{plane_waves/plane_waves}
@@ -83,11 +79,8 @@
 %--------------------------------------------
 \part{Wave Optics}
 
-%\includelab{0}{interference_of_light/interference_of_light_old} %need to fix Rotate 270 warning for grayscale figure
 \includelab{1}{interference_of_light/interference} %need to fix Rotate 270 warning for grayscale figure
-%\includelab{0}{diffraction_of_light/diffraction_of_light_old} %need to fix Rotate 270 warning for grayscale figure
 \includelab{1}{diffraction_of_light/diffraction}
-%\includelab{0}{diffraction2}
 \includelab{1}{diffraction_grating}
 \includelab{1}{hydrogen} %Currently listed under both quantum and wave optics.  Be sure it's not selected for both!
 
@@ -142,7 +135,6 @@
 \includelab{1}{appendices/treatment_data_from131}
 \includelab{1}{appendices/one_page_uncertainty_from131}
 \includelab{1}{appendices/excel_from131}
-\includelab{0}{appendices/video_analysis/video_analysis} 
 \includelab{0}{appendices/video_analysis_tracker_from131}
 \includelab{0}{appendices/nuke_safety/nuke_safety}
 \includelab{0}{appendices/instrumentation_from131}
