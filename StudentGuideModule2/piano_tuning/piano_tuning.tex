@@ -1,0 +1,69 @@
+\section{How to Tune a Piano}
+\begin{comment}
+This lab was written by Matt Trawick for spring of 2017, based on an exercise I did in class for the last couple of years.  This is a little off the beaten path, but some students think it's fun!  It takes only 10 or 15 minutes.
+
+\end{comment}
+
+\makelabheader %(Space for student name, etc., defined in master.tex)
+
+\bigskip
+\textbf{Apparatus}
+%\vspace{-\parskip}
+\begin{itemize}[nosep]
+\item piano\_tuning.xlsx spreadsheet file
+\end{itemize}
+
+\medskip
+\textbf{Introduction}
+
+Tuning musical instruments is probably not something you think about every day.  But it turns out that what counts as ``in tune'' for a piano is not as straightforward as it seems.  There are lots of possible ways to tune the notes on a piano, all of which sound subtly different.
+
+\medskip
+\textbf{A C major chord}
+
+(a) Open the spreadsheet piano\_tuning.xlsx in Excel.  Your first job is to calculate in column F the exact frequencies for the notes in a C major chord: C, E, G, and another high C. 
+
+\vspace{-0.25in}
+
+%\medskip
+\hspace{1.10in}\raisebox{-0.25in}{130.8~Hz}
+
+\vspace{-0.15in}
+\hfill{}
+Low C ($f_0$): \rule{.7in}{0.1pt}\hfill{}
+E ($\frac{5}{4}f_0$): \rule{.7in}{0.1pt}\hfill{}
+G ($\frac{3}{2}f_0$): \rule{.7in}{0.1pt}\hfill{}
+high C ($2f_0$): \rule{.7in}{0.1pt}\hfill{}
+
+The values you have just calculated probably sound the most ``in tune'' to your ears.
+
+\medskip
+\textbf{Just Intonation}
+
+(b) Now you will fill in column G in the spreadsheet using a scheme of simple whole number ratios called ``just intonation.'' In this scheme, 
+\begin{itemize}[nosep]
+\item Each pair of notes that are seven notes away from each other on the keyboard (a ``perfect fifth'', like from C to G) has a frequency ratio of 3:2.
+\item Each pair of notes that are twelve notes away from each other (an ``octave'', like from a low C to a higher C) has a frequency ratio of 2:1.  
+\end{itemize}
+Fill in the frequencies of column G, starting with the low C and alternating between going seven notes up and five notes down.  (For five notes down, the frequency ratio is 3:4, the same as going up by seven notes twice, then down by an octave.) For convenience, the order to calculate the frequencies is given in column H.)
+
+(c) What is the frequency of the high C? Is it exactly twice the frequency of the low C, 130.8~Hz?
+\answerspace{0.3in}
+
+(d) Are the frequencies for the C major chord (C, E, G) exactly the same as you calculated in part (a)?
+\answerspace{0.3in}
+
+\textbf{Even Temperament}
+
+Using the ``just intonation'' scheme you just calculated, the high C would be moved back to 261.6 Hz, which would preserve the 2:1 frequency ratio between the two C's, but would make some other pairs of notes sound \textit{awful} to our ears!  A clever alternative tuning that avoids this, called ``even temperament,'' was invented around the time of Johann Sebastian Bach.  The rule is simple:
+\begin{itemize}[nosep]
+\item Each pair of adjacent notes (like C to C\#) has a frequency ratio of $\sqrt[12]{2}:1$.
+\end{itemize}
+
+(e) Fill in the frequencies of column I, starting with the low C.  (The value of $\sqrt[12]{2}$ is given in cell A1.)
+
+(f) Does the last C come out to exactly 261.6 Hz?
+\answerspace{0.3in}
+
+(g) Do the frequencies for the C major chord exactly match part (a)?  Are they at least closer than with ``just intonation?''
+\answerspace{0.3in}
