@@ -12,7 +12,7 @@ I intend for this to take the place of the first part of the lab on electric pot
 
 \textbf{Introduction} 
 
-In this lab, we'll start by reviewing the ideas of force, work, and potential energy from physics 131.  Then we'll define a new, handy quantity called the electric potential that's one of the key ideas in physics 132.
+In this lab, we'll start by reviewing the ideas of force, work, and potential energy from physics 131.  Then we'll define a new, handy quantity called the ``electric potential'' that's one of the key ideas in physics 132.
 
 \bigskip
 
@@ -22,7 +22,7 @@ In your previous physics class, you learned that the work $W$ done on an object 
 
 \begin{enumerate}[wide, label=(\emph{\alph*})]
 
-\item Suppose a ball moves along each of the four numbered paths shown below.  For each one, is the work done by the force of gravity \textit{positive}, \textit{negative}, or \textit{zero}? \label{part_potential_intro_grav_work} 
+\item Suppose that a ball moves along each of the four numbered paths shown below.  For each one, is the work done by the force of gravity \textit{positive}, \textit{negative}, or \textit{zero}? \label{part_potential_intro_grav_work} 
 \begin{center}
 \vspace{0.1in}
 \includegraphics{potential_intro/activity_1_figs/gravity_paths.eps}
@@ -32,14 +32,14 @@ In your previous physics class, you learned that the work $W$ done on an object 
 For forces like gravity that only depend on the position of the object, you learned that instead of treating the force as  ``external'' (from outside the system) it's sometimes handy to include it as a part of the system, defining a potential energy $U$ so that
 $$\Delta U \equiv -W.$$
 
-\item For each of the four paths in the figure in part \ref{part_potential_intro_grav_work}, state whether the change in potential energy $\Delta U$ of the system is \textit{positive}, \textit{negative}, or \textit{zero}.
+\item For each of the four paths in the figure in part \ref{part_potential_intro_grav_work}, state whether the change in gravitational potential energy $\Delta U$ of the system is \textit{positive}, \textit{negative}, or \textit{zero}.
 \begin{center}
 \vspace{0.1in}
 \includegraphics{potential_intro/activity_1_figs/gravity_potentials.eps}
 \vspace{0.1in}
 \end{center}
 
-It's easy to make a careless algebraic mistake with a sign, so always check yourself by telling yourself a little story like this: if you were to reach into the system with your hand and lift a ball along path 2, the external force of your hand would be doing \textit{positive} work on the system, which makes you tired.  The energy you burned went someplace, and it went to \textit{increasing} the gravitational potential energy of the system. 
+\textit{Helpful hint: It's easy to make a careless algebraic mistake with a sign, so always check yourself by telling yourself a little story like this: if you were to reach into the system with your hand and lift a ball along path 2, the external force of your hand would be doing \textit{positive} work on the system---that's why you get tired.  The calories you burned went someplace, and it went to \textit{increasing} the gravitational potential energy of the system. }
 
 \pagebreak[3]
 
@@ -57,7 +57,7 @@ which reduces to just $W=\int{F ds}$ in one dimension.  The diagram below shows 
 %\begin{enumerate}[resume,wide, label=(\emph{\alph*})]
 \item As an example, consider a mass $m$ on a spring with a spring constant $k$ in the figure to the right.  For simplicity, we'll assume the surface is frictionless, and that the equilibrium position of the mass is at $x=0$.  
 Draw a graph of the force $F$ of the spring on the mass, as a function of its position $x$.  
-(Hints: this is your old friend, Hooke's law.  Also, if the mass is at a positive $x$, is the force of the spring pushing it in the positive direction or the negative direction?)
+(Hints: this is your old friend, Hooke's law.  Also, think about the signs: if the mass is at a positive $x$, is the force of the spring pushing it in the positive direction or the negative direction?)
 %\end{enumerate}
 %\end{minipage}
 %\begin{minipage}{0.34\textwidth}
@@ -78,7 +78,7 @@ Draw a graph of the force $F$ of the spring on the mass, as a function of its po
 \begin{center}
 \vspace{-0.1in}
 \includegraphics{potential_intro/activity_1_figs/U_axes.eps}
-\hspace{1.1in}
+\hspace{1.05in}
 \raisebox{0.5in}{$U(x)=$}
 \hspace*{1.0in}
 \end{center}
@@ -93,7 +93,7 @@ Now that we've reviewed gravitational potential energy $U_{grav}$ and the potent
 
 \begin{enumerate}[wide, label=(\emph{\alph*})]
 
-\item The figure below shows a region of uniform electric field $E_0$.  If a \textit{positively} charged particle $+q$ moves along the path shown, does the potential energy of the system \textit{increase}, \textit{decrease}, or \textit{stay the same?}
+\item The figure below shows a region of uniform electric field $E_0$.  If a \textit{positively} charged particle $+q$ moves along the path shown, is the change in potential energy of the system \textit{positive}, \textit{negative}, or \textit{zero?}  Compare with the gravitational example on page \pageref{part_potential_intro_grav_work}.
 \begin{center}
 %\vspace{0.1in}
 \includegraphics{potential_intro/activity_2_figs/uniform_E_field.eps}
@@ -101,7 +101,7 @@ Now that we've reviewed gravitational potential energy $U_{grav}$ and the potent
 \end{center}
 
 
-\item What is the electric force $\vv{F}$ on the charged particle?
+\item What is the magnitude of the electric force $\vv{F}$ on the charged particle?
 \answerspace{0.3in}
 
 \item By integrating the force above, write a function for the potential energy $U(x)$ for the particle in the field.  Be sure to include an integration constant, $+C$.
@@ -142,7 +142,7 @@ Suppose a bunch of electric charges are nailed down so they don't move.  If you 
 \end{wrapfigure}
 You could calculate the force directly, using Coulomb's law, for instance.  
 
-But the size of the force depends on what charge $q$ you pull from your pocket, and you might not want to recalculate the force from scratch for every possible charge you could pull out.  Instead, you can calculate the electric field $\vv{E}$ due to the fixed charges, and find the force on any charge $q$ using $\vv{F}=q\vv{E}$.  The electric field $\vv{E}$ is telling you the ``force per unit charge'' on whatever extra $q$ you put down, and you can think of that as the definition of electric field:
+But the size of the force depends on what charge $q$ you pull from your pocket, and you might not want to recalculate the force from scratch for every possible charge you could pull out.  Instead, you can calculate the electric field $\vv{E}$ due to the fixed charges, and then find the force on any charge $q$ using $\vv{F}=q\vv{E}$.  The electric field $\vv{E}$ is telling you the ``force per unit charge'' on whatever new charge $q$ you put down, and you can think of that as the definition of electric field:
 $$\vv{E} \equiv \frac{\vv{F}}{q}$$
 The diagram below shows the relationship between $\vv{F}$ and $\vv{E}$ graphically:
 
@@ -167,7 +167,7 @@ So what if you want to use conservation of energy to find the final
 \end{wrapfigure}
 speed of the charge $q$ from your pocket?  You could calculate the electric potential energy at the initial and final positions, and find the change in kinetic energy using $\Delta K = -\Delta U$.
 
-But again, the size of $\Delta U$ depends on what charge $q$ you pull from your pocket, and you might not want to recalculate it from scratch for every possible charge you could pull out.  Instead, you can calculate a new quantity called the ``electric potential'' $V$ at the initial and final positions.  Just as $E$ tells you the force per unit charge $q$, this new quantity $V$ tells you the ``potential energy per unit charge'' on whatever extra $q$ you put down.  The electric potential is defined as:
+But again, the size of $\Delta U$ depends on what charge $q$ you pull from your pocket, and you might not want to recalculate it from scratch for every possible charge you could pull out.  Instead, you can calculate a new quantity called the ``electric potential'' $V$ at the initial and final positions.  Just as $E$ tells you the force per unit charge $q$, this new quantity $V$ tells you the ``potential energy per unit charge'' on whatever new charge $q$ you put down.  The electric potential is defined as:
 $$V \equiv \frac{U}{q}$$
 \vspace{-0.3 in}
 \begin{enumerate}[wide, label=(\emph{\alph*})]
@@ -177,10 +177,10 @@ $$V \equiv \frac{U}{q}$$
 \includegraphics{potential_intro/concept_map_figs/concept_map_U_and_V_blank.eps}
 \end{center}
 
-\item Note that the name ``electric potential'' makes it sound like $V$ is an energy, but it's not.  What are the SI units for potential energy $U$?
+\item Note that the name ``electric potential'' makes it sound like $V$ is an energy, but it's not.  (Even more confusing: the electric potential $V$ is sometimes called just ``the potential'' for short.)  What are the SI units for potential energy $U$?  
 \answerspace{0.3in}
 
-\item What would be the units of electric potential $V$ in terms of SI units you already know?  (This unit is also defined as the Volt, and is abbreviated as ``V''.)
+\item By contrast, what would be the units of electric potential $V$, in terms of SI units you already know?  (This unit is also defined as the Volt, and is abbreviated as ``V''.)
 \answerspace{0.3in}
 
 \end{enumerate}
@@ -203,7 +203,7 @@ Note that in this problem the electric potential at the two locations is given t
 \item What is the change in the helium ion's kinetic energy, $\Delta K$? 
 \answerspace{0.3in}
 
-\item What is the final speed $v_F$ of the electron?
+\item What is the final speed $v_F$ of the helium ion?
 \answerspace{0.6in}
 
 \end{enumerate}
@@ -214,7 +214,7 @@ The relationship between the electric field $\vv{E}$ and electric potential $V$ 
 
 \begin{enumerate}[wide, label=(\emph{\alph*})]
 
-\item The diagram below shows the relationships between $\vv{F}$, $\vv{E}$, $U$, and $V$ .  Fill in the equations between $\vv{F}$ and $\vv{E}$ and between $U$ and $V$ from memory if you can.  To find the two relationships between $\vv{E}$ and $V$, start with the analogous equations relating $\vv{F}$ and $U$, and divide both sides by $q$.  
+\item The diagram below shows the relationships between $\vv{F}$, $\vv{E}$, $U$, and $V$.  Fill in the equations between $\vv{F}$ and $\vv{E}$ and between $U$ and $V$ from memory if you can.  Then write the two relationships between $\vv{E}$ and $V$.  Hint: start with the analogous equations relating $\vv{F}$ and $U$, and divide both sides by $q$.  
 \begin{center}
 \includegraphics{potential_intro/concept_map_figs/concept_map_all_blanks.eps}
 \end{center}
@@ -251,7 +251,7 @@ The relationship between the electric field $\vv{E}$ and electric potential $V$ 
 \includegraphics{potential_intro/activity_5_figs/uniform_E_field_1.eps}
 \end{center}
 
-\item The figure below shows a region of space with a uniform electric field.  Draw two different dotted line paths, each of which have constant electric potential along the line.  Which of your two paths is at a higher electric potential?  (Each of these paths is called an ``equipotential''.)
+\item The figure below shows a region of space with a uniform electric field.  Draw two different dotted line paths, each of which have constant electric potential along the path.  Which of your two paths is at a higher electric potential?  (Each of these paths is called an ``equipotential''.)
 \begin{center}
 \vspace{-0.1 in}
 \includegraphics{potential_intro/activity_5_figs/uniform_E_field_2_squish.eps}
@@ -288,10 +288,10 @@ Now let's apply this same relationship to one of the most common situations you'
 \item Before we do any calculations, we'll try to get a general feel for what $V(r)$ should look like.  Imagine taking a small charge $q$ out of your pocket, and pushing it in towards $r=0$ from $r=\infty$.  (We'll assume $q$ is positive, so that $U$ and $V$ have the same sign.)  As you push $q$ inward with your hand, does the electric potential due to $Q$ \textit{increase}, \textit{decrease}, or \textit{stay the same} as you get closer to $Q$?
 \answerspace{0.4in}
 
-\item The electric field gets stronger as you get closer.  Bearing in mind that $E = -dU/ds$, is the magnitude $\left | {dU}/{dr}\right |$ getting bigger or smaller as you get closer to $Q$?
+\item The electric field from $Q$ gets stronger as you get closer.  Bearing in mind that $E = -dV/ds$, is the magnitude $\left | {dV}/{dr}\right |$ getting bigger or smaller as you get closer to $Q$?
 \answerspace{0.4in}
 
-\item Based on your last two answers, sketch a graph of $V(r)$ on the axes below.  For convenience, let $V=0$ at $r \rightarrow \infty$. \label{part_potential_intro_sketch_of_Vr}
+\item Based on your last two answers, sketch a qualitative graph of $V(r)$ on the axes below.  For convenience, let $V=0$ at $r \rightarrow \infty$. \label{part_potential_intro_sketch_of_Vr}
 \begin{center}
 \includegraphics{potential_intro/activity_6_figs/V_axes.eps}
 \end{center}
@@ -301,7 +301,7 @@ Now let's apply this same relationship to one of the most common situations you'
 \answerspace{0.5in}
 
 \item Since the $\vv{E}$ points radially outward, the equation $V=-\int{\vv{E} \cdot \vv{ds}}$ can be reduced to 
-the one-dimensional form $V=-\int{E \, dr}$.  Perform that integration using the $E(r)$ you just wrote. Be sure to include an integration constant $+C$.
+the one-dimensional form $V=-\int{E \, dr}$.  Perform that integration to find $V(r)$, using the $E(r)$ you just wrote. Be sure to include an integration constant $+C$.
 \answerspace{1.2in}
 
 \item As with the potential energy $U$, you're free to set $C$ to whatever value you want, since the only \textit{physical} meaning of $V$ comes when we take the difference $\Delta V$ between two points.  It's often convenient to set our ``reference value'' of $V$ so that $V=0$ at $r \rightarrow \infty$.  What value of $C$ makes that true?
