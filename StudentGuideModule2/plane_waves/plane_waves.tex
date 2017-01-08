@@ -5,7 +5,9 @@
 
 \makelabheader %(Space for student name, etc., defined in master.tex)
 
+\bigskip
 \textbf{Objective:} 
+
 
 To investigate electromagnetic waves, using two different software simulations.
 
@@ -13,12 +15,12 @@ To investigate electromagnetic waves, using two different software simulations.
 %\item The effect of changing magnetic fields on induced emf and current.
 %\end{itemize}
 
+\bigskip
 
-\textbf{Activity 1: Simulating Electromagnetic Waves}
+\textbf{Activity 1: Simulating $\vv{\textit{E}}$, $\vv{\textit{B}}$, and $\vv{\textit{S}}$ in Electromagnetic Waves}
 
-\begin{enumerate}
 
-\item Open \textit{Firefox} and go to the website
+Open \textit{Firefox} and go to the website
 \verb!http://www.falstad.com/emwave2!. A Java applet will pop up showing
 brightly colored waves like the ones in Figure 1 propagating outward. 
 %from our oscillating electric dipole. 
@@ -31,101 +33,103 @@ If you don't see this window, consult your instructor.
 \end{center}
 \end{figure}
 
-\item It is useful to slow down the simulation speed to observe the waves more clearly.
+\vspace{-0.2in}
+
+It is useful to slow down the simulation speed to observe the waves more clearly.
 Do this using the slide labeled
 \texttt{Simulation Speed} on the right-hand side of the applet window.
+
+\begin{enumerate}[wide, label=(\emph{\alph*})]
 
 \item What you see is an ``oscillating dipole'', very similar to the generation of radio waves with an antenna.
 Charges (usually electrons) are driven up and down in the antenna and emit electromagnetic 
 waves.  
 The alternating yellow and blue circle at the top of the applet is the source (the dipole)
 as viewed from above.  Any yellow in the simulation indicates electrical current (charge) moving towards you, and any blue indicates current away from you.  Does the simulation show any current (motion of charges) flowing far away from the source?
-\vspace{1.5cm}
+\answerspace{1.0cm}
 
-\item The green and red colors indicate the electric field; green areas are positive 
+\pagebreak[2]
+The green and red colors indicate the electric field; green areas are positive 
 ($\vv{E}$ toward you) and red areas are negative ($\vv{E}$ away from you). 
 The electric field is always perpendicular to the plane of the screen.
 In addition to the colors, arrows indicate the 
 direction of the magnetic field, which is always in the plane of the screen.  
 
-What direction does the electric field point when the magnetic field is to the right?
-\vspace{1cm}
+\item What direction does the electric field point when the magnetic field is to the right?
+\answerspace{0.6cm}
 
-What direction does the electric field point when the magnetic field is to the left?
-\vspace{1cm}
+\item What direction does the electric field point when the magnetic field is to the left?
+\answerspace{0.6cm}
 
 \item Are the electric and magnetic fields always perperndicular to each other?
-\vspace{1.0cm}
-
-%\item Go back to your predictions in Activity 2 about the directions of the $\vv{E}$ 
-%and $\vv{B}$ fields.
-%Compare your predictions with these observations. Correct any disagreements.
-%\vspace{2.0cm}
+\answerspace{0.6cm}
 
 \item If you made predictions in Activity 2 of Lab \ref{induction_intro} about the directions of the $\vv {E}$ 
 and $\vv {B}$ fields, compare those predictions with your observations here. Correct any disagreements.
-\vspace{2.0cm}
+\answerspace{2.0cm}
 
-\item When you drop a pebble in a pond of water, the waves go out in circles. The shape of the ``wave front'', which is what you get when you connect all the points on the crest of a single wave, is a circle.   In this simulation, the waves are radiating out in three dimensions, not two.  In this three-dimensional case, what is the shape of the wave fronts?
-\vspace{1cm}
+The ``Poynting vector'' $\vv{S}$ is defined to point in the direction of the flow of energy in a wave. Its direction is given by $\vv {E} \times \vv {B}$.  
 
-Far away from the pebble in the pond, the circular wave fronts hitting the shore look like straight lines because at a small length scale you don't notice their slight curvature. In the three-dimensional case in the simulation, what is the apparent shape of a wave front far away from the source, if you ignore the slight curvature?
-\vspace{1cm}
+\item What is the direction of $\vv {E}\times \vv {B}$ where the color of the wave is red?
+\answerspace{1.0cm}
 
+\item What is the direction of $\vv {E} \times \vv {B}$ where the color of the wave is green?
+\answerspace{1.0cm}
 
-\item Reduce the frequency of the oscillation of the dipole using the slide labeled
-\texttt{Source Frequency} on the right-hand side of the applet.
-You may have to increase the brightness of the applet using the slide labeled
-\texttt{Brightness}.
-What happens to the distance between successive peaks or crests of the waves defined by the red regions in the
-applet)?
-This distance is called the wavelength and it is characteristic of a particular
-wave.
-Light, for example,  is an electromagnetic wave and different wavelengths correspond 
-to different colors.
-\vspace{2.0cm}
-
-%\item One can calculate a quantity known as the Poynting vector which points in the direction of the flow of energy in an %individual wave. Make the applet draw the Poynting vector by clicking on the arrow in the box with 
-%{\tt Show E/B/j} entered in it. Scroll up or down until you find
-%{\tt Show Poynting vector} and highlight it.
-%In what direction does the energy flow?
-%\vspace{1.0cm}
-
-\item The ``Poynting vector'' $\vv{S}$ is defined to point in the direction of the flow of energy in a wave. Its direction is given by $\vv {E} \times \vv {B}$.  What is the direction of $\vv {E}\times \vv {B}$ where the color of the wave is red?
-\vspace{1.0cm}
-
-What is the direction of $\vv {E} \times \vv {B}$ where the color of the wave is green?
-\vspace{1.0cm}
-
-Make the applet draw the Poynting vector by clicking on the arrow in the box with 
+\item Make the applet draw the Poynting vector by clicking on the arrow in the box with 
 \texttt{Show E/B/j} entered in it. Scroll up or down until you find
 \texttt{Show Poynting vector} and highlight it.
 In what direction does the energy flow?  (Does that agree with what you just said about $\vv {E} \times \vv {B}$?)
 \answerspace{1.0cm}
+
 \end{enumerate}
 
-Just for fun, we want to introduce one of the central phenomena associated
+\textbf{Activity 2: Wave Fronts, Wavelength, and Interference}
+
+
+When you drop a pebble in a pond of water, the waves go out in circles. The shape of the ``wave front'', which is what you get when you connect all the points on the crest of a single wave, is a circle.   
+
+\begin{enumerate}[wide, label=(\emph{\alph*})]
+
+\item In this simulation, the waves are radiating out in three dimensions, not two.  In this three-dimensional case, what is the shape of the wave fronts?
+\answerspace{1cm}
+
+\item Far away from the pebble in the pond, the circular wave fronts hitting the shore look like straight lines because at a small length scale you don't notice their slight curvature. 
+In the three-dimensional case in the simulation, what is the apparent shape of a wave front far away from the source, if you ignore the slight curvature?
+\answerspace{1cm}
+
+
+\pagebreak[2]
+\item The distance between successive peaks or crests of the waves, shown by the red regions in the
+applet, is called the wavelength.  
+Light, for example, is an electromagnetic wave and different wavelengths correspond 
+to different colors.
+Reduce the frequency of the oscillation of the dipole using the slide labeled
+\texttt{Source Frequency} on the right-hand side of the applet.
+(You may have to increase the brightness of the applet using the slide labeled
+\texttt{Brightness}.)
+What happens to the wavelength when you decrease the frequency?
+\answerspace{1.0cm}
+
+
+\item Just for fun, we want to introduce one of the central phenomena associated
 with waves known as interference.
 Go back to the \texttt{Show E/B/j} mode you were in before. 
 Go to the second menu from the top of the right-hand side of the applet, and select
 \texttt{2 Src, 1 Freq}.
 This will place an additional oscillating dipole at the bottom of the applet.  Use your mouse to drag the source from the bottom to the top right corner of the screen.
 
-\begin{enumerate}[resume]
-
-\item In the space below, make a rough sketch of what you see.  Label areas where waves from the two sources combine to cancel each other out (``destructive interference'') and areas where their amplitudes add (``constructive interference'').  If these were visible light waves, where would you see bright light?
+In the space below, make a rough sketch of what you see.  Label areas where waves from the two sources combine to cancel each other out (``destructive interference'') and areas where their amplitudes add (``constructive interference'').  If these were visible light waves, where would you see bright light?
 \vfill
 
 \end{enumerate}
 
-\textbf{Activity 2: Plane Waves}
+\textbf{Activity 3: Plane Waves}
 
 %You just completed a study of spherical waves emitted by a dipole source.
 %We now want to consider another type of wave that we will study when we explore light.
 
-\begin{enumerate}
-
-\item  Use {\it Firefox} to go to the site
+Use \textit{Firefox} to go to the site
 \verb!http://www.amanogawa.com/archive/PlaneWave/PlaneWave-2.html! and a Java applet will appear 
 like the one in Figure 2. 
 If you don't see this window, consult your instructor.
@@ -147,15 +151,18 @@ disappears.
 \vspace{-0.3in}
 
 \pagebreak[2]
+
+\begin{enumerate}[wide, label=(\emph{\alph*})]
+
 \item Click the start button to watch the wave move or propagate. The button is the one to the left of the STOP button on the top of the applet.
 Describe what happens to the electric and magnetic fields and how they are related
 ({\it i.e.} When the $\vv {E}$ is large, what is the $\vv {B}$ field doing?).
-\vspace{3.0cm}
+\answerspace{3.0cm}
 
 \item What is the orientation of the $\vv {E}$ field?
 What is the orientation of the $\vv {B}$ field?
 Does $\vv {E} \times \vv {B}$ point in the direction of energy flow, as it did in the previous activity?
-\vspace{2.0cm}
+\answerspace{2.0cm}
 
 %\item Why do you think it's called a plane wave?
 %\vspace{2.0cm}
@@ -163,8 +170,8 @@ Does $\vv {E} \times \vv {B}$ point in the direction of energy flow, as it did i
 \item Click on the \texttt{Phase Planes} button at the top of the applet.
 You will see new panels that show the $\vv {E}$ (red) and $\vv {B}$ (blue) vectors in cross section at the
 planes $A$ and $B$ labeled in the top panel.
-Use these vectors to confirm your observations in questions 2 and 3, above.4
-\vspace{3.0cm}
+Use these vectors to confirm your observations in questions (a) and (b), above.
+\answerspace{3.0cm}
 
 \item Use the $B$ slide at the bottom of the applet to move the $B$ cross 
 section position.
@@ -173,17 +180,17 @@ How are the $\vv {E}$ and $\vv {B}$ vectors in the $A$ cross section related to 
 in the $B$ cross section.
 What will be the total electric and magnetic fields if two waves are added that are out of line
 by one-half wavelength?
-\vspace{1.5cm}
+\answerspace{1.5cm}
 
 \item The electromagnetic wave in this simulation is called a ``plane wave'' because its wavefronts are shaped like planes.  What is the orientation of these planes?  (Perpendicular to $\vv {E}$?  Perpendicular to the $z$ axis? Something else?) 
-\vspace{1.5cm}
+\answerspace{1.5cm}
 
 \item Stop the simulation and slide the $B$ phase plane to a spot where the electric field is a maximum (the crest of a wave).  The phase plane is explicitely showing you the values of $\vv {E}$ and $\vv {B}$ at that one point on the wave front, located on the $z$ axis.  If you moved from that point in the positive $x$ direction, would $\vv {E}$ increase, decrease, or stay the same?  Would $\vv {B}$ increase, decrease, or stay the same? 
-\vspace{2.0cm}
+\answerspace{2.0cm}
 
 \end{enumerate}
 
-\textbf{Activity 3: A Pencil-and-Paper Example Problem}
+\textbf{Activity 4: A Pencil-and-Paper Example Problem}
 
 An electromagnetic \textbf{PLANE} wave is described by
 \begin{align*}
@@ -193,23 +200,23 @@ An electromagnetic \textbf{PLANE} wave is described by
 and has a wavelength of $\lambda =12$ meters.  All $(x,y,z)$ points in this activity are in meters.
 %\vspace{0.1in}
 
-\begin{enumerate}
+\begin{enumerate}[wide, label=(\emph{\alph*})]
 \item Draw a sketch of the wave on the axes below, at time $t=0$.
 \begin{center}
 \includegraphics[width=0.4\textwidth]{plane_waves/em_waves_axes.eps}
 \end{center}
 
-\item At $t=0$, find both $\vv {E}$ and $\vv {B}$ at the points $(0,0,0), (0,0,3), (0,0,6),$ and $(0,0,9)$.  (Your answers are vectors, and should include both \textbf{magnitude} and \textbf{direction}.)  Your answers will be in terms of
+\item At $t=0$, find both $\vv {E}$ and $\vv {B}$ at the points $(0,0,0), \,(0,0,3), \,(0,0,6),$ and $(0,0,9)$.  (Your answers are vectors, and should include both \textbf{magnitude} and \textbf{direction}.)  Your answers will be in terms of
 $E_{MAX}$ and $B_{MAX}$.
 \vspace{1.0in}
 
-\item At $t=0$, find both $\vv {E}$ and $\vv {B}$ at the points $(0,1,0), (1,0,0), (1,1,0),$ and $(1,1,3)$.  (Remember, it's a \textbf{PLANE} wave….)
+\item At $t=0$, find both $\vv {E}$ and $\vv {B}$ at the points $(0,1,0), \,(1,0,0), \,(1,1,0)$, and $(1,1,3)$.  (Remember, it's a \textbf{PLANE} wave….)
 \vspace{1.0in}
 
 \item Find the period $T$ and frequency $f$ of the wave.  (Numerical answers, please.)
 \vspace{1.0in}
 
-\item At $t=10$ nsec, find $\vv {E}$ and $\vv {B}$ at the points $(0,0,0), (0,0,3), (0,0,6), (0,0,9),$ and $(1,2,3)$.  
+\item At $t=10$ nsec, find $\vv {E}$ and $\vv {B}$ at the points $(0,0,0), \,(0,0,3), \,(0,0,6), \,(0,0,9),$ and $(1,2,3)$.  
 \vspace{1.0in}
 \end{enumerate}
 
