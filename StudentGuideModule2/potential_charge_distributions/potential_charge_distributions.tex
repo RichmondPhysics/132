@@ -28,7 +28,7 @@ You already know how to use the idea of superposition to find the potential due 
 \raggedleft \includegraphics[scale=0.9]{potential_charge_distributions/rod_axes.eps}
 \end{minipage}
 
-\begin{enumerate}[wide, label=(\emph{\alph*})]
+\begin{enumerate}[labparts]
 
 \item Use Excel to find the electric potential at point $P$ due to \textit{only} the furthest 1~nC point charge, located at $y=19$~cm.  Use $k_e=8.99 \times 10^9$~N$\cdot$m$^2/$C$^2$.  (\textit{Answer:} $\sim 37$ Volts.)
 \answerspace{0.5in}
@@ -48,7 +48,7 @@ Of course, you can imagine making your solution progressively more and more accu
 Start by picking a small bit of charge $dQ$ from an arbitrary place in the middle of the rod.  Instead of a discrete sum, you'll integrate
 $$V=\int{\frac{k_e\,dQ}{r}}$$
 adding up the contributions of each $dQ$ over the whole length of the rod.
-\begin{enumerate}[wide, label=(\emph{\alph*})]
+\begin{enumerate}[labparts]
 
 \pagebreak[2]
 \item Write $dQ$ in terms of $L$, $Q$, and $dy$.
@@ -98,7 +98,7 @@ Let's take a look at another example problem, which we'll actually solve three d
 \raggedleft \includegraphics[scale=0.9]{potential_charge_distributions/ring_integral.eps}
 \end{minipage}
 
-\begin{enumerate}[wide, label=(\emph{\alph*})]
+\begin{enumerate}[labparts]
 
 \item Find $V$ at the point $P$ due to \textit{just one} of the 20 elements.
 \answerspace{0.4in}
@@ -113,7 +113,7 @@ Let's take a look at another example problem, which we'll actually solve three d
 
 Perhaps you found that your numerical calculation in the last part was fairly trivial---great!  Just for fun, let's see how the integral method for finding $V$ works in this case, and whether we get a more exact answer.
 
-\begin{enumerate}[wide, label=(\emph{\alph*})]
+\begin{enumerate}[labparts]
 
 \item Consider a small charge $dQ$ somewhere on the ring, referring back to the figure on the previous page.  Write the integral  
 %$V=\int{({k_e/r})\,dQ}$
@@ -146,7 +146,7 @@ But you also know that
 $\displaystyle V=-\int{\vv{E} \cdot \vv{ds}}$.  
 In this activity, we'll find $V$ for the ring a new way: by calculating $\vv{E}$ first, and then getting $V$ from there.
 
-\begin{enumerate}[wide, label=(\emph{\alph*})]
+\begin{enumerate}[labparts]
 
 \item What is the direction of $\vv{E}$ at point $P$ due to the \textit{whole} ring?
 \answerspace{0.3in}
@@ -162,7 +162,7 @@ In this activity, we'll find $V$ for the ring a new way: by calculating $\vv{E}$
 $$| \vv{dE}|=\hspace{0.7in}$$
 \answerspace{0.1in}
 
-\begin{enumerate}[wide, label=(\emph{\alph*}), start=3]
+\begin{enumerate}[labparts, start=3] %Without the start=3, it numbers this as (e).  I don't know why.
 
 \item When you add up all of the $\vv{dE}$ from each $dQ$, the $y$ and $z$ components all cancel, leaving only $dE_x$.   What is the magnitude of $dE_x$?  (It should be similar to your answer above, but multiplied by either $\sin \theta$ or $\cos \theta$.)
 
