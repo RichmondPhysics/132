@@ -1,13 +1,8 @@
-
 \section{Kirchhoff's Rules}
 
 \makelabheader %(Space for student name, etc., defined in master.tex)
 
-\textbf{Objective}
-
-\begin{itemize}
-\item To study Kirchhoff's rules for analyzing circuits.
-\end{itemize}
+\bigskip
 \textbf{Introduction}
 
 Two statements comprise Kirchhoff's rules. The first, the so-called
@@ -22,78 +17,72 @@ around any closed loop must be zero.
 \end{enumerate}
 \textbf{Note}: Do not turn on a power supply until you are sure your
 circuit is correct. Please ask your instructor to approve your setup.
-Ammeters can be instantly and permanently ruined by an improper connection.
+Ammeters can have their fuses blown by an improper connection, which is a nuisance to replace.
 Be sure to turn off the power supply before making any changes to
 the circuit.
 
+\bigskip
 \textbf{Apparatus}
 
-\begin{itemize}
-\item power supply
-\item three-resistor board
-\item analog ammeter
-\item digital voltmeter
+\begin{itemize}[nosep]
+\item digital multimeters (2)
+\item DC power supply
+\item 1~k$\Omega$ resistors (2)
+\item 2.2~k$\Omega$ resistor
+\item various wires and aligator clips
+\item masking tape
 \end{itemize}
+
+\bigskip
 \textbf{Activity}
+
+Build the circuit shown below, with $R_C = 1$~k$\Omega$, $R_A = 1$~k$\Omega$, and $R_B = 2.2$~k$\Omega$. Make sure the power supply is off. Use masking tape to label the resistors in your circuit. As a visual aid, you can also tape down the connecting wires to the table top to make your circuit layout resemble the circuit diagram.
 
 \vspace{0.3cm}
 {\centering \resizebox*{0.5\textwidth}{!}{\includegraphics{kirchhoffs_rules/kirchhoffs_rules_fig_1.eps}} \par}
 \vspace{0.3cm}
 
-\begin{enumerate}
-\item Referring to the circuit above, choose a junction and write an equation
+\begin{enumerate}[labparts]
+
+\item Set one of your multimeters to resistance measuring mode. Remove $R_A$ from the circuit and measure its resistance with the multimeter and record the value below. Reconnect $R_A$ back to the circuit. Repeat this for $R_B$ and then for $R_C$.
+
+\hspace{0.5in}$R_A=$
+
+\hspace{0.5in}$R_B=$
+
+\hspace{0.5in}$R_C=$
+
+
+\item Referring to the circuit diagram above, choose a junction and write an equation
 which satisfies Kirchhoff's first rule.
 \answerspace{20mm}
 
 \item Identify two closed loops on the circuit which contain at least one
 element not included in the other. Write an equation for each loop
 that satisfies Kirchhoff's second rule.
-\answerspace{20mm}
-
-\item You now have three equations that can be solved for the three currents
-in terms of the supplied voltage (emf), \( \varepsilon  \), and the
-three resistors, R\( _{A} \), R\( _{B} \), and R\( _{C} \). Carry
-out the algebra to obtain expressions for the three currents in terms
-of these quantities.
-\answerspace{50mm}
-
-\item Now use Ohm's law and the sum rules for resistors in series and in
-parallel to derive expressions for the three currents.
-\answerspace{50mm}
-
-\item Are the results of 3 and 4 the same? They should be.
-\answerspace{15mm}
-
-\item Set a digital multimeter to measure resistance. Determine and record
-values for the three resistors, R\( _{A} \), R\( _{B} \), and R\( _{C} \),
-which are mounted on the wooden block.
-\answerspace{15mm}
-
-\item \textbf{Prediction}: if the emf, \( \varepsilon  \), were 5.0 V,
-what do you predict the three currents would be?
 \answerspace{30mm}
 
-\item Configure the circuit as in the figure above, using the power supply
-as the source of emf. With the power supply off, set the current control
-at mid-range and the voltage control all the way down. Set the digital
-multimeter to measure voltage and connect it in parallel with the
-power supply to measure \( \varepsilon  \). Connect the analog ammeter
-in series with resister R\( _{A} \) to measure the current I\( _{A} \).
-\item After checking with your instructor that the circuit is correct, turn
-on the power supply and set \( \varepsilon  \) to about 5.0 V. Record \( \varepsilon  \) and I\( _{A} \), then turn off the power supply.
+\item You now have three equations that can be solved for the three currents $I_A$, $I_B$, and $I_C$.
+Before doing the algebra, substitute the values of the three resistors that you determined in part~(a) into the loop equations. Further, substitute a value of 3.00~V for the emf. Carry out the algebra to obtain the values of the three currents.
+\answerspace{5in}
+
+\item Now use Ohm's law and the rules for combining resistors in series and parallel (i.e. reducing the circuit to equivalent circuits) to calculate the values of the three currents. Again use a value of 3.00~V for the emf and also use the values of the three resistors from your measurements.
+\answerspace{50mm}
+
+\item Are the results of parts (d) and (e) the same? They should be.
 \answerspace{15mm}
 
-\item Set up the circuit to measure I\( _{B} \). After getting assurance
-from you instructor that your circuit is correct, turn on the power
-supply and record \( \varepsilon  \) and I\( _{B} \). Turn off the
-power supply.
-\answerspace{15mm}
+\item Make sure your circuit is complete and the power supply is still off. Connect one of your multimeters in parallel with the power supply in order to measure the voltage across the terminals of the power supply. Then, connect your second multimeter as an ammeter in series with $R_C$ in order to measure the current $I_C$. Now, turn the power supply on and adjust its output to read 3.00~V on the first multimeter. Record the value of $I_C$ below. Next, repeat the same procedure to measure similarly the currents $I_A$ and $I_B$. (Make sure the first multimeter still reads 3.00~V.) Record the values of the currents below.
 
-\item Set up, measure and record I\( _{C} \).\vspace{15mm}
+\hspace{0.5in}$I_C =$
 
-\item Do your results agree with your prediction? How large, in terms of
-percentage, are the discrepancies? Speculate on what might cause any
-differences.
+\hspace{0.5in}$I_A =$
+
+\hspace{0.5in}$I_B =$
+
+\bigskip
+\item Do your results agree with those obtained in parts (d) and (e)? How large, in terms of percentage, are the discrepancies? Speculate on what might cause any differences. 
+
 \answerspace{15mm}
 \end{enumerate}
 
