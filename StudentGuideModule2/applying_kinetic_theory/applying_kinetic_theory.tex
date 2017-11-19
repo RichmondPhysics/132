@@ -61,12 +61,12 @@ or decreases?
 \vspace{1.0in}
 
 (b) We now want to run a more realistic simulation.
-Under the {\it ATOM} menu set the number of Type A atoms to 50 and set all the others to zero.
-Click on the {\it BOX} button and a new dialog box will appear.
-Check the box beside `Floor conducts heat' and set the temperature to $200~K$.
-Notice at the top that the box width is $l=50 \times 10^{-10}~m$.
+Under the \button{ATOM} menu set the number of Type A atoms to 50 and set all the others to zero.
+Click on the \button{BOX} button and a new dialog box will appear.
+Check the box beside \button{Floor conducts heat} and set the temperature to $200$~K.
+Notice at the top that the box width is $l=50 \times 10^{-10}$~m.
 We have now set up a situation where one side of the cube is held at a constant
-temperature ({\it e.g.} it's sitting on a stove) so the collisions of the atoms with the
+temperature (\textit{e.g.} it's sitting on a stove) so the collisions of the atoms with the
 floor are no longer elastic.
 The remaining sides of the
 cube do not transfer any energy (they're insulated) so elastic collisions still occur 
@@ -75,35 +75,35 @@ at those walls.
 Start
 the simulation and make sure you are averaging the pressure over many time steps.
 You should see the number of averaged time steps increasing on the right-hand side 
-of the {\it Atoms-in-Motion} window. 
-If you don't see this information, click on {\it AVG} and it should appear.
+of the \button{Atoms-in-Motion} window. 
+If you don't see this information, click on \button{AVG} and it should appear.
 
 \newpage
 
 (c) What happens to the pressure?
 What happens to the temperature of the gas? 
 You will find that it can take several minutes of computer time for the temperature of the gas to reach equilibrium with the floor.
-Once the gas temperature is within $8-10~K$ of the floor temperature, we can consider the gas and the floor to be in thermal equilibrium. Record the volume, pressure and temperature of the gas in the first line of the table below.
+Once the gas temperature is within 8 -- 10~K of the floor temperature, we can consider the gas and the floor to be in thermal equilibrium. Record the volume, pressure and temperature of the gas in the first line of the table below.
 \vspace{20mm}
 
-(d) Record the volume, pressure and temperature of the gas for five more volumes of the cube. Change the volume of the cube using the {\it BOX} menu and 
-increasing the box width in increments of $10 \times 10^{-10}~m$. The volume 
-is printed on the {\it Atoms-in-Motion} window. In each case, wait until the
-temperature is within $8-10~K$ of the floor temperature (the closer the better).
+(d) Record the volume, pressure and temperature of the gas for five more volumes of the cube. Change the volume of the cube using the \button{BOX} menu and 
+increasing the box width in increments of $10 \times 10^{-10}$~m. The volume 
+is printed on the \button{Atoms-in-Motion} window. In each case, wait until the
+temperature is within 8 -- 10~K of the floor temperature (the closer the better).
 Plot your results including a trend line with a power function and attach the 
 graph to this unit. Are your results consistent with the ideal gas law and
-your prediction in part (a)? Are they consistent with the results of 
-Experiment 4 (Boyle's law)?
+your prediction in part~(a)? Are they consistent with the results of 
+Experiment \ref{lab_boyles_law} (Boyle's law)?
 %\vspace{1.5in}
 
 \vspace{0.3cm}
-{\centering \begin{tabular}{|c|c|c|}
+{\renewcommand{\arraystretch}{1.2}
+{\centering \begin{tabular}{|C{1.3in}|C{1.3in}|C{1.3in}|}
 \hline 
-~~~~{}Volume of Box~~~~&
-~~~~Average Pressure~~~&
-~~~~~~Temperature~~~~~~~\\
-\hline
-\hline 
+Volume of Box &
+Average Pressure &
+Temperature \\
+\hhline{|=|=|=|}
 & &
 \\
 \hline 
@@ -122,7 +122,7 @@ Experiment 4 (Boyle's law)?
 & &
 \\
 \hline
-\end{tabular}\par}
+\end{tabular}\par}}
 \vspace{0.3cm}
 
 (e) In the procedure above you should have found the pressure to be inversely
@@ -141,7 +141,7 @@ We will explore this idea with the simulation next.
 (g) Start off with the gas parameters from the last `run' of the 
 simulation.
 Record the number of atoms, temperature, and pressure in the table below.
-Use the {\it ATOM} menu to change the number of atoms (or molecules) in the cube.
+Use the \button{ATOM} menu to change the number of atoms (or molecules) in the cube.
 Start
 the simulation. What happens to the pressure? Record the pressure
 and the number of molecules for four more values of the number of
@@ -150,13 +150,13 @@ the ideal gas law and your prediction in part (f)?
 \vspace{1.5in}
 
 \vspace{0.3cm}
-{\centering \begin{tabular}{|c|c|c|}
+{\renewcommand{\arraystretch}{1.2}
+{\centering \begin{tabular}{|C{1.5in}|C{1.3in}|C{1.3in}|}
 \hline 
-~~~~Number of Molecules~~~~&
-~~~~Average Pressure~~~~&
-~~~~~~Temperature~~~~~~~\\
-\hline
-\hline 
+Number of Molecules&
+Average Pressure&
+Temperature\\
+\hhline{|=|=|=|}
 & &
 \\
 \hline 
@@ -172,7 +172,7 @@ the ideal gas law and your prediction in part (f)?
 & &
 \\
 \hline
-\end{tabular}\par}
+\end{tabular}\par}}
 \vspace{0.3cm}
 
 \textbf{Kinetic Theory and the Definition of Temperature}
@@ -200,7 +200,7 @@ and \( T \). Show the steps in your derivation.
 (b) In general, molecules can store energy by rotating or vibrating,
 but for an ideal gas of \emph{point} particles (monatomic gas), the only possible form of kinetic energy is the translational motion of the particles. If we can ignore potential energy due to gravity or electrical forces, then the internal
 energy \( E_{int} \) of a gas of \( N \) particles is \( E_{int}=N\left\langle E_{kin}\right\rangle  \).
-Use this and the formulas above to show that for an ideal gas of point particles, E\( _{int} \)
+Use this and the formulas above to show that for an ideal gas of point particles, $E _{int}$
 \emph{depends only on N and T}. Derive the equation that relates \( E_{int} \),
 \( N \) and \( T \). Show the steps.
 \vspace{1.5in}
@@ -278,15 +278,14 @@ We now want to compare our calculation of the molar specific heat
 of an ideal, monatomic gas with the measured molar specific heats
 of some real gases. The table below lists some of those measurements.
 
-\vspace{0.3cm}
+{\renewcommand{\arraystretch}{1.2}
 {\centering \begin{tabular}{|c|c|c|c|}
 \hline 
 Molecule&
 \( \frac{C_{V}}{R} \)&
 Molecule&
 \( \frac{C_{V}}{R} \)\\
-\hline
-\hline 
+\hhline{|=|=|=|=|}
 He&
 1.50&
 CO&
@@ -322,7 +321,7 @@ O\( _{2} \)&
 &
 \\
 \hline
-\end{tabular}\par}
+\end{tabular}\par}}
 \vspace{0.3cm}
 
 (a) Has our theoretical calculation been successful at all? Which
