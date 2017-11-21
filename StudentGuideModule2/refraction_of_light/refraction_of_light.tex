@@ -3,16 +3,15 @@
 
 \makelabheader %(Space for student name, etc., defined in master.tex)
 
-\bigskip
-\textbf{Objective}
+%\bigskip
+%\textbf{Objective}
 
-To investigate the path traveled by light through a plate of plexiglass
-(a transparent solid material).
+%To investigate the path traveled by light through a plate of plexiglass (a transparent solid material).
 
 \bigskip
 \textbf{Apparatus} 
 
-\begin{itemize}
+\begin{itemize}[nosep]
 \item light fence 
 \item plexiglass block 
 \item white paper, pins, and wood board 
@@ -28,73 +27,111 @@ it. If the beam is not perpendicular to the boundary between the two
 media, it will bend as it enters, an effect known as refraction. The
 direction a single ray of light travels when refracted is given by
 Snell's law:
+\begin{wrapfigure}[14]{r}{0.37\textwidth}
+\begin{raggedleft}
+\vspace{0.1in}
+\includegraphics[width=0.34\textwidth]{refraction_of_light/plexiglass_figure.eps}
 
-\begin{displaymath} \frac{sin~i}{sin~r} = \frac{v_1}{v_2} = \frac{n_2}{n_1} \end{displaymath}
+\end{raggedleft}
+\end{wrapfigure}
+\begin{displaymath} \frac{\sin i}{\sin r} = \frac{v_1}{v_2} = \frac{n_2}{n_1} \end{displaymath}
 
 where
 
-\begin{quote}
-i = incident angle
+\begin{description}[labelindent=0.2in, nosep]
+%\begin{quote}
+\item $i$ = incident angle
 
-r = refracted angle
+\item $r$ = refracted angle
 
-v\( _{1} \) = light speed in medium 1
+\item $v_{1}$ = light speed in medium 1
 
-v\( _{2} \) = light speed in medium 2
+\item \(v_{2} \) = light speed in medium 2
 
-n\( _{1} \) = index of refraction of medium 1 
+\item \(n_{1} \) = index of refraction of medium 1 
 
-n\( _{2} \) = index of refraction of medium 2
-\end{quote}
+\item \(n_{2} \) = index of refraction of medium 2
+\end{description}
+
 \textbf{Note}: All angles are measured from the normal to the boundary
 at the point the ray enters (or leaves) the medium. The index of refraction is
 the ratio of light's speed in a vacuum, $c$, to its speed in the medium,
-$v$: $n = c / v$. It is worth remembering that $n_{air} \approx 1.00$.
+$v$: $n = c / v$. Remember that $n_{\rm air} \approx 1.00$.
 
 %\vspace{0.3cm}
-{\centering \includegraphics[width=0.35\textwidth]{refraction_of_light/refraction_of_light_fig_1.eps} \par}
+
+%{\centering \includegraphics[width=0.35\textwidth]{refraction_of_light/refraction_of_light_fig_1.eps}
+%\includegraphics[width=0.35\textwidth]{refraction_of_light/plexiglass_figure.eps} \par}
 %\vspace{0.3cm}
 
 %\vspace{15mm}
 
-\pagebreak[2]
+\bigskip
 \textbf{Activity} 
 
 \begin{enumerate}[labparts]
-\item Put a plexiglass plate at the center of a piece of paper. Outline
+\item Put a plexiglass plate at the center of a piece of paper, and trace an outline
 its position. Identify a normal, $N_1$, perpendicular to an edge of
 the plate.
+
 \item Arrange the light source apparatus so that the parallel rays of light
-cross the paper and are incident at a $30^\circ$-$35^\circ$ angle
-to the normal. Trace one of these rays.
-\item Sight the corresponding ray as it emerges from the other side of the
-plexiglass. Trace this ray.
+cross the paper and are incident at a $30^\circ$ -- $35^\circ$ angle
+to the normal.
+
+\begin{itemize}[nosep]
+\item Trace the incident ray.
+
+\item Sight the corresponding exit ray as it emerges from the other side of the
+plexiglass, and trace this ray.
+
 \item Remove the plexiglass and connect the points where the light ray entered 
 and left the plexiglass with a straight line. This represents the path of the 
 light ray as it passes through the plexiglass.
-\item Construct the normal, $N_2$, and measure and record $i$, $r$, $i'$, and $r'$. 
-\answerspace{20mm}
 
-\item Repeat the above procedure for two more incident angles between
-$40^\circ$ and $60^\circ$. \vspace{30mm}
-\item Plot a graph of $sin~i$ (on the vertical axis) as a function of $sin~r$ 
-(on the horizontal axis) including the point (0,0) which corresponds to a 
+\item Construct the normal, $N_2$, and measure and record the values of $i$, $r$, $i'$, and $r'$ in the table below. 
+\end{itemize}
+
+Repeat the above procedure for two more incident angles between $40^\circ$ and $60^\circ$. 
+\begin{center}
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{*{4}{|C{0.7in}}|}
+\hline
+$i$ & $r$ & $i'$ & $r'$ \\
+\hhline{|=|=|=|=|}
+& & &\\
+\hline 
+& & &\\
+\hline 
+& & &\\
+\hline 
+\end{tabular}
+}
+\end{center}
+
+\item Plot a graph of $\sin i$ (on the vertical axis) as a function of $\sin r$ 
+(on the horizontal axis) including the point $(0,0)$ which corresponds to a 
 light ray incident perpendicular to the plexiglass. Include a linear trendline 
 and don't forget to include a title and axis labels.
-\item Use the LINEST function in $Excel$ (see \textbf{Appendix \ref{excel}}) to 
-determine the slope of the graph ($n_{plexiglass}$) and its uncertainty.
-\vspace{25mm}
+\item Use the LINEST function in $Excel$ (see Appendix~\ref{excel}) to 
+determine the slope of the graph ($n_{\rm plexiglass}$) and its uncertainty.
+\answerspace{35mm}
 
-\item Does $i = i'$? Explain.\answerspace{20mm}
+\item Does $i = i'$? Explain.
+\answerspace{20mm}
 
-\item Does $r = r'$? Explain.\answerspace{20mm}
+\item Does $r = r'$? Explain.
+\answerspace{20mm}
 
-\item Are the incident and exit rays parallel? Explain.\answerspace{20mm}
+\item Are the incident and exit rays parallel? Explain.
+\answerspace{20mm}
 
-\item What is the speed of light in the plexiglass?\answerspace{25mm}
+\item What is the speed of light in the plexiglass?
+\answerspace{20mm}
 
 \item Under what conditions would a refraction angle be greater than an
-incident angle?\answerspace{25mm}
+incident angle?
+\answerspace{20mm}
+
 \item Collect the results from the other lab groups and determine an average 
 and standard deviation for the index of refraction of the plexiglass.
 \end{enumerate}
