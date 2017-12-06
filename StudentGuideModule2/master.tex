@@ -16,7 +16,9 @@
 
 \input{132_front_pages/132_title_page}
 
-\setcounter{tocdepth}{1}\tableofcontents{}
+\setcounter{tocdepth}{1}
+\setlength{\cftbeforesecskip}{10.0pt plus 1.0pt minus 3.0pt} %space between chapter listings in TOC.  Default is 10.0pt plus 1.0pt
+\tableofcontents{}
 \cleardoublepage
 
 %use \includelab{1} to include, or \includelab{0} to exclude.  Can be overridden with \includealllabstrue
@@ -79,8 +81,8 @@
 \includelab{1}{plane_waves/plane_waves}
 
 %--------------------------------------------
-\part{Optics}
-%\part{Wave Optics}
+%\part{Optics}
+\part{Wave Optics}
 
 \includelab{1}{interference_of_light/interference}
 \includelab{1}{diffraction_of_light/diffraction}
@@ -89,7 +91,7 @@
 \includelab{1}{deriving_snells_law/deriving_snells_law}
 
 %--------------------------------------------
-%\part{Geometric Optics}
+\part{Geometric Optics}
 
 \includelab{1}{refraction_of_light/refraction_of_light}
 \includelab{1}{refraction_at_spherical_surfaces/refraction_at_spherical_surfaces}
