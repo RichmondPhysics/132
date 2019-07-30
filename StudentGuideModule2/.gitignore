@@ -9,7 +9,7 @@ Thumbs.db
 master.synctex.gz
 master.synctex.gz(busy)
 master.toc
-master.pdf
+master*.pdf
 master_supplement*.pdf
 **/*eps-converted-to.pdf
 
@@ -36,5 +36,4 @@ master_supplement*.pdf
 *.pdfsync
 
 # I think this is a mac thing:
-
-.DS_Store
+**/*.DS_Store
