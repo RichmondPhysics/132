@@ -64,10 +64,16 @@ Draw a graph of the force $F$ of the spring on the mass, as a function of its po
 %\includegraphics[width=1.0\textwidth]{potential_intro/activity_1_figs/mass_on_spring.eps}
 %\end{minipage}
 \begin{center}
-\vspace{-0.1in}
-\includegraphics{potential_intro/activity_1_figs/F_axes.eps}
+%\vspace{-0.1in}
+%\includegraphics{potential_intro/activity_1_figs/F_axes.eps}
+\begin{lab_axis}[lab_noticks_4quads,
+	width={3.3in}, height={2.1in},
+	xlabel={$x$},
+	ylabel={$F$},
+	]
+\end{lab_axis}
 \hspace{0.5in}
-\raisebox{0.5in}{\includegraphics[scale=0.8]{potential_intro/activity_1_figs/mass_on_spring.eps}}
+\raisebox{0.3in}{\includegraphics[scale=0.8]{potential_intro/activity_1_figs/mass_on_spring.eps}}
 \end{center}
 
 %\begin{enumerate}[resume*,start=5] %this hard-codes the start at letter e.  Somehow it always restarted at d before.
@@ -76,10 +82,17 @@ Draw a graph of the force $F$ of the spring on the mass, as a function of its po
 
 \item From the force law $F(x)$ you just graphed, write an expression $U(x)$ for the potential energy of the system as a function of the position of the mass.  Sketch a graph of $U(x)$ on the axes below.
 \begin{center}
-\vspace{-0.1in}
-\includegraphics{potential_intro/activity_1_figs/U_axes.eps}
+%\vspace{-0.1in}
+%\includegraphics{potential_intro/activity_1_figs/U_axes.eps}
+\begin{lab_axis}[lab_noticks_4quads,
+	width={3.3in}, height={2.1in},
+	xlabel={$x$},
+	ylabel={$U$},
+	ymin=-0.3,
+	]
+\end{lab_axis}
 \hspace{1.05in}
-\raisebox{0.5in}{$U(x)=$}
+\raisebox{0.3in}{$U(x)=$}
 \hspace*{1.0in}
 \end{center}
 
@@ -111,19 +124,31 @@ Now that we've reviewed gravitational potential energy $U_{\rm grav}$ and the po
 \answerspace{0.3in}
 
 \item Sketch a qualitative graph of the potential energy function $U(x)$ you just found.
-\begin{center}
-\vspace{-0.1in}
-\includegraphics{potential_intro/activity_2_figs/U_axes_2.eps}
-\vspace{-0.1in}
-\end{center}
+%\begin{center}
+%\vspace{-0.1in}
+%\includegraphics{potential_intro/activity_2_figs/U_axes_2.eps}
+%\vspace{-0.1in}
+%\end{center}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.3in}, height={2.1in},
+	xlabel={$x$},
+	ylabel={$U$},
+	]
+\end{lab_axis}
 
 \item Sketch a qualitative graph of what the potential energy function $U(x)$ would look like if the particle were \textit{negatively} charged.
 
-\begin{center}
-\vspace{-0.1in}
-\includegraphics{potential_intro/activity_2_figs/U_axes_2.eps}
-\vspace{-0.1in}
-\end{center}
+%\begin{center}
+%\vspace{-0.1in}
+%\includegraphics{potential_intro/activity_2_figs/U_axes_2.eps}
+%\vspace{-0.1in}
+%\end{center}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.3in}, height={2.1in},
+	xlabel={$x$},
+	ylabel={$U$},
+	]
+\end{lab_axis}
 
 \end{enumerate}
 
@@ -223,31 +248,72 @@ Fill in the equations between $\vv{F}$ and $\vv{E}$ and between $U$ and $V$ from
 \end{center}
 
 \item The graph below shows the electric potential $V$ along the $x$ axis.  Draw a qualitative graph showing the potential energy $U(x)$ for a \textit{positively} charged particle placed on the $x$ axis.  \label{part_potential_intro_given_V}
-\begin{center}
-%\vspace{-0.1 in}
-\includegraphics{potential_intro/activity_5_figs/given_V.eps}
 
-\vspace{-0.1 in}
-\includegraphics{potential_intro/activity_5_figs/U_axes.eps}
+\begin{lab_axis}*[lab_noticks_2quads_algebraic,
+	width={3.3in}, height={2.2in},
+	xlabel={$x$},
+	ylabel={$V$},
+	xmax={6},
+	xtick={2,4},
+	xticklabels = { , },
+	]
+\addplot coordinates {(0,0) (2,0.8) (4,0.8) (5,0) (5.5,0) };
+\end{lab_axis}
+
+\begin{lab_axis}*[lab_noticks_2quads_algebraic,
+	width={3.3in}, height={2.2in},
+	xlabel={$x$},
+	ylabel={$U$},
+	xmax={6},
+	xtick={2,4},
+	xticklabels = { , },
+	]
+\end{lab_axis}
+
+%\begin{center}
+%%\vspace{-0.1 in}
+%\includegraphics{potential_intro/activity_5_figs/given_V.eps}
+%
 %\vspace{-0.1 in}
-\end{center}
+%\includegraphics{potential_intro/activity_5_figs/U_axes.eps}
+%%\vspace{-0.1 in}
+%\end{center}
 
 \item For the graph of $V(x)$ given in part \ref{part_potential_intro_given_V}, draw a qualitative graph showing the potential energy  $U(x)$ for an \textit{electron} placed on the $x$ axis.
-\begin{center}
-\vspace{-0.1 in}
-\includegraphics{potential_intro/activity_5_figs/U_axes.eps}
+%\begin{center}
 %\vspace{-0.1 in}
-\end{center}
+%\includegraphics{potential_intro/activity_5_figs/U_axes.eps}
+%%\vspace{-0.1 in}
+%\end{center}
+\begin{lab_axis}*[lab_noticks_2quads_algebraic,
+	width={3.3in}, height={2.2in},
+	xlabel={$x$},
+	ylabel={$U$},
+	xmax={6},
+	xtick={2,4},
+	xticklabels = { , },
+	]
+\end{lab_axis}
 
 %\newpage
 \item  For the graph of $V(x)$ given in part \ref{part_potential_intro_given_V}, sketch a qualitative graph of $\vv{E}(x)$.
-\begin{center}
-%\vspace{-0.1 in}
-\includegraphics{potential_intro/activity_5_figs/E_axes.eps}
-%\vspace{-0.1 in}
-\end{center}
+%\begin{center}
+%%\vspace{-0.1 in}
+%\includegraphics{potential_intro/activity_5_figs/E_axes.eps}
+%%\vspace{-0.1 in}
+%\end{center}
 
-\pagebreak[2]
+\begin{lab_axis}*[lab_noticks_2quads_algebraic,
+	width={3.3in}, height={2.2in},
+	xlabel={$x$},
+	ylabel={$E$},
+	xmax={6},
+	xtick={2,4},
+	xticklabels = { , },
+	]
+\end{lab_axis}
+
+\pagebreak[3]
 \item The figure below shows electric field vectors in a region of space.  In traveling  along each of the dotted-line paths below, is the change in electric potential $\Delta V$ \textit{positive},  \textit{negative}, or  \textit{zero}?  (Think: if pushing a positive charge $+q$ along the path with your hand would require doing \textit{positive} work, then you would  be \textit{increasing} the potential energy of the system.)
 \begin{center}
 \vspace{-0.1 in}
@@ -271,10 +337,20 @@ Fill in the equations between $\vv{F}$ and $\vv{E}$ and between $U$ and $V$ from
 %\newpage
 %\pagebreak[4]
 \item The drawing below shows a region of uniform electric field.  Draw a qualitative graph of $V(x)$ along the dotted line shown, defining the potential at point B to be $V=0$.  To check your answer, compare your graph with those you drew in Activity 2.  \label{part_potential_intro_draw_V} 
+
 \begin{center}
-\vspace{-0.1 in}
 \includegraphics{potential_intro/activity_5_figs/uniform_E_field_3.eps}
+\hspace{0.5in}
+\begin{lab_axis}[lab_noticks_2quads_algebraic,
+	width={2.3in}, height={2.2in},
+	xlabel={$x$},
+	ylabel={$V$},
+	xtick={0.2, 0.6, 0.8},
+	xticklabels = {C, B, A},
+	]
+\end{lab_axis}
 \end{center}
+
 
 \end{enumerate}
 
@@ -297,9 +373,15 @@ Now let's apply this same relationship to one of the most common situations you'
 \answerspace{0.4in}
 
 \item Based on your last two answers, sketch a qualitative graph of $V(r)$ on the axes below.  For convenience, let $V=0$ at $r \rightarrow \infty$. \label{part_potential_intro_sketch_of_Vr}
-\begin{center}
-\includegraphics{potential_intro/activity_6_figs/V_axes.eps}
-\end{center}
+%\begin{center}
+%\includegraphics{potential_intro/activity_6_figs/V_axes.eps}
+%\end{center}
+\begin{lab_axis}*[lab_noticks_2quads_algebraic,
+	width={2.8in}, height={2.5in},
+	xlabel={$r$},
+	ylabel={$V$},
+	]
+\end{lab_axis}
 
 \pagebreak[2]
 \item Now that we have some intuition about what $V(r)$ should look like, let's actually do the calculation.  First, write the electric field $E(r)$ at a distance $r$ from the charge in terms of $Q$, $r$, and the Coulomb constant $k_e$.
