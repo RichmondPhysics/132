@@ -20,9 +20,32 @@ In this lab, you will examine an ideal gas going through a cycle in which it is 
 
 \textbf{Activity 1: A Rectangular Cycle}
 
-\begin{wrapfigure}[3]{r}{0.4\textwidth}
-    \vspace{-0.2 in}
-    \includegraphics[width=0.4\textwidth]{ideal_gas_cycles/square_cycle1.eps}
+\begin{wrapfigure}[3]{r}{0.48\textwidth}
+%    \includegraphics[width=0.4\textwidth]{ideal_gas_cycles/square_cycle1.eps}
+\vspace{-0.2 in}
+\hspace*{\fill}
+\begin{lab_axis}[lab_noticks_1quad,
+	scale only axis=true,
+	algebraic_labels,
+	width=2.1in, height=1.3in,	
+	xmax=4, ymax=3,
+	xlabel={$V$},
+	ylabel={$P$},
+	xtick={1,3},
+	xticklabels={{1 liter}, {3 liters}},
+	ytick={1,2},
+	yticklabels={$1 \times 10^5$ Pa, $2 \times 10^5$ Pa},
+	]
+\addplot [path_leg] coordinates {(1,1)(1,2)};
+\addplot [path_leg] coordinates {(1,2)(3,2)};
+%\addplot [path_leg] coordinates {(3,2)(3,1)};
+%\addplot [path_leg] coordinates {(3,1)(1,1)};
+\addplot [path_point]  coordinates {(1,1)(1,2)(3,2)};
+\node[anchor=north east] at (axis cs: 1,1)  {$a$};
+\node[anchor=south east] at (axis cs: 1,2)  {$b$};
+\node[anchor=south west] at (axis cs: 3,2)  {$c$};
+%\node[anchor=north west] at (axis cs: 3,1)  {$d$};
+\end{lab_axis}
 \end{wrapfigure}
 
 We start with a sample of 1 liter of nitrogen ($\textrm{N}_2$) gas, at temperature $T_a = 300$ K and pressure $P_a = 10^5$ N/m$^2$ (about 1 atm).
@@ -43,9 +66,33 @@ We start with a sample of 1 liter of nitrogen ($\textrm{N}_2$) gas, at temperatu
 (e) Find the heat added to the gas for each process, $Q_{ab}$ and $Q_{bc}$.  
 \answerspace{1.3in}
 
-\begin{wrapfigure}[3]{r}{0.4\textwidth}
-  \vspace{-0.2 in}
-  \includegraphics[width=0.4\textwidth]{ideal_gas_cycles/square_cycle2.eps}
+
+\begin{wrapfigure}[3]{r}{0.45\textwidth}
+\vspace{-0.2 in}
+%  \includegraphics[width=0.4\textwidth]{ideal_gas_cycles/square_cycle2.eps}
+\hspace*{\fill}
+\begin{lab_axis}[lab_noticks_1quad,
+	scale only axis=true,
+	algebraic_labels,
+	width=2.1in, height=1.3in,	
+	xmax=4, ymax=3,
+	xlabel={$V$},
+	ylabel={$P$},
+	xtick={1,3},
+	xticklabels={{1 liter}, {3 liters}},
+	ytick={1,2},
+	yticklabels={$1 \times 10^5$ Pa, $2 \times 10^5$ Pa},
+	]
+\addplot [path_leg] coordinates {(1,1)(1,2)};
+\addplot [path_leg] coordinates {(1,2)(3,2)};
+\addplot [path_leg] coordinates {(3,2)(3,1)};
+\addplot [path_leg] coordinates {(3,1)(1,1)};
+\addplot [path_point]  coordinates {(1,1)(1,2)(3,2)(3,1)};
+\node[anchor=north east] at (axis cs: 1,1)  {$a$};
+\node[anchor=south east] at (axis cs: 1,2)  {$b$};
+\node[anchor=south west] at (axis cs: 3,2)  {$c$};
+\node[anchor=north west] at (axis cs: 3,1)  {$d$};
+\end{lab_axis}
 \end{wrapfigure}
 
 Now the gas is cooled at a constant volume from point $c$ to point $d$, and cooled at constant pressure from point $d$ back to point $a$.  
@@ -82,11 +129,43 @@ NET: & & & \\ \hline
 
 As in the previous activity, we start with 1 liter of ($\textrm{N}_2$) gas at temperature $T_a = 300$ K and pressure $P_a=10^5$~N/m$^2$.   As you found before, this gives $nR=\frac{1}{3}$~J/K, or $n=0.0401$~moles.  We'll heat the gas to a maximum temperature of 1800 K again, but here we do so in one step, a single adiabatic compression, as shown in process $a \rightarrow b$ of the figure below.
 
-\begin{minipage}{0.44\textwidth}
-\includegraphics[width=1.0\textwidth]{ideal_gas_cycles/carnot_cycle.eps}
-\end{minipage}
-\begin{minipage}{0.54\textwidth}
-\vspace{0.1 in}
+%\begin{minipage}{0.44\textwidth}
+%\includegraphics[width=1.0\textwidth]{ideal_gas_cycles/carnot_cycle.eps}
+%\end{minipage}
+%\begin{minipage}{0.54\textwidth}
+
+\raisebox{-.5\height}{
+\begin{lab_axis}[lab_noticks_1quad,
+	scale only axis=true,
+	algebraic_labels,
+	width=2.3in, height=1.7in,	
+	xmax=3.1, ymax=4.5,
+	xlabel={$V$},
+	ylabel={$P$},
+	xtick={1},
+	xticklabels={{1 liter},},
+	ytick={1},
+	yticklabels={$10^5$ Pa},
+	]
+\addplot [black,dashed,very thick, domain= 0.20 : 4] {1/x};
+\addplot [black,dashed,very thick, domain= 0.25 : 2.4] {2/x};
+%\addplot [black, domain= 0.25 : 4] {1/x^2};
+%\addplot [black, domain= 0.25 : 4] {2.5/x^2};
+\addplot [path_leg, domain= 1 : 0.5] {1/x^2};
+\addplot [path_leg, domain= 0.5 : 1.25] {2/x};
+\addplot [path_leg, domain= 1.25 : 2.5] {2.5/x^2};
+\addplot [path_leg, domain= 2.5 : 1] {1/x};
+\addplot [path_point]  coordinates {(1,1)(0.5,4)(1.25,1.6)(2.5,0.4)};
+\node[anchor=north east] at (axis cs: 1,1)  {$a$};
+\node[anchor=east] at (axis cs: 0.5,4)  {$b$};
+\node[anchor=south west] at (axis cs: 1.25,1.6)  {$c$};
+\node[anchor=north east] at (axis cs: 2.5,0.5)  {$d$};
+\node[anchor=south west, rotate=-4] at (axis cs: 2.5,0.3)  {300 K};
+\node[anchor=south east, rotate=-12] at (axis cs: 2.5,0.7)  {1800 K};
+\node[anchor=north west, text width = 0.9in] at (axis cs: 1.5,4)  {(not drawn \\ to scale)};
+\end{lab_axis}
+} %end of raisebox
+\hspace*{\fill}
 {\renewcommand{\arraystretch}{2.0}
 \begin{tabular}{| C{0.3in} | C{0.6in} | C{0.6in} | C{0.6in} | C{0.6in} |}
 \hline
@@ -96,10 +175,11 @@ $b$ &                  &                            & $\frac{1}{3}$ J/K & 1800 K
 $c$ &                  &                            & $\frac{1}{3}$ J/K & 1800 K \\ \hline
 $d$ &                  &                            & $\frac{1}{3}$ J/K & 300 K \\ \hline
 \end{tabular}}
-\end{minipage}
+%\end{minipage}
 
 (a) Recalling that $PV^\gamma$ is constant for an adiabatic process, where $\gamma = C_P / C_V$, what is the final volume $V_b$?  (Hint: write $P_a V_a^\gamma = P_b V_b^\gamma$, and express both of the $P$'s in terms of $V$ and $T$. Answer: $V_b=1.134 \times 10^{-5}$ m$^3$.)  
 \answerspace{2.2in}
+
 
 (b) What are $\Delta E_{ab}$, $W_{ab}$, and $Q_{ab}$?  Go ahead and start filling out the table on the next page if you like.  Also, the table at the top of this page may help you keep your thoughts organized.
 \answerspace{1.6in}
