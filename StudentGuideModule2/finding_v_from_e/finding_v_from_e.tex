@@ -25,14 +25,11 @@ When evaluating the indefinite integral, remember that you always need a constan
 \begin{lab_axis}[lab_grid,
 	scale only axis = true,
 	width={1.5in}, height={1.2in},
-	xmin=0, xmax=3,
-	ymin=-1, ymax=6,
 	ylabel = {Field $E$ (N/C)},
-	ytick = {-5,0,5,10},
-	minor y tick num=4,
-	minor x tick num=1,
 	xlabel = {$x$ (m)},
-	y0_line,
+	xmin=0, xmax=3,
+	ymin=0, ymax=6,
+	ytick distance = 2,
 ]
 \addplot coordinates {(0,5) (2,5) (2,0) (3,0) };
 \end{lab_axis}
@@ -63,12 +60,13 @@ The graph to the right shows a region of a uniform electric field $E(x)$.
 \begin{lab_axis}*[lab_grid,
 	scale only axis = true,
 	width={3.0in}, height={1.5in},
-	xmin=0, xmax=3,
-	ymin=-4, ymax=4,
 	ylabel = {Electric potential $V$},
 	xlabel = {$x$ (m)},
-	yticklabels = { , , },
-	y0_line,
+	xmin=0, xmax=3,
+	ymin=-4, ymax=4,
+	xtick distance = 1,
+	ytick distance = 6,
+	minor y tick num=2,
 ]
 \end{lab_axis}
 
@@ -85,13 +83,14 @@ The graph to the right shows a region of a uniform electric field $E(x)$.
 
 \begin{lab_axis}*[lab_grid,
 	scale only axis = true,
+	ylabel = {Electric potential $V$},
+	xlabel = {$x$ (m)},
 	width={3.0in}, height={1.5in},
 	xmin=0, xmax=3,
 	ymin=-4, ymax=4,
-	ylabel = {Electric potential $V$},
-	xlabel = {$x$ (m)},
-	yticklabels = { , , },
-	y0_line,
+	xtick distance = 1,
+	ytick distance = 6,
+	minor y tick num=2,
 ]
 \end{lab_axis}
 
@@ -112,15 +111,12 @@ V(x) = \begin{cases}
 \hspace*{\fill}
 \begin{lab_axis}[lab_grid,
 	scale only axis = true,
+	ylabel = {Field $E$ (N/C)},
+	xlabel = {$x$ (m)},
 	width={2.5in}, height={1.2in},
 	xmin=0, xmax=6,
-	ymin=-1, ymax=6,
-	ylabel = {Field $E$ (N/C)},
-	ytick = {-5,0,5,10},
-%	ytick distance = 5,
-	minor y tick num=4,
-	xlabel = {$x$ (m)},
-	y0_line,
+	ymin=0, ymax=6,
+	ytick distance = 2,
 ]
 \addplot coordinates {(0,5) (2,5) (2,3) (5,3) (5,0) (6,0)};
 \end{lab_axis}
@@ -143,14 +139,12 @@ The graph to the right shows the electric field $E(x)$ in some other region.
 \begin{lab_axis}*[lab_grid,
 	scale only axis = true,
 	width={3.0in}, height={1.8in},
-	xmin=0, xmax=6,
-	ymin=0, ymax=10,
 	ylabel = {Electric potential $V$},
 	xlabel = {$x$ (m)},
-	ytick distance = 2,
-	yticklabels = { , , },
-	y0_line,
-	minor tick num=1,
+	xmin=0, xmax=6,
+	ymin=0, ymax=10,
+	ytick distance = 12,
+	minor y tick num=5,
 ]
 \end{lab_axis}
 
@@ -181,14 +175,11 @@ The graph below shows the electric field $E(x)$ in yet another region.
 \begin{lab_axis}*[lab_grid,
 	scale only axis = true,
 	width={3.5in}, height={1.7in},
+	ylabel = {Electric field $E$ (N/C)},
+	xlabel = {$x$ (m)},
 	xmin=0, xmax=8,
 	ymin=-6, ymax=6,
-	ylabel = {Electric field $E$ (N/C)},
-%	ytick = {-10,-5,0,5,10},
 	ytick distance = 2,
-	minor y tick num=1,
-	xlabel = {$x$ (m)},
-	y0_line,
 ]
 \addplot coordinates {(0,-5) (2,-5) (2,0) (4,0) (4,3) (7,3) (7,0) (8,0)};
 \end{lab_axis}
@@ -201,12 +192,12 @@ The graph below shows the electric field $E(x)$ in yet another region.
 \begin{lab_axis}*[lab_grid,
 	scale only axis = true,
 	width={3.5in}, height={1.5in},
-	xmin=0, xmax=8,
-	ymin=-4, ymax=4,
 	ylabel = {Electric potential $V$},
 	xlabel = {$x$ (m)},
-	yticklabels = { , , },
-	y0_line,
+	xmin=0, xmax=8,
+	ymin=-4, ymax=4,
+	ytick distance = 6,
+	minor y tick num=2,
 ]
 \end{lab_axis}
 
@@ -232,12 +223,13 @@ The graph below shows the electric field $E(x)$ in yet another region.
 	scale only axis = true,
 	algebraic_labels,
 	width={2.2in}, height={1.3in},
-	ymin=-0.3, ymax=1.5,
-	xmin= 0, xmax = 4,
 	ylabel = {$E$},
 	xlabel = {$r$},
+	ymin=-0.3, ymax=1.5,
+	xmin= 0, xmax = 4,
 	xtick = {1},
 	xticklabel = {$R$},
+	tick label style = {font=\itshape},
 ]
 \addplot +[domain= 0 : 1] {x};
 \addplot +[domain= 1 : 3.8] {1/x^2};
@@ -278,6 +270,7 @@ E(r) = \begin{dcases}
 	xlabel = {$r$},
 	xtick = {1},
 	xticklabel = {$R$},
+	tick label style = {font=\itshape},
 ]
 \end{lab_axis}
 
