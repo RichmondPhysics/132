@@ -125,7 +125,17 @@ away from the source in the $x-y$ plane?
 What is the direction of the $\vec E$ field?
 Make a sketch of your answer on the plot and label your curve.
 \begin{figure}[hbt]
-\hspace{0.375in}\includegraphics[height=2.5in]{induction_intro/fig1_bw.eps}
+%\hspace{0.375in}\includegraphics[height=2.5in]{induction_intro/fig1_bw.eps}
+\begin{lab_axis}*[lab_noticks_2quads,
+	width=3in,height=2in,
+	xlabel=Time,
+	ylabel=Dipole Moment,
+	xmin=0,xmax=640,
+]
+\addplot {0.8*sin(x)};
+\end{lab_axis}
+
+
 \caption{Time dependence of a dipole source oriented along the $z$-axis.}
 \end{figure}
 
