@@ -78,9 +78,26 @@ coil (which, by Faraday's law, is proportional to the negative time derivative
 of the flux through the coil).
 \end{enumerate}
 
-\begin{center}
-    \includegraphics[width=0.7\textwidth]{induction_sinusoidal/sine_curve.eps}
-\end{center}
+%\begin{center}
+%    \includegraphics[width=0.7\textwidth]{induction_sinusoidal/sine_curve.eps}
+%\end{center}
+
+\begin{lab_groupplot}*{\makegroupverticals[4]{90,180,270,360,450,540,630,720}{0}{770}}
+					[lab_noticks_2quads,
+	height=1.2in,width=4in,
+	xmin=0,xmax = 770,
+ 	group style={
+		group size=1 by 4,
+		vertical sep=0.2in
+		},
+	xlabel=time $t$,
+	]
+\nextgroupplot[ylabel={Current $I(t)$}]
+	\addplot +[domain=0:720] {0.85*sin(x) }; %Why is it calculating sine in degrees?
+\nextgroupplot[ylabel={Magnetic Field $B(t)$}]
+\nextgroupplot[ylabel={Flux $\Phi(t)$}]
+\nextgroupplot[ylabel={emf $\varepsilon(t)$}]
+\end{lab_groupplot}
 
 The computer will measure and graph
 the current $I(t)$ in the large coil, and the emf ${\cal E}(t)$
@@ -90,13 +107,13 @@ predictions from your graphs before trying the experiment:
 
 \begin{enumerate}[labparts]
 \item At times when $I(t)$ is at its maximum value, what is ${\cal E}$?
-\answerspace{.8in}
+\answerspace{.7in}
 
 \item At times when $I(t)$ is at its minimum value, what is ${\cal E}$?
-\answerspace{.8in}
+\answerspace{.7in}
 
 \item At times when $I(t)=0$, what is ${\cal E}$?
-\answerspace{.8in}
+\answerspace{.7in}
 \end{enumerate}
 
 \pagebreak[2]
