@@ -95,10 +95,23 @@ The upshot of this is that for a single slit, you should have an intensity minim
 (f) The diffraction pattern for a single slit is shown below.  Label all of the minima with the corresponding value $m=1$, $m=2$, etc.  
 
 %\vspace{-0.2in}
-\begin{center}
-\includegraphics[width=0.4\textwidth]{diffraction_of_light/diffraction_of_light_fig_3.eps}
-\end{center}
+%\begin{center}
+%\includegraphics[width=0.4\textwidth]{diffraction_of_light/diffraction_of_light_fig_3.eps}
+%\end{center}
 %\vspace{-0.2in}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width=4.5in,height=1.5in,
+	xmin=-12,xmax=12,
+	ymin=0,ymax=1.2,
+	ylabel=Intensity,
+	xlabel=Angular Position,
+	xtick={.1}, % it won't let me put the tick exactly at zero.
+	tick style={major tick length=0pt},
+	axis y line*= {middle, y axis line style={->}}, %This effectively makes the graph only quadrants I and II
+	xticklabel={0$^\circ$},
+]
+\addplot {(sin(deg(x))/x)^2};
+\end{lab_axis}
 
 \pagebreak[3]
 
@@ -153,15 +166,32 @@ is the maximum intensity at the center of the diffraction pattern.
 
 (c) In fact, you probably see something like the figure below, with some large maxima near the center, and several other much smaller maxima on either side.  (If you didn't see this, try increasing your signal strength, or consult your instructor.)
 
-\vspace{-0.1in}
-\begin{center}
-\includegraphics[width=0.4\textwidth]{diffraction_of_light/diffraction_of_light_fig_4.eps}
-\end{center}
-\vspace{-0.1in}
+%\vspace{-0.1in}
+%\begin{center}
+%\includegraphics[width=0.4\textwidth]{diffraction_of_light/diffraction_of_light_fig_4.eps}
+%\end{center}
+%\vspace{-0.1in}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width=4.5in,height=1.5in,
+	xmin=-7,xmax=7,
+	ymin=0,ymax=1.2,
+	ylabel=Intensity,
+	xlabel=Angular Position,
+	xtick={.1}, % it won't let me put the tick exactly at zero.
+	tick style={major tick length=0pt},
+	axis y line*= {middle, y axis line style={->}}, %This effectively makes the graph only quadrants I and II
+	xticklabel={0$^\circ$},
+	samples = 800,
+]
+\addplot +[dashed, very thick] {(sin(deg(x))/x)^2};
+\addplot {(cos(deg(4*x)))^2*(sin(deg(x))/x)^2};
+\end{lab_axis}
+
+
 
 The reason for the more complicated pattern is that in addition to the interference between rays from the two different slits, each individual slit has a nonzero width $a$, so there's also interference between different rays coming from the \textit{same} slit.  Essentially, there's no way to get big CON-structive interference between the two slits at an angle $\theta$ where all the rays from one slit have canceled each other out.  As a result, the complicated pattern you see is basically the simple oscillating function of two slit interference multiplied by the intensity at that angle from a single slit: 
 \begin{displaymath} 
 I_{\rm{total}} = I_{\rm{max}} \cos^2 \left (\frac {\pi d} {\lambda} \sin \theta \right) \left(\frac {\sin \left (\frac {\pi a} {\lambda} \sin \theta \right )} {\frac {\pi a} {\lambda} \sin \theta} \right)^2 \end{displaymath}
 
 (d) Looking at your data, identify the position at which the interference maxima  are reduced to zero by the $m=1$ minimum of the single slit diffraction pattern.  Use that angle to calculate the apparent width $a$ of the slits.  Is it consistent with what is written on the slits?
-\answerspace{1in}
+\answerspace{0.5in}
