@@ -37,18 +37,34 @@ The surface you see represents the electric potential $V$ for a positive point c
 \begin{enumerate}[labparts]
 
 \item Imagine walking in a straight line path along the $x$ axis ($y=0$), directly past the positive charge at the origin.  On the axes below, sketch a graph of the electric potential $V(x)$ along your path.  
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_1_figs/V_axes.eps}
+%\includegraphics{potential_superposition/activity_1_figs/V_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+%\vspace{-0.1in}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.7in},
+	xlabel=$x$,
+	ylabel=$V$,
+	]
+\end{lab_axis}
 
 \item On the axes below, sketch a graph of the electric field $E_x(x)$ for along the $x$ axis.  Remember, the \textit{sign} of $E_x$ represents the direction of the field.  (Think: which direction does $\vv{E}$ point on the left side and right side of the charge?
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_1_figs/E_axes.eps}
+%\includegraphics{potential_superposition/activity_1_figs/E_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.7in},
+	xlabel=$x$,
+	ylabel=$E_x$,
+	]
+\end{lab_axis}
+
 
 \item The signs of your graph should be consistent with 
 %the relationship
@@ -71,11 +87,25 @@ In fact, $\vv{E}=-\nabla V$.  (If you haven't had multivariate calculus yet, you
 \textbf{Activity 2: \textit{E} and \textit{V} For Two Positive Point Charges: Superposition}
 
 Now suppose we have two identical positively charge particles, $Q_1$ and $Q_2$, located on the $x$ axis at $x= \pm a$ as shown below.
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/charges_on_x_axis.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/charges_on_x_axis.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_1axis,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	xtick pos=left,
+	tick style={major tick length=15pt},
+	tick label style = {font=\itshape},
+	]
+\addplot [only marks, line width=0.5pt, mark = ball, mark size=6pt, ball color=white] coordinates {(-0.4, 0) (0.4, 0)};
+% The preceding line generates a warning:
+%	"Package pgf Warning: No path specified that can be filled on input line [....]"
+% It seems to be the "ball color=white" part that it doesn't like.  I have no idea why.
+\addplot [only marks, mark = +, mark size=4pt, line width=2pt] coordinates {(-0.4, 0) (0.4, 0)};
+\end{lab_axis}
 
 %Below, I decided not to use \vv{F}\!_{NET}
 Any additional charge $q$ you take out of your pocket will feel the net force $\vv{F}$ due to both $Q_1$ and $Q_2$:
@@ -92,11 +122,21 @@ V &= V_1 + V_2
 \begin{enumerate}[labparts]
 
 \item On the axes below, make a prediction for the electric potential $V(x)$ along the $x$ axis due to the two point charges pictured above.  Use dotted lines to show the electric potentials $V_1$ and $V_2$ due to the two individual charges, and use a solid line to show the resulting net electric potential $V$.  
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/V_axes.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/V_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.7in},
+	xlabel=$x$,
+	ylabel=$V$,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	tick label style = {font=\itshape},
+	]
+\end{lab_axis}
 
 \item Use the computer program to see how you did.  On the first menu, choose \verb!setup: point charge double!.  You'll also have to re-click the box marked \verb!Reverse! to show \textit{positive} charges.  Use the mouse to adjust the scale and the angle as before.  Does what you see match your prediction?
 \answerspace{0.3in}
@@ -104,11 +144,22 @@ V &= V_1 + V_2
 \textit{Make any changes you need to make on your graphs on the previous page.}
 
 \item On the axes below, draw a sketch of the electric field $E(x)$ along the $x$ axis.  Again, use dotted lines to show $E_1$ and $E_2$ due to the two individual charges, and a solid line to show the net electric field $E$.
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/E_axes.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/E_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.8in},
+	xlabel=$x$,
+	ylabel=$E_x$,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	tick label style = {font=\itshape},
+	]
+\end{lab_axis}
+
 
 \item Is $V=0$ at $x=0$?
 \answerspace{0.3in}
@@ -119,38 +170,84 @@ V &= V_1 + V_2
 \textit{Rotate the graph on the screen to view a profile of $V(x)$ from the side.  (You'll be looking directly along the $y$ axis.)  Check to be sure your two answers above are consistent with the surface you see at $x=0$.}
 
 \item  Change the third menu item to select \verb!Floor: equipotentials!.  On the $x$ and $y$ axes below, use dotted lines to sketch the equipotentials you see.  Then, using solid lines, draw in electric field lines for the two charges.  (One-word hint: \textit{perpendicular}.)
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/x_y_axes.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/x_y_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.8in},
+	xlabel=$x$,
+	ylabel=$y$,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	tick label style = {font=\itshape},
+	]
+\end{lab_axis}
+
+
 \end{enumerate}
 
 \pagebreak[3]
 \textbf{Activity 3: \textit{E} and \textit{V} For a Dipole}
 
 Hmmm.... What would our graphs look like if one of the charges were negative, as shown below?  (This configuration of equal and opposite charges is called a dipole.)
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/charges_on_x_axis_dipole.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/charges_on_x_axis_dipole.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_1axis,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	xtick pos=left,
+	tick style={major tick length=15pt},
+	tick label style = {font=\itshape},
+	]
+\addplot [only marks, line width=0.5pt, mark = ball, mark size=6pt, ball color=white] coordinates {(-0.4, 0) (0.4, 0)};
+\addplot [only marks, mark = +, mark size=4pt, line width=2pt] coordinates {(-0.4, 0)};
+\addplot [only marks, mark = -, mark size=4pt, line width=2pt] coordinates {(+0.4, 0)};
+\end{lab_axis}
+
+
 
 \begin{enumerate}[labparts]
 
 \item As before, make a prediction below for the electric potential $V(x)$ along the $x$ axis due to the two point charges pictured above.  Use dotted lines to show the electric potentials $V_1$ and $V_2$ due to the two individual charges, and use a solid line to show the resulting net electric potential $V$.  
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/V_axes.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/V_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.8in},
+	xlabel=$x$,
+	ylabel=$V$,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	tick label style = {font=\itshape},
+	]
+\end{lab_axis}
 
 \item On the axes below, draw a sketch of the electric field $E(x)$ along the $x$ axis.  Again, use dotted lines to show $E_1$ and $E_2$ due to the two individual charges, and a solid line to show the net electric field $E$.
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/E_axes.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/E_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.8in},
+	xlabel=$x$,
+	ylabel=$E_x$,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	tick label style = {font=\itshape},
+	]
+\end{lab_axis}
 
 \item Use the visualization application to see how you did.  On the first menu, choose \verb!setup: dipole!.  This time you don't have to click the \verb!Reverse! box.  Does the surface you see match your predictions?
 \answerspace{0.3in}
@@ -164,11 +261,21 @@ Hmmm.... What would our graphs look like if one of the charges were negative, as
 \textit{Again, rotate the graph on the screen to view a profile of $V(x)$ from the side.  Check to be sure your two answers above are consistent with the surface you see at $x=0$.}
 
 \item On the axes below, sketch the equipotential curves for the dipole using dotted lines, and sketch the electric field lines using solid lines.
-\begin{center}
+%\begin{center}
 %\vspace{-0.1in}
-\includegraphics{potential_superposition/activity_2_3_figs/x_y_axes.eps}
+%\includegraphics{potential_superposition/activity_2_3_figs/x_y_axes.eps}
 %\vspace{-0.1in}
-\end{center}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_4quads,
+	width={3.0in}, height={1.8in},
+	xlabel=$x$,
+	ylabel=$y$,
+	xtick={-0.4,+0.4},
+	xticklabels={$-a$,$+a$},
+	tick label style = {font=\itshape},
+	]
+\end{lab_axis}
 
 \item Suppose you took a positive charge $+q$ from your pocket, and moved it with your hand from $r=\infty$ to the origin, along the $y$ axis.  What is the direction of the electric force acting on the charge?
 \answerspace{0.5in}

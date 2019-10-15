@@ -33,11 +33,23 @@ the predicted shape of the heating curve on the graph below using
 a dashed line. Mark the points at which the ice has melted and the
 water begins to boil.
 
-\vspace{0.3cm}
-{\centering \includegraphics{heat_temp_int_energy/heat_temp_int_energy_fig_1.eps} \par}
-\vspace{0.3cm}
+%\vspace{0.3cm}
+%{\centering \includegraphics{heat_temp_int_energy/heat_temp_int_energy_fig_1.eps} \par}
+%\vspace{0.3cm}
 
-\newpage
+\begin{lab_axis}*[lab_grid,
+	height=2.5in,width=5in,
+	ymin=-30, ymax=120,
+	xmin=0,xmax=1200,
+	xtick distance = 200,
+	ytick distance = 30,
+	minor x tick num=1,
+	xlabel=Time (seconds),
+	ylabel=Temperature ($^\circ$C),
+]
+\end{lab_axis}
+
+\pagebreak[3]
 
 \textbf{Activity 2: Measuring T \textit{vs.}~t for Water} 
 

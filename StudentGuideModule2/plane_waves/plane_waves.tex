@@ -199,9 +199,20 @@ and has a wavelength of $\lambda =12$ meters.  All $(x,y,z)$ points in this acti
 
 \begin{enumerate}[labparts]
 \item Draw a sketch of the wave on the axes below, at time $t=0$.
-\begin{center}
-\includegraphics[width=0.4\textwidth]{plane_waves/em_waves_axes.eps}
-\end{center}
+%\begin{center}
+%\includegraphics[width=0.4\textwidth]{plane_waves/em_waves_axes.eps}
+%\end{center}
+
+\begin{lab_axis}*[lab_noticks_3axes,
+	width={3.0in}, height={1.8in},
+	xmin=-1,xmax =15,
+	xlabel={$z$~~~~~~~~~},  %a bit of a kludge to make "z" closer to the axis.
+	ylabel=$y$,
+	zlabel=$x$,
+	xtick={3,6,9,12},
+	]
+\end{lab_axis}
+\answerspace{0.1in}
 
 \item At $t=0$, find both $\vv {E}$ and $\vv {B}$ at the points $(0,0,0), \,(0,0,3), \,(0,0,6),$ and $(0,0,9)$.  (Your answers are vectors, and should include both \textbf{magnitude} and \textbf{direction}.)  Your answers will be in terms of
 $E_{MAX}$ and $B_{MAX}$.

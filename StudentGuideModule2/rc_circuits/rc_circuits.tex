@@ -87,19 +87,60 @@ To record voltage versus time data, open the file \filename{RC\_circuits.cap} in
 (a)  Now take some data.  On the axes below, draw sketches below showing $\Delta V_C$ \textit{vs.} time starting when the switch is moved into position ``1'' (charging) and position ``3'' (discharging).  Include a scale on the vertical axis.
 
 %\vspace{1.5in}
-\begin{center}
-\vspace{-0.4 in}
-\includegraphics[width=0.95\textwidth]{rc_circuits/vc_axes.eps}
-\vspace{-0.1 in}
-\end{center}
+%\begin{center}
+%\vspace{-0.4 in}
+%\includegraphics[width=0.95\textwidth]{rc_circuits/vc_axes.eps}
+%\vspace{-0.1 in}
+%\end{center}
+
+\begin{lab_groupplot}*{}[lab_noticks_1quad,
+	group style={
+		group size= 2 by 1},
+	height=1in,width=2.5in,
+	xmin=0,xmax=43,
+	xtick={10,20,30},
+	title=Charging,
+	title style={anchor = north},
+	algebraic_labels,
+	xlabel=Time (s),
+	ylabel=$\Delta V_C$,
+]
+\nextgroupplot[title=Charging]
+\nextgroupplot[title=Discharging]
+\end{lab_groupplot}
+
 
 (b) Repeat the experiment above, this time focusing on the current measured by your DMM.  On the axes below, draw sketches below showing $I$ \textit{vs.} time when the capacitor is charging and discharging.  Include a scale on the vertical axis, and pay attention to the sign.
-\begin{center}
-\vspace{-0.3 in}
-\includegraphics[width=0.95\textwidth]{rc_circuits/current_axes.eps}
-%\includegraphics[width=0.6\textwidth]{rc_circuits/current_axes.eps}
-\vspace{-0.1 in}
-\end{center}
+
+%\begin{center}
+%\vspace{-0.3 in}
+%\includegraphics[width=0.95\textwidth]{rc_circuits/current_axes.eps}
+%%\includegraphics[width=0.6\textwidth]{rc_circuits/current_axes.eps}
+%\vspace{-0.1 in}
+%\end{center}
+
+\begin{lab_groupplot}*{}[lab_noticks_2quads,
+	group style={
+		group size= 2 by 1},
+	height=1.2in,width=2.5in,
+	xmin=0,xmax=43,
+	xtick={10,20,30},
+	title=Charging,
+	title style={anchor = north},
+	algebraic_labels,
+	xlabel=Time (s),
+	ylabel=\hspace*{15.71pt}$I$,  %See calculation below
+]
+\nextgroupplot[title=Charging]
+\nextgroupplot[title=Discharging]
+\end{lab_groupplot}
+
+%  \newlength{\myl}
+%  \settowidth{\myl}{$I$}
+%  \the\myl
+%  \settowidth{\myl}{$\Delta V_C$}
+%  \the\myl
+
 
 \begin{wrapfigure}[5]{r}{0.17\textwidth}
     \vspace{-0.2 in}
