@@ -5,7 +5,7 @@
 \textbf{Objective}
 
 To explore the connection between the fundamental definition of entropy and
-temperature.
+temperature in an Eintein solid.
 
 \textbf{Overview}
 
@@ -34,15 +34,17 @@ is
 \begin{equation}
 \Omega = \frac{(q+3N-1)!}{q!(3N-1)!} \qquad .
 \end{equation}
-This model of an elemental solid is called an Einstein solid.
+This model of an elemental solid is called an Einstein solid.\footnote{``A different approach to introducing statistical mechanics'', T.A.Moore and D.V. Schroeder,
+AJP 65 (1), 26-36, (1997), \url{http://physics.weber.edu/schroeder/statmech.pdf}}
 
 We want to find a connection between the entropy defined in Equation 1 and the
 temperature.
 Recall how temperature is usually defined
 relative to some properties of matter like the freezing and 
 boiling points of water.
+In gases temperature is connected to the average kinetic energy of the gas molecules.
 You are developing the microscopic picture of entropy, but it won't be successful until
-you can connect it to the observed behavior of bulk matter and our familiar notions of 
+you can connect it to the observed, macroscopic behavior of bulk matter and our familiar notions of 
 temperature.
 
 \textbf{Activity 1: The Entropy of Einstein Solids in Thermal Equilibrium}
@@ -52,7 +54,7 @@ behavior of the entropy as the energy changes.
 To do this we will study two Einstein solids ($A$ and $B$) in thermal equilibrium with 
 each other.
 Their total internal energy will be
-\begin{equation}
+\begin{equation}\label{eq:Eint}
 E_{int} = q_{AB}\hbar \omega = (q_A + q_B) \hbar \omega
 \end{equation}
 where $q_A$ and $q_B$ are the numbers of energy quanta in each solid and $q_{AB}$ is 
@@ -62,7 +64,7 @@ Use the program {\it StatMech} (see the {\tt Physics Applications} menu)
 for the configuration where you choose $N_A > 100$, $N_B > 80$ and $U>400$.
 The label $U$ in the {\it StatMech} window refers to the total number of energy quanta 
 in the system
-in units of $\hbar \omega$ and is equivalent to $q_{AB}$ here.
+in units of $\hbar \omega$ and is equivalent to $q_{AB}$  in Eq \ref{eq:Eint}.
 An example of the output of {\it StatMech} is shown in Figure 1.
 \begin{figure}[ht!]
 \begin{center}
@@ -101,6 +103,14 @@ the format of the input file.
 The defaults usually seem to work.
 Use {\it Excel} to calculate and plot on one graph $S_{AB}$, $S_A$, and $S_B$
 as a function of $q_A$.
+You should get something resembling the figure below.
+\begin{figure}[hb!]
+\begin{center}
+\includegraphics[height=2.5in]{entropy_temperature/NumberOfStates5.eps}
+\caption{Plot of the entropies as a function of $q_A$.}
+\index{color page}
+\end{center}
+\end{figure}
 Print out your plot and attach it to this unit.
 
 (c) What is $q_A$ for the most probable macrostate? What mathematical condition can you impose
@@ -111,22 +121,27 @@ microstate?
 
 (d) How are the slopes of $S_A$ and $S_B$ related to one another at the most probable
 macrostate?
-\vspace{30mm}
-
-\newpage
+\vspace{40mm}
 
 (e) How is $E_A$, the energy in solid $A$ related to $q_A$?
 How is $E_B$, the energy in solid $B$ related to $q_A$?
 Remember that $q_{AB}$ is a constant and $q_{AB} = q_A + q_B$.
 Calculate the differentials $dE_A$ and $dE_B$ and rewrite the answer in part 1.d
 in terms of $dS_A/dE_A$ and $dS_B/dE_B$.
-\vspace{45mm}
+\vspace{55mm}
+
+You should have found that 
+\begin{equation}
+\frac{dS_A}{dE_A} = \frac{dS_B}{dE_B} \qquad {\text {and}} \qquad T_A = T_B
+\end{equation}
+at the most probable microstate.
+If not, consult your instructor.
 
 \textbf{Activity 2: Relating Entropy and Temperature}
 
 (a) Using the spreadsheet you generated in Activity 1, calculate $dS_A/dq_A$ as a function
-of $q_A$ and plot it. You can do this to an adequate approximation
-by doing taking the difference between $S_A$ at adjacent values/rows
+of $q_A$ (recall $E_A = q_A \epsilon$) and plot it. You can do this to an adequate approximation
+by  taking the difference between $S_A$ at adjacent values/rows
 of $q_A$.
 To do this suppose your spreadsheet has the values of $S_A$ in column $H$.
 The {\it Excel} syntax for estimating the derivative for the first value of
@@ -139,8 +154,10 @@ The syntax for $dS_A/dq_A$ for the second value of $q_A$ is `{\tt =(H3-H2)/1.0}'
 Do the same for $dS_B/dq_A$ and $dS_{AB}/dq_A$.
 Does the slope of $S_{AB}$ pass through zero at the correct spot (recall part 1.c)?
 How are $dS_A/dq_A$ and $dS_B/dq_A$ related at the most probable macrostate.
-Does you plot agree with that result?
+Does your plot agree with that result?
 \vspace{15mm}
+
+\newpage
 
 (b) If the energy $E_A$ and $q_A$ of solid $A$ increases what should the temperature 
 of solid $A$ do?
@@ -160,7 +177,7 @@ T_A = T_B
 \end{equation}
 for the most probable macrostate.
 This means there is some function of the temperature $T$ such that
-\begin{equation}
+\begin{equation}\label{eq:fofT}
 f(T) = \frac{dS}{dE}
 \end{equation}
 for each solid that will be equal at equilibrium.
@@ -180,16 +197,16 @@ In the previous Activity you should have found that the mathematical form of $f(
 has to be something like $1/T^n$ where $n$ is some positive number.
 This is necessary because your graphs should show that as the energy $E_A$ (and the number
 of quanta $q_A$) of the solid 
-increases $f(T)=dS/dE$ goes down. To make sure the temperature $T$ behaves reasonable
+increases $f(T)=dS/dE$ goes down. To make sure the temperature $T$ behaves reasonably
 (and goes up with $E_A$ and $q_A$) $f(T)$ must be some inverse of function of $T$.
-To decide exactly which function is right requires comparing Equation 7 or some
+To decide exactly which function is right requires comparing Equation \ref{eq:fofT} or some
 result from it to some data.
 
 Recall the table of heat capacities we generated in the laboratory entitled
 {\it Calorimetry}.
 Use those results to fill in Table 1 making sure that you are using molar 
 heat capacities.
-\begin{table}
+\begin{table}[hb!]
 \begin{center}
 \begin{tabular}{|p{0.8in}|l|p{0.8in}|l|} \hline
 \hi Solid    & $dE/dT$ per mole & Solid      & $dE/dT$ per mole   \\[2pt] \hline
@@ -218,7 +235,7 @@ one another.
 These are the data that will help us determine $f(T)$.
 To calculate $dE/dT$ we must find a relationship between $E$ and $T$ for the Einstein solid.
 
-(a) Start with Equations 1 and 7 and the chain rule and show the following.
+(a) Start with Equations 1 and \ref{eq:fofT} and the chain rule and show the following.
 \begin{equation}
 \frac{dS}{dE} = k_B \frac{1}{\Omega} \frac{d\Omega}{dE}
 \end{equation}
@@ -232,14 +249,12 @@ dE = \hbar \omega dq \qquad {\rm and} \qquad
 \end{equation}
 \vspace{15mm}
 
-\newpage
-
 (c) Starting with Equations 1 and 3 one can show
-\begin{equation}
+\begin{equation}\label{eq:final}
 \frac{d\Omega}{dq} = \frac{3N\hbar \omega}{E} \Omega
 \qquad .
 \end{equation}
-Combine this equation (number 10) and the  results from 3.a-b to 
+Combine this equation (number \ref{eq:final}) and the  results from 3.a-b to 
 get a relationship for $dS/dE$ for the Einstein solid in terms
 of $N$ and $E$.
 Set that expression equal to $f(T)$,
@@ -249,8 +264,10 @@ What function of $f(T)$ will give a result that is independent of temperature wh
 take the derivative with respect to $T$ of your expression for the internal energy $E$?
 \vspace{45mm}
 
-(d)  What is the final form of Equation 7 and $f(T)$?
+(d)  What is the final form of Equation \ref{eq:fofT} and $f(T)$?
 \vspace{15mm}
+
+\newpage
 
 (e) Determine the mean and standard deviation of the heat capacity of the elemental solids in
 Table 1.
