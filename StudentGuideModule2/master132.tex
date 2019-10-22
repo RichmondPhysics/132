@@ -1,5 +1,6 @@
 \documentclass[english,twoside]{article}
 
+
 \input{../../131/StudentGuideModule1/labmanual_formatting_commands} %all general latex packages, commands, and definitions now here.
 \newcommand{\coursefolder}{Phys132} %This defines the place students will look for various files
 \ForceSectionOddPage %This option makes each lab start on odd numbered page (right hand side).
@@ -10,6 +11,10 @@
 
 %Use the following line to override all of the 1's and 0's in the \includelab statements below
 %\includealllabstrue
+
+% to generate the pdf on centos7: latex master;  dvipdfmx master
+% another way to generate the pdf on centos7: xelatex master
+% to convert images to eps: convert <file>.jpg <file>.pdf; pdftops -eps <file>.pdf
 
 \makeindex
 \begin{document}
@@ -35,7 +40,7 @@
 
 \includelab{1}{electroscope/electroscope}
 \includelab{1}{charge_density/charge_density}
-\includelab{0}[../../131/StudentGuideModule1/]{elec_grav/elec_grav}
+\includelab{1}[../../131/StudentGuideModule1/]{elec_grav/elec_grav}
 \includelab{1}{chargesFields1/EF_EP_1b}
 \includelab{1}{chargesFields2/EF_EP_2b}
 \includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
@@ -55,7 +60,8 @@
 %--------------------------------------------
 \part{Electric Circuits}
 
-\includelab{0}{electric_circuits/electric_circuits}
+\includelab{1}{ohms_law/ohms_law}
+\includelab{1}{electric_circuits/electric_circuits}
 \includelab{1}{electric_circuits2/electric_circuits2}
 \includelab{0}{kirchhoffs_rules/kirchhoffs_rules}
 \includelab{1}{electric_power/electric_power}
@@ -92,7 +98,7 @@
 \includelab{1}{interference/interferenceOfLight}
 \includelab{1}{interference_of_light/interference}
 \includelab{1}{diffraction/diffractionOfLight}
-\includelab{0}{diffraction_of_light/diffraction}
+\includelab{1}{diffraction_of_light/diffraction}
 \includelab{1}{diffraction_grating/diffraction_grating}
 %\includelab{0}{hydrogen_spectrum/hydrogen_spectrum} %Currently listed under both quantum and wave optics.  Be sure it's not selected for both!
 \includelab{0}{deriving_snells_law/deriving_snells_law}
@@ -112,7 +118,7 @@
 \includelab{0}{charles_law/charles_law}
 \includelab{1}{P-T_relationship_of_gas/P-T}
 \includelab{1}{kin_theory_ideal/kin_theory_ideal}
-\includelab{0}{applying_kinetic_theory/applying_kinetic_theory}
+\includelab{1}{applying_kinetic_theory/applying_kinetic_theory}
 \includelab{1}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit_minimalist}
 \includelab{0}{expansion_constant_pressure/expansion_constant_pressure}
 \includelab{0}{ideal_gas_cycles/ideal_gas_cycles}
