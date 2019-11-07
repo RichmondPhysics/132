@@ -1,5 +1,13 @@
 \section{Diffraction of Light Through a Single Slit}
 
+\instructornote{%
+Matt rewrote this significantly in about 2016 (based on earlier version by Jerry), and revised in fall 2019.  Time: pretty long if you do all of it.
+
+Note: use room lights on 1/2.  With the larger aperture settings, the larger background matters.
+
+This lab was rewritten in 2019 so that one could do the activities out of order: 1, 2, 5, 3, 4, though Matt personally advises doing them in order.  Skipping activity 4, or 4 and 5, would also be totally reasonable.
+} 
+
 \makelabheader %(Space for student name, etc., defined in master.tex)
 
 \bigskip
@@ -25,7 +33,7 @@
 \answerspace{0.8in}
 
 
-Well, let's try it!  The setup for this experiment is exactly the same as that for Lab \ref{interference_lab},  but instead of a double slit, you will use the ``Single Slit Set'' slit accessory.  Place it on the optical bench about 70 cm away from the detector, and select the slit with a width of $a = 0.16$~mm.   Set the gain switch to 100 and use the aperture marked ``3''.   Open the file \filename{Interference.cap} and use the computer to take data on the intensity as a function of position by moving the detector slowly across the series of bright spots.  
+Well, let's try it!  The setup for this experiment is exactly the same as that for Lab \ref{interference_lab},  but instead of a double slit, you will use the ``Single Slit Set'' slit accessory.  Place it on the optical bench about 70 cm away from the detector, and select the slit with a width of $a = 0.08$~mm.   Set the gain switch to 100 and use the setting on the aperture wheel marked ``4''.   Open the file \filename{Interference.cap} and use the computer to take data on the intensity as a function of position by moving the detector slowly across the series of bright spots, starting at the ``rail stop'' to make the positioning reproduceable.  
 
 Your goal is to get as large a signal as you can without having the intensity pinned at its maximum value.  (If the peaks on your graph appear perfectly flat on top, that's probably what's happening.) You may need to adjust either the gain of your detector or the size of its aperture.
 
@@ -147,10 +155,10 @@ The diagram below shows what happens when all of the rays in a single direction 
 
 The diagram on the left shows rays at an angle $\theta$ where $\frac{a}{3} \sin \theta = \frac{\lambda}{2}$.  In the upper shaded area of the diagram, each ray can be \textit{paired up} with another one exactly $180^{\circ}$ out of phase, so that all of the rays inside that shaded area cancel each other out.  The intensity at the screen or the detector  comes from the unpaired rays that aren't shaded out.
 
-(a) If $\theta$ were \textit{just a little} smaller than what's shown in the left diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}? (If you're not sure, you can always try it out on the simulation.)
+(a) If $\theta$ were \textit{just a little} smaller than what's shown in the left diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}?  Why?  (If you're not sure, you can always try it out on the simulation.)
 \answerspace{0.4in}
 
-(b) If $theta$ were \textit{just a little} bigger than what's shown in the diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}?  
+(b) If $theta$ were \textit{just a little} bigger than what's shown in the diagram, would the resulting intensity \textit{increase}, \textit{decrease}, or \textit{stay the same}?  Why?  (Again, you can try this on the simulation.)
 \answerspace{0.4in}
 
 (c) The particular $\theta$ shown in the diagram on the left is a maximum in the diffraction pattern.  Is the intensity of that maximum \textit{greater than}, \textit{less than}, or \textit{equal to} the intensity of the maximum at $\theta = 0$?  Why?
@@ -168,17 +176,21 @@ The diagram on the left shows rays at an angle $\theta$ where $\frac{a}{3} \sin 
 \medskip
 \textbf{Activity 5: Two-Slit Interference Revisited}
 
-(a) Replace the single slit with the ``Multiple Slit Set'' slit accessory, and select the pair of two slits with separation $d=0.125$ mm and width $a=0.04$ mm, labeled with the number ``2''.  Get some good clean data on the intensity $I$ \textit{vs.}~position.
+(a) Keep your data for the single slit diffraction pattern visible (don't delete it).  But replace the single slit with the ``Multiple Slit Set'' slit accessory, and select the pair of two slits with separation $d=0.25$ mm and width $a=0.08$~mm.  Also change the aperture wheel to the setting ``2''.  Starting again with the detector all the way at the rail stop, get some good clean data on the intensity $I$ \textit{vs.}~position for the double slit.  (It should be superimposed over your single slit data.)
 
-(b) As we described it in Lab \ref{interference_lab}, the two-slit interference pattern you see occurs because of the interference between rays coming from the exact center of each slit.  But if that were all that were going on,
+As we described it in Lab \ref{interference_lab}, the two-slit interference pattern you see occurs because of the interference between rays coming from the exact center of each slit.  But if that were all that were going on,
 the intensity function $I_{\rm 2slit}(\theta)$ would be a simple oscillating function with all maxima at exactly the same intensity:
 \begin{displaymath} 
 I_{\rm 2slit}(\theta) = I_{\rm{max}} \cos^2 \left (\frac {\pi d} {\lambda} \sin \theta \right) 
 \end{displaymath}
-(It's a little hard to parse, but for any $\theta$ where $d \sin \theta = m \lambda$, the part inside the parentheses gives a multiple of $\pi$ so that the value of the function is just $I_max$.)  Is that actually what you see?  If not, then how is your data different from the function above?
+where $d$ is the distance between the two slits, \( \theta  \) is the angular
+position of the phototransistor relative to the incident beam, and $I_{\rm{max}}$
+is the maximum intensity at the center of the diffraction pattern. (The equation above is a little hard to visualize, but for any $\theta$ where $d \sin \theta = m \lambda$, the part inside the parentheses gives a multiple of $\pi$ so that the value of the function is just $I_{\rm max}$.)  
+
+(b) Is the data that you actually see consistent with the function above?  (Does the function alternate between minima of $I=0$ and maxima that are all $I=I_{\rm max}$?  If not, then how is your data different from the function above?
 \answerspace{0.6in}
 
-In fact, you probably see something more like the figure below, with some large maxima near the center, and several other much smaller maxima on either side.  (If you didn't see this, try increasing your signal strength, or consult your instructor.)
+In fact, you probably see something more like the figure below, with some large maxima near the center, and several other much smaller maxima on either side.  (If you didn't see this, consult your instructor.)
 
 %\vspace{-0.1in}
 %\begin{center}
@@ -210,14 +222,15 @@ Although the derivation goes beyond the scope of this course, the intensity func
 \begin{displaymath} 
 I_{\rm{diff}}(\theta) = I_{\rm{max}} \left( \frac {\sin \left(\frac {\pi a} {\lambda} \sin \theta \right)} {\frac {\pi a} {\lambda} \sin \theta} \right)^2 
 \end{displaymath}
-where $a$ is the width of the single slit, \( \theta  \) is the angular
-position of the phototransistor relative to the incident beam, and $I_{\rm{max}}$
+where $a$ is the width of the single slit, 
+%$\( \theta  \) is the angular position of the phototransistor relative to the incident beam, 
+and $I_{\rm{max}}$
 is the maximum intensity at the center of the diffraction pattern.  This is the function that's graphed on page \pageref{fraunhofer_graph}.
 
 
 
 
-The complicated pattern you see is basically the simple oscillating function for two slit interference $I_{\rm 2slit}(\theta)$ multiplied by the intensity $I_{\rm{diff}}(\theta)$ at that angle for a single slit: 
+The complicated pattern you see for two slits is basically the simple oscillating function for two slit interference $I_{\rm 2slit}(\theta)$ multiplied by the intensity $I_{\rm{diff}}(\theta)$ at that angle for a single slit: 
 \begin{displaymath} 
 I_{\rm{total}} = I_{\rm{max}} \cos^2 \left (\frac {\pi d} {\lambda} \sin \theta \right) \left(\frac {\sin \left (\frac {\pi a} {\lambda} \sin \theta \right )} {\frac {\pi a} {\lambda} \sin \theta} \right)^2 \end{displaymath}
 
