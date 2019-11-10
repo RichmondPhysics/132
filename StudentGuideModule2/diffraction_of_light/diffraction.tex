@@ -181,13 +181,17 @@ The diagram on the left shows rays at an angle $\theta$ where $\frac{a}{3} \sin 
 (a) Keep your data for the single slit diffraction pattern visible (don't delete it).  But replace the single slit with the ``Multiple Slit Set'' slit accessory, and select the pair of two slits with separation $d=0.25$ mm and width $a=0.08$~mm.  Also change the aperture wheel to the setting ``2''.  Starting again with the detector all the way at the rail stop, get some good clean data on the intensity $I$ \textit{vs.}~position for the double slit.  (It should be superimposed over your single slit data.)
 
 As we described it in Lab \ref{interference_lab}, the two-slit interference pattern you see occurs because of the interference between rays coming from the exact center of each slit.  But if that were all that were going on,
-the intensity function $I_{\rm 2slit}(\theta)$ would be a simple oscillating function with all maxima at exactly the same intensity:
+the intensity function $I_{\operatorname{2-slit}}(\theta)$ would be a simple oscillating function with all maxima at exactly the same intensity:
+% The command \operatorname{} allows correct typesetting of the hyphen.
 \begin{displaymath} 
-I_{\rm 2slit}(\theta) = I_{\rm{max}} \cos^2 \left (\frac {\pi d} {\lambda} \sin \theta \right) 
+I_{\operatorname{2-slit}}(\theta) = I_{\rm{max}} \cos^2 \left (\frac {\pi d} {\lambda} \sin \theta \right) 
 \end{displaymath}
 where $d$ is the distance between the two slits, \( \theta  \) is the angular
 position of the phototransistor relative to the incident beam, and $I_{\rm{max}}$
-is the maximum intensity at the center of the diffraction pattern. (The equation above is a little hard to visualize, but for any $\theta$ where $d \sin \theta = m \lambda$, the part inside the parentheses gives a multiple of $\pi$ so that the value of the function is just $I_{\rm max}$.)  
+is the maximum intensity at the center of the diffraction pattern. 
+(The equation above is a little hard to visualize, but you can see that the $\cos ^2$ term means that the function will vary periodically between 0 and $I_{\rm max}$.  
+It will be $I_{\rm max}$ whenever the part inside the parentheses is a multiple of $\pi$, 
+which means at any $\theta$ where $d \sin \theta = m \lambda$. 
 
 (b) Is the data that you actually see consistent with the function above?  (Does the function alternate between minima of $I=0$ and maxima that are all $I=I_{\rm max}$?  If not, then how is your data different from the function above?
 \answerspace{0.6in}
@@ -220,9 +224,9 @@ In fact, you probably see something more like the figure below, with some large 
 The reason for the more complicated pattern is that in addition to the interference between rays from the two different slits, each individual slit has a nonzero width $a$, so there's also interference among different rays coming from the \textit{same} slit.  Essentially, the peaks from CON-structive interference \textit{between} the two slits get reduced due to DE-structive interference \textit{within} each slit.
 
 \pagebreak[2]
-Although the derivation goes beyond the scope of this course, the intensity function $I_{\rm{diff}}(\theta)$ for the diffraction of a single slit can actually be written in closed form as
+Although the derivation goes beyond the scope of this course, the intensity function $I_{\operatorname{1-slit}}(\theta)$ for the diffraction of a single slit can actually be written in closed form as
 \begin{displaymath} 
-I_{\rm{diff}}(\theta) = I_{\rm{max}} \left( \frac {\sin \left(\frac {\pi a} {\lambda} \sin \theta \right)} {\frac {\pi a} {\lambda} \sin \theta} \right)^2 
+I_{\operatorname{1-slit}}(\theta) = I_{\rm{max}} \left( \frac {\sin \left(\frac {\pi a} {\lambda} \sin \theta \right)} {\frac {\pi a} {\lambda} \sin \theta} \right)^2 
 \end{displaymath}
 where $a$ is the width of the single slit, 
 %$\( \theta  \) is the angular position of the phototransistor relative to the incident beam, 
@@ -232,7 +236,8 @@ is the maximum intensity at the center of the diffraction pattern.  This is the 
 
 
 
-The complicated pattern you see for two slits is basically the simple oscillating function for two slit interference $I_{\rm 2slit}(\theta)$ multiplied by the intensity $I_{\rm{diff}}(\theta)$ at that angle for a single slit: 
+The complicated pattern you see for two slits is basically the simple oscillating function for two slit interference 
+$I_{\operatorname{2-slit}}(\theta)$ multiplied by the intensity $I_{\operatorname{1-slit}}(\theta)$ at that angle for a single slit: 
 \begin{displaymath} 
 I_{\rm{total}} = I_{\rm{max}} \cos^2 \left (\frac {\pi d} {\lambda} \sin \theta \right) \left(\frac {\sin \left (\frac {\pi a} {\lambda} \sin \theta \right )} {\frac {\pi a} {\lambda} \sin \theta} \right)^2 \end{displaymath}
 
