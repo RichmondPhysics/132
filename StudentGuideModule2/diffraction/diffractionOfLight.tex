@@ -75,10 +75,24 @@ shape shown below. We will compare this prediction of {}``pure''
 interference (without diffraction effects) with the measured pattern
 in the next activity.
 
-\vspace{-0.10cm}
-{\centering \includegraphics[height=2.75in]{diffraction/diffractionFig1.eps} \par}
-\index{color page}
-\vspace{0.1cm}
+%\vspace{-0.10cm}
+%{\centering \includegraphics[height=2.75in]{diffraction/diffractionFig1.eps} \par}
+%\index{color page}
+%\vspace{0.1cm}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width=4.5in,height=1.5in,
+	xmin=-7,xmax=7,
+	ymin=0,ymax=1.2,
+	ylabel=Intensity,
+	xlabel=Angular Position,
+	xtick={.1}, % it won't let me put the tick exactly at zero.
+	tick style={major tick length=0pt},
+	axis y line*= {middle, y axis line style={->}}, %This effectively makes the graph only quadrants I and II
+	xticklabel={0$^\circ$},
+	samples = 800,
+]
+\addplot {(cos(deg(4*x)))^2};
+\end{lab_axis}
 
 {\centering \textbf{Fig. 2}. Intensity distribution of pure interference.\par}
 
@@ -305,10 +319,23 @@ is the maximum intensity at the center of the diffraction pattern,
 and \( \lambda  \) is the wavelength of the light. The shape of this
 intensity distribution is shown in Figure 3.
 
-\vspace{-0.1cm}
-{\centering \includegraphics[height=2.75in]{diffraction/diffractionFig2.eps} \par}
-\index{color page}
-\vspace{0.1cm}
+%\vspace{-0.1cm}
+%{\centering \includegraphics[height=2.75in]{diffraction/diffractionFig2.eps} \par}
+%\index{color page}
+%\vspace{0.1cm}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width=4.5in,height=1.5in,
+	xmin=-12,xmax=12,
+	ymin=0,ymax=1.2,
+	ylabel=Intensity,
+	xlabel=Angular Position,
+	xtick={.1}, % it won't let me put the tick exactly at zero.
+	tick style={major tick length=0pt},
+	axis y line*= {middle, y axis line style={->}}, %This effectively makes the graph only quadrants I and II
+	xticklabel={0$^\circ$},
+]
+\addplot {(sin(deg(x))/x)^2};
+\end{lab_axis}
 
 {\centering \textbf{Fig. 3}. Intensity distribution of diffraction
 from a single slit.\par}
@@ -365,10 +392,25 @@ slits, $a$ is the size of an individual slit, and \( \lambda  \) is
 the wavelength of the light. The shape of this distribution is shown
 by the solid curve in Figure 4.
 
-\vspace{-0.1cm}
-{\centering \includegraphics[height=2.75in]{diffraction/diffractionFig3.eps} \par}
-\index{color page}
-\vspace{0.1cm}
+%\vspace{-0.1cm}
+%{\centering \includegraphics[height=2.75in]{diffraction/diffractionFig3.eps} \par}
+%\index{color page}
+%\vspace{0.1cm}
+\begin{lab_axis}*[lab_noticks_4quads,
+	width=4.5in,height=1.5in,
+	xmin=-7,xmax=7,
+	ymin=0,ymax=1.2,
+	ylabel=Intensity,
+	xlabel=Angular Position,
+	xtick={.1}, % it won't let me put the tick exactly at zero.
+	tick style={major tick length=0pt},
+	axis y line*= {middle, y axis line style={->}}, %This effectively makes the graph only quadrants I and II
+	xticklabel={0$^\circ$},
+	samples = 800,
+]
+\addplot +[dashed, very thick] {(sin(deg(x))/x)^2};
+\addplot {(cos(deg(4*x)))^2*(sin(deg(x))/x)^2};
+\end{lab_axis}
 
 {\centering \textbf{Fig. 4}. Intensity distribution of light passing
 through a pair of slits.\par}
