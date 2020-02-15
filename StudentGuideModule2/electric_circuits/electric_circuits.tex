@@ -1,7 +1,7 @@
 \section{An Introduction to Electric Circuits}
 
 \instructornote{%
-By Matt, added to manual Fall 2015.  Time: long! (2 hours?)
+By Matt, added to manual Fall 2015.  Time: long! ($\sim$ 110 minutes)
 
 This lab was originally written around 2008.  The goal is to build students' intuition for how circuits work, which students typically really suck at.  More specifically, students have a lot of misconceptions about circuits:  for example, when they do differentiate between current and voltage, they think of a battery as a source of constant current rather than constant voltage.  Lillian McDermott's PER group at Washington did a lot of research into these misconceptions, and many of the exercises in here are specifically based on their findings.  (For all I know, I may even be asking students some of the exact questions they did; at any rate, their work deserves at least a tip of the hat.)
 
@@ -16,11 +16,13 @@ Finally, even if you do everything right, this is still a lab where it can be di
 
 Equipment notes: 
 
-The circuits here require that the DC power supply have very low internal resistance, which means that any actual power supply works fine.  Actual batteries generally have too high an internal resistance to work well, so for instance students will see bulbs become slightly dimmer when more bulbs are added in parallel. Also, the bulbs in this lab MUST BE IDENTICAL TO EACH OTHER.  They should be individually tested as they're put out on the tables to make sure each bulb in the set of three (plus a spare) draws the same amount of current. 
+The circuits here require that the DC power supply have very low internal resistance, which means that any actual power supply works fine.  Actual batteries generally have too high an internal resistance to work well, so for instance students will see bulbs become slightly dimmer when more bulbs are added in parallel. Also, the bulbs in this lab MUST BE IDENTICAL TO EACH OTHER.  If necessary, they should be individually tested as they're put out on the tables to make sure each bulb in the set of three (plus a spare) draws the same amount of current. 
 
 I believe the circuits here are most easily (and intuitively) constructed using banana cables, which means that the bulbs and sockets should also have banana jacks on them.  (I found I could use bulb sockets with screw terminals, then put spade-connector-to-banana-jack adapters on them.
 
-For the multimeters, have plenty of extra fuses on hand, as some fuses will be blown.
+For the multimeters, have plenty of extra fuses on hand, as some fuses will be blown.  But this can be greatly reduced by setting the power supplies ahead of time to a 3 V output, and a current limit of about 400 mA.  (Both fine knobs all the way up, both coarse knobs all the way down, button on "high" range.)
+
+Note about meters: For our red Amprobe meters, use the 10 A current scale.  (The mA scale has too high an impedance, and gives a 140 mV drop across the meter.)  For the black BK meters, the mA scale works fine, and is more precise.
 
 I also recommend two pairs of scissors per group, so that each student does their own cutting and folding.  If they both cut, then they will also both fold, and the physical act of folding seems to build a kind of kinesthetic memory for the concept the lab is trying to get across.
 
@@ -49,7 +51,7 @@ To understand current, voltage, and series and parallel circuits.  And learn how
 \bigskip
 \textbf{Introduction:}
 
-In this lab, you will measure both electric currents and potential differences using your digital multimeters (DMMs).  Your instructor will show you how to set up your DMM for each kind of measurement.
+In this lab, you will measure both electric currents and potential differences using your digital multimeters (DMMs).  Details on how to use your multimeter are in Appendix \ref{digital_multimeters}.
 
 To measure the electric current in a circuit, you will need to break the circuit, reconnecting it so that current is forced to flow through the meter, as shown below.  (The ``A'' is the symbol for a current meter, or ammeter.)
 
@@ -57,12 +59,11 @@ To measure the electric current in a circuit, you will need to break the circuit
 %\includegraphics[height=1.5in]{electric_circuits/how_to_measure_current.eps}
 \includegraphics[width=0.8\textwidth]{electric_circuits/how_to_measure_current.eps}
 \end{center}
-\vspace{-0.1in}
-
-Your DMM can also measure the potential difference, in volts between any two points in the circuit.  For this measurement, keep your circuit intact, and simply touch the two leads of the DMM to the two places in the circuit you want to measure between.
+\vspace{-0.2in}
 
 \begin{newboxed}
-\textbf{For all parts of this lab, keep your power supplies set to a voltage of 3.0 volts, and use the 10A or 20A range of your DMM for measuring currents.  Otherwise we'll blow out lots of bulbs and fuses.}
+\textbf{Your power supplies have been preset to limit the voltage and current supplied.  Please do not adjust the voltage or current knobs, or we may blow out lots of bulbs and fuses.  Also, for best results, use the black BK meters on the ``400~mA'' current range, and use the red Amprobe meters on the ``10~A'' current range.
+}
 \end{newboxed}
 
 \vspace{0.1 in}
@@ -78,25 +79,26 @@ Your DMM can also measure the potential difference, in volts between any two poi
 
 \vspace{0.2 in}
 Prediction:
-\vspace{1.2 in}
+\vspace{1.0 in}
 
-%\newpage
-\pagebreak
 (b) Build the circuit above, using your two DMMs to measure the current $I$ that flows at the two points in the circuit shown.  Record your measurements.  Was your prediction correct?
-\vspace{1 in}
+\answerspace{0.8 in}
 
-(c) Remove one of your two DMMs from the circuit, and use it to measure some voltage differences in the circuit as shown.  Hold the black lead at point a, and move the red lead to b, c, and d, recording the results.
+\pagebreak
 
-\begin{wrapfigure}[2]{r}{0.35\textwidth}
-    \vspace{-0.5 in}
+\begin{wrapfigure}[10]{r}{0.35\textwidth}
+%    \vspace{-0.5 in}
     \includegraphics[width=0.35\textwidth]{electric_circuits/circ_diag2.eps}
 \end{wrapfigure}
+Your DMM can also measure the difference in potential $\Delta V$ between any two points in the circuit.  (See Appendix \ref{digital_multimeters} to set up your DMM as a voltmeter.)  To measure a voltage in a circuit, keep your circuit intact (do not break any connections), and simply touch the two leads of the voltmeter to the two places in the circuit you want to measure between.
 
-\vspace{0.3 in}
+(c) Remove one of your two DMMs from the circuit, and use it to measure some voltage differences in the circuit as shown.  Hold one lead at point a, and move the other lead to points b, c, and d, recording the results.  Pay attention to whether each reading is in volts (V) or milivolts (mV).
+
+\vspace{0.1 in}
 \hspace{0.5 in} $\Delta V_{ab} = $ \par
 \hspace{0.5 in} $\Delta V_{ac} = $ \par
 \hspace{0.5 in} $\Delta V_{ad} = $ \par
-\vspace{0.6 in}
+\vspace{0.2 in}
 
 (d)  Predict the voltage difference between the two points c and d in the circuit above.  Test your prediction with a measurement.  Do they agree? \par
 \hspace{0.5 in} Prediction:   $\Delta V_{cd} = $ \par
@@ -104,17 +106,17 @@ Prediction:
 \hspace{0.5 in} Measurement:   $\Delta V_{cd} = $ \par
 \vspace{0.3 in}
 (e) How big is the voltage difference between the two ends of a typical wire in your circuit?
-\vspace{0.6 in}
+\answerspace{0.6 in}
 
 
 
 (f) How big is the voltage difference across your ammeter?  
-\vspace{0.6 in}
+\answerspace{0.6 in}
 
 
 
 (g) Is it reasonable to approximate either or both of the voltage differences in (e) and (f) as zero?
-\vspace{0.6 in}
+\answerspace{0.6 in}
 
 
 
@@ -128,6 +130,7 @@ Prediction:
 \vspace{-0.1in}
 
 
+\pagebreak[2]
 (b) Make a prediction: If you add the second light bulb to your circuit as shown, will the current in the first light bulb increase, decrease, or stay about the same?  Build the circuit and test your prediction. To avoid getting a tangled mess of spaghetti, use masking tape to tape your wires to the table in the shape of the circuit diagram on the previous page.\par
 \vspace{0.1 in}
 \hspace{0.5 in} Prediction:  \par
