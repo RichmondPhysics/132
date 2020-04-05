@@ -1,19 +1,32 @@
-(* Content-type: application/mathematica *)
+(* Content-type: application/vnd.wolfram.cdf.text *)
 
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
 
-(* CreatedBy='Mathematica 6.0' *)
+(* CreatedBy='Mathematica 10.2' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*  The Mathematica License under which this file was created prohibits  *)
+(*  restricting third parties in receipt of this file from republishing  *)
+(*  or redistributing it by any means, including but not limited to      *)
+(*  rights management or terms of use, without the express consent of    *)
+(*  Wolfram Research, Inc. For additional information concerning CDF     *)
+(*  licensing and redistribution see:                                    *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*************************************************************************)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       145,          7]
-NotebookDataLength[     50836,       1116]
-NotebookOptionsPosition[     50123,       1088]
-NotebookOutlinePosition[     50542,       1104]
-CellTagsIndexPosition[     50499,       1101]
+NotebookDataPosition[      1064,         20]
+NotebookDataLength[     50981,       1124]
+NotebookOptionsPosition[     51119,       1105]
+NotebookOutlinePosition[     51538,       1121]
+CellTagsIndexPosition[     51495,       1118]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,6 +56,7 @@ Cell[BoxData[
           RowBox[{
            RowBox[{"Sin", "[", "t", "]"}], "/", "L"}]}], ")"}], "/", "2"}], 
        "]"}]}], ")"}], "^", "2"}]}]}]], "Input",
+ CellOpen->False,
  InitializationCell->True,
  CellChangeTimes->{{3.655988388292108*^9, 3.655988489607903*^9}, {
    3.655988545224084*^9, 3.655988547002186*^9}, {3.656017799270376*^9, 
@@ -67,9 +81,10 @@ Cell[BoxData[
     FractionBox[
      RowBox[{"D", " ", "N", " ", "\[Pi]", " ", 
       RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"]}]], "Output",
+ CellOpen->False,
  CellChangeTimes->{3.656158078497754*^9, 3.781206488350071*^9, 
   3.7951180582275143`*^9}]
-}, Open  ]],
+}, {2}]],
 
 Cell[CellGroupData[{
 
@@ -90,6 +105,7 @@ Cell[BoxData[
         RowBox[{
          RowBox[{"Sin", "[", "t", "]"}], "/", "L"}]}], ")"}]}], ")"}], "^", 
     "2"}]}]}]], "Input",
+ CellOpen->False,
  InitializationCell->True,
  CellChangeTimes->{{3.6560669600917788`*^9, 3.6560669804407434`*^9}, {
    3.656067014026581*^9, 3.6560671450675807`*^9}, 3.6560672155445805`*^9, {
@@ -109,10 +125,11 @@ Cell[BoxData[
        RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"]}], 
   RowBox[{"a", " ", 
    SuperscriptBox["\[Pi]", "2"]}]]], "Output",
+ CellOpen->False,
  CellChangeTimes->{3.6560671472875805`*^9, 3.656067216767581*^9, 
   3.6560942932069225`*^9, 3.656096770576129*^9, 3.656158078700774*^9, 
   3.781206488440727*^9, 3.7951180586106176`*^9, 3.7951182618480406`*^9}]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -972,9 +989,9 @@ $CellContext`a$$]}}]}],
             
             RotationTransform[$CellContext`t$$, {
              0, $CellContext`yoff}][{$CellContext`u, 
-              0.4 Sin[2 
-                 Pi ($CellContext`u/$CellContext`L$$)] + $CellContext`yoff}], \
-{$CellContext`u, 0, 5}, PlotStyle -> {Red}, PlotPoints -> 
+              0.4 Sin[(2 
+                  Pi) ($CellContext`u/$CellContext`L$$)] + \
+$CellContext`yoff}], {$CellContext`u, 0, 5}, PlotStyle -> {Red}, PlotPoints -> 
             Ceiling[20/$CellContext`L$$], MaxRecursion -> 1, 
             PerformanceGoal -> {
              "Speed"}], {$CellContext`yoff, $CellContext`a$$/
@@ -1048,7 +1065,7 @@ $CellContext`a$$], 190 Tan[$CellContext`t$$]}}, PlotStyle -> {
          Pattern[$CellContext`L, 
           Blank[]], 
          Pattern[$CellContext`a, 
-          Blank[]]] = $CellContext`L Csc[$CellContext`t] 
+          Blank[]]] = ($CellContext`L Csc[$CellContext`t]) 
         Quotient[$CellContext`a, $CellContext`L 
           Csc[$CellContext`t]], $CellContext`DarkWidth2[
          Pattern[$CellContext`t, 
@@ -1064,8 +1081,8 @@ $CellContext`a$$], 190 Tan[$CellContext`t$$]}}, PlotStyle -> {
          Pattern[$CellContext`L, 
           Blank[]], 
          Pattern[$CellContext`a, 
-          Blank[]]] = (15 $CellContext`L^2 Csc[$CellContext`t]^2 
-         Sin[($CellContext`a Pi 
+          Blank[]]] = (((15 $CellContext`L^2) Csc[$CellContext`t]^2) 
+         Sin[(($CellContext`a Pi) 
              Sin[$CellContext`t])/$CellContext`L]^2)/($CellContext`a Pi^2)}; 
      Typeset`initDone$$ = True),
     SynchronousInitialization->True,
@@ -1084,7 +1101,7 @@ $CellContext`a$$], 190 Tan[$CellContext`t$$]}}, PlotStyle -> {
    3.656158078726777*^9, 3.781206488500765*^9, 3.7812066469737673`*^9, 
    3.781206754808883*^9, 3.7812068634550276`*^9, 3.781208650301484*^9, 
    3.7812106840748844`*^9, 3.7951180587460003`*^9}]
-}, Open  ]]
+}, {2}]]
 },
 WindowSize->{1519, 805},
 WindowMargins->{{Automatic, -3}, {Automatic, 0}},
@@ -1104,22 +1121,28 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[567, 22, 1494, 33, 31, "Input",
+Cell[1486, 35, 1512, 34, 19, "Input",
+ CellOpen->False,
  InitializationCell->True],
-Cell[2064, 57, 465, 13, 55, "Output"]
-}, Open  ]],
+Cell[3001, 71, 483, 14, 19, "Output",
+ CellOpen->False]
+}, {2}]],
 Cell[CellGroupData[{
-Cell[2566, 75, 809, 21, 31, "Input",
+Cell[3518, 90, 827, 22, 19, "Input",
+ CellOpen->False,
  InitializationCell->True],
-Cell[3378, 98, 593, 15, 70, "Output"]
-}, Open  ]],
+Cell[4348, 114, 611, 16, 19, "Output",
+ CellOpen->False]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[4008, 118, 36068, 751, 792, "Input",
+Cell[4996, 135, 36068, 751, 786, "Input",
  InitializationCell->True],
-Cell[40079, 871, 10028, 214, 759, "Output"]
-}, Open  ]]
+Cell[41067, 888, 10039, 214, 759, "Output"]
+}, {2}]]
 }
 ]
 *)
 
 (* End of internal cache information *)
+
+(* NotebookSignature 2wp1gN0V72mSkAKJT63yJ2wN *)
