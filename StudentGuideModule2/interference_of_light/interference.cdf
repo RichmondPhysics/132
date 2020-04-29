@@ -1,19 +1,32 @@
-(* Content-type: application/mathematica *)
+(* Content-type: application/vnd.wolfram.cdf.text *)
 
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
 
-(* CreatedBy='Mathematica 6.0' *)
+(* CreatedBy='Mathematica 10.2' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*  The Mathematica License under which this file was created prohibits  *)
+(*  restricting third parties in receipt of this file from republishing  *)
+(*  or redistributing it by any means, including but not limited to      *)
+(*  rights management or terms of use, without the express consent of    *)
+(*  Wolfram Research, Inc. For additional information concerning CDF     *)
+(*  licensing and redistribution see:                                    *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*************************************************************************)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       145,          7]
-NotebookDataLength[     33678,        728]
-NotebookOptionsPosition[     33181,        709]
-NotebookOutlinePosition[     33601,        725]
-CellTagsIndexPosition[     33558,        722]
+NotebookDataPosition[      1064,         20]
+NotebookDataLength[     35212,        764]
+NotebookOptionsPosition[     35522,        752]
+NotebookOutlinePosition[     35941,        768]
+CellTagsIndexPosition[     35898,        765]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,6 +56,8 @@ Cell[BoxData[
           RowBox[{
            RowBox[{"Sin", "[", "t", "]"}], "/", "L"}]}], ")"}], "/", "2"}], 
        "]"}]}], ")"}], "^", "2"}]}]}]], "Input",
+ CellOpen->False,
+ InitializationCell->True,
  CellChangeTimes->{{3.655988388292108*^9, 3.655988489607903*^9}, {
    3.655988545224084*^9, 3.655988547002186*^9}, {3.656017799270376*^9, 
    3.6560178255440035`*^9}, 3.656017944363884*^9, {3.6560179762290697`*^9, 
@@ -66,6 +81,7 @@ Cell[BoxData[
     FractionBox[
      RowBox[{"D", " ", "N", " ", "\[Pi]", " ", 
       RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"]}]], "Output",
+ CellOpen->False,
  CellChangeTimes->{
   3.656018204066828*^9, 3.6560182636098275`*^9, 3.6560183384218273`*^9, {
    3.6560183837988276`*^9, 3.6560184042078276`*^9}, 3.6560184981908274`*^9, {
@@ -74,8 +90,12 @@ Cell[BoxData[
    3.656021846117402*^9, 3.656022607750558*^9, 3.6560226947052526`*^9, 
    3.6560227813649178`*^9, 3.6560228417389545`*^9, 3.6560683358649616`*^9, 
    3.6561579479887047`*^9, 3.7811213345064335`*^9, 3.781121505055984*^9, 
-   3.7811224628107224`*^9, 3.7811225491986275`*^9}]
+   3.7811224628107224`*^9, 3.7811225491986275`*^9, 3.7811326994343634`*^9, 
+   3.7951147047859745`*^9, {3.7951149229667454`*^9, 3.7951149239310117`*^9}, 
+   3.795115562812195*^9}]
 }, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
@@ -108,9 +128,9 @@ Cell[BoxData[
               RowBox[{
                RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
           RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
-          RowBox[{"ImageSize", "\[Rule]", "Medium"}], ",", 
+          RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
           RowBox[{"PlotStyle", "\[Rule]", 
-           RowBox[{"PointSize", "[", "Medium", "]"}]}], ",", " ", 
+           RowBox[{"PointSize", "[", "Large", "]"}]}], ",", " ", 
           RowBox[{"PlotLabel", "\[Rule]", "\"\<Close In View\>\""}]}], "]"}], 
         ",", "\[IndentingNewLine]", 
         RowBox[{"ListPlot", "[", 
@@ -241,11 +261,11 @@ Cell[BoxData[
             RowBox[{"{", 
              RowBox[{
               RowBox[{
-               RowBox[{"-", "10"}], 
+               RowBox[{"-", "20"}], 
                RowBox[{"Sin", "[", "t", "]"}]}], ",", 
               RowBox[{
                RowBox[{
-                RowBox[{"+", "10"}], 
+                RowBox[{"+", "20"}], 
                 RowBox[{"Cos", "[", "t", "]"}]}], "-", 
                RowBox[{
                 RowBox[{"(", 
@@ -284,9 +304,9 @@ Cell[BoxData[
               RowBox[{
                RowBox[{"-", "105"}], ",", "95"}], "}"}]}], "}"}]}], ",", 
           RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
-          RowBox[{"ImageSize", "\[Rule]", "Medium"}], ",", 
+          RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
           RowBox[{"PlotStyle", "\[Rule]", 
-           RowBox[{"PointSize", "[", "Medium", "]"}]}], ",", " ", 
+           RowBox[{"PointSize", "[", "Large", "]"}]}], ",", " ", 
           RowBox[{"PlotLabel", "\[Rule]", "\"\<Far Out View\>\""}]}], "]"}], 
         ",", "\[IndentingNewLine]", 
         RowBox[{"ListPlot", "[", 
@@ -440,7 +460,9 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{"n", ",", "2", ",", "\"\<Number of Slits:\>\""}], "}"}], ",", 
      "2", ",", "5", ",", "1", ",", 
-     RowBox[{"ControlType", "\[Rule]", "Setter"}]}], "}"}]}], "]"}]], "Input",
+     RowBox[{"ControlType", "\[Rule]", "Setter"}]}], "}"}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}]}], "]"}]], "Input",
+ InitializationCell->True,
  CellChangeTimes->{{3.429610822746764*^9, 3.4296108241686487`*^9}, {
    3.4296109428720207`*^9, 3.42961096165315*^9}, {3.4296110106528606`*^9, 
    3.4296110111997356`*^9}, {3.4296110500591106`*^9, 
@@ -565,33 +587,39 @@ Cell[BoxData[
    3.7811214860030327`*^9}, {3.7811216501743584`*^9, 
    3.7811216618462176`*^9}, {3.781121708651357*^9, 3.781121718772724*^9}, {
    3.781121781985117*^9, 3.781121802233415*^9}, {3.781121841726195*^9, 
-   3.7811218503670964`*^9}}],
+   3.7811218503670964`*^9}, {3.781132209407425*^9, 3.781132210378996*^9}, 
+   3.781132308108039*^9, 3.7811324333136344`*^9, {3.7811325237312346`*^9, 
+   3.7811326121761155`*^9}, {3.781132790620784*^9, 3.7811328002035694`*^9}, {
+   3.7951145094509935`*^9, 3.7951145097328663`*^9}, {3.795115133015294*^9, 
+   3.795115136757509*^9}, {3.7951152190622644`*^9, 3.7951152473522997`*^9}, 
+   3.795115278861359*^9, {3.7951153500180893`*^9, 3.795115352492645*^9}, {
+   3.795115387991075*^9, 3.795115388566103*^9}, 3.7951155490901823`*^9}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`d$$ = 3.75, $CellContext`L$$ = 
-    0.8, $CellContext`n$$ = 2, $CellContext`t$$ = 0.21799999999999997`, 
-    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
-    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
-    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+    0.8, $CellContext`n$$ = 2, $CellContext`t$$ = 0.314159, Typeset`show$$ = 
+    True, Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`t$$], 0.314159, "Angle"}, -0.5235, 0.5235}, {{
        Hold[$CellContext`L$$], 0.8, "Wavelength"}, 0.5, 2}, {{
        Hold[$CellContext`d$$], 3.75, "Slit Spacing"}, 1.5, 4}, {{
        Hold[$CellContext`n$$], 2, "Number of Slits:"}, 2, 5, 1}}, 
-    Typeset`size$$ = {720., {185., 190.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`t$1573$$ =
-     0, $CellContext`L$1574$$ = 0, $CellContext`d$1575$$ = 
-    0, $CellContext`n$1576$$ = 0}, 
+    Typeset`size$$ = {1152., {293., 298.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`t$3175$$ = 0, $CellContext`L$3176$$ = 
+    0, $CellContext`d$3177$$ = 0, $CellContext`n$3178$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`d$$ = 3.75, $CellContext`L$$ = 
         0.8, $CellContext`n$$ = 2, $CellContext`t$$ = 0.314159}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`t$$, $CellContext`t$1573$$, 0], 
-        Hold[$CellContext`L$$, $CellContext`L$1574$$, 0], 
-        Hold[$CellContext`d$$, $CellContext`d$1575$$, 0], 
-        Hold[$CellContext`n$$, $CellContext`n$1576$$, 0]}, 
+        Hold[$CellContext`t$$, $CellContext`t$3175$$, 0], 
+        Hold[$CellContext`L$$, $CellContext`L$3176$$, 0], 
+        Hold[$CellContext`d$$, $CellContext`d$3177$$, 0], 
+        Hold[$CellContext`n$$, $CellContext`n$3178$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -602,7 +630,7 @@ Cell[BoxData[
           ListPlot[{{0, -20}, {0, 20}}, Joined -> True, 
            PlotStyle -> {Black, Thick}, Axes -> False, 
            PlotRange -> {{0, 20}, {-10, 10}}, AspectRatio -> 1, ImageSize -> 
-           Medium, PlotStyle -> PointSize[Medium], PlotLabel -> 
+           Large, PlotStyle -> PointSize[Large], PlotLabel -> 
            "Close In View"], 
           ListPlot[
            
@@ -623,10 +651,10 @@ Cell[BoxData[
             
             RotationTransform[$CellContext`t$$, {
              0, $CellContext`yoff}][{$CellContext`u, 
-              0.4 Sin[2 
-                 Pi ($CellContext`u/$CellContext`L$$)] + $CellContext`yoff}], \
-{$CellContext`u, 0, 5}, PlotStyle -> {Purple}, PlotPoints -> 
-            Ceiling[20/$CellContext`L$$], MaxRecursion -> 1, 
+              0.4 Sin[(2 
+                  Pi) ($CellContext`u/$CellContext`L$$)] + \
+$CellContext`yoff}], {$CellContext`u, 0, 5}, PlotStyle -> {Purple}, 
+            PlotPoints -> Ceiling[20/$CellContext`L$$], MaxRecursion -> 1, 
             PerformanceGoal -> {
              "Speed"}], {$CellContext`yoff, (-($CellContext`n$$ - 
               1)) ($CellContext`d$$/2), ($CellContext`n$$ - 
@@ -640,9 +668,9 @@ Cell[BoxData[
              PointSize[Large], Black}], 
           
           ListPlot[{{
-            0, (-($CellContext`n$$ - 1)) ($CellContext`d$$/2)}, {(-10) 
+            0, (-($CellContext`n$$ - 1)) ($CellContext`d$$/2)}, {(-20) 
              Sin[$CellContext`t$$], 
-             Plus[10] Cos[$CellContext`t$$] - ($CellContext`n$$ - 
+             Plus[20] Cos[$CellContext`t$$] - ($CellContext`n$$ - 
               1) ($CellContext`d$$/2)}}, Joined -> True, PlotStyle -> {Dashed, 
              PointSize[Large], Black}]], 
          Show[
@@ -650,8 +678,7 @@ Cell[BoxData[
           ListPlot[{{0, -30}, {0, 30}}, Joined -> True, 
            PlotStyle -> {Black, Thick}, Axes -> False, 
            PlotRange -> {{-10, 190}, {-105, 95}}, AspectRatio -> 1, ImageSize -> 
-           Medium, PlotStyle -> PointSize[Medium], PlotLabel -> 
-           "Far Out View"], 
+           Large, PlotStyle -> PointSize[Large], PlotLabel -> "Far Out View"], 
           ListPlot[
            
            Table[{0, $CellContext`yoff}, {$CellContext`yoff, \
@@ -694,21 +721,37 @@ $CellContext`n$$, $CellContext`d$$], 190 Tan[$CellContext`t$$]}}, PlotStyle -> {
          2}, {{$CellContext`d$$, 3.75, "Slit Spacing"}, 1.5, 
          4}, {{$CellContext`n$$, 2, "Number of Slits:"}, 2, 5, 1, ControlType -> 
          Setter}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{771., {272., 278.}},
+     ImageSizeCache->{1203., {380., 386.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
+    Initialization:>({$CellContext`Inten[
+         Pattern[$CellContext`t, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[]], 
+         Pattern[N, 
+          Blank[]], 
+         Pattern[D, 
+          Blank[]]] = (6 Csc[((D Pi) Sin[$CellContext`t])/$CellContext`L]^2) 
+        Sin[(((D N) Pi) Sin[$CellContext`t])/$CellContext`L]^2}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
    Deployed->True,
    StripOnInput->False],
-  Manipulate`InterpretManipulate[1]]], "Input",
- CellChangeTimes->{3.7811225872137628`*^9}]
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.781132700357251*^9, 3.7951147052377467`*^9, {3.7951149234192557`*^9, 
+   3.795114924013205*^9}, 3.7951151412877903`*^9, 3.795115221982291*^9, {
+   3.795115257401435*^9, 3.7951152806916995`*^9}, 3.795115355024528*^9, {
+   3.7951155635118146`*^9, 3.795115564110629*^9}}]
+}, {2}]]
 },
-WindowSize->{1536, 821},
-WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+WindowSize->{1520, 805},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
 FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (July 6, 2015)",
 StyleDefinitions->"Default.nb"
@@ -725,13 +768,21 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[567, 22, 1467, 32, 31, "Input"],
-Cell[2037, 56, 971, 20, 55, "Output"]
+Cell[1486, 35, 1512, 34, 19, "Input",
+ CellOpen->False,
+ InitializationCell->True],
+Cell[3001, 71, 1117, 23, 19, "Output",
+ CellOpen->False]
 }, Open  ]],
-Cell[3023, 79, 23421, 488, 552, "Input"],
-Cell[26447, 569, 6730, 138, 567, InheritFromParent]
+Cell[CellGroupData[{
+Cell[4155, 99, 24001, 496, 572, "Input",
+ InitializationCell->True],
+Cell[28159, 597, 7350, 152, 783, "Output"]
+}, {2}]]
 }
 ]
 *)
 
 (* End of internal cache information *)
+
+(* NotebookSignature 0wpcvbwk7YtICCghI#u0EvWk *)

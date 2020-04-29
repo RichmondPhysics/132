@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[     53145,       1183]
-NotebookOptionsPosition[     52278,       1151]
-NotebookOutlinePosition[     52697,       1167]
-CellTagsIndexPosition[     52654,       1164]
+NotebookDataLength[     50836,       1116]
+NotebookOptionsPosition[     50123,       1088]
+NotebookOutlinePosition[     50542,       1104]
+CellTagsIndexPosition[     50499,       1101]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -43,6 +43,7 @@ Cell[BoxData[
           RowBox[{
            RowBox[{"Sin", "[", "t", "]"}], "/", "L"}]}], ")"}], "/", "2"}], 
        "]"}]}], ")"}], "^", "2"}]}]}]], "Input",
+ InitializationCell->True,
  CellChangeTimes->{{3.655988388292108*^9, 3.655988489607903*^9}, {
    3.655988545224084*^9, 3.655988547002186*^9}, {3.656017799270376*^9, 
    3.6560178255440035`*^9}, 3.656017944363884*^9, {3.6560179762290697`*^9, 
@@ -66,24 +67,13 @@ Cell[BoxData[
     FractionBox[
      RowBox[{"D", " ", "N", " ", "\[Pi]", " ", 
       RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"]}]], "Output",
- CellChangeTimes->{3.656158078497754*^9, 3.781206488350071*^9}]
+ CellChangeTimes->{3.656158078497754*^9, 3.781206488350071*^9, 
+  3.7951180582275143`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[{
- RowBox[{"6", " ", 
-  SuperscriptBox[
-   RowBox[{"Csc", "[", 
-    FractionBox[
-     RowBox[{"D", " ", "\[Pi]", " ", 
-      RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"], " ", 
-  SuperscriptBox[
-   RowBox[{"Sin", "[", 
-    FractionBox[
-     RowBox[{"D", " ", "N", " ", "\[Pi]", " ", 
-      RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], 
-   "2"]}], "\[IndentingNewLine]", 
+Cell[BoxData[
  RowBox[{
   RowBox[{"Fraunhofer", "[", 
    RowBox[{"t_", ",", "L_", ",", "a_"}], "]"}], "=", 
@@ -99,26 +89,12 @@ Cell[BoxData[{
        RowBox[{"Pi", " ", "a", " ", 
         RowBox[{
          RowBox[{"Sin", "[", "t", "]"}], "/", "L"}]}], ")"}]}], ")"}], "^", 
-    "2"}]}]}]}], "Input",
+    "2"}]}]}]], "Input",
+ InitializationCell->True,
  CellChangeTimes->{{3.6560669600917788`*^9, 3.6560669804407434`*^9}, {
    3.656067014026581*^9, 3.6560671450675807`*^9}, 3.6560672155445805`*^9, {
-   3.6560942860049224`*^9, 3.656094286309922*^9}, 3.6560967692059927`*^9}],
-
-Cell[BoxData[
- RowBox[{"6", " ", 
-  SuperscriptBox[
-   RowBox[{"Csc", "[", 
-    FractionBox[
-     RowBox[{"D", " ", "\[Pi]", " ", 
-      RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"], " ", 
-  SuperscriptBox[
-   RowBox[{"Sin", "[", 
-    FractionBox[
-     RowBox[{"D", " ", "N", " ", "\[Pi]", " ", 
-      RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"]}]], "Output",
- CellChangeTimes->{3.6560671472875805`*^9, 3.656067216767581*^9, 
-  3.6560942932069225`*^9, 3.656096770576129*^9, 3.656158078700774*^9, 
-  3.781206488440727*^9}],
+   3.6560942860049224`*^9, 3.656094286309922*^9}, 3.6560967692059927`*^9, {
+   3.7951182492300596`*^9, 3.795118250009073*^9}}],
 
 Cell[BoxData[
  FractionBox[
@@ -135,42 +111,7 @@ Cell[BoxData[
    SuperscriptBox["\[Pi]", "2"]}]]], "Output",
  CellChangeTimes->{3.6560671472875805`*^9, 3.656067216767581*^9, 
   3.6560942932069225`*^9, 3.656096770576129*^9, 3.656158078700774*^9, 
-  3.781206488450694*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- FractionBox[
-  RowBox[{"\[IndentingNewLine]", 
-   RowBox[{"15", " ", 
-    SuperscriptBox["L", "2"], " ", 
-    SuperscriptBox[
-     RowBox[{"Csc", "[", "t", "]"}], "2"], " ", 
-    SuperscriptBox[
-     RowBox[{"Sin", "[", 
-      FractionBox[
-       RowBox[{"a", " ", "\[Pi]", " ", 
-        RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"]}]}], 
-  RowBox[{"a", " ", 
-   SuperscriptBox["\[Pi]", "2"]}]]], "Input",
- CellChangeTimes->{{3.6561026992429695`*^9, 3.656102699277973*^9}, {
-  3.656102826980742*^9, 3.656102839561*^9}}],
-
-Cell[BoxData[
- FractionBox[
-  RowBox[{"15", " ", 
-   SuperscriptBox["L", "2"], " ", 
-   SuperscriptBox[
-    RowBox[{"Csc", "[", "t", "]"}], "2"], " ", 
-   SuperscriptBox[
-    RowBox[{"Sin", "[", 
-     FractionBox[
-      RowBox[{"a", " ", "\[Pi]", " ", 
-       RowBox[{"Sin", "[", "t", "]"}]}], "L"], "]"}], "2"]}], 
-  RowBox[{"a", " ", 
-   SuperscriptBox["\[Pi]", "2"]}]]], "Output",
- CellChangeTimes->{3.6561580787157755`*^9, 3.7812064884607353`*^9}]
+  3.781206488440727*^9, 3.7951180586106176`*^9, 3.7951182618480406`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -733,7 +674,9 @@ Cell[BoxData[{
     RowBox[{
      RowBox[{"{", 
       RowBox[{"a", ",", "10", ",", "\"\<Slit Width\>\""}], "}"}], ",", "4", 
-     ",", "10"}], "}"}]}], "]"}]}], "Input",
+     ",", "10"}], "}"}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}]}], "]"}]}], "Input",
+ InitializationCell->True,
  CellChangeTimes->{{3.429610822746764*^9, 3.4296108241686487`*^9}, {
    3.4296109428720207`*^9, 3.42961096165315*^9}, {3.4296110106528606`*^9, 
    3.4296110111997356`*^9}, {3.4296110500591106`*^9, 
@@ -923,46 +866,14 @@ Cell[BoxData[{
    3.7812066757354546`*^9, 3.781206686091937*^9}, {3.781206727488229*^9, 
    3.7812067473224897`*^9}, {3.7812067872911973`*^9, 
    3.7812068154930267`*^9}, {3.781208644414544*^9, 3.7812086453992496`*^9}, {
-   3.781210621020629*^9, 3.7812106723685303`*^9}}],
-
-Cell[BoxData[
- RowBox[{"L", " ", 
-  RowBox[{"Csc", "[", "t", "]"}], " ", 
-  RowBox[{"Quotient", "[", 
-   RowBox[{"a", ",", 
-    RowBox[{"L", " ", 
-     RowBox[{"Csc", "[", "t", "]"}]}]}], "]"}]}]], "Output",
- CellChangeTimes->{
-  3.6561093435191975`*^9, 3.6561094336933556`*^9, {3.6561097945329943`*^9, 
-   3.656109805536624*^9}, 3.6561098700543137`*^9, 3.6561099101726084`*^9, {
-   3.6561099647207284`*^9, 3.656109988031062*^9}, 3.6561100235210915`*^9, 
-   3.6561100807593656`*^9, {3.656110152907492*^9, 3.656110172220597*^9}, 
-   3.6561102163281193`*^9, 3.656110275095481*^9, 3.6561103151277704`*^9, 
-   3.656158078726777*^9, 3.781206488500765*^9, 3.7812066469737673`*^9, 
-   3.781206754808883*^9, 3.7812068634550276`*^9, 3.781208650301484*^9, 
-   3.7812106840748844`*^9}],
-
-Cell[BoxData[
- RowBox[{"Mod", "[", 
-  RowBox[{"a", ",", 
-   RowBox[{
-    FractionBox["1", "2"], " ", "L", " ", 
-    RowBox[{"Csc", "[", "t", "]"}]}]}], "]"}]], "Output",
- CellChangeTimes->{
-  3.6561093435191975`*^9, 3.6561094336933556`*^9, {3.6561097945329943`*^9, 
-   3.656109805536624*^9}, 3.6561098700543137`*^9, 3.6561099101726084`*^9, {
-   3.6561099647207284`*^9, 3.656109988031062*^9}, 3.6561100235210915`*^9, 
-   3.6561100807593656`*^9, {3.656110152907492*^9, 3.656110172220597*^9}, 
-   3.6561102163281193`*^9, 3.656110275095481*^9, 3.6561103151277704`*^9, 
-   3.656158078726777*^9, 3.781206488500765*^9, 3.7812066469737673`*^9, 
-   3.781206754808883*^9, 3.7812068634550276`*^9, 3.781208650301484*^9, 
-   3.7812106840849147`*^9}],
+   3.781210621020629*^9, 3.7812106723685303`*^9}, {3.795118040838149*^9, 
+   3.7951180411050296`*^9}}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
    DynamicModuleBox[{$CellContext`a$$ = 10, $CellContext`L$$ = 
-    1.23, $CellContext`t$$ = 0.194, Typeset`show$$ = True, 
+    1, $CellContext`t$$ = 0.0001, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
@@ -970,15 +881,15 @@ Cell[BoxData[
        Hold[$CellContext`L$$], 1, "Wavelength"}, 0.5, 2}, {{
        Hold[$CellContext`a$$], 10, "Slit Width"}, 4, 10}}, Typeset`size$$ = {
     1152., {293., 298.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`t$98892$$ = 
-    0, $CellContext`L$98893$$ = 0, $CellContext`a$98894$$ = 0}, 
+    Typeset`skipInitDone$$ = False, $CellContext`t$2657$$ = 
+    0, $CellContext`L$2658$$ = 0, $CellContext`a$2659$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`a$$ = 10, $CellContext`L$$ = 
         1, $CellContext`t$$ = 0.115}, "ControllerVariables" :> {
-        Hold[$CellContext`t$$, $CellContext`t$98892$$, 0], 
-        Hold[$CellContext`L$$, $CellContext`L$98893$$, 0], 
-        Hold[$CellContext`a$$, $CellContext`a$98894$$, 0]}, 
+        Hold[$CellContext`t$$, $CellContext`t$2657$$, 0], 
+        Hold[$CellContext`L$$, $CellContext`L$2658$$, 0], 
+        Hold[$CellContext`a$$, $CellContext`a$2659$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1131,6 +1042,32 @@ $CellContext`a$$], 190 Tan[$CellContext`t$$]}}, PlotStyle -> {
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
+    Initialization:>({$CellContext`DarkWidth[
+         Pattern[$CellContext`t, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[]], 
+         Pattern[$CellContext`a, 
+          Blank[]]] = $CellContext`L Csc[$CellContext`t] 
+        Quotient[$CellContext`a, $CellContext`L 
+          Csc[$CellContext`t]], $CellContext`DarkWidth2[
+         Pattern[$CellContext`t, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[]], 
+         Pattern[$CellContext`a, 
+          Blank[]]] = 
+       Mod[$CellContext`a, ($CellContext`L Csc[$CellContext`t])/
+         2], $CellContext`Fraunhofer[
+         Pattern[$CellContext`t, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[]], 
+         Pattern[$CellContext`a, 
+          Blank[]]] = (15 $CellContext`L^2 Csc[$CellContext`t]^2 
+         Sin[($CellContext`a Pi 
+             Sin[$CellContext`t])/$CellContext`L]^2)/($CellContext`a Pi^2)}; 
+     Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
     UnsavedVariables:>{Typeset`initDone$$},
@@ -1146,7 +1083,7 @@ $CellContext`a$$], 190 Tan[$CellContext`t$$]}}, PlotStyle -> {
    3.6561102163281193`*^9, 3.656110275095481*^9, 3.6561103151277704`*^9, 
    3.656158078726777*^9, 3.781206488500765*^9, 3.7812066469737673`*^9, 
    3.781206754808883*^9, 3.7812068634550276`*^9, 3.781208650301484*^9, 
-   3.7812106841369143`*^9}]
+   3.7812106840748844`*^9, 3.7951180587460003`*^9}]
 }, Open  ]]
 },
 WindowSize->{1519, 805},
@@ -1167,23 +1104,19 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[567, 22, 1467, 32, 31, "Input"],
-Cell[2037, 56, 438, 12, 55, "Output"]
+Cell[567, 22, 1494, 33, 31, "Input",
+ InitializationCell->True],
+Cell[2064, 57, 465, 13, 55, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2512, 73, 1110, 31, 77, "Input"],
-Cell[3625, 106, 536, 14, 55, "Output"],
-Cell[4164, 122, 545, 15, 70, "Output"]
+Cell[2566, 75, 809, 21, 31, "Input",
+ InitializationCell->True],
+Cell[3378, 98, 593, 15, 70, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4746, 142, 541, 15, 88, "Input"],
-Cell[5290, 159, 451, 13, 70, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[5778, 177, 35932, 748, 792, "Input"],
-Cell[41713, 927, 774, 15, 31, "Output"],
-Cell[42490, 944, 736, 14, 55, "Output"],
-Cell[43229, 960, 9033, 188, 792, "Output"]
+Cell[4008, 118, 36068, 751, 792, "Input",
+ InitializationCell->True],
+Cell[40079, 871, 10028, 214, 759, "Output"]
 }, Open  ]]
 }
 ]
