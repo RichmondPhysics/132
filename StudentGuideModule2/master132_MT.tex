@@ -8,10 +8,13 @@
 
 %The \includeonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
-%\includeonly{standing_waves_strings/standing_waves_strings}
+%\includeonly{eoverm/eoverm}
 
 %Use the following line to override all of the 1's and 0's in the \includelab statements below
 %\includealllabstrue
+
+%Use the line below to disable hyperlinks, to make sure no markups are visible around references when printing.
+\hypersetup{draft}
 
 % to generate the pdf on centos7: latex master;  dvipdfmx master
 % another way to generate the pdf on centos7: xelatex master
@@ -42,8 +45,8 @@
 \includelab{0}{electroscope/electroscope}
 \includelab{1}{charge_density/charge_density}
 \includelab{0}[../../131/StudentGuideModule1/]{elec_grav/elec_grav}
-\includelab{1}{chargesFields1/EF_EP_1b}
-\includelab{1}{chargesFields2/EF_EP_2b}
+\includelab{0}{chargesFields1/EF_EP_1b}
+\includelab{0}{chargesFields2/EF_EP_2b}
 \includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
 \includelab{0}{electric_field_and_electric_potential/EF_EP_1}
 \includelab{0}{electric_field_and_electric_potential/EF_EP_2}
@@ -153,6 +156,7 @@
 \includelab{0}{appendices/nuke_safety/nuke_safety}
 \includelab{0}[../../131/StudentGuideModule1/]{appendices/instrumentation/instrumentation}
 \includelab{0}[../../131/StudentGuideModule1/]{appendices/virtual_machine/virtual_machine}
+\includelab{1}{appendices/resistor_code/resistor_code}
 
 % The following command prints the "Instructor Notes" section at the end of the manual.
 % Comment it out for the regular student edition.
