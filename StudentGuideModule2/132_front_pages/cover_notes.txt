@@ -7,3 +7,5 @@ I tried googling to find out about the problem; apparently it's a known issue in
 Before printing 100 of these for next semester, we should do one of two things: (1) have printing make a single test page of the cover.  (2) Try converting the entire powerpoint file to a single large TIFF file first, and convert that tiff to a PDF.  Maybe that would work?
 
 --MT, April 26, 2016
+
+Note on file sizes: I have re-saved the pdf files for this image using Adobe Acrobat 2017, where I have changed the settings of the saved file.  I found I could reduce the file size by converting LZW compression to Flate compression.  I recommend doing this for any images that are screen grabs or other rastered images.
