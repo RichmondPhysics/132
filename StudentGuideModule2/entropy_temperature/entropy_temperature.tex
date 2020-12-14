@@ -22,12 +22,12 @@ We are building a model of an elemental solid ({\it e.g.}, like aluminum)
 where
 the total internal energy in the solid $E_{int}$ is described by
 \begin{equation}
-E_{int} = q \hbar \omega 
+E_{int} = q \hbar \omega = q\epsilon
 \end{equation}
-where $\hbar$ is Planck's constant divided by $2\pi$ and $\omega$ is a constant that
-characterizes the strength of the bonds between the atoms.
-The parameter 
-$q$ is the total number of quanta in the system and is a constant.
+where $\hbar$ is Planck's constant divided by $2\pi$, $\omega$ is a constant that
+characterizes the strength of the bonds between the atoms, and
+$\epsilon$ is shorthand for the combination.
+The parameter $q$ is the total integer number of quanta in the system and is a constant.
 These quanta are statistically distributed over the $N$ atoms of the solid so
 all possible states of the system are equally likely and the multiplicity $\Omega$
 is
@@ -56,7 +56,7 @@ To do this we will study two Einstein solids ($A$ and $B$) in thermal equilibriu
 each other.
 Their total internal energy will be
 \begin{equation}\label{eq:Eint}
-E_{int} = q_{AB}\hbar \omega = (q_A + q_B) \hbar \omega
+E_{int} = q_{AB}\epsilon = (q_A + q_B) \epsilon
 \end{equation}
 where $q_A$ and $q_B$ are the numbers of energy quanta in each solid and $q_{AB}$ is 
 their sum.
@@ -77,7 +77,7 @@ Each row corresponds to a different value of $q_A$.}
 \end{figure}
 The first two columns in the lower panel of Figure 1 represent $U(A)$ and $U(B)$, 
 the energies in each 
-individual solid (again in units of $\hbar \omega$) and are equivalent to $q_A$ and $q_B$.
+individual solid (again in units of $\epsilon = \hbar \omega$) and are equivalent to $q_A$ and $q_B$.
 After you perform the calculation with {\it StatMech} scan quickly down the column
 labeled `Omega(AB)'.
 If any of the exponents you see exceed the value 307, then run the calculation again with 
@@ -103,7 +103,7 @@ that will guide you through
 the format of the input file.
 The defaults usually seem to work.
 Use {\it Excel} to calculate and plot on one graph $S_{AB}$, $S_A$, and $S_B$
-as a function of $q_A$.
+as a function of $E_A$.
 You should get something resembling the figure below.
 \begin{figure}[hb!]
 \begin{center}
@@ -114,7 +114,7 @@ You should get something resembling the figure below.
 \end{figure}
 Print out your plot and attach it to this unit.
 
-(c) What is $q_A$ for the most probable macrostate? What mathematical condition can you impose
+(c) What is $E_A$ for the most probable macrostate? What mathematical condition can you impose
 on the total entropy $S_{AB}$ to determine the most probable macrostate?
 How do you think the temperatures of solids $A$ and $B$ are related at the most probable 
 microstate?
@@ -131,6 +131,14 @@ Calculate the differentials $dE_A$ and $dE_B$ and rewrite the answer in part 1.d
 in terms of $dS_A/dE_A$ and $dS_B/dE_B$.
 \vspace{55mm}
 
+(f) If the energy $E_A$ and $q_A$ of solid $A$ increases what should the temperature 
+of solid $A$ do?
+If the energy $E_A$ of solid $A$ increases what happens to $dS_A/dq_A$ in your plot?
+Do the temperature and $dS_A/dq_A$ change in the same  way or in a different way 
+as $E_A$ increases?
+\vspace{15mm}
+
+
 You should have found that 
 \begin{equation}
 \frac{dS_A}{dE_A} = \frac{dS_B}{dE_B} \qquad {\text {and}} \qquad T_A = T_B
@@ -140,30 +148,34 @@ If not, consult your instructor.
 
 \textbf{Activity 2: Relating Entropy and Temperature}
 
-(a) Using the spreadsheet you generated in Activity 1, calculate $dS_A/dq_A$ as a function
-of $q_A$ (recall $E_A = q_A \epsilon$) and plot it. You can do this to an adequate approximation
+(a) Using the spreadsheet you generated in Activity 1, calculate $dS_A/dE_A$ as a function
+of $E_A$ (recall $E_A = q_A \epsilon$) and plot it. You can do this to an adequate approximation
 by  taking the difference between $S_A$ at adjacent values/rows
 of $q_A$.
+The difference in $q_A$ between adjacent rows is just one.
+We can treat this difference as the energy difference in units of $\epsilon$.
 To do this suppose your spreadsheet has the values of $S_A$ in column $H$.
 The {\it Excel} syntax for estimating the derivative for the first value of
 $q_A$ (the first row) is 
 `{\tt =(H2-H1)/1.0}' where {\tt H2} is the value in the second row and {\tt H1} is the
 value in the first row.
 The numerator of one is redundant, but it shows you are approximating the derivative
-using the data from points that differ by 1.0 in $q_A$, the number of quanta in solid $A$.
+using the data from points that differ by one quantum in $q_A$, the number of quanta in solid $A$ (or by $\epsilon$ in $E_A$).
+Recall that $E_A = q_A\epsilon$ where $q_A$ is an integer.
 The syntax for $dS_A/dq_A$ for the second value of $q_A$ is `{\tt =(H3-H2)/1.0}' and so on.
-Do the same for $dS_B/dq_A$ and $dS_{AB}/dq_A$.
+Do the same for $dS_B/dE_A$ and $dS_{AB}/dE_A$.
 Does the slope of $S_{AB}$ pass through zero at the correct spot (recall part 1.c)?
-How are $dS_A/dq_A$ and $dS_B/dq_A$ related at the most probable macrostate.
+How are $dS_A/dE_A$ and $dS_B/dE_A$ related at the most probable macrostate.
 Does your plot agree with that result?
 \vspace{15mm}
 
 \newpage
 
-(b) If the energy $E_A$ and $q_A$ of solid $A$ increases what should the temperature 
+(b) Recall how we expect the energy $E_A$ and number of quanta $q_A$ to behave with temperature.
+If the energy $E_A$ and $q_A$ of solid $A$ increases what does the temperature 
 of solid $A$ do?
-If the energy $E_A$ of solid $A$ increases what happens to $dS_A/dq_A$ in your plot?
-Do the temperature and $dS_A/dq_A$ change in the same  way or in a different way 
+If the energy $E_A$ of solid $A$ increases what happens to $dS_A/dE_A$?
+Do the temperature and $dS_A/dE_A$ change in the same  way 
 as $E_A$ increases?
 \vspace{15mm}
 
@@ -177,7 +189,7 @@ and
 T_A = T_B
 \end{equation}
 for the most probable macrostate.
-This means there is some function of the temperature $T$ such that
+This means there is some function of the temperature $f(T)$ such that
 \begin{equation}\label{eq:fofT}
 f(T) = \frac{dS}{dE}
 \end{equation}
@@ -252,7 +264,7 @@ dE = \hbar \omega dq \qquad {\rm and} \qquad
 
 (c) Starting with Equations 1 and 3 one can show
 \begin{equation}\label{eq:final}
-\frac{d\Omega}{dq} = \frac{3N\hbar \omega}{E} \Omega
+\frac{d\Omega}{dE} = \frac{3N}{E} \Omega
 \qquad .
 \end{equation}
 Combine this equation (number \ref{eq:final}) and the  results from 3.a-b to 
