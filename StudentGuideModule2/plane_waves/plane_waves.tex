@@ -1,5 +1,10 @@
 \section{Visualizing Electromagnetic Plane Waves}
 
+\instructornote{ 
+By Jerry, Dec, 2020. Activity 3 of the lab had to be redone because the Java applets no longer work because of security changes. We substituted
+the previous java applet with a java jar file that is less sophisticated, but adequate. See the unit for the address of the software.
+}
+
 \makelabheader %(Space for student name, etc., defined in master.tex)
 
 \bigskip
@@ -97,6 +102,7 @@ In the three-dimensional case in the simulation, what is the apparent shape of a
 
 
 \pagebreak[2]
+
 \item The distance between successive peaks or crests of the waves, shown by the green regions in the
 applet, is called the wavelength.  
 Light, for example, is an electromagnetic wave and different wavelengths correspond 
@@ -117,75 +123,66 @@ Go to the second menu from the top of the right-hand side of the applet, and sel
 This will place an additional oscillating dipole at the bottom of the applet.  Use your mouse to drag the source from the bottom to the top right corner of the screen.
 
 In the space below, make a rough sketch of what you see.  Label areas where waves from the two sources combine to cancel each other out (``destructive interference'') and areas where their amplitudes add (``constructive interference'').  If these were visible light waves, where would you see bright light?
-\vfill
+\answerspace{40mm}
+%\vfill
 
 \end{enumerate}
 
 \textbf{Activity 3: Plane Waves}
 
-%You just completed a study of spherical waves emitted by a dipole source.
-%We now want to consider another type of wave that we will study when we explore light.
+Go to this site to download a simulation of electromagnetic plane waves.
 
-Use \textit{Firefox} to go to the site
-\verb!http://www.amanogawa.com/archive/PlaneWave/PlaneWave-2.html! and a Java applet will appear 
-like the one in Figure 2. 
-If you don't see this window, consult your instructor.
-The top panel of the applet shows an electromagnetic plane wave.
-The red lines represent the direction and magnitude of the $\vv {E}$ field and the
-blue ones do the same for the $\vv {B}$ field.
-NOTE: The magnetic field in this applet is labeled $\vv {H}$.
-In this case, this is exactly the same as our previous $\vv {B}$.
-To eliminate some unnecessary lines, click the box beside \texttt{Phasors} so the check in the box 
-disappears.
-\begin{figure}[hbt]
+\url{https://www.compadre.org/osp/items/detail.cfm?ID=7903}
+
+\noindent You should get a file {\bf ejs\_waves\_emwave.jar}.
+To run {\bf ejs\_waves\_emwave.jar} navigate to where you installed it and double-click on the icon. 
+If that fails and you don't get an interface like the one in the figure below, consult your instructor. 
+
+(a) The red lines in the window represent the electric field at different points in space and time.
+Configure the simulation by using the slider under \textcolor{red}{\bf Ey} to  set the $y$-component of 
+the electric field to zero. 
+Leave the $z$-component at the default value of 10.
+Click the check-box next to the \textcolor{blue}{\bf B} to turn on the 
+simulation of the magnetic field (blue lines).
+
+(b) Click the start button at bottom-right to watch the wave move.
+Test the effect of changing the $\delta$ (phase shift), $\lambda$ (wavelength), and $\Delta t$ 
+(essentially the speed of the simulation).
+
+%\pagebreak[2]
+
+(c) Describe what happens to the electric and magnetic fields and how they are related
+({\it i.e.} When the $\vec {E}$ is large, what is the $\vec {B}$ field doing?).
+\answerspace{20mm}
+
+(d) What is the orientation of the $\vec {E}$ field?
+What is the orientation of the $\vec {B}$ field?
+Does $\vec {E} \times \vec {B}$ point in the direction of energy flow, 
+as it did in the previous activity?
+\answerspace{20mm}
+
+(e) Consider two points on the electric field wave that are one-half wavelength apart.
+How are the $\vec {E}$ and $\vec {B}$ vectors at the first point related to their partners 
+at the second point.
+What will be the total electric and magnetic fields if two waves are added that are out of phase
+by one-half wavelength?
+\answerspace{20mm}
+
+\begin{figure}[h!]
 \begin{center}
-%\includegraphics[width=4.0in]{plane_waves/emwaves3.eps}
-\includegraphics[width=5.0in]{plane_waves/plane_wave_screenshot.pdf}
-\caption{Applet showing plane electromagnetic waves.}
-\index{color page}
+\includegraphics[height=5.50in]{plane_waves/planeWave1}
+\caption{Java jar file showing plane electromagnetic waves.}
 \end{center}
 \end{figure}
-\vspace{-0.3in}
+
+(f) The electromagnetic wave in this simulation is called a ``plane wave'' because its 
+wavefronts are shaped like planes.  
+What is the orientation of these planes?  
+(Perpendicular to $\vec {E}$?  Perpendicular to the $z$ axis? Something else?)
+\answerspace{20mm}
 
 \pagebreak[2]
 
-\begin{enumerate}[labparts]
-
-\item Click the start button to watch the wave move or propagate. The button is the one to the left of the STOP button on the top of the applet.
-Describe what happens to the electric and magnetic fields and how they are related
-({\it i.e.} When the $\vv {E}$ is large, what is the $\vv {B}$ field doing?).
-\answerspace{3.0cm}
-
-\item What is the orientation of the $\vv {E}$ field?
-What is the orientation of the $\vv {B}$ field?
-Does $\vv {E} \times \vv {B}$ point in the direction of energy flow, as it did in the previous activity?
-\answerspace{2.0cm}
-
-%\item Why do you think it's called a plane wave?
-%\vspace{2.0cm}
-
-\item Click on the \texttt{Phase Planes} button at the top of the applet.
-You will see new panels that show the $\vv {E}$ (red) and $\vv {B}$ (blue) vectors in cross section at the
-planes $A$ and $B$ labeled in the top panel.
-Use these vectors to confirm your observations in questions (a) and (b), above.
-\answerspace{3.0cm}
-
-\item Use the $B$ slide at the bottom of the applet to move the $B$ cross 
-section position.
-Set it one-half wavelength from the $A$ cross section.
-How are the $\vv {E}$ and $\vv {B}$ vectors in the $A$ cross section related to their partners 
-in the $B$ cross section.
-What will be the total electric and magnetic fields if two waves are added that are out of line
-by one-half wavelength?
-\answerspace{1.5cm}
-
-\item The electromagnetic wave in this simulation is called a ``plane wave'' because its wavefronts are shaped like planes.  What is the orientation of these planes?  (Perpendicular to $\vv {E}$?  Perpendicular to the $z$ axis? Something else?) 
-\answerspace{1.5cm}
-
-\item Stop the simulation and slide the $B$ phase plane to a spot where the electric field is a maximum (the crest of a wave).  The phase plane is explicitely showing you the values of $\vv {E}$ and $\vv {B}$ at that one point on the wave front, located on the $z$ axis.  If you moved from that point in the positive $x$ direction, would $\vv {E}$ increase, decrease, or stay the same?  Would $\vv {B}$ increase, decrease, or stay the same? 
-\answerspace{2.0cm}
-
-\end{enumerate}
 
 \textbf{Activity 4: A Pencil-and-Paper Example Problem}
 
