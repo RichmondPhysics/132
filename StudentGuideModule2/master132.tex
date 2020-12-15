@@ -1,6 +1,5 @@
 \documentclass[english,twoside]{article}
 
-
 \input{../../131/StudentGuideModule1/labmanual_formatting_commands} %all general latex packages, commands, and definitions now here.
 \newcommand{\coursefolder}{Phys132} %This defines the place students will look for various files
 \newcommand{\coursesection}{\\Spring 2020\\Section 02, T-Th 1:30 pm, with Jack Singal} %This defines the section (and/or year) for the title page.
@@ -9,6 +8,9 @@
 %The \includeonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
 %\includeonly{standing_waves_strings/standing_waves_strings}
+
+%Use the line below to disable hyperlinks, to make sure no markups are visible around references when printing.
+%\hypersetup{draft}
 
 %Use the following line to override all of the 1's and 0's in the \includelab statements below
 %\includealllabstrue
@@ -64,6 +66,7 @@
 \includelab{1}{ohms_law/ohms_law}
 \includelab{1}{electric_circuits/electric_circuits}
 \includelab{1}{electric_circuits2/electric_circuits2}
+\includelab{1}{resistance_ideal_meters/resistance_ideal_meters}
 \includelab{0}{kirchhoffs_rules/kirchhoffs_rules}
 \includelab{1}{electric_power/electric_power}
 \includelab{1}{rc_circuits/rc_circuits}
