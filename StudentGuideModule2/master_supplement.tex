@@ -3,12 +3,15 @@
 
 \input{../../131/StudentGuideModule1/labmanual_formatting_commands} %all general latex packages, commands, and definitions now here.
 \newcommand{\coursefolder}{Phys132} %This defines the place students will look for various files
-%\ForceSectionOddPage %This option makes each lab start on odd numbered page (right hand side).
+\ForceSectionOddPage %This option makes each lab start on odd numbered page (right hand side).
 \externaldocument{master132}
 
 %syntax: \includeonly{lab1,lab2,lab3} with no spaces after the commas.
 %\includeonly{biot_savart_law/biot_savart_law, charge_density/charge_density,eoverm/eoverm }
 %DANGER: The includeonly statement will make a document that does NOT have sequential page numbers.
+
+%Use the line below to disable hyperlinks, to make sure no markups are visible around references when printing.
+\hypersetup{draft}
 
 \newcommand{\supplementmark}{S}
 
@@ -24,12 +27,10 @@
 %--------------------------------------------
 %Put include or includelab statements for labs below here.
 %\includelab{1}[../../131/StudentGuideModule1/]{check_your_units/check_your_units}
-\includelab{1}{resistance_ideal_meters/resistance_ideal_meters}
-\includelab{1}{kin_theory_ideal/kin_theory_ideal}
-\includelab{1}{kin_theory_ideal/kin_theory_ideal_no_simulation}
-\includelab{1}{applying_kinetic_theory/applying_kinetic_theory}
-\includelab{1}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit}
-\includelab{1}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit_minimalist}
+\includelab{0}{interference/interferenceOfLight} %Jerry's Version
+\includelab{1}{interference_of_light/interference} %Matt's Version
+\includelab{0}{diffraction/diffractionOfLight} %Jerry's Version
+\includelab{1}{diffraction_of_light/diffraction} %Matt's Version
 
 
 %--------------------------------------------
@@ -38,5 +39,5 @@
 %Put include statements for supplementary appendices below here.
 %\includelab{1}{appendices/digital_multimeters/digital_multimeters}
 %\includelab{1}{appendices/resistor_code/resistor_code}
-\startinstructornotes
+%\startinstructornotes
 \end{document}
