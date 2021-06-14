@@ -1,0 +1,166 @@
+\documentclass[english,twoside]{article}
+
+\input{../../131/StudentGuideModule1/labmanual_formatting_commands} %all general latex packages, commands, and definitions now here.
+\newcommand{\coursefolder}{Phys132} %This defines the place students will look for various files
+\newcommand{\coursesection}{\\Spring 2020\\Section 01, MWF 1:30 pm, with Matt Trawick} %This defines the section (and/or year) for the title page.
+\ForceSectionOddPage %This option makes each lab start on odd numbered page (right hand side).
+
+%The \includeonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
+%The master.pdf produced will have only the title page, TOC, and that single lab, though the other lab names will appear in the TOC.
+%\includeonly{diffraction/diffractionOfLight}
+
+%Use the following line to override all of the 1's and 0's in the \includelab statements below
+%\includealllabstrue
+
+%Use the line below to disable hyperlinks, to make sure no markups are visible around references when printing.
+%\hypersetup{draft}
+
+% to generate the pdf on centos7: latex master;  dvipdfmx master
+% another way to generate the pdf on centos7: xelatex master
+% to convert images to eps: convert <file>.jpg <file>.pdf; pdftops -eps <file>.pdf
+
+\makeindex
+\begin{document}
+
+\input{132_front_pages/132_title_page}
+
+\tableofcontents{}
+\cleardoublepage
+
+%use \includelab{1} to include, or \includelab{0} to exclude.  Can be overridden with \includealllabstrue
+%--------------------------------------------
+%\part{Fluids and Mechanical Waves}
+\part{Mechanical Waves}
+
+\includelab{0}[../../131/StudentGuideModule1/]{archimedes/archimedes}
+\includelab{1}{standing_waves_strings/standing_waves_strings}
+\includelab{1}{resonance_tubes/resonance_tubes}
+\includelab{0}{doppler_shift/doppler_shift}
+\includelab{0}{piano_tuning/piano_tuning}
+
+%--------------------------------------------
+\part{Electrostatics}
+
+\includelab{1}{electroscope/electroscope}
+\includelab{1}{charge_density/charge_density}
+\includelab{0}[../../131/StudentGuideModule1/]{elec_grav/elec_grav}
+\includelab{1}{chargesFields1/EF_EP_1b}
+\includelab{1}{chargesFields2/EF_EP_2b}
+\includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
+\includelab{0}{electric_field_and_electric_potential/EF_EP_1}
+\includelab{0}{electric_field_and_electric_potential/EF_EP_2}
+\includelab{0}{electric_field_and_electric_potential/EF_EP_3}
+\includelab{0}{electric_field_and_electric_potential/EF_EP_4}
+\includelab{1}{potential_intro/potential_intro}
+\includelab{1}{electric_fields_and_equipotential_lines/ef_equipot_lines}
+\includelab{1}{potential_superposition/potential_superposition}
+\includelab{1}{potential_charge_distributions/potential_charge_distributions}
+\includelab{1}{finding_v_from_e/finding_v_from_e}
+\includelab{0}{electric_field_atomic_nucleus/electric_field_atomic_nucleus}
+\includelab{0}{charge_dist_water_mol/charge_dist_water_mol}
+\includelab{1}{capacitance_circuit/capacitance_circuit}
+
+%--------------------------------------------
+\part{Electric Circuits}
+
+\includelab{0}{ohms_law/ohms_law}
+\includelab{1}{electric_circuits/electric_circuits}
+\includelab{1}{electric_circuits2/electric_circuits2}
+\includelab{1}{resistance_ideal_meters/resistance_ideal_meters}
+\includelab{0}{kirchhoffs_rules/kirchhoffs_rules}
+\includelab{1}{electric_power/electric_power}
+\includelab{1}{rc_circuits/rc_circuits}
+\includelab{0}{lr_circuit/lr_circuit} %not updated for Capstone, unsure of equipment. --MT, 2017
+\includelab{0}{lrc_circuit/lrc_circuit} %not updated for Capstone, unsure of equipment. --MT, 2017
+
+%--------------------------------------------
+\part{Magnetism}
+
+\includelab{0}{magnetism_qualitative/magnetism_qualitative}
+\includelab{1}{magnetism_field_perm_mag/magnetism_field_perm_mag}
+\includelab{1}{magnetic_forces/magnetic_forces} 
+\includelab{1}{magnetism_currents/magnetism_currents}
+\includelab{0}{magnetic_field_earth/magnetic_field_earth}
+\includelab{1}{biot_savart_straight_wire/biot_savart_straight_wire} 
+\includelab{1}{biot_savart_above_loops/biot_savart_above_loops} 
+\includelab{1}{amperes_law_infinite_sheet/amperes_law_infinite_sheet}
+\includelab{1}{eoverm/eoverm}
+
+%--------------------------------------------
+\part{Induction and Electromagnetic Waves}
+
+\includelab{1}{induction_intro/induction_intro}
+\includelab{1}{induction_sinusoidal/induction_sinusoidal}
+\includelab{0}{generator/generator}
+\includelab{1}{deriving_em_waves/deriving_em_waves}
+\includelab{1}{plane_waves/plane_waves}
+
+%--------------------------------------------
+%\part{Optics}
+\part{Wave Optics}
+
+\includelab{1}{interference/interferenceOfLight} %Jerry's Version
+\includelab{1}{interference_of_light/interference} %Matt's Version
+\includelab{1}{diffraction/diffractionOfLight} %Jerry's Version
+\includelab{1}{diffraction_of_light/diffraction} %Matt's Version
+\includelab{1}{diffraction_grating/diffraction_grating}
+\includelab{1}{hydrogen_spectrum/hydrogen_spectrum} %Currently listed under both quantum and wave optics.  Be sure it's not selected for both!
+\includelab{1}{deriving_snells_law/deriving_snells_law}
+
+%--------------------------------------------
+%\part{Geometric Optics}
+
+\includelab{1}{refraction_of_light/refraction_of_light}
+\includelab{1}{refraction_at_spherical_surfaces/refraction_at_spherical_surfaces}
+
+%--------------------------------------------
+\part{Thermodynamics}
+
+\includelab{1}{heat_temp_int_energy/heat_temp_int_energy}
+\includelab{1}{calorimetry/calorimetry}
+\includelab{1}{boyles_law/boyles_law}
+\includelab{0}{charles_law/charles_law}
+\includelab{1}{P-T_relationship_of_gas/P-T}
+\includelab{1}{kin_theory_ideal/kin_theory_ideal}
+\includelab{1}{kin_theory_ideal/kin_theory_ideal_no_simulation}
+\includelab{1}{applying_kinetic_theory/applying_kinetic_theory}
+\includelab{1}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit}
+\includelab{1}{latent_heat_of_vaporization_of_nitrogen/heat_vap_nit_minimalist}
+\includelab{0}{expansion_constant_pressure/expansion_constant_pressure}
+\includelab{1}{ideal_gas_cycles/ideal_gas_cycles}
+\includelab{0}{einstein_solid/einstein_solid}
+\includelab{0}{entropy_temperature/entropy_temperature}
+\includelab{1}{entropy_is_it_possible/entropy_is_it_possible}
+
+%--------------------------------------------
+%\part{Quantum Mechanics}
+
+\includelab{0}{hydrogen_spectrum/hydrogen_spectrum} %Currently listed under both quantum and wave optics.  Be sure it's not selected for both!
+\includelab{0}{solveSE/solveSE}
+\includelab{0}{qmProbability/qmProbability}
+\includelab{0}{radiocarbon_dating/radiocarbon_dating}
+
+%--------------------------------------------
+%\part{Other Topics}
+
+\includelab{0}[../../131/StudentGuideModule1/]{galilean_relativity/galilean_relativity}
+\includelab{0}[../../131/StudentGuideModule1/]{twins_paradox/twins_paradox}
+
+%--------------------------------------------
+\startappendix
+
+\includelab{1}[../../131/StudentGuideModule1/]{appendices/capstone/capstone}
+\includelab{1}{appendices/digital_multimeters/digital_multimeters}
+\includelab{1}[../../131/StudentGuideModule1/]{appendices/treatment_data}
+\includelab{1}[../../131/StudentGuideModule1/]{appendices/one_page_uncertainty/one_page_uncertainty}
+\includelab{1}[../../131/StudentGuideModule1/]{appendices/excel/excel}
+\includelab{0}[../../131/StudentGuideModule1/]{appendices/video_analysis_tracker/video_analysis_tracker}
+\includelab{0}{appendices/nuke_safety/nuke_safety}
+\includelab{0}[../../131/StudentGuideModule1/]{appendices/instrumentation/instrumentation}
+\includelab{0}[../../131/StudentGuideModule1/]{appendices/virtual_machine/virtual_machine}
+\includelab{1}{appendices/resistor_code/resistor_code}
+
+% The following command prints the "Instructor Notes" section at the end of the manual.
+% Comment it out for the regular student edition.
+\startinstructornotes
+\end{document}
