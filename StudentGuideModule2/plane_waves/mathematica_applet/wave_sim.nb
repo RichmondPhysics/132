@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     45614,        951]
-NotebookOptionsPosition[     44778,        928]
-NotebookOutlinePosition[     45209,        945]
-CellTagsIndexPosition[     45166,        942]
+NotebookDataLength[     44540,        923]
+NotebookOptionsPosition[     44020,        905]
+NotebookOutlinePosition[     44451,        922]
+CellTagsIndexPosition[     44408,        919]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -777,14 +777,15 @@ $CellContext`zz}}]}], {$CellContext`xxx, -0.8, $CellContext`Maxx, Pi/6}],
               Sin[$CellContext`x] + $CellContext`yy, $CellContext`zz}, \
 {$CellContext`x, -1, $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None,
              PlotPoints -> 60, PlotStyle -> {Red, 
-              Opacity[0.4 $CellContext`showE$$ $CellContext`fill$$]}], 
+              Opacity[(0.4 $CellContext`showE$$) $CellContext`fill$$]}], 
            
            ParametricPlot3D[{$CellContext`x, $CellContext`yy, $CellContext`v 
               Sin[$CellContext`x] + $CellContext`zz}, {$CellContext`x, -1, \
 $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None, PlotPoints -> 60, 
             PlotStyle -> {Blue, 
-              Opacity[
-              0.4 $CellContext`showB$$ $CellContext`fill$$]}]}, \
+              
+              Opacity[(
+                0.4 $CellContext`showB$$) $CellContext`fill$$]}]}, \
 {$CellContext`yy, -$CellContext`domulty$$, $CellContext`domulty$$}, \
 {$CellContext`zz, -$CellContext`domultz$$, $CellContext`domultz$$}], 
          Table[{
@@ -900,31 +901,7 @@ $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]),
    3.8487692239910364`*^9, 3.848769293259805*^9}, {3.8487693883857574`*^9, 
    3.8487694928280935`*^9}, 3.848769534492839*^9},
  CellLabel->"Out[23]=",ExpressionUUID->"a9b35e58-c5fa-4e0f-9cfd-b32773f50e34"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Export", "[", 
-  RowBox[{"\"\<screengrab.pdf\>\"", ",", 
-   RowBox[{"Style", "[", 
-    RowBox[{"%", ",", 
-     RowBox[{"LineBreakWithin", "\[Rule]", "False"}]}], "]"}]}], 
-  "]"}]], "Input",
- CellLabel->"In[24]:=",ExpressionUUID->"d04bbadb-5092-4ce9-be68-4726ecf9afdc"],
-
-Cell[BoxData["\<\"screengrab.pdf\"\>"], "Output",
- CellChangeTimes->{3.8487696710996675`*^9},
- CellLabel->"Out[24]=",ExpressionUUID->"ccaa6088-1a39-4dce-a12d-ecf3907c840d"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{"SystemOpen", "[", 
-  RowBox[{"DirectoryName", "[", 
-   RowBox[{"AbsoluteFileName", "[", "\"\<screengrab.pdf\>\"", "]"}], "]"}], 
-  "]"}]], "Input",
- NumberMarks->False,
- CellLabel->"In[25]:=",ExpressionUUID->"a352d81a-6ffd-43ed-9611-7e958def4b39"]
+}, Open  ]]
 },
 WindowSize->{1140.6, 604.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -946,13 +923,8 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 32487, 662, 1292, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
-Cell[33070, 686, 10913, 215, 422, "Output",ExpressionUUID->"a9b35e58-c5fa-4e0f-9cfd-b32773f50e34"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[44020, 906, 293, 7, 31, "Input",ExpressionUUID->"d04bbadb-5092-4ce9-be68-4726ecf9afdc"],
-Cell[44316, 915, 172, 2, 35, "Output",ExpressionUUID->"ccaa6088-1a39-4dce-a12d-ecf3907c840d"]
-}, Open  ]],
-Cell[44503, 920, 271, 6, 31, "Input",ExpressionUUID->"a352d81a-6ffd-43ed-9611-7e958def4b39"]
+Cell[33070, 686, 10934, 216, 422, "Output",ExpressionUUID->"a9b35e58-c5fa-4e0f-9cfd-b32773f50e34"]
+}, Open  ]]
 }
 ]
 *)

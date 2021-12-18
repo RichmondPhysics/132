@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1088,         20]
-NotebookDataLength[     42939,        894]
-NotebookOptionsPosition[     43324,        888]
-NotebookOutlinePosition[     43755,        905]
-CellTagsIndexPosition[     43712,        902]
+NotebookDataLength[     44589,        925]
+NotebookOptionsPosition[     44974,        919]
+NotebookOutlinePosition[     45405,        936]
+CellTagsIndexPosition[     45362,        933]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -71,7 +71,7 @@ Cell[BoxData[
               RowBox[{"-", "1"}], ",", "Maxx"}], "}"}], ",", 
             RowBox[{"PlotStyle", "\[Rule]", 
              RowBox[{"{", 
-              RowBox[{"Blue", ",", 
+              RowBox[{"Red", ",", 
                RowBox[{"Opacity", "[", 
                 RowBox[{"showE", " ", "showcurve"}], "]"}]}], "}"}]}]}], 
            "]"}], ",", "\[IndentingNewLine]", 
@@ -86,7 +86,7 @@ Cell[BoxData[
               RowBox[{"-", "1"}], ",", "Maxx"}], "}"}], ",", " ", 
             RowBox[{"PlotStyle", "\[Rule]", 
              RowBox[{"{", 
-              RowBox[{"Red", ",", 
+              RowBox[{"Blue", ",", 
                RowBox[{"Opacity", "[", 
                 RowBox[{"showB", " ", "showcurve"}], "]"}]}], "}"}]}]}], 
            "]"}], ",", "\[IndentingNewLine]", 
@@ -97,7 +97,7 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"Graphics3D", "[", 
              RowBox[{"{", 
-              RowBox[{"Blue", ",", "Thick", ",", 
+              RowBox[{"Red", ",", "Thick", ",", 
                RowBox[{"Opacity", "[", 
                 RowBox[{"showE", " ", "showvec"}], "]"}], ",", 
                RowBox[{"Arrowheads", "[", "0.01", "]"}], ",", 
@@ -121,7 +121,7 @@ Cell[BoxData[
            RowBox[{
             RowBox[{"Graphics3D", "[", 
              RowBox[{"{", 
-              RowBox[{"Red", ",", "Thick", ",", 
+              RowBox[{"Blue", ",", "Thick", ",", 
                RowBox[{"Opacity", "[", 
                 RowBox[{"showB", " ", "showvec"}], "]"}], ",", 
                RowBox[{"Arrowheads", "[", "0.01", "]"}], ",", 
@@ -162,7 +162,7 @@ Cell[BoxData[
             RowBox[{"PlotPoints", "\[Rule]", "60"}], ",", 
             RowBox[{"PlotStyle", "\[Rule]", 
              RowBox[{"{", 
-              RowBox[{"Blue", ",", 
+              RowBox[{"Red", ",", 
                RowBox[{"Opacity", "[", 
                 RowBox[{".4", " ", "showE", " ", "fill"}], "]"}]}], "}"}]}]}],
             "]"}], ",", "\[IndentingNewLine]", 
@@ -183,7 +183,7 @@ Cell[BoxData[
             "\[IndentingNewLine]", 
             RowBox[{"PlotStyle", "\[Rule]", 
              RowBox[{"{", 
-              RowBox[{"Red", ",", 
+              RowBox[{"Blue", ",", 
                RowBox[{"Opacity", "[", 
                 RowBox[{".4", " ", "showB", " ", "fill"}], "]"}]}], "}"}]}]}],
             "]"}]}], "\[IndentingNewLine]", "}"}], ",", 
@@ -262,7 +262,7 @@ Cell[BoxData[
         RowBox[{"{", "\[IndentingNewLine]", 
          RowBox[{"Graphics3D", "[", 
           RowBox[{"{", 
-           RowBox[{"Blue", ",", 
+           RowBox[{"Red", ",", 
             RowBox[{"Opacity", "[", 
              RowBox[{"showcrosssect", " ", "showE"}], "]"}], ",", 
             RowBox[{"Arrowheads", "[", "0.007", "]"}], ",", " ", 
@@ -284,7 +284,7 @@ Cell[BoxData[
                    RowBox[{"0.5", 
                     RowBox[{"Sin", "[", 
                     RowBox[{"CrossSectPos", " ", "-", "xrclip"}], "]"}]}], 
-                   "]"}]}], ",", "zz"}], "}"}]}], "}"}], "]"}], ",", "Red", 
+                   "]"}]}], ",", "zz"}], "}"}]}], "}"}], "]"}], ",", "Blue", 
             ",", 
             RowBox[{"Opacity", "[", 
              RowBox[{"showcrosssect", " ", "showB"}], "]"}], ",", 
@@ -327,9 +327,13 @@ Cell[BoxData[
        RowBox[{"{", 
         RowBox[{"0", ",", "1", ",", "0"}], "}"}]}], ",", 
       "\[IndentingNewLine]", 
+      RowBox[{"LabelStyle", "\[Rule]", 
+       RowBox[{"Directive", "[", 
+        RowBox[{"Black", ",", "Bold", ",", "11"}], "]"}]}], ",", 
+      "\[IndentingNewLine]", 
       RowBox[{"AxesLabel", "\[Rule]", 
        RowBox[{"{", 
-        RowBox[{"\"\<        x\>\"", ",", "y", ",", "z"}], "}"}]}], ",", 
+        RowBox[{"\"\<\\n           z\>\"", ",", "x", ",", "y"}], "}"}]}], ",", 
       RowBox[{"Ticks", "\[Rule]", "None"}], ",", 
       RowBox[{"ViewAngle", "\[Rule]", "0.2"}], ",", " ", 
       RowBox[{"ImageSize", "\[Rule]", 
@@ -365,7 +369,12 @@ Cell[BoxData[
          RowBox[{
           RowBox[{
            RowBox[{"2", "Pi"}], "-", "xrclip", "+", ".01"}], ",", "0", ",", 
-          "0"}], "}"}], "]"}]}], ",", "\[IndentingNewLine]", 
+          "0"}], "}"}], "]"}]}], ",", 
+      RowBox[{"AxesStyle", "\[Rule]", 
+       RowBox[{"Directive", "[", 
+        RowBox[{"Black", ",", 
+         RowBox[{"Thickness", "[", "0.004", "]"}]}], "]"}]}], ",", 
+      "\[IndentingNewLine]", 
       RowBox[{"PlotRange", "\[Rule]", 
        RowBox[{"Dynamic", "[", 
         RowBox[{"{", 
@@ -389,8 +398,8 @@ Cell[BoxData[
       "Manipulation", " ", 
       RowBox[{"Controls", ".", "\[IndentingNewLine]", "Note"}], " ", "that", 
       " ", "I", " ", "did", " ", "the", " ", "motion", " ", "by", " ", 
-      "updating", " ", "the", " ", 
-      RowBox[{"PlotRange", ".", "  ", "This"}], " ", "way", " ", "I", " ", 
+      "updating", " ", "the", " ", "PlotRange", " ", "and", " ", 
+      RowBox[{"ViewVector", ".", "  ", "This"}], " ", "way", " ", "I", " ", 
       RowBox[{"don", "'"}], "t", " ", "have", " ", "to", " ", "constantly", 
       " ", "recalculte", " ", "the", " ", "various", " ", "functions"}], ",", 
      " ", 
@@ -481,19 +490,27 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{"Style", "[", 
     RowBox[{
-    "\"\<Show wave curves at multiple y and z values:\>\"", ",", "10", ",", 
+    "\"\<Show wave curves at multiple x and y values:\>\"", ",", "10", ",", 
      "Bold"}], "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Note", " ", "that", " ", 
+      RowBox[{"I", "'"}], "ve", " ", "labeled", " ", "these", " ", "axes", 
+      " ", "x", " ", "and", " ", "y"}], ",", " ", 
+     RowBox[{
+     "although", " ", "internally", " ", "they", " ", "are", " ", "y", " ", 
+      "and", " ", "z"}]}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
-      RowBox[{"domulty", ",", "0", ",", "\"\<Show several y\>\""}], "}"}], 
+      RowBox[{"domulty", ",", "0", ",", "\"\<Show several x\>\""}], "}"}], 
      ",", 
      RowBox[{"{", 
       RowBox[{"1", ",", "0"}], "}"}]}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
-      RowBox[{"domultz", ",", "0", ",", "\"\<Show several z\>\""}], "}"}], 
+      RowBox[{"domultz", ",", "0", ",", "\"\<Show several y\>\""}], "}"}], 
      ",", 
      RowBox[{"{", 
       RowBox[{"1", ",", "0"}], "}"}]}], "}"}], ",", "Delimiter", ",", 
@@ -672,8 +689,14 @@ Cell[BoxData[
    3.848760810737667*^9}, {3.8487610532460365`*^9, 3.848761167436056*^9}, {
    3.8487612115042305`*^9, 3.8487614632737465`*^9}, {3.8487615960815487`*^9, 
    3.848761662125699*^9}, {3.8487618401686287`*^9, 3.8487618680928974`*^9}, {
-   3.8487619010083275`*^9, 3.848761901836111*^9}, 3.848761942565384*^9},
- CellLabel->"In[2]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
+   3.8487619010083275`*^9, 3.848761901836111*^9}, 3.848761942565384*^9, {
+   3.8487680281659956`*^9, 3.848768052322283*^9}, {3.8487681676957245`*^9, 
+   3.8487682618448095`*^9}, {3.8487683161850495`*^9, 3.848768352044682*^9}, {
+   3.8487687206965485`*^9, 3.8487687732070913`*^9}, {3.8487690878793936`*^9, 
+   3.8487691047991047`*^9}, {3.848769211268263*^9, 3.848769290380516*^9}, {
+   3.848769378639105*^9, 3.848769412339201*^9}, {3.8487694657600126`*^9, 
+   3.8487694915535107`*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
 
 Cell[BoxData[
  TagBox[
@@ -709,10 +732,10 @@ Cell[BoxData[
        Hold[$CellContext`fill$$], 1, "Show Wave Fill"}, {1, 0}}, {{
        Hold[$CellContext`showvec$$], 1, "Show Vectors"}, {1, 0}}, {
       Hold[
-       Style["Show wave curves at multiple y and z values:", 10, Bold]], 
+       Style["Show wave curves at multiple x and y values:", 10, Bold]], 
       Manipulate`Dump`ThisIsNotAControl}, {{
-       Hold[$CellContext`domulty$$], 0, "Show several y"}, {1, 0}}, {{
-       Hold[$CellContext`domultz$$], 0, "Show several z"}, {1, 0}}, {
+       Hold[$CellContext`domulty$$], 0, "Show several x"}, {1, 0}}, {{
+       Hold[$CellContext`domultz$$], 0, "Show several y"}, {1, 0}}, {
       Hold[
        Style[
        "For smooth motion, briefly pause the time control for a few seconds \n\
@@ -738,15 +761,15 @@ Cell[BoxData[
            
            ParametricPlot3D[{$CellContext`x, 
              Sin[$CellContext`x] + $CellContext`yy, $CellContext`zz}, \
-{$CellContext`x, -1, $CellContext`Maxx}, PlotStyle -> {Blue, 
+{$CellContext`x, -1, $CellContext`Maxx}, PlotStyle -> {Red, 
               Opacity[$CellContext`showE$$ $CellContext`showcurve$$]}], 
            
            ParametricPlot3D[{$CellContext`x, $CellContext`yy, 
              Sin[$CellContext`x] + $CellContext`zz}, {$CellContext`x, -1, \
-$CellContext`Maxx}, PlotStyle -> {Red, 
+$CellContext`Maxx}, PlotStyle -> {Blue, 
               Opacity[$CellContext`showB$$ $CellContext`showcurve$$]}], 
            Table[
-            Graphics3D[{Blue, Thick, 
+            Graphics3D[{Red, Thick, 
               Opacity[$CellContext`showE$$ $CellContext`showvec$$], 
               Arrowheads[0.01], 
               
@@ -755,7 +778,7 @@ $CellContext`Maxx}, PlotStyle -> {Red,
                  Sin[$CellContext`xxx] + $CellContext`yy, \
 $CellContext`zz}}]}], {$CellContext`xxx, -0.8, $CellContext`Maxx, Pi/6}], 
            Table[
-            Graphics3D[{Red, Thick, 
+            Graphics3D[{Blue, Thick, 
               Opacity[$CellContext`showB$$ $CellContext`showvec$$], 
               Arrowheads[0.01], 
               
@@ -767,13 +790,13 @@ $CellContext`zz}}]}], {$CellContext`xxx, -0.8, $CellContext`Maxx, Pi/6}],
            ParametricPlot3D[{$CellContext`x, $CellContext`v 
               Sin[$CellContext`x] + $CellContext`yy, $CellContext`zz}, \
 {$CellContext`x, -1, $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None,
-             PlotPoints -> 60, PlotStyle -> {Blue, 
+             PlotPoints -> 60, PlotStyle -> {Red, 
               Opacity[(0.4 $CellContext`showE$$) $CellContext`fill$$]}], 
            
            ParametricPlot3D[{$CellContext`x, $CellContext`yy, $CellContext`v 
               Sin[$CellContext`x] + $CellContext`zz}, {$CellContext`x, -1, \
 $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None, PlotPoints -> 60, 
-            PlotStyle -> {Red, 
+            PlotStyle -> {Blue, 
               
               Opacity[(
                 0.4 $CellContext`showB$$) $CellContext`fill$$]}]}, \
@@ -798,7 +821,7 @@ $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None, PlotPoints -> 60,
             Dynamic[{$CellContext`CrossSectPos$$ - $CellContext`xrclip$$ - 
               0.05, 0, 0}], {{0, 0, 1}, {0, 1, 0}}]}], 
          Table[{
-           Graphics3D[{Blue, 
+           Graphics3D[{Red, 
              Opacity[$CellContext`showcrosssect$$ $CellContext`showE$$], 
              Arrowheads[0.007], 
              Arrow[{{
@@ -810,7 +833,7 @@ $CellContext`yy, $CellContext`zz}, {
 $CellContext`yy + 
                 Dynamic[
                  0.5 Sin[$CellContext`CrossSectPos$$ - \
-$CellContext`xrclip$$]], $CellContext`zz}}], Red, 
+$CellContext`xrclip$$]], $CellContext`zz}}], Blue, 
              Opacity[$CellContext`showcrosssect$$ $CellContext`showB$$], 
              Arrow[{{
                 
@@ -824,13 +847,16 @@ $CellContext`yy, $CellContext`zz +
 $CellContext`xrclip$$]]}}]}]}, {$CellContext`yy, -1.5, 1.5, 
            0.6}, {$CellContext`zz, -1.5, 1.8, 0.6}], Boxed -> False, Axes -> 
          True, ViewProjection -> "Orthographic", ViewVertical -> {0, 1, 0}, 
-         AxesLabel -> {"        x", $CellContext`y, $CellContext`z}, Ticks -> 
-         None, ViewAngle -> 0.2, ImageSize -> {600, 300}, 
+         LabelStyle -> Directive[Black, Bold, 11], 
+         AxesLabel -> {"\n           z", $CellContext`x, $CellContext`y}, 
+         Ticks -> None, ViewAngle -> 0.2, ImageSize -> {600, 300}, 
          Method -> {"ShrinkWrap" -> False}, PlotRangeClipping -> True, 
          PlotRangePadding -> 0, ImagePadding -> {{0, 0}, 0, 0}, ViewVector -> 
          Dynamic[{{200 - $CellContext`xrclip$$, 30, 100}, {
             16 - $CellContext`xrclip$$, 0, 0}}], AxesOrigin -> 
-         Dynamic[{2 Pi - $CellContext`xrclip$$ + 0.01, 0, 0}], PlotRange -> 
+         Dynamic[{2 Pi - $CellContext`xrclip$$ + 0.01, 0, 0}], AxesStyle -> 
+         Directive[Black, 
+           Thickness[0.004]], PlotRange -> 
          Dynamic[{{
             2 Pi - $CellContext`xrclip$$, $CellContext`Maxx - \
 $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]), 
@@ -855,9 +881,9 @@ $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]),
          0}}, {{$CellContext`showvec$$, 1, "Show Vectors"}, {1, 0}}, 
         Delimiter, 
         Style[
-        "Show wave curves at multiple y and z values:", 10, 
-         Bold], {{$CellContext`domulty$$, 0, "Show several y"}, {1, 
-         0}}, {{$CellContext`domultz$$, 0, "Show several z"}, {1, 0}}, 
+        "Show wave curves at multiple x and y values:", 10, 
+         Bold], {{$CellContext`domulty$$, 0, "Show several x"}, {1, 
+         0}}, {{$CellContext`domultz$$, 0, "Show several y"}, {1, 0}}, 
         Delimiter, 
         Style[
         "For smooth motion, briefly pause the time control for a few seconds \
@@ -881,9 +907,14 @@ $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]),
    3.848760831904194*^9}, {3.8487608704979553`*^9, 3.848760883458829*^9}, 
    3.8487614694442005`*^9, {3.8487615167883215`*^9, 3.848761523854385*^9}, 
    3.848761556108468*^9, {3.848761633043834*^9, 3.8487616639059353`*^9}, {
-   3.848761848147277*^9, 3.848761914382147*^9}, 3.8487619466194954`*^9, {
-   3.848763451634674*^9, 3.8487634527656784`*^9}},
- CellLabel->"Out[2]=",ExpressionUUID->"f413e33e-9a54-40d2-98dd-e143d1280144"]
+   3.848761848147277*^9, 3.848761914382147*^9}, 3.8487619466194954`*^9, 
+   3.84876818266264*^9, {3.848768219660899*^9, 3.8487682630785427`*^9}, 
+   3.848768353271387*^9, {3.8487686172745714`*^9, 3.8487686392451477`*^9}, {
+   3.848768774112631*^9, 3.8487688095803614`*^9}, {3.8487690350596704`*^9, 
+   3.84876905848503*^9}, {3.848769097385536*^9, 3.848769105161129*^9}, {
+   3.8487692239910364`*^9, 3.848769293259805*^9}, {3.8487693883857574`*^9, 
+   3.8487694928280935`*^9}, 3.848769534492839*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"a9b35e58-c5fa-4e0f-9cfd-b32773f50e34"]
 }, {2}]]
 },
 WindowSize->{1140.6, 604.8},
@@ -891,7 +922,7 @@ WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification:>1.1 Inherited,
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"80942e93-68bc-413d-b4f6-28ffa2bc1e80"
+ExpressionUUID->"3d4add16-7ac9-4574-865d-8339f053e2db"
 ]
 (* End of Notebook Content *)
 
@@ -905,12 +936,12 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[1510, 35, 31367, 640, 1288, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede",
+Cell[1510, 35, 32514, 663, 1330, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede",
  InitializationCell->True],
-Cell[32880, 677, 10431, 208, 422, "Output",ExpressionUUID->"f413e33e-9a54-40d2-98dd-e143d1280144"]
+Cell[34027, 700, 10934, 216, 422, "Output",ExpressionUUID->"a9b35e58-c5fa-4e0f-9cfd-b32773f50e34"]
 }, {2}]]
 }
 ]
 *)
 
-(* NotebookSignature WuT09IjR9cg#9D15woI@ko4O *)
+(* NotebookSignature @vpYK4SOrv2##DwumXjMrKpn *)
