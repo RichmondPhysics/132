@@ -85,7 +85,7 @@ smaller inputs until no exponent exceeds 307.
 This limitation is a restriction on MicroSoft {\it Excel} that you will use later to make
 plots.
 Record your values of $N_A$, $N_B$, and $U$.
-\vspace{15mm}
+\answerspace{15mm}
 
 (b) Now generate plots of $S_{AB}=S_A + S_B$, $S_A$, and $S_B$ from the {\it StatMech} table.
 You can do this with {\it Excel}, but there are some intermediate steps necessary.
@@ -104,8 +104,8 @@ the format of the input file.
 The defaults usually seem to work.
 Use {\it Excel} to calculate and plot on one graph $S_{AB}$, $S_A$, and $S_B$
 as a function of $E_A$.
-You should get something resembling the figure below.
-\begin{figure}[hb!]
+You should get something resembling Figure 2 below.
+\begin{figure}[ht!]
 \begin{center}
 \includegraphics[height=2.5in]{entropy_temperature/NumberOfStates5.pdf}
 \caption{Plot of the entropies as a function of $q_A$.}
@@ -118,25 +118,25 @@ Print out your plot and attach it to this unit.
 on the total entropy $S_{AB}$ to determine the most probable macrostate?
 How do you think the temperatures of solids $A$ and $B$ are related at the most probable 
 microstate?
-\vspace{15mm}
+\answerspace{20mm}
 
 (d) How are the slopes of $S_A$ and $S_B$ related to one another at the most probable
 macrostate?
-\vspace{40mm}
+\answerspace{40mm}
 
 (e) How is $E_A$, the energy in solid $A$ related to $q_A$?
 How is $E_B$, the energy in solid $B$ related to $q_A$?
 Remember that $q_{AB}$ is a constant and $q_{AB} = q_A + q_B$.
 Calculate the differentials $dE_A$ and $dE_B$ and rewrite the answer in part 1.d
 in terms of $dS_A/dE_A$ and $dS_B/dE_B$.
-\vspace{55mm}
+\answerspace{55mm}
 
 (f) If the energy $E_A$ and $q_A$ of solid $A$ increases what should the temperature 
 of solid $A$ do?
 If the energy $E_A$ of solid $A$ increases what happens to $dS_A/dq_A$ in your plot?
 Do the temperature and $dS_A/dq_A$ change in the same  way or in a different way 
 as $E_A$ increases?
-\vspace{15mm}
+\answerspace{20mm}
 
 
 You should have found that 
@@ -159,17 +159,17 @@ The {\it Excel} syntax for estimating the derivative for the first value of
 $q_A$ (the first row) is 
 `{\tt =(H2-H1)/1.0}' where {\tt H2} is the value in the second row and {\tt H1} is the
 value in the first row.
-The numerator of one is redundant, but it shows you are approximating the derivative
+The denominator of one is redundant, but it shows you are approximating the derivative
 using the data from points that differ by one quantum in $q_A$, the number of quanta in solid $A$ (or by $\epsilon$ in $E_A$).
 Recall that $E_A = q_A\epsilon$ where $q_A$ is an integer.
 The syntax for $dS_A/dq_A$ for the second value of $q_A$ is `{\tt =(H3-H2)/1.0}' and so on.
 Do the same for $dS_B/dE_A$ and $dS_{AB}/dE_A$.
 Does the slope of $S_{AB}$ pass through zero at the correct spot (recall part 1.c)?
 How are $dS_A/dE_A$ and $dS_B/dE_A$ related at the most probable macrostate.
-Does your plot agree with that result?
-\vspace{15mm}
+Does your plot agree with that result? Print your plot and attach it to this unit.
+\answerspace{20mm}
 
-\newpage
+%\newpage
 
 (b) Recall how we expect the energy $E_A$ and number of quanta $q_A$ to behave with temperature.
 If the energy $E_A$ and $q_A$ of solid $A$ increases what does the temperature 
@@ -177,7 +177,7 @@ of solid $A$ do?
 If the energy $E_A$ of solid $A$ increases what happens to $dS_A/dE_A$?
 Do the temperature and $dS_A/dE_A$ change in the same  way 
 as $E_A$ increases?
-\vspace{15mm}
+\answerspace{20mm}
 
 (c) We want to come up with a relationship between temperature and the entropy.
 From the results above (parts 1.a-e) you should have found
@@ -199,10 +199,10 @@ In other words, as the energy in the solid increases $T$ should increase.
 Recall part 2.b and the behavior of $dS/dE$ as $T$ increases.
 Try to guess a mathematical form of $f(T)$ that acts like `normal' temperatures
 and one that doesn't. Explain your reasoning.
-\vspace{30mm}
+\answerspace{30mm}
 
 (d) How would you choose which of the forms you guessed in part 2.c is the correct one?
-\vspace{15mm}
+\answerspace{20mm}
 
 \textbf{Activity 3: Determining $f(T)$ and the Heat Capacity}
 
@@ -252,7 +252,7 @@ To calculate $dE/dT$ we must find a relationship between $E$ and $T$ for the Ein
 \begin{equation}
 \frac{dS}{dE} = k_B \frac{1}{\Omega} \frac{d\Omega}{dE}
 \end{equation}
-\vspace{15mm}
+\answerspace{20mm}
 
 (b) Use Equation 2 to show 
 \begin{equation}
@@ -260,7 +260,7 @@ dE = \hbar \omega dq \qquad {\rm and} \qquad
     \frac{d\Omega}{dE}=\frac{1}{\hbar\omega} \frac{d\Omega}{dq}
 \qquad .
 \end{equation}
-\vspace{15mm}
+\answerspace{20mm}
 
 (c) Starting with Equations 1 and 3 one can show
 \begin{equation}\label{eq:final}
@@ -275,12 +275,12 @@ and solve for $E$ the internal energy.
 It is the derivative of this last equation ($(1/n)dE/dT$) that will give you the molar specific heat.
 What function of $f(T)$ will give a result that is independent of temperature when you
 take the derivative with respect to $T$ of your expression for the internal energy $E$?
-\vspace{45mm}
+\answerspace{45mm}
 
 (d)  What is the final form of Equation \ref{eq:fofT} and $f(T)$?
-\vspace{15mm}
+\answerspace{20mm}
 
-\newpage
+%\newpage
 
 (e) Determine the mean and standard deviation of the heat capacity of the elemental solids in
 Table 1.

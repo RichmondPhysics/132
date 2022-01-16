@@ -2,7 +2,8 @@
 
 \input{../../131/StudentGuideModule1/labmanual_formatting_commands} %all general latex packages, commands, and definitions now here.
 \newcommand{\coursefolder}{Phys132} %This defines the place students will look for various files
-\newcommand{\coursesection}{\\Spring 2021\\Section 03, M-W-F 1:45 pm, with Jerry Gilfoyle} %This defines the section (and/or year) for the title page.
+%\newcommand{\coursesection}{\\Spring 2021\\Section 03, M-W-F 1:45 pm, with Jerry Gilfoyle} %This defines the section (and/or year) for the title page.
+\newcommand{\coursesection}{\\Spring 2022\\Section 2, MWF 1:30 pm, with Jerry Gilfoyle} %This defines the section (and/or year) for the title page.
 \ForceSectionOddPage %This option makes each lab start on odd numbered page (right hand side).
 
 %The \includeonly line below is a great way to save time so you don't always have to compile the WHOLE latex document, if for instance you've only made changes to a single lab.  If you want to compile more than two labs, the syntax is \includeonly{lab1,lab2,lab3} with no spaces after the commas.
@@ -61,18 +62,18 @@
 \part{Electrostatics}
 
 \includelab{1}{electroscope/electroscope}
-\includelab{0}{charge_density/charge_density}
+\includelab{1}{charge_density/charge_density}
 \includelab{1}[../../131/StudentGuideModule1/]{elec_grav/elec_grav}
 \includelab{1}{potential_intro/potential_intro}
-\includelab{1}{chargesFields1/EF_EP_1b}
+\includelab{1}{chargesFields1/EF_EP_1b} % uses PHeT software for a point charge
 \includelab{1}{electric_fields_and_equipotential_lines/ef_equipot_lines}
-\includelab{1}{chargesFields2/EF_EP_2b}
-\includelab{0}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
-\includelab{0}{electric_field_and_electric_potential/EF_EP_1}
-\includelab{0}{electric_field_and_electric_potential/EF_EP_2}
-\includelab{0}{electric_field_and_electric_potential/EF_EP_3}
-\includelab{0}{electric_field_and_electric_potential/EF_EP_4}
-\includelab{0}{potential_superposition/potential_superposition}
+\includelab{1}{chargesFields2/EF_EP_2b} % uses PHeT software for a dipole
+\includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
+\includelab{0}{electric_field_and_electric_potential/EF_EP_1} % out-of-date software
+\includelab{0}{electric_field_and_electric_potential/EF_EP_2} % out-of-date software
+\includelab{0}{electric_field_and_electric_potential/EF_EP_3} % out-of-date software
+\includelab{0}{electric_field_and_electric_potential/EF_EP_4} % out-of-date software
+\includelab{1}{potential_superposition/potential_superposition}
 \includelab{1}{potential_charge_distributions/potential_charge_distributions}
 \includelab{1}{finding_v_from_e/finding_v_from_e}
 \includelab{0}{electric_field_atomic_nucleus/electric_field_atomic_nucleus}
@@ -84,7 +85,7 @@
 
 \includelab{0}{ohms_law/ohms_law}
 \includelab{1}{electric_circuits/electric_circuits}
-\includelab{1}{electric_circuits2/electric_circuits2}
+\includelab{1}{electric_circuits2/electric_circuits2}  % ohm's law and resistivity
 \includelab{0}{kirchhoffs_rules/kirchhoffs_rules}
 \includelab{1}{electric_power/electric_power}
 \includelab{0}{rc_circuits/rc_circuits}
@@ -101,17 +102,17 @@
 \includelab{0}{magnetic_field_earth/magnetic_field_earth}
 \includelab{1}{biot_savart_straight_wire/biot_savart_straight_wire} 
 \includelab{1}{biot_savart_above_loops/biot_savart_above_loops} 
-\includelab{0}{amperes_law_infinite_sheet/amperes_law_infinite_sheet}
+\includelab{1}{amperes_law_infinite_sheet/amperes_law_infinite_sheet}
 \includelab{1}{eoverm/eoverm}
 
 %--------------------------------------------
 \part{Induction and Electromagnetic Waves}
 
 \includelab{1}{induction_intro/induction_intro}
-\includelab{0}{induction_sinusoidal/induction_sinusoidal}
+\includelab{1}{induction_sinusoidal/induction_sinusoidal}
 \includelab{0}{generator/generator}
 \includelab{0}{deriving_em_waves/deriving_em_waves}
-\includelab{1}{plane_waves/plane_waves}
+\includelab{1}{plane_waves/plane_waves} % visualizing plane waves
 
 %--------------------------------------------
 %\part{Optics}
@@ -135,7 +136,8 @@
 \part{Quantum Mechanics}
 
 \includelab{1}{hydrogen_spectrum/hydrogen_spectrum} %Currently listed under both quantum and wave optics.  Be sure it's not selected for both!
-\includelab{1}{solveSE/solveSE} %eventually somebody should fix Rotate 90 warning for grayscale figure
+\includelab{1}{classicalOrbits/classicalOrbits}
+\includelab{1}{solveSE/solveSE} %somebody should fix Rotate 90 warning for grayscale figure (don't see it - GPG)
 \includelab{0}{qmProbability/qmProbability}
 \includelab{1}{radiocarbon_dating/radiocarbon_dating}
 
@@ -161,5 +163,5 @@
 
 % The following command prints the "Instructor Notes" section at the end of the manual.
 % Comment it out for the regular student edition.
-\startinstructornotes
+% \startinstructornotes
 \end{document}
