@@ -3,7 +3,7 @@
 (*** Wolfram CDF File ***)
 (* http://www.wolfram.com/cdf *)
 
-(* CreatedBy='Mathematica 12.1' *)
+(* CreatedBy='Mathematica 13.2' *)
 
 (***************************************************************************)
 (*                                                                         *)
@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1088,         20]
-NotebookDataLength[     54969,       1148]
-NotebookOptionsPosition[     55354,       1142]
-NotebookOutlinePosition[     55785,       1159]
-CellTagsIndexPosition[     55742,       1156]
+NotebookDataLength[     64992,       1417]
+NotebookOptionsPosition[     64672,       1403]
+NotebookOutlinePosition[     65149,       1421]
+CellTagsIndexPosition[     65106,       1418]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -307,37 +307,41 @@ Cell[BoxData[
         ",", " ", 
         RowBox[{"with", " ", "E", " ", "and", " ", "B", " ", "vectors"}]}], 
        "*)"}], "\[IndentingNewLine]", 
-      RowBox[{"Graphics3D", "[", 
-       RowBox[{"{", 
-        RowBox[{"White", ",", 
-         RowBox[{"Opacity", "[", 
-          RowBox[{"0.8", " ", "showcrosssect"}], "]"}], ",", 
-         RowBox[{"EdgeForm", "[", 
-          RowBox[{"Directive", "[", 
-           RowBox[{"Opacity", "[", "showcrosssect", "]"}], "]"}], "]"}], ",", 
-         RowBox[{"Polygon", "[", 
-          RowBox[{"Dynamic", "[", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{
-               RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", "2", 
-               ",", "2"}], "}"}], ",", 
-             RowBox[{"{", 
-              RowBox[{
-               RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", 
-               RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
-             RowBox[{"{", 
-              RowBox[{
-               RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", 
-               RowBox[{"-", "2"}], ",", 
-               RowBox[{"-", "2"}]}], "}"}], ",", 
-             RowBox[{"{", 
-              RowBox[{
-               RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", "2", 
-               ",", 
-               RowBox[{"-", "2"}]}], "}"}]}], "}"}], "]"}], "]"}]}], "}"}], 
-       "]"}], ",", "\[IndentingNewLine]", 
+      StyleBox[
+       RowBox[{"Graphics3D", "[", 
+        RowBox[{"{", 
+         RowBox[{"White", ",", 
+          RowBox[{"Opacity", "[", 
+           RowBox[{"0.8", " ", "showcrosssect"}], "]"}], ",", 
+          RowBox[{"EdgeForm", "[", 
+           RowBox[{"Directive", "[", 
+            RowBox[{"Opacity", "[", "showcrosssect", "]"}], "]"}], "]"}], ",", 
+          RowBox[{"Polygon", "[", 
+           RowBox[{"Dynamic", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", "2",
+                 ",", "2"}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", 
+                RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", 
+                RowBox[{"-", "2"}], ",", 
+                RowBox[{"-", "2"}]}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"CrossSectPos", "-", "xrclip", "-", ".05"}], ",", "2",
+                 ",", 
+                RowBox[{"-", "2"}]}], "}"}]}], "}"}], "]"}], "]"}]}], "}"}], 
+        "]"}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
       RowBox[{"Graphics3D", "[", 
        RowBox[{"{", 
         RowBox[{"Blue", ",", 
@@ -438,77 +442,267 @@ Cell[BoxData[
              RowBox[{"-", "0.15"}], ",", 
              RowBox[{"-", "0.15"}]}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
       "\[IndentingNewLine]", 
-      RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
-      RowBox[{"Axes", "\[Rule]", "True"}], ",", 
-      RowBox[{"ViewProjection", "\[Rule]", "\"\<Orthographic\>\""}], ",", 
-      RowBox[{"ViewVertical", "\[Rule]", 
-       RowBox[{"{", 
-        RowBox[{"0", ",", "1", ",", "0"}], "}"}]}], ",", 
-      "\[IndentingNewLine]", 
+      StyleBox[
+       RowBox[{"Boxed", "\[Rule]", "False"}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"Axes", "\[Rule]", "True"}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"ViewProjection", "\[Rule]", "\"\<Automatic\>\""}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"ViewVertical", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1", ",", "0"}], "}"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
       RowBox[{"LabelStyle", "\[Rule]", 
        RowBox[{"Directive", "[", 
         RowBox[{"Black", ",", "Bold", ",", "11"}], "]"}]}], ",", 
       "\[IndentingNewLine]", 
-      RowBox[{"AxesLabel", "\[Rule]", 
-       RowBox[{"{", 
-        RowBox[{"\"\< \>\"", ",", "x", ",", "y"}], "}"}]}], ",", 
-      RowBox[{"Ticks", "\[Rule]", "None"}], ",", 
-      RowBox[{"ViewAngle", "\[Rule]", "0.2"}], ",", " ", 
-      RowBox[{"ImageSize", "\[Rule]", 
-       RowBox[{"{", 
-        RowBox[{"600", ",", "300"}], "}"}]}], ",", 
-      RowBox[{"Method", "\[Rule]", 
-       RowBox[{"{", 
-        RowBox[{"\"\<ShrinkWrap\>\"", "\[Rule]", "False"}], "}"}]}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{"PlotRangeClipping", "\[Rule]", "True"}], ",", 
-      RowBox[{"PlotRangePadding", "\[Rule]", "0"}], ",", 
-      RowBox[{"ImagePadding", "\[Rule]", 
-       RowBox[{"{", 
-        RowBox[{
+      StyleBox[
+       RowBox[{"AxesLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\< \>\"", ",", "x", ",", "y"}], "}"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"Ticks", "\[Rule]", "None"}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"ViewAngle", "\[Rule]", "Automatic"}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[" ",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"ImageSize", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"600", ",", "300"}], "}"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"Method", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<ShrinkWrap\>\"", "\[Rule]", "False"}], "}"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox["\[IndentingNewLine]",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"PlotRangeClipping", "\[Rule]", "True"}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"PlotRangePadding", "\[Rule]", "0"}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"ImagePadding", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", "0", ",", "0"}], "}"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox["\[IndentingNewLine]",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"ViewVector", "\[Rule]", 
+        RowBox[{"Dynamic", "[", 
          RowBox[{"{", 
-          RowBox[{"0", ",", "0"}], "}"}], ",", "0", ",", "0"}], "}"}]}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{"ViewVector", "\[Rule]", 
-       RowBox[{"Dynamic", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"200", "-", "xrclip"}], ",", "30", ",", "100"}], "}"}], 
-          ",", 
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"16", "-", "xrclip"}], ",", "0", ",", "0"}], "}"}]}], 
-         "}"}], "]"}]}], ",", "\[IndentingNewLine]", 
-      RowBox[{"AxesOrigin", "\[Rule]", 
-       RowBox[{"Dynamic", "[", 
-        RowBox[{"{", 
-         RowBox[{
           RowBox[{
-           RowBox[{"2", "Pi"}], "-", "xrclip", "+", ".01"}], ",", "0", ",", 
-          "0"}], "}"}], "]"}]}], ",", 
-      RowBox[{"AxesStyle", "\[Rule]", 
-       RowBox[{"Directive", "[", 
-        RowBox[{"Black", ",", 
-         RowBox[{"Thickness", "[", "0.004", "]"}]}], "]"}]}], ",", 
-      "\[IndentingNewLine]", 
-      RowBox[{"PlotRange", "\[Rule]", 
-       RowBox[{"Dynamic", "[", 
-        RowBox[{"{", 
-         RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"200", "-", "xrclip"}], ",", "30", ",", "100"}], "}"}], 
+           ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"16", "-", "xrclip"}], ",", "0", ",", "0"}], "}"}]}], 
+          "}"}], "]"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
+      StyleBox[
+       RowBox[{"AxesOrigin", "\[Rule]", 
+        RowBox[{"Dynamic", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"2", "Pi"}], "-", "xrclip", "+", "0.01"}], ",", "0", ",", 
+           "0"}], "}"}], "]"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"AxesStyle", "\[Rule]", 
+        RowBox[{"Directive", "[", 
+         RowBox[{"Black", ",", 
+          RowBox[{"Thickness", "[", "0.004", "]"}]}], "]"}]}],
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[",",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox["\[IndentingNewLine]",
+       Background->RGBColor[1, 1, 0]], 
+      StyleBox[
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"Dynamic", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"2", "Pi"}], "-", "xrclip"}], ",", 
+             RowBox[{"Maxx", "-", "xrclip"}]}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"-", "2"}], ",", "2.01"}], "}"}]}], "}"}], "]"}]}],
+       Background->RGBColor[1, 1, 0]]}], 
+     StyleBox["]",
+      Background->RGBColor[1, 1, 0]]}]}], 
+   StyleBox[",",
+    Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       StyleBox[
+        RowBox[{"AxesLabel", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"\"\< \>\"", ",", "x", ",", "y"}], "}"}]}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"Ticks", "\[Rule]", "None"}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"ViewAngle", "\[Rule]", "7"}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[" ",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"ImageSize", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"600", ",", "300"}], "}"}]}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"Method", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{"\"\<ShrinkWrap\>\"", "\[Rule]", "False"}], "}"}]}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox["\[IndentingNewLine]",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"PlotRangeClipping", "\[Rule]", "True"}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"PlotRangePadding", "\[Rule]", "0"}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"ImagePadding", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "0", ",", "0"}], "}"}]}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox["\[IndentingNewLine]",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"ViewVector", "\[Rule]", 
+         RowBox[{"Dynamic", "[", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"200", "-", "xrclip"}], ",", "30", ",", "100"}], "}"}], 
+            ",", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"16", "-", "xrclip"}], ",", "0", ",", "0"}], "}"}]}], 
+           "}"}], "]"}]}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
+       StyleBox[
+        RowBox[{"AxesOrigin", "\[Rule]", 
+         RowBox[{"Dynamic", "[", 
           RowBox[{"{", 
            RowBox[{
             RowBox[{
-             RowBox[{"2", "Pi"}], "-", "xrclip"}], ",", 
-            RowBox[{"Maxx", "-", "xrclip"}]}], "}"}], ",", 
+             RowBox[{"2", "Pi"}], "-", "xrclip", "+", ".01"}], ",", "0", ",", 
+            "0"}], "}"}], "]"}]}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"AxesStyle", "\[Rule]", 
+         RowBox[{"Directive", "[", 
+          RowBox[{"Black", ",", 
+           RowBox[{"Thickness", "[", "0.004", "]"}]}], "]"}]}],
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[",",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox["\[IndentingNewLine]",
+        Background->RGBColor[1, 1, 0]], 
+       StyleBox[
+        RowBox[{"PlotRange", "\[Rule]", 
+         RowBox[{"Dynamic", "[", 
           RowBox[{"{", 
            RowBox[{
-            RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"-", "2"}], ",", "2.01"}], "}"}]}], "}"}], "]"}]}]}], 
-     "]"}]}], ",", "\[IndentingNewLine]", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"2", "Pi"}], "-", "xrclip"}], ",", 
+              RowBox[{"Maxx", "-", "xrclip"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"-", "2"}], ",", "2.01"}], "}"}]}], "}"}], "]"}]}],
+        Background->RGBColor[1, 1, 0]]}], 
+      StyleBox["]",
+       Background->RGBColor[1, 1, 0]]}], 
+     StyleBox[",",
+      Background->RGBColor[1, 1, 0]]}], 
+    StyleBox["*)",
+     Background->RGBColor[1, 1, 0]]}], "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
      RowBox[{
@@ -525,24 +719,36 @@ Cell[BoxData[
      "and", " ", "the", " ", "motion", " ", "can", " ", "be", " ", "much", 
       " ", 
       RowBox[{"smoother", "."}]}]}], "*)"}], "\[IndentingNewLine]", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"xrclip", ",", "0", ",", 
-       RowBox[{"Style", "[", 
-        RowBox[{"\"\<Time:\>\"", ",", "10", ",", "Bold"}], "]"}]}], "}"}], 
-     ",", "0", ",", 
-     RowBox[{"2", "Pi"}], ",", 
-     RowBox[{"AnimationRate", "\[Rule]", "0.08"}], ",", 
-     RowBox[{"Appearance", "\[Rule]", "\"\<Open\>\""}], ",", 
-     RowBox[{"SynchronousUpdating", "\[Rule]", "True"}]}], 
-    RowBox[{"(*", 
-     RowBox[{",", 
-      RowBox[{"ControlType", "\[Rule]", "Animator"}]}], "*)"}], "}"}], ",", 
-   "Delimiter", ",", "\[IndentingNewLine]", 
-   RowBox[{"Style", "[", 
-    RowBox[{"\"\<Orthogonal Planes:\>\"", ",", "10", ",", "Bold"}], "]"}], 
-   ",", "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"xrclip", ",", "0", ",", 
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<Time:\>\"", ",", "10", ",", "Bold"}], "]"}]}], "}"}], 
+      ",", "0", ",", 
+      RowBox[{"2", "Pi"}], ",", 
+      RowBox[{"AnimationRate", "\[Rule]", "0.08"}], ",", 
+      RowBox[{"Appearance", "\[Rule]", "\"\<Open\>\""}], ",", 
+      RowBox[{"SynchronousUpdating", "\[Rule]", "True"}]}], 
+     RowBox[{"(*", 
+      RowBox[{",", 
+       RowBox[{"ControlType", "\[Rule]", "Animator"}]}], "*)"}], "}"}],
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[",",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox["Delimiter",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[",",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox["\[IndentingNewLine]",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<Orthogonal Planes:\>\"", ",", "10", ",", "Bold"}], "]"}],
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[",",
+    Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
@@ -643,7 +849,7 @@ Cell[BoxData[
     "\"\<For smooth motion, briefly pause the time control for a few seconds \
 \\n and then restart it (play) after changing any check boxes.\>\"", ",", 
      "Italic"}], "]"}]}], "]"}]], "Input",
- InitializationCell->True,
+ CellOpen->False,
  CellChangeTimes->{{3.8486566317884603`*^9, 3.8486566470455174`*^9}, {
    3.8486566797261963`*^9, 3.8486567438573885`*^9}, {3.8486573549469013`*^9, 
    3.848657405461487*^9}, {3.8486582921708565`*^9, 3.8486584316774483`*^9}, {
@@ -871,8 +1077,36 @@ Cell[BoxData[
    3.8490331407175407`*^9}, {3.849033476240223*^9, 3.8490335105293922`*^9}, 
    3.8490336006031103`*^9, {3.8490828837914677`*^9, 3.8490829529553757`*^9}, {
    3.8490830041967697`*^9, 3.8490830050034227`*^9}, {3.8490830718859205`*^9, 
-   3.849083087524091*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
+   3.849083087524091*^9}, {3.884349971983793*^9, 3.884349973556855*^9}, {
+   3.8843500123374944`*^9, 3.8843500404488707`*^9}, {3.884350228166822*^9, 
+   3.8843502283852882`*^9}, {3.8843502976537776`*^9, 
+   3.8843502977544065`*^9}, {3.8843505466725087`*^9, 3.884350629691948*^9}, {
+   3.884350667638366*^9, 3.884350693641011*^9}, {3.8843523937064023`*^9, 
+   3.884352421480419*^9}, {3.8843525097576127`*^9, 3.8843525543058834`*^9}, {
+   3.8843531094868793`*^9, 3.8843531621816893`*^9}, {3.8843533826571274`*^9, 
+   3.8843533841375647`*^9}, {3.8843548380257845`*^9, 
+   3.8843549396656823`*^9}, {3.8843550284391804`*^9, 
+   3.8843550432559166`*^9}, {3.8843563557886133`*^9, 3.884356361518275*^9}, {
+   3.884356749669309*^9, 3.8843569454685187`*^9}, {3.8843570194834104`*^9, 
+   3.8843570221196747`*^9}, {3.8843571167691593`*^9, 3.884357147534238*^9}, {
+   3.8843573980484686`*^9, 3.8843574316745815`*^9}, {3.8843574621912537`*^9, 
+   3.8843576018615885`*^9}, {3.8843576326791544`*^9, 3.884357633081563*^9}, {
+   3.8843576735743856`*^9, 3.8843576831970606`*^9}, {3.8843586416331787`*^9, 
+   3.884358847527665*^9}, {3.8843588925084763`*^9, 3.8843589356024694`*^9}, {
+   3.8843591316580772`*^9, 3.884359290480908*^9}, {3.884359330372149*^9, 
+   3.8843594921403284`*^9}, {3.884359536627148*^9, 3.8843595826322575`*^9}, {
+   3.8843597317568197`*^9, 3.8843597335233307`*^9}, {3.8843598592108583`*^9, 
+   3.884359860265246*^9}, {3.8843610898882284`*^9, 3.884361109337371*^9}, {
+   3.8844281050375133`*^9, 3.884428212273464*^9}, {3.884428252045721*^9, 
+   3.884428266706503*^9}, {3.8844283719943304`*^9, 3.8844283787672253`*^9}, {
+   3.8844284117090907`*^9, 3.8844284152732673`*^9}, {3.884428445495925*^9, 
+   3.8844284457434254`*^9}, {3.8844285628711314`*^9, 
+   3.8844285642920723`*^9}, {3.884428597978961*^9, 3.8844287806602383`*^9}, {
+   3.884433069750156*^9, 3.884433125637246*^9}, {3.8844331812996364`*^9, 
+   3.884433264394064*^9}, {3.884433360349921*^9, 3.8844333609009714`*^9}, {
+   3.9024757616532135`*^9, 3.902475801356885*^9}, {3.9024758336853266`*^9, 
+   3.9024758454412303`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
 
 Cell[BoxData[
  TagBox[
@@ -1058,7 +1292,8 @@ $CellContext`yy, $CellContext`zz}, {
                 Dynamic[$CellContext`CrossSectPos$$ - $CellContext`xrclip$$], \
 $CellContext`yy, $CellContext`zz + 
                 Dynamic[
-                 0.5 Sin[$CellContext`CrossSectPos$$ - \
+                 0.5 
+                  Sin[$CellContext`CrossSectPos$$ - \
 $CellContext`xrclip$$]]}}]}]}, {$CellContext`yy, -1.5, 1.5, 
            0.6}, {$CellContext`zz, -1.5, 1.8, 0.6}], 
          Graphics3D[{Black, 
@@ -1067,10 +1302,10 @@ $CellContext`xrclip$$]]}}]}]}, {$CellContext`yy, -1.5, 1.5,
             Style[
             "z", 11, Bold], {$CellContext`Maxx - 
              Dynamic[$CellContext`xrclip$$], -0.15, -0.15}]}], Boxed -> False,
-          Axes -> True, ViewProjection -> "Orthographic", 
+          Axes -> True, ViewProjection -> "Automatic", 
          ViewVertical -> {0, 1, 0}, LabelStyle -> Directive[Black, Bold, 11], 
          AxesLabel -> {" ", $CellContext`x, $CellContext`y}, Ticks -> None, 
-         ViewAngle -> 0.2, ImageSize -> {600, 300}, 
+         ViewAngle -> Automatic, ImageSize -> {600, 300}, 
          Method -> {"ShrinkWrap" -> False}, PlotRangeClipping -> True, 
          PlotRangePadding -> 0, ImagePadding -> {{0, 0}, 0, 0}, ViewVector -> 
          Dynamic[{{200 - $CellContext`xrclip$$, 30, 100}, {
@@ -1113,7 +1348,7 @@ $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]),
         "For smooth motion, briefly pause the time control for a few seconds \
 \n and then restart it (play) after changing any check boxes.", Italic]}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{1036., {198., 204.}},
+     ImageSizeCache->{1031., {195.34743637626525`, 201.65256362373475`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1124,28 +1359,55 @@ $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{
-  3.8490320649245515`*^9, 3.849032119011223*^9, {3.84903221008062*^9, 
-   3.849032280328613*^9}, 3.8490323132086725`*^9, 3.8490323519951863`*^9, 
-   3.8490326604166203`*^9, 3.8490327778068423`*^9, 3.8490328541601944`*^9, 
-   3.8490329107596397`*^9, 3.8490330271943645`*^9, 3.849033142382326*^9, 
-   3.849033323046139*^9, {3.849033362312644*^9, 3.8490334021487017`*^9}, 
-   3.849033524827716*^9, {3.849033604441659*^9, 3.8490336170522747`*^9}, 
-   3.8490336473257*^9, 3.8490338264589815`*^9, 3.8490338819153805`*^9, {
-   3.849034056767089*^9, 3.849034066613392*^9}, {3.849034102386733*^9, 
-   3.8490341234025354`*^9}, 3.8490826460357046`*^9, {3.8490828904072475`*^9, 
-   3.8490828989368424`*^9}, {3.8490829337206974`*^9, 
-   3.8490829536614523`*^9}, {3.8490830090277553`*^9, 
-   3.8490830287101965`*^9}, {3.8490830779622183`*^9, 3.849083088060313*^9}},
- CellLabel->"Out[8]=",ExpressionUUID->"90b42051-526c-49c3-8002-85dee7a15720"]
-}, {2}]]
+ CellChangeTimes->{{3.884428635150332*^9, 3.884428781372012*^9}, {
+   3.8844330774291954`*^9, 3.8844331260694427`*^9}, {3.8844331831935945`*^9, 
+   3.8844332648951287`*^9}, 3.8844333620881023`*^9, {3.902475769945191*^9, 
+   3.902475802106577*^9}, {3.902475834640984*^9, 3.90247584571047*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"0a978ae0-8876-4c37-8098-511b890beee8"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8844286336924906`*^9, 
+  3.884428633708194*^9}},ExpressionUUID->"f0bc6f8c-da67-4238-b00a-\
+a97e0551258b"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8843592245774107`*^9, 
+  3.884359227783639*^9}},ExpressionUUID->"22a0f519-19b1-40fb-8aed-\
+d2ef70a65896"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8843589198448257`*^9, 
+  3.884358922851287*^9}},ExpressionUUID->"727a3cc8-16d8-47f1-98e1-\
+13c9db562114"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.884356365144303*^9, 
+  3.884356372400924*^9}},ExpressionUUID->"247d6227-3d3b-4195-9087-\
+fc0fdb4c704e"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.884356351155471*^9, 
+  3.8843563527310224`*^9}},ExpressionUUID->"0772f603-8c91-467c-b006-\
+bc88bd55ef6c"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8843502580662127`*^9, 
+  3.8843502788100424`*^9}},ExpressionUUID->"d91e69ef-a24d-4f84-ad67-\
+73fa62cbd7b0"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.884350273872072*^9, 
+  3.884350277380065*^9}},ExpressionUUID->"199573de-ec3f-47ad-b283-\
+11edbcd4fd0a"]
 },
-WindowSize->{1140.6, 604.8},
+WindowSize->{1428., 735.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
+TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>1.1 Inherited,
-FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"43ce5932-0430-4f51-a96c-c87209cff242"
+ExpressionUUID->"051b5e16-6cd9-4206-bd46-906039b762a1"
 ]
 (* End of Notebook Content *)
 
@@ -1159,14 +1421,21 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[1510, 35, 41223, 839, 1498, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede",
- InitializationCell->True],
-Cell[42736, 876, 12605, 263, 422, "Output",ExpressionUUID->"90b42051-526c-49c3-8002-85dee7a15720"]
-}, {2}]]
+Cell[1510, 35, 49967, 1073, 20, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede",
+ CellOpen->False],
+Cell[51480, 1110, 12079, 255, 417, "Output",ExpressionUUID->"0a978ae0-8876-4c37-8098-511b890beee8"]
+}, Open  ]],
+Cell[63574, 1368, 154, 3, 31, "Input",ExpressionUUID->"f0bc6f8c-da67-4238-b00a-a97e0551258b"],
+Cell[63731, 1373, 154, 3, 31, "Input",ExpressionUUID->"22a0f519-19b1-40fb-8aed-d2ef70a65896"],
+Cell[63888, 1378, 154, 3, 31, "Input",ExpressionUUID->"727a3cc8-16d8-47f1-98e1-13c9db562114"],
+Cell[64045, 1383, 152, 3, 31, "Input",ExpressionUUID->"247d6227-3d3b-4195-9087-fc0fdb4c704e"],
+Cell[64200, 1388, 154, 3, 31, "Input",ExpressionUUID->"0772f603-8c91-467c-b006-bc88bd55ef6c"],
+Cell[64357, 1393, 156, 3, 31, "Input",ExpressionUUID->"d91e69ef-a24d-4f84-ad67-73fa62cbd7b0"],
+Cell[64516, 1398, 152, 3, 31, "Input",ExpressionUUID->"199573de-ec3f-47ad-b283-11edbcd4fd0a"]
 }
 ]
 *)
 
 (* End of internal cache information *)
 
-(* NotebookSignature #vDr61AAE0pj8BKdaUJRhWew *)
+(* NotebookSignature tw0ALXanIK9I5BgS93oG3y9c *)
