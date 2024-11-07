@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1088,         20]
-NotebookDataLength[     64992,       1417]
-NotebookOptionsPosition[     64672,       1403]
-NotebookOutlinePosition[     65149,       1421]
-CellTagsIndexPosition[     65106,       1418]
+NotebookDataLength[     65400,       1429]
+NotebookOptionsPosition[     65080,       1415]
+NotebookOutlinePosition[     65557,       1433]
+CellTagsIndexPosition[     65514,       1430]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -481,7 +481,7 @@ Cell[BoxData[
       StyleBox[",",
        Background->RGBColor[1, 1, 0]], 
       StyleBox[
-       RowBox[{"ViewAngle", "\[Rule]", "Automatic"}],
+       RowBox[{"ViewAngle", "\[Rule]", "0.03"}],
        Background->RGBColor[1, 1, 0]], 
       StyleBox[",",
        Background->RGBColor[1, 1, 0]], 
@@ -581,8 +581,23 @@ Cell[BoxData[
      StyleBox["]",
       Background->RGBColor[1, 1, 0]]}]}], 
    StyleBox[",",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox["\[IndentingNewLine]",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[
+    RowBox[{"(*", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"WBH", ":", " ", 
+        RowBox[{"Use", " ", "ViewAngle"}]}], " ", "->", " ", 
+       RowBox[{"0.03", " ", "for", " ", "lab", " ", "computers"}]}], ";", " ", 
+      RowBox[{"ViewAngle", " ", "->", " ", 
+       RowBox[{
+       "Automatic", " ", "works", " ", "fine", " ", "for", " ", "office", " ",
+         "computers"}]}]}], " ", "*)"}],
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[" ",
     Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
      RowBox[{
@@ -1105,8 +1120,8 @@ Cell[BoxData[
    3.884433069750156*^9, 3.884433125637246*^9}, {3.8844331812996364`*^9, 
    3.884433264394064*^9}, {3.884433360349921*^9, 3.8844333609009714`*^9}, {
    3.9024757616532135`*^9, 3.902475801356885*^9}, {3.9024758336853266`*^9, 
-   3.9024758454412303`*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
+   3.9024758454412303`*^9}, {3.921840281005337*^9, 3.9218404654645324`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
 
 Cell[BoxData[
  TagBox[
@@ -1205,15 +1220,14 @@ $CellContext`zz}}]}], {$CellContext`xxx, -0.8, $CellContext`Maxx, Pi/6}],
               Sin[$CellContext`x] + $CellContext`yy, $CellContext`zz}, \
 {$CellContext`x, -1, $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None,
              PlotPoints -> 60, PlotStyle -> {Red, 
-              Opacity[(0.4 $CellContext`showE$$) $CellContext`fill$$]}], 
+              Opacity[0.4 $CellContext`showE$$ $CellContext`fill$$]}], 
            
            ParametricPlot3D[{$CellContext`x, $CellContext`yy, $CellContext`v 
               Sin[$CellContext`x] + $CellContext`zz}, {$CellContext`x, -1, \
 $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None, PlotPoints -> 60, 
             PlotStyle -> {Blue, 
-              
-              Opacity[(
-                0.4 $CellContext`showB$$) $CellContext`fill$$]}]}, \
+              Opacity[
+              0.4 $CellContext`showB$$ $CellContext`fill$$]}]}, \
 {$CellContext`yy, -$CellContext`domulty$$, $CellContext`domulty$$}, \
 {$CellContext`zz, -$CellContext`domultz$$, $CellContext`domultz$$}], 
          Table[{
@@ -1235,14 +1249,15 @@ $CellContext`Maxx}, {$CellContext`v, 0, 1}, Mesh -> None, PlotPoints -> 60,
          Graphics3D[{Black, 
            Opacity[$CellContext`showwavefronts$$], 
            Text[
-            Rotate["Wavefront", 0.075], {(2 Pi) 2 + Pi/2, 1.85, 1.3}]}], 
+            Rotate["Wavefront", 0.075], {2 Pi 2 + Pi/2, 1.85, 1.3}]}], 
          Graphics3D[{Black, 
            Opacity[$CellContext`showwavefronts$$], 
            Text[
             Rotate["Wavefront", 0.075], 
             
-            Dynamic[{((2 Pi) 3) Boole[$CellContext`xrclip$$ < 3 (Pi/2)] + 
-              Pi/2, 1.85, 1.3}]]}], 
+            Dynamic[{
+             2 Pi 3 Boole[$CellContext`xrclip$$ < 3 (Pi/2)] + Pi/2, 1.85, 
+              1.3}]]}], 
          Graphics3D[{White, 
            Opacity[0.8 $CellContext`showcrosssect$$], 
            EdgeForm[
@@ -1269,7 +1284,7 @@ $CellContext`xrclip$$ - 0.05, 2, -2}}]]}],
              Opacity[$CellContext`showcrosssect$$ $CellContext`showE$$], 
              Arrowheads[
               Dynamic[
-               Min[0.008, (0.008 4) Abs[
+               Min[0.008, 0.008 4 Abs[
                   
                   Sin[$CellContext`CrossSectPos$$ - \
 $CellContext`xrclip$$]]]]], 
@@ -1292,8 +1307,7 @@ $CellContext`yy, $CellContext`zz}, {
                 Dynamic[$CellContext`CrossSectPos$$ - $CellContext`xrclip$$], \
 $CellContext`yy, $CellContext`zz + 
                 Dynamic[
-                 0.5 
-                  Sin[$CellContext`CrossSectPos$$ - \
+                 0.5 Sin[$CellContext`CrossSectPos$$ - \
 $CellContext`xrclip$$]]}}]}]}, {$CellContext`yy, -1.5, 1.5, 
            0.6}, {$CellContext`zz, -1.5, 1.8, 0.6}], 
          Graphics3D[{Black, 
@@ -1305,7 +1319,7 @@ $CellContext`xrclip$$]]}}]}]}, {$CellContext`yy, -1.5, 1.5,
           Axes -> True, ViewProjection -> "Automatic", 
          ViewVertical -> {0, 1, 0}, LabelStyle -> Directive[Black, Bold, 11], 
          AxesLabel -> {" ", $CellContext`x, $CellContext`y}, Ticks -> None, 
-         ViewAngle -> Automatic, ImageSize -> {600, 300}, 
+         ViewAngle -> 0.03, ImageSize -> {600, 300}, 
          Method -> {"ShrinkWrap" -> False}, PlotRangeClipping -> True, 
          PlotRangePadding -> 0, ImagePadding -> {{0, 0}, 0, 0}, ViewVector -> 
          Dynamic[{{200 - $CellContext`xrclip$$, 30, 100}, {
@@ -1359,11 +1373,9 @@ $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.884428635150332*^9, 3.884428781372012*^9}, {
-   3.8844330774291954`*^9, 3.8844331260694427`*^9}, {3.8844331831935945`*^9, 
-   3.8844332648951287`*^9}, 3.8844333620881023`*^9, {3.902475769945191*^9, 
-   3.902475802106577*^9}, {3.902475834640984*^9, 3.90247584571047*^9}},
- CellLabel->"Out[14]=",ExpressionUUID->"0a978ae0-8876-4c37-8098-511b890beee8"]
+ CellChangeTimes->{{3.921840397765326*^9, 3.921840404855158*^9}, {
+   3.9218404490822697`*^9, 3.921840466107574*^9}, 3.9219219356479683`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"fa909f3d-c3b4-43e5-8dba-52d4270b337b"]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -1407,7 +1419,7 @@ TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>1.1 Inherited,
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"051b5e16-6cd9-4206-bd46-906039b762a1"
+ExpressionUUID->"efa5f1ef-8d8e-43a9-a970-409c27dd6f0d"
 ]
 (* End of Notebook Content *)
 
@@ -1421,21 +1433,19 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[1510, 35, 49967, 1073, 20, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede",
+Cell[1510, 35, 50566, 1088, 20, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede",
  CellOpen->False],
-Cell[51480, 1110, 12079, 255, 417, "Output",ExpressionUUID->"0a978ae0-8876-4c37-8098-511b890beee8"]
+Cell[52079, 1125, 11888, 252, 417, "Output",ExpressionUUID->"fa909f3d-c3b4-43e5-8dba-52d4270b337b"]
 }, Open  ]],
-Cell[63574, 1368, 154, 3, 31, "Input",ExpressionUUID->"f0bc6f8c-da67-4238-b00a-a97e0551258b"],
-Cell[63731, 1373, 154, 3, 31, "Input",ExpressionUUID->"22a0f519-19b1-40fb-8aed-d2ef70a65896"],
-Cell[63888, 1378, 154, 3, 31, "Input",ExpressionUUID->"727a3cc8-16d8-47f1-98e1-13c9db562114"],
-Cell[64045, 1383, 152, 3, 31, "Input",ExpressionUUID->"247d6227-3d3b-4195-9087-fc0fdb4c704e"],
-Cell[64200, 1388, 154, 3, 31, "Input",ExpressionUUID->"0772f603-8c91-467c-b006-bc88bd55ef6c"],
-Cell[64357, 1393, 156, 3, 31, "Input",ExpressionUUID->"d91e69ef-a24d-4f84-ad67-73fa62cbd7b0"],
-Cell[64516, 1398, 152, 3, 31, "Input",ExpressionUUID->"199573de-ec3f-47ad-b283-11edbcd4fd0a"]
+Cell[63982, 1380, 154, 3, 31, "Input",ExpressionUUID->"f0bc6f8c-da67-4238-b00a-a97e0551258b"],
+Cell[64139, 1385, 154, 3, 31, "Input",ExpressionUUID->"22a0f519-19b1-40fb-8aed-d2ef70a65896"],
+Cell[64296, 1390, 154, 3, 31, "Input",ExpressionUUID->"727a3cc8-16d8-47f1-98e1-13c9db562114"],
+Cell[64453, 1395, 152, 3, 31, "Input",ExpressionUUID->"247d6227-3d3b-4195-9087-fc0fdb4c704e"],
+Cell[64608, 1400, 154, 3, 31, "Input",ExpressionUUID->"0772f603-8c91-467c-b006-bc88bd55ef6c"],
+Cell[64765, 1405, 156, 3, 31, "Input",ExpressionUUID->"d91e69ef-a24d-4f84-ad67-73fa62cbd7b0"],
+Cell[64924, 1410, 152, 3, 31, "Input",ExpressionUUID->"199573de-ec3f-47ad-b283-11edbcd4fd0a"]
 }
 ]
 *)
 
-(* End of internal cache information *)
-
-(* NotebookSignature tw0ALXanIK9I5BgS93oG3y9c *)
+(* NotebookSignature muTgtjPGnA9LJAgGJcXvWHB7 *)

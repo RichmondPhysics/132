@@ -1,19 +1,32 @@
-(* Content-type: application/vnd.wolfram.mathematica *)
+(* Content-type: application/vnd.wolfram.cdf.text *)
 
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
 
-(* CreatedBy='Mathematica 12.1' *)
+(* CreatedBy='Mathematica 13.2' *)
+
+(***************************************************************************)
+(*                                                                         *)
+(*                                                                         *)
+(*  Under the Wolfram FreeCDF terms of use, this file and its content are  *)
+(*  bound by the Creative Commons BY-SA Attribution-ShareAlike license.    *)
+(*                                                                         *)
+(*        For additional information concerning CDF licensing, see:        *)
+(*                                                                         *)
+(*         www.wolfram.com/cdf/adopting-cdf/licensing-options.html         *)
+(*                                                                         *)
+(*                                                                         *)
+(***************************************************************************)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[     64915,       1414]
-NotebookOptionsPosition[     63724,       1389]
-NotebookOutlinePosition[     64159,       1406]
-CellTagsIndexPosition[     64116,       1403]
+NotebookDataPosition[      1088,         20]
+NotebookDataLength[     65465,       1432]
+NotebookOptionsPosition[     65161,       1419]
+NotebookOutlinePosition[     65638,       1437]
+CellTagsIndexPosition[     65595,       1434]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -468,7 +481,7 @@ Cell[BoxData[
       StyleBox[",",
        Background->RGBColor[1, 1, 0]], 
       StyleBox[
-       RowBox[{"ViewAngle", "\[Rule]", "Automatic"}],
+       RowBox[{"ViewAngle", "\[Rule]", "0.03"}],
        Background->RGBColor[1, 1, 0]], 
       StyleBox[",",
        Background->RGBColor[1, 1, 0]], 
@@ -568,8 +581,27 @@ Cell[BoxData[
      StyleBox["]",
       Background->RGBColor[1, 1, 0]]}]}], 
    StyleBox[",",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox["\[IndentingNewLine]",
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[
+    RowBox[{
+     StyleBox[
+      RowBox[{"(", "*"}]], " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"WBH", ":", " ", 
+        RowBox[{"Use", " ", "ViewAngle"}]}], " ", "->", " ", 
+       RowBox[{"0.03", " ", "for", " ", "lab", " ", "computers"}]}], ";", " ", 
+      RowBox[{"ViewAngle", " ", "->", " ", 
+       RowBox[{
+       "Automatic", " ", "works", " ", "fine", " ", "for", " ", "office", " ",
+         "computers"}]}]}], " ", 
+     StyleBox[
+      RowBox[{"*", ")"}]]}],
+    Background->RGBColor[1, 1, 0]], 
+   StyleBox[" ",
     Background->RGBColor[1, 1, 0]], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
      RowBox[{
@@ -1091,18 +1123,18 @@ Cell[BoxData[
    3.884433069750156*^9, 3.884433125637246*^9}, {3.8844331812996364`*^9, 
    3.884433264394064*^9}, {3.884433360349921*^9, 3.8844333609009714`*^9}, {
    3.9024757616532135`*^9, 3.902475801356885*^9}, {3.9024758336853266`*^9, 
-   3.9024758454412303`*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
+   3.9024758454412303`*^9}, {3.921840281005337*^9, 3.9218404654645324`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`CrossSectPos$$ = 8 
-    Pi, $CellContext`domulty$$ = 0, $CellContext`domultz$$ = 
+   DynamicModuleBox[{$CellContext`CrossSectPos$$ = 
+    25.132741228718345`, $CellContext`domulty$$ = 0, $CellContext`domultz$$ = 
     0, $CellContext`fill$$ = 1, $CellContext`showB$$ = 
     1, $CellContext`showcrosssect$$ = 1, $CellContext`showcurve$$ = 
     1, $CellContext`showE$$ = 1, $CellContext`showvec$$ = 
-    1, $CellContext`showwavefronts$$ = 1, $CellContext`xrclip$$ = 0, 
+    1, $CellContext`showwavefronts$$ = 1, $CellContext`xrclip$$ = 0., 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
@@ -1291,7 +1323,7 @@ $CellContext`xrclip$$]]}}]}]}, {$CellContext`yy, -1.5, 1.5,
           Axes -> True, ViewProjection -> "Automatic", 
          ViewVertical -> {0, 1, 0}, LabelStyle -> Directive[Black, Bold, 11], 
          AxesLabel -> {" ", $CellContext`x, $CellContext`y}, Ticks -> None, 
-         ViewAngle -> Automatic, ImageSize -> {600, 300}, 
+         ViewAngle -> 0.03, ImageSize -> {600, 300}, 
          Method -> {"ShrinkWrap" -> False}, PlotRangeClipping -> True, 
          PlotRangePadding -> 0, ImagePadding -> {{0, 0}, 0, 0}, ViewVector -> 
          Dynamic[{{200 - $CellContext`xrclip$$, 30, 100}, {
@@ -1345,11 +1377,9 @@ $CellContext`xrclip$$}, {-2, 2}, {-2, 2.01}}]]),
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{{3.884428635150332*^9, 3.884428781372012*^9}, {
-   3.8844330774291954`*^9, 3.8844331260694427`*^9}, {3.8844331831935945`*^9, 
-   3.8844332648951287`*^9}, 3.8844333620881023`*^9, {3.902475769945191*^9, 
-   3.902475802106577*^9}, {3.902475834640984*^9, 3.90247584571047*^9}},
- CellLabel->"Out[14]=",ExpressionUUID->"0a978ae0-8876-4c37-8098-511b890beee8"]
+ CellChangeTimes->{{3.921840397765326*^9, 3.921840404855158*^9}, {
+  3.9218404490822697`*^9, 3.921840466107574*^9}},
+ CellLabel->"Out[6]=",ExpressionUUID->"b6ebf8b2-882f-462c-b74e-20fd143b60c7"]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -1389,10 +1419,11 @@ Cell[BoxData[""], "Input",
 },
 WindowSize->{1428., 735.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
+TaggingRules-><|"TryRealOnly" -> False|>,
 Magnification:>1.1 Inherited,
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"44118293-c40e-4072-b362-4dcfa53f8e99"
+ExpressionUUID->"de78edb4-e249-47e9-8595-762c49f20f63"
 ]
 (* End of Notebook Content *)
 
@@ -1406,17 +1437,19 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 49949, 1072, 1455, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
-Cell[50532, 1096, 12079, 255, 417, "Output",ExpressionUUID->"0a978ae0-8876-4c37-8098-511b890beee8"]
+Cell[1510, 35, 50622, 1091, 1455, "Input",ExpressionUUID->"afe1d004-b75e-4c77-ae01-db836e491ede"],
+Cell[52135, 1128, 11913, 253, 417, "Output",ExpressionUUID->"b6ebf8b2-882f-462c-b74e-20fd143b60c7"]
 }, Open  ]],
-Cell[62626, 1354, 154, 3, 31, "Input",ExpressionUUID->"f0bc6f8c-da67-4238-b00a-a97e0551258b"],
-Cell[62783, 1359, 154, 3, 31, "Input",ExpressionUUID->"22a0f519-19b1-40fb-8aed-d2ef70a65896"],
-Cell[62940, 1364, 154, 3, 31, "Input",ExpressionUUID->"727a3cc8-16d8-47f1-98e1-13c9db562114"],
-Cell[63097, 1369, 152, 3, 31, "Input",ExpressionUUID->"247d6227-3d3b-4195-9087-fc0fdb4c704e"],
-Cell[63252, 1374, 154, 3, 31, "Input",ExpressionUUID->"0772f603-8c91-467c-b006-bc88bd55ef6c"],
-Cell[63409, 1379, 156, 3, 31, "Input",ExpressionUUID->"d91e69ef-a24d-4f84-ad67-73fa62cbd7b0"],
-Cell[63568, 1384, 152, 3, 31, "Input",ExpressionUUID->"199573de-ec3f-47ad-b283-11edbcd4fd0a"]
+Cell[64063, 1384, 154, 3, 31, "Input",ExpressionUUID->"f0bc6f8c-da67-4238-b00a-a97e0551258b"],
+Cell[64220, 1389, 154, 3, 31, "Input",ExpressionUUID->"22a0f519-19b1-40fb-8aed-d2ef70a65896"],
+Cell[64377, 1394, 154, 3, 31, "Input",ExpressionUUID->"727a3cc8-16d8-47f1-98e1-13c9db562114"],
+Cell[64534, 1399, 152, 3, 31, "Input",ExpressionUUID->"247d6227-3d3b-4195-9087-fc0fdb4c704e"],
+Cell[64689, 1404, 154, 3, 31, "Input",ExpressionUUID->"0772f603-8c91-467c-b006-bc88bd55ef6c"],
+Cell[64846, 1409, 156, 3, 31, "Input",ExpressionUUID->"d91e69ef-a24d-4f84-ad67-73fa62cbd7b0"],
+Cell[65005, 1414, 152, 3, 31, "Input",ExpressionUUID->"199573de-ec3f-47ad-b283-11edbcd4fd0a"]
 }
 ]
 *)
+
+(* End of internal cache information *)
 
