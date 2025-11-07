@@ -1,0 +1,121 @@
+\section{Polarization}
+
+\makelabheader %(Space for student name, etc.)
+
+\bigskip
+\textbf{Objectives}
+
+\begin{itemize}
+    \item To investigate the polarization of light from different sources.
+    \item To explore Malus's law and the dependence of transmitted intensity on the angle between polarizers.
+\end{itemize}
+
+\bigskip
+\textbf{Overview}
+
+In this lab, you will study the polarization properties of light from both a white light source and a laser. Polarization refers to the orientation of the electric field vector of a light wave. Ordinary light sources, such as light bulbs, emit unpolarized light with electric field vectors oscillating in random directions. Laser light, in contrast, is typically linearly polarized, meaning that its electric field oscillates along a single direction.
+
+By placing polarizing filters in the path of a light beam and measuring the transmitted intensity, you can determine the polarization characteristics of the source and verify Malus's law, which states that the transmitted intensity $I$ through a polarizer varies with the angle $\theta$ between the light's polarization direction and the polarizer's transmission axis according to:
+\[
+I = I_0 \cos^2\theta
+\]
+where $I_0$ is the initial intensity of the polarized light.
+
+\bigskip
+\textbf{Apparatus}
+
+\begin{itemize}
+    \item Pasco Capstone software
+    \item Wireless light sensor
+    \item Optical track
+    \item White light source
+    \item Laser source
+    \item Two polarizers
+    \item Neutral-density filter
+\end{itemize}
+
+\textbf{Activity 1: Polarization of Light Sources}
+
+\begin{enumerate}[label=(\alph*)]
+	\item Open the file \filename{Polarization.cap} in the \filename{PHYS 132} folder. Turn on the wireless light sensor at your station. To connect it to the computer via Bluetooth, select \textbf{Hardware Setup} and select the correct address that matches its Device ID Number (XXX-XXX). To start a data run, click the \textbf{Record} button. To stop a data run, click the \textbf{Stop} button.
+    \item Place the white light source on one end of the optical track and the light sensor on the other end. Align the source with the sensor.
+    \item Insert a polarizer between the light source and the sensor. Slowly rotate the polarizer through $360^\circ$, recording the intensity of the transmitted light.
+    \item Adjust the $y$-axis scale so that it starts at zero.
+    \item Sketch the graph of intensity versus angle below.
+	\answerspace{2.8in}
+    \item Replace the light bulb with the laser on the optical track, keeping the light sensor at the opposite end. Align the laser beam with the sensor.
+    \item Place a neutral-density filter (set to 25\%) immediately after the laser.
+    \item Insert a polarizer between the neutral-density filter and the sensor. Rotate the polarizer through $360^\circ$ while recording the intensity of the transmitted light.
+    \item Scale the $y$-axis to start at zero and sketch the graph below.
+	\answerspace{2.8in}
+    \item Based on your data, what can you conclude about the polarization of the white light source and the laser source?
+\answerspace{1.0in}
+\end{enumerate}
+\newpage
+\textbf{Activity 2: Malus' Law of Polarization}
+
+\begin{enumerate}[label=(\alph*)]
+    \item Remove the polarizer from the optical track. Align the laser, neutral-density filter, and light sensor. The neutral-density filter should be placed immediately after the laser.  
+    Record the intensity of the incident laser beam:
+	
+	\vspace{5mm}
+    \hspace{0.5in}\(I_{0} = \)
+	\answerspace{5mm}
+
+    \item Place a polarizer after the neutral density filter and rotate it slowly. When the intensity is \textit{maximum}, what is the angle between the polarization axis of the polarizer and the polarization of the laser? When the intensity is \textit{minimum}, what is that angle?
+	\answerspace{0.8in}
+
+   \item Identify and record the angle of polarization of the laser:
+	
+	\vspace{5mm}
+    \hspace{0.5in}\(\theta_\mathrm{L} = \)
+	\answerspace{5mm}
+
+    \item Place a second polarizer after the first. The polarizer closest to the laser will be called $\mathrm{P}_1$, and the one closest to the sensor will be called $\mathrm{P}_2$. Measure and record the orientation (angle) of the transmission axis of $\mathrm{P}_2$: 
+	
+	\vspace{5mm}
+	 \hspace{0.5in}\( \theta_{\mathrm{P}_2} = \)
+	\answerspace{5mm}
+
+  	\item Measure the orientation (angle) of the transmission axis of $\mathrm{P}_1$. Record this and all subsequent measurements in the table.
+
+	\item Determine the angle, $\theta_{\mathrm{L},\mathrm{P}_1}$, between the laser's polarization direction and the transmission axis of $\mathrm{P}_1$. 
+	
+	\item Determine the angle, $\theta_{\mathrm{P}_1,\mathrm{P}_2}$, between the transmission axes of $\mathrm{P}_1$ and $\mathrm{P}_2$. 
+
+	\item Measure the transmitted light intensity, $I_\text{exp}$, for this configuration. 
+
+	\item Repeat the above steps as you rotate $\mathrm{P}_1$ through a total of $180^\circ$, taking measurements every $15^\circ$.
+
+ 	\item Write an equation for the intensity of the laser beam after it passes through $\mathrm{P}_1$ in terms of $I_0$ and $\theta_{\mathrm{L},\mathrm{P}_1}$.
+        \answerspace{1.2in}
+        \item Write an equation for the intensity of the laser beam after it passes through $\mathrm{P}_2$ in terms of $I_0$, $\theta_{\mathrm{L},\mathrm{P}_1}$, and $\theta_{\mathrm{P}_1,\mathrm{P}_2}$.
+        \answerspace{1.2in}
+
+        \item Using the equation you obtained in part (k), calculate the theoretical transmitted intensity, $I_\text{theory}$, for each configuration in the table. 
+
+\begin{center}
+{\renewcommand{\arraystretch}{1.8}
+\begin{tabular}{|C{0.6in}|C{0.6in}|C{0.6in}|C{0.6in}|C{0.6in}|}
+\hline
+$\theta_{\mathrm{P}_1}$ & $\theta_{\mathrm{L},\mathrm{P}_1}$ & $\theta_{\mathrm{P}_1,\mathrm{P}_2}$ & $I_\text{exp}$ & $I_\text{theory}$ \\
+\hhline{|=|=|=|=|=|}
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+& & & & \\ \hline
+& & & & \\ \hline
+& & & & \\ \hline
+& & & & \\ \hline
+\end{tabular}}
+\end{center}
+
+\item How do your theoretical predictions compare to your measured data?
+        \answerspace{0.8in}
+\end{enumerate}
