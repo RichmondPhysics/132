@@ -1,0 +1,307 @@
+\section{Nuclear Decay}
+\label{nuclear_decay_lab}
+\instructornote{%
+This was originally Jerry's Lab, ``Nuclear Decay and Radiocarbon Dating.'' This simplified version of it was done by Matt in January, 2024, for use in his first-year seminar course.  (I use it as a precursor to the idea of exponential decay of atmospheric muons, which is historically evidence for time dilation.)  For reasons of time, I took out the parts about the Shroud of Turin, radiation shielding, and a lot of the introductory material on nuclear physics, and I also made the parts with calculus less prominent.
+}
+\makelabheader %(Space for student name, etc., defined in master.tex)
+
+\bigskip
+%\textbf{Objective}
+
+%To develop an understanding of the use of the radioactive decay of
+%atomic nuclei to date objects like the Shroud of Turin.
+
+\textbf{Apparatus}
+
+\begin{itemize}[nosep]
+
+\item Radioactive sources
+\item Radiation counter
+\item Lab jack
+\item Isotope generator
+\item Surgical gloves, eye protection, and lab coat for handling radioactive liquids
+\item Pasco 550 interface
+\item \textit{Capstone} software (\filename{Radiation\_Counter.cap} and \filename{Nuclear\_Decay.cap} experiment files)
+\end{itemize}
+
+\bigskip
+
+\textbf{Introduction}
+
+An atom consists of relatively light electrons surrounding a tiny, dense nucleus made of protons and neutrons.
+In some atoms, the nucleus 
+can spontaneously break apart into smaller nuclei in a process called
+radioactive decay or nuclear decay.  Two examples you may have heard of before are
+\begin{itemize}
+
+\item Carbon-14: Most carbon found in nature is carbon-12, containing 6 protons and 6 neutrons.  But a tiny fraction is carbon-14, which has 6 protons and 8 neutrons.  Carbon-14 undergoes radioactive decay by the process
+\begin{equation}
+\isotope[14][8]{C} \rightarrow \isotope[14][7]{N} + \mathrm{e}^-, 
+\end{equation}
+where the carbon nucleus decays to a nitrogen nucleus plus an electron (also called a \textit{beta} particle, $\beta^-$).\footnote{Actually, an antineutrino is given off in Equation 1 as well, but we'll ignore it here.}  
+Carbon-14 has a half-life of about 5,730 years, meaning that if you start with a sample of carbon-14, after 5,730 years, roughly half of it will have decayed to nitrogen-14. (See Appendix~\ref{appendix_nuclear_primer} for a more in-depth explanation atoms, isotopes, and the notation used in Equation 1.)  Archaeologists can use the fraction of carbon-14 left in a sample to determine its age, a process called radiocarbon dating.  
+
+\item Uranium-235: Most uranium found in nature is uranium-238, containing 92 protons and 146 neutrons.  But a fraction is uranium-235, which has 92 protons and 143 neutrons.  Uranium-235 undergoes radioactive decay by the process
+\begin{equation}
+\isotope[235][92]{U} \rightarrow \isotope[231][90]{Th} + \isotope[4][2]{He}, 
+\end{equation}
+where the uranium decays to a thorium nucleus and a helium nucleus (also called an \textit{alpha} particle,~$\alpha$).  Uranium-235 has a half-life of about 703.8 million years.\footnote{
+The decay process in Equation 2 is very different from the fission reaction that happens in a nuclear reactor.  There, a high energy particle strikes a uranium nucleus, causing it to split (fission) into two roughly equally sized ``daughter'' nuclei plus several additional high-energy neutrons.  The neutrons in turn strike other uranium nuclei, leading to a self-sustaining chain reaction.  The daughter nuclei produced in a fission reaction are a dog's breakfast of isotopes ranging from arsenic (atomic number 33) to samarium (atomic number 62).  The daughter nuclei are typically radioactive as hell too, and decay via $\alpha$ or $\beta$ decay with half-lives ranging from seconds to millions of years.}
+
+In fact, the decay process in Equation 2 is only the first in a chain of \textit{eleven} separate steps, during which the nucleus gives off a total of seven alpha particles and goes through various isotopes of thorium, palladium, actinium, radium, rhenium, polonium, bismuth, and thallium, before eventually ending up as lead-207.  These intermediate nuclei have half-lives ranging from 0.1~milliseconds to 32,760~years.
+\end{itemize}
+
+In each of the examples above, the decay products include one heavier nucleus and one lighter particle, either an $\alpha$ particle or an electron, which shoots out from the reaction at high speed with a great deal of kinetic energy.  These high-energy particles are the ``radiation'' in radioactivity, and their interaction with our bodies can pose health risks.  Detecting these high-energy particles as they shoot out indicates that a nuclear decay has just occurred.  
+
+\pagebreak[3]
+
+\vspace*{-1.0cm}
+{\centering \includegraphics[scale=0.9]{radiocarbon_dating/cesium_decay_chain.pdf} \par}
+{\centering Figure 1. Schematic drawing of radiation counter and setup. \par}
+
+\medskip
+
+Figure 1 shows another nuclear decay process with multiple steps, which we will study in this lab.  First, cesium-137 decays by the process
+\begin{equation}
+\isotope[137][55]{Cs} \rightarrow \isotope [137\mathrm{m}][56]{Ba} + \mathrm{e}^-.
+\end{equation}
+The resulting barium-137m is in an \textit{excited state,} meaning that it can give off additional energy in another step.  
+The \textit{m} in ``137m'' stands for \textit{metastable}, meaning it sticks around for just a little while.  
+The half-life of \isotope [137\mathrm{m}][56]{Ba} is only 2.552 minutes; it decays by emitting a gamma ray\footnote{
+Gamma rays are just very high energy photons---like ultraviolet light or X-rays, but more so.  They are not related to the Lorentz factor $\gamma$.} 
+($\gamma$) with an energy of 0.662~MeV, by the process
+\begin{equation}
+\isotope[137\mathrm{m}][56]{Ba} \rightarrow \isotope [137][56]{Ba} + \gamma~ (0.662~\mathrm{MeV}).
+\end{equation}
+You will be given a sample containing \isotope[137\mathrm{m}][56]{Ba}, and you will study the decay process of Equation 4 by detecting the $\gamma$ particles that are emitted.  
+Your instructor will prepare the sample by starting with a cesium-137 ``generator'' and removing the barium-137 from it 
+by passing a hydrochloric-acid-saline solution through the generator.\footnote{
+The technical term for this process is \textit{eluting} or \textit{elution}, which means to separate by washing.  The not-so-technical term for this process is ``milking the cow.''}
+
+\bigskip
+
+In this lab, you will detect the high-energy decay products using a Geiger counter, which is the little black beeping device connected to the computer at your station.  The business end of the Geiger counter (the ``snout'' in the figure below) is fragile and very sensitive.   DO NOT TOUCH THE FACE OF THE DETECTOR INSIDE THE SNOUT UNDER ANY CIRCUMSTANCES.
+
+\bigskip
+%\begin{wrapfigure}[18]{r}{0.5\textwidth}
+\begin{center}
+%\vspace{-0.3 in}
+\includegraphics[scale=0.85]{radiocarbon_dating/rad_counter_bw.pdf}
+
+Figure 2. Schematic drawing of experimental setup
+\end{center}
+
+
+\pagebreak[3]
+
+
+\textbf{Activity 1: Measuring Background Radiation}
+
+The first thing you will measure with the Geiger counter is... \textit{nothing!}  That is, you will measure the \textit{background radiation} that is in the room even with no radioactive sample near your detector.  You probably already hear your detector beeping, indicating that some radiation is present.  This radiation comes from materials in the natural environment and in the building, as well as from \textit{cosmic rays,} which are high-energy particles from space that interact with our atmosphere.
+
+\begin{enumerate}[labparts]
+\item Open the \filename{Radiation\_Counter.cap} file in the \filename{\coursefolder} folder and click
+the \button{Record} button.
+Initially, nothing will seem to be happening.  But after 30 seconds (watch the clock at the bottom
+of the window) the number of radioactive decays detected by the 
+radiation counter in that time will appear.  Allow the counter to keep recording for about a half dozen 30-second periods, to get a sense of how the number can vary.  Record your results here:
+\answerspace{1in}
+
+
+\item What is the average number of counts per 30 seconds?
+\answerspace{0.5in}
+
+\item A handy rule of thumb for random events like this is that the number of counts can vary by about the square root of the average number of counts.  For example, if you measured an average of 16 events per period ($\sqrt{16} = 4$), you would expect that most (say, two thirds) of your individual counts listed in part~(a) should fall between 12 and 20.  Does your data follow this rule?  Does it come close?
+\answerspace{0.7in}
+
+\end{enumerate}
+
+\textbf{Activity 2: Measuring Radioactive Decay of Barium-137m}
+
+In this activity, you'll get a sample of \isotope[137\mathrm{m}][56]{Ba} and measure its radioactivity over time as it decays to \isotope[137][56]{Ba}, as described Figure 1 and Equation 4.
+
+\begin{enumerate}[labparts]
+\item First, make a qualitative prediction of the count rate as a function of time that you expect to see.
+Sketch your prediction in the space below.
+
+\begin{lab_axis}*[lab_noticks_1quad,
+	height = {1.4in}, width = {4.0in},
+	xlabel={Time},
+	ylabel={Count rate},
+	]
+\end{lab_axis}
+
+
+(b) At what time do you predict the number of counts will fall to 50\% of the initial value?  At what time do you predict the number of counts will fall to 25\% of the initial value?  Indicate these times on your graph above.
+
+\pagebreak[2]
+\item  Open the \filename{Nuclear\_Decay.cap} file in the \filename{\coursefolder} folder. 
+When you click \textit{Record}
+it will plot the count rate in intervals of 10 seconds.
+Get the radioactive sources from your instructor and
+try this out with one of them
+to make sure you know how to use the hardware and software.
+Return the sources to your instructor when you are finished with this test.
+
+\item  Read the rest of this procedure carefully. 
+If you have to redo the procedure it may take a long time for the ``generator'' to
+produce enough Ba-137 for you to use.
+
+\item  You have a small, metal disk called a planchette that sits on the 
+jack which will be positioned close to the snout of the radiation counter.
+This will hold the radioactive material.
+Put the empty planchette in place and do a ``dry run''.
+
+(f) One team member should be responsible for positioning the planchette.
+That person should put on the surgical gloves, eye protection, and a lab coat.
+The other team member can run the data acquisition.
+
+\item  When you are ready, alert the instructor. He or she will come over and place 
+a few drops of the eluate containing the Ba-137 on the planchette.
+Immediately place this under the Geiger counter and
+click \textit{Record}.
+
+{\bf Caution:} Care should be taken in handling the sample.
+If any portion of the sample touches your skin immediately wash off in the sink.
+
+\item  Let the data acquisition run for about ten or fifteen minutes and then click \button{Stop}.
+
+{\centering {\textit{While you are waiting, you can start working on Activity 3.}}  :-) \par}
+\answerspace{1cm}
+
+\item Dispose of the planchette according to the guidance from the instructor.
+
+\item Make a plot of your results using the data in the {\it Counts versus Time Table}. 
+Notice that if you 
+click on the title of the table, all of the
+data will be selected. You can then paste the data into {\it Excel}.
+Make sure you subtract the background radiation from your results.
+
+
+\end{enumerate}
+
+\bigskip
+
+\textbf{Activity 3: Analyzing Nuclear Decay }
+
+
+So far, we've described the rate of nuclear decay by the \textit{half-life}, the time it takes for one half the initial number of nuclei to decay.  Every half-life, we lose one half of the original nuclei, then one quarter, then one eighth, and so on.  Intuitively, it makes sense that the more nuclei we have, the more we will lose in a given time.  We can express this mathematically as a proportionality,
+\begin{equation}
+\frac{\Delta N}{\Delta t}\propto N,
+\label{nuc_eq_proportion}
+\end{equation}
+where $N$ is the number of nuclei at any given time.  (That is, $N$ is the number of the specific \textit{kind} of nucleus that we started with, before they decayed into some other kind of nucleus.)  
+This expression can be turned into an equality by introducing a proportionality constant $\lambda$:
+\begin{equation}
+\frac{\Delta N}{\Delta t} = - \lambda N.
+\label{nuc_prop_with_lambda}
+\end{equation}
+(We define $\lambda$ to be positive, so we need a negative sign to show that $N$ is decreasing.)
+It turns out that this simple relationship implies\footnote{%
+If you've had calculus, you see that we can write Eq.~\ref{nuc_prop_with_lambda} using a derivative, $\dfrac{dN}{dt}=-\lambda N$.  The specific function $N(t)$ that satisfies this \textit{differential equation} is 
+$N(t) = N_0e^{- \lambda t}$,
+which you can verify either by integrating both sides of $\int \frac{1}{N}\,dN = -\int \lambda \, dt$, or by plugging $N_0e^{- \lambda t}$ into the differential equation and checking that it works.
+}
+that over time, $N$ will follow a very specific functional form $N(t)$ given by
+\begin{equation}
+N(t) = N_0e^{- \lambda t},
+\label{nuc_exponent_lambda}
+\end{equation}
+where $N_0$ is the initial number of nuclei at time $t=0$.  
+\pagebreak[3]
+
+As a slight variation, we can also express Equation~\ref{nuc_eq_proportion} as
+\begin{equation}
+N(t) = N_0e^{-t/\tau},
+\label{nuc_exponent_tau}
+\end{equation}
+where
+\begin{equation}
+\tau \equiv \frac{1}{\lambda}
+\end{equation}
+is the \textit{average lifetime} of the nucleus.
+
+\begin{comment}
+ change as a function of time, $N(t)$.
+
+
+
+where the minus sign is needed because the number of nuclei $N_{\rm nuc}$
+decreases with time. The decay constant \( \lambda  \) is a characteristic
+of each atomic nucleus. 
+
+\begin{enumerate}[labparts]
+
+\item In the previous activity, you used a particular function to fit 
+your data.
+Try to prove that you made the right choice by taking derivatives and
+seeing if they will satisfy the original differential equation above.
+Did it work?
+\answerspace{30mm}
+
+\pagebreak[2]
+\item It is claimed the solution of the differential equation above
+describing nuclear decay is the following expression.
+
+\[
+N_{\rm nuc}(t)=N_{0}e^{-\lambda t}\]
+
+
+Prove this statement by taking the derivative of $N_{\rm nuc}(t)$
+and showing it satisfies the original differential equation. Make
+a sketch of the function and describe it in words.
+How did your fit function do?
+\answerspace{40mm}
+
+\providecommand{\halflife}{t_{\rm \nicefrac{1\mkern-1mu}{\mkern-1mu2}}}
+
+\item The decay of atomic nuclei is often characterized by a quantity
+known as the half-life \( \halflife  \). The half-life is the period of
+time for one-half of the original sample to disappear via radioactive
+decay. This statement can be expressed mathematically in the following
+way.
+
+\[
+N_{\rm nuc}(t=\halflife)=\frac{N_{0}}{2}\]
+
+
+Starting with the above expression show that the decay constant \( \lambda  \)
+and the half-life are related by the following equation.
+
+\[
+\halflife = \frac{\ln 2}{\lambda }\]
+
+
+\vspace{1.5in}
+
+\item Now return to the results of your experiment.
+Does your count rate fall off exponentially?
+Did you fit your data with an exponential? If not,
+go back and do so.
+Record the decay constant $\lambda$.
+\answerspace{0.75in}
+
+\pagebreak[2]
+\item What is the half-life of Ba-137? Compare this with the accepted value of 2.552 minutes.
+\answerspace{1.5in}
+
+\item Consider the following example as a warm-up. A sample of the isotope of iodine
+\( ^{131} \)I has an initial decay rate of $1.8 \times 10^{5}$ decays/s.
+This isotope has a half-life of 8.04 days. It is shipped to a medical
+diagnostic laboratory where it will be used as a radioactive tracer.
+When the shipment arrives at the lab the decay rate has fallen to
+$1.4 \times 10^{5}$ decays/s. How long did it take for the shipment
+to reach the laboratory?
+\vspace{2in}
+
+
+\item Make a fit to your data. What is the best choice of function for fitting 
+your data? How did you make your choice?
+Attach a copy of your plot with the fit to this unit.
+Record the fit equation below.
+Do NOT close your spreadsheet. We may use it later.
+
+\end{enumerate}
+\end{comment}
+
+
