@@ -1,0 +1,30 @@
+\section{The ``M'' Problems}
+
+
+\setcounter{page}{1}
+\renewcommand{\thepage}{M-\arabic{page}}
+
+
+%\renewcounter{Exercise}[subsection]
+\counterwithin{Exercise}{subsection}
+\renewcommand{\theExercise}{{\thesubsection}\arabic{Exercise}}
+%\renewcommand{\ExerciseHeaderNB}{M\Alph{\subsection}\arabic{\Exercise}}
+%\renewcommand{\ExerciseHeader}{\textbf{M\Alph{subsection}\ExerciseHeaderNB.\ExerciseHeaderDifficulty}}
+\renewcommand{\ExerciseHeaderNB}{\thesubsection\arabic{Exercise}}
+\renewcommand{\ExerciseHeader}{\textbf{\ExerciseHeaderNB.\ExerciseHeaderDifficulty}}
+\renewcommand{\AnswerHeader}{\textbf{\ExerciseHeaderNB.} }
+%\setlength{\AnswerSkipBefore}{0pt}
+%\setlength{\AnswerSkipAfter}{0pt}
+\setlength\Exerightmargin{3in}
+\renewcommand{\AtBeginAnswer}{\setlength\Exerightmargin{3in}\hangindent=0.7cm}
+
+%\numberwithin{Exercise}{subsection}
+
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection~Problems:}{1ex}{}
+
+%\renewcommand{\sectionmark}[1]{\markboth{\MakeUppercase{\thesection:\ #1}}{}}
+\renewcommand{\subsectionmark}[1]{
+   \markright{\thesubsection~Problems: #1}}
+
+\input{M_problems/waves/Mprobs_waves}
+\input{M_problems/charges/Mprobs_charges}

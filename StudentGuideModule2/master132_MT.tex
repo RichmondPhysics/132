@@ -7,7 +7,7 @@
 %------COMPILE OPTIONS---------
 %\includealllabstrue
 		% ^^^ Overrides all 1's and 0's for individual labs to include
-%\includeonlylab{flipflops/flipflops} 
+%\includeonlylab{M_problems/M_problems} 
 		% ^^^ Compiles only specified part(s) of manual. (For multiple labs, use commas and no spaces.)
 \ForceSectionOddPage      
 		% ^^^ Makes each lab start on right-hand-page
@@ -21,10 +21,12 @@
 
 \input{132_front_pages/132_title_page}
 
-\tableofcontents{}
-\cleardoublepage
+\setcounter{tocdepth}{2}
+	\renewcommand{\cftsubsecaftersnumb}{~Problems:~}
+\tableofcontents{}\thispagestyle{labcontentsfancy}
 
 %use \includelab{1} to include, or \includelab{0} to exclude.  Can be overridden with \includealllabstrue
+
 %--------------------------------------------
 %\part{Fluids and Mechanical Waves}
 \part{Mechanical Waves}
@@ -44,6 +46,7 @@
 \includelab{0}{chargesFields1/EF_EP_1b}
 \includelab{0}{chargesFields2/EF_EP_2b}
 \includelab{1}{electric_field_near_a_charged_rod/electric_field_near_a_charged_rod}
+\includelab{1}{electric_flux_exercise/electric_flux_exercise}
 
 %--------------------------------------------
 \part{Electric Potential}
@@ -87,6 +90,8 @@
 \includelab{1}{biot_savart_above_loops/biot_savart_above_loops} 
 \includelab{1}{amperes_law_infinite_sheet/amperes_law_infinite_sheet}
 \includelab{1}{eoverm/eoverm}
+\includelab{1}{dc_motor/dc_motor}
+
 
 %--------------------------------------------
 \part{Induction and Electromagnetic Waves}
@@ -151,6 +156,9 @@
 %--------------------------------------------
 \startappendix
 
+\setcounter{page}{1}
+\renewcommand{\thepage}{A-\arabic{page}}
+
 \newcommand{\GreekLettersUsed}{alpha, beta, delta, Delta, epsilon, eta, theta, kappa, lambda, mu, pi, rho, Sigma, sigma, tau, Phi, phi, Omega, omega}
 \includelab{1}[../../131/StudentGuideModule1/]{appendices/greek_alphabet/greek_alphabet}
 \includelab{1}[../../131/StudentGuideModule1/]{appendices/capstone/capstone}
@@ -163,6 +171,10 @@
 \includelab{0}[../../131/StudentGuideModule1/]{appendices/instrumentation/instrumentation}
 \includelab{0}[../../131/StudentGuideModule1/]{appendices/virtual_machine/virtual_machine}
 \includelab{1}{appendices/resistor_code/resistor_code}
+
+\setcounter{section}{12}
+\renewcommand{\thesubsection}{\thesection\Alph{subsection}}
+\includelab{1}{M_problems/M_problems}
 
 % The following command prints the "Instructor Notes" section at the end of the manual.
 % Comment it out for the regular student edition.
