@@ -102,10 +102,13 @@ Now suppose we have two identical positively charge particles, $Q_1$ and $Q_2$, 
 	tick style={major tick length=15pt},
 	tick label style = {font=\itshape},
 	]
-\addplot [only marks, line width=0.5pt, mark = ball, mark size=6pt, ball color=white] coordinates {(-0.4, 0) (0.4, 0)};
+%\addplot [only marks, line width=0.5pt, mark = ball, mark size=6pt, ball color=white] coordinates {(-0.4, 0) (0.4, 0)};
 % The preceding line generates a warning:
 %	"Package pgf Warning: No path specified that can be filled on input line [....]"
 % It seems to be the "ball color=white" part that it doesn't like.  I have no idea why.
+\addplot [only marks,mark = ball, mark size=6pt,  mark options = {line width=0.5pt, ball color=white}] coordinates {(-0.4, 0) (0.4, 0)};
+
+
 \addplot [only marks, mark = +, mark size=4pt, line width=2pt] coordinates {(-0.4, 0) (0.4, 0)};
 \end{lab_axis}
 
@@ -208,7 +211,8 @@ Hmmm.... What would our graphs look like if one of the charges were negative, as
 	tick style={major tick length=15pt},
 	tick label style = {font=\itshape},
 	]
-\addplot [only marks, line width=0.5pt, mark = ball, mark size=6pt, ball color=white] coordinates {(-0.4, 0) (0.4, 0)};
+\addplot [only marks,mark = ball, mark size=6pt,  mark options = {line width=0.5pt, ball color=white}] coordinates {(-0.4, 0) (0.4, 0)};
+%\addplot [only marks, line width=0.5pt, mark = ball, mark size=6pt, ball color=white] coordinates {(-0.4, 0) (0.4, 0)};
 \addplot [only marks, mark = +, mark size=4pt, line width=2pt] coordinates {(-0.4, 0)};
 \addplot [only marks, mark = -, mark size=4pt, line width=2pt] coordinates {(+0.4, 0)};
 \end{lab_axis}
