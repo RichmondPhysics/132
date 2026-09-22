@@ -1,20 +1,56 @@
 \section{Using Digital Multimeters}
 \label{digital_multimeters}
 
-The diagrams below show the correct input jacks and settings to use 
-for measuring DC voltages and currents 
-with the black, BK 390 digital multimeters.
+Your digital multimeter (DMM) can measure voltage, current, and resistance, plus other things not mentioned here.  To make connections easy to see, it is standard practice to use one red and one black wire lead, with the black lead always connected to the \textit{common} (COM) input jack. Of course, the electrons don't care what color the rubber insulation is, and connecting the DMM backwards will just make the reading negative. 
 
-\includegraphics[width=\textwidth]{appendices/digital_multimeters/dmm_figs_bk390.pdf}
+\smallskip
+
+\begin{minipage}{0.55\textwidth}
+\textbf{Voltage measurements:} You can measure the voltage (a.k.a. \textit{potential difference}) across a battery or power supply, or between any two points in a circuit.  With the circuit intact, simply touch or connect the two leads where you want to measure, as shown below. 
+\end{minipage}
+
+\vspace{-0.9in}
+%\begin{center}
+\hfill
+\includegraphics{appendices/digital_multimeters/dmm_fig_voltage.pdf}
+%\end{center}
+
+\bigskip
+
+\textbf{Current measurements:} When you measure a current, you are essentially \textit{counting} the electrons as they pass through a specific point in a circuit.  For this to work, \textit{you must break the circuit first}, before connecting any leads, to force all of the electrons \textit{through} the DMM, so they can be counted.
+
+\begin{minipage}{0.4\textwidth}
+\begin{itemize}[nosep]
+\item For  $I > 400$~mA, use the 10~A settings shown on the left.
+
+\item For  $I \leq 400$~mA, you can use either the 10~A settings on the left or the mA/$\mu$A settings shown on the right.\footnotemark
+
+\item If unsure, start with the 10~A setting and then go down.\footnotemark
+\end{itemize}
+\end{minipage}
+\addtocounter{footnote}{-1}
+\footnotetext{Although the mA and $\mu$A settings can detect smaller currents, they have internal resistances of $10\ohm$ and $1000\ohm$ respectively, which can reduce the circuit that you are trying to measure.  Sometimes it's best to use the 10~A setting even for small currents.} 
+
+\addtocounter{footnote}{1}
+\footnotetext{Too big a current can blow a fuse in your DMM, and although a blown fuse is cheap and easy to replace (50\textcent~and $\approx$2 minutes), it will make your circuit inexplicably stop working, which can be confusing.}
+
+\vspace{-1.2in}
+%\begin{center}
+\hfill
+\includegraphics[width=0.96\textwidth]{appendices/digital_multimeters/dmm_fig_current.pdf}
+%\end{center}
+
+\pagebreak
+\textbf{Resistance Measurements} The DMM can measure a resistance directly by putting a small current through it and measuring the voltage across it. But this only works if the resistor is completely disconnected from any other resistors or voltage sources.
+
+\begin{center}
+\includegraphics{appendices/digital_multimeters/dmm_fig_resistance.pdf}
+\end{center}
+
+
+%\textbf{Alternating Current (AC) measurements} F
+
+
+
 \index{color page}
 
-\vspace{\fill}
-For the red, Amprobe XR37 multimeters, the settings are very similar.
-
-\includegraphics[width=\textwidth]{appendices/digital_multimeters/dmm_figs_xr37.pdf}
-\index{color page}
-
-\vspace{\fill}
-When measuring currents, if you are unsure how large your current is, always start 
-on the larger range (10A or 20A) and then decrease to mA or $\mu$A range if necessary.
-Measuring a current larger than 400~mA on the mA ranges will cause you to blow a fuse in the multimeter.
