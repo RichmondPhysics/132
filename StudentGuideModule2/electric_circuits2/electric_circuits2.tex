@@ -9,7 +9,7 @@ This lab builds on ``Introduction to Electric Circuits'' and uses a lot of the s
 
 Equipment notes: 
 
-For the multimeters, have extra fuses on hand, as some fuses will be blown!  But this can be greatly reduced by setting the power supplies ahead of time to a 3 V output, and a current limit of about 400 mA.  (Both fine knobs all the way up, both coarse knobs all the way down, button on "high" range.)
+For the multimeters, have extra fuses on hand, as some fuses will be blown!  But this can be greatly reduced by setting the power supplies ahead of time to a 3~V output, and a current limit of about 400 mA.  (Both fine knobs all the way up, both coarse knobs all the way down, button on "high" range.)
 
 As with the previous circuits lab, I also recommend two pairs of scissors per group, so that each student does their own cutting and folding.  If they both cut, then they will also both fold, and the physical act of folding seems to build a kind of kinesthetic memory for the concept the lab is trying to get across.  Finally, I recommend having students tape down their circuits with masking tape, to avoid spaghetti tangles that are difficult to troubleshoot.
 }
@@ -22,60 +22,63 @@ As with the previous circuits lab, I also recommend two pairs of scissors per gr
 \item digital multimeters (2)
 \item DC power supply 
 \item one light bulb, in a socket with banana connectors
-\item 1 k $\Omega$ resistors (2)
-\item 2.2 k$\Omega$ resistors (1)
+\item $1\kohm$ resistors (2)
+\item $2.2\kohm$ resistors (1)
 \item banana jumper wires (at least 5)
 \item scissors (2)
 \item masking tape
 \end{itemize}
 
 \bigskip
-\textbf{Introduction:}
+%\textbf{Introduction:}
+%
+%In this lab, you will measure both electric currents and potential differences using your digital multimeters (DMMs).  Your instructor will show you how to set up your DMM for each kind of measurement.
+%
+%\begin{newboxed}
+%\textit{For all parts of this lab, keep your power supplies set to a voltage of \textsl{3.0} volts or less.  Otherwise we'll blow out lots of bulbs and fuses.}
+%\end{newboxed}
+%
+%\vspace{0.1 in}
 
-In this lab, you will measure both electric currents and potential differences using your digital multimeters (DMMs).  Your instructor will show you how to set up your DMM for each kind of measurement.
+\textbf{Activity 0: The Resistor Color Code}
 
-\begin{newboxed}
-\textit{For all parts of this lab, keep your power supplies set to a voltage of 3.0 volts or less.  Otherwise we'll blow out lots of bulbs and fuses.}
-\end{newboxed}
+%(1) Use the information in Appendix B and the multimeters at your table to answer the following questions.
+%
+%\textbf{(a) Measuring Current}
+%\begin{itemize}
+%	\item Which input jack is always used when measuring current?
+%	\answerspace{0.5 in}
+%	\item How does the second input jack depend on the size of the current? If you're unsure how large the current is, which jack should you start with, and why?
+%\answerspace{1.0 in}
+%	\item Where should you set the dial to measure current? How is this setting related to the jack you chose in the previous question?
+%	\answerspace{1.0 in}
+%\end{itemize}
+%\newpage
+%\textbf{(b) Measuring Voltage}
+%\begin{itemize}
+%	\item Which two input jacks should you use to measure voltage?
+%	\answerspace{0.6 in}
+%	\item Where should you set the dial when measuring voltage?
+%	\answerspace{0.6 in}
+%\end{itemize}
 
-\vspace{0.1 in}
-
-\textbf{Activity 0: Introduction to Multimeters and Resistors}
-
-(1) Use the information in Appendix B and the multimeters at your table to answer the following questions.
-
-\textbf{(a) Measuring Current}
-\begin{itemize}
-	\item Which input jack is always used when measuring current?
-	\answerspace{0.5 in}
-	\item How does the second input jack depend on the size of the current? If you're unsure how large the current is, which jack should you start with, and why?
-\answerspace{1.0 in}
-	\item Where should you set the dial to measure current? How is this setting related to the jack you chose in the previous question?
-	\answerspace{1.0 in}
-\end{itemize}
-\newpage
-\textbf{(b) Measuring Voltage}
-\begin{itemize}
-	\item Which two input jacks should you use to measure voltage?
-	\answerspace{0.6 in}
-	\item Where should you set the dial when measuring voltage?
-	\answerspace{0.6 in}
-\end{itemize}
-
-(2) Use the table in Appendix C to find the resistances of the following resistors:
+Use the table in Appendix~\ref{resistor_code} to find the resistances of the following resistors:
 \begin{center}
-	\includegraphics[width=0.9\textwidth]{electric_circuits2/resistors.jpg}
+	\includegraphics[width=0.9\textwidth]{electric_circuits2/three_color_resistors.pdf}
+	
 	\index{color page}
 \end{center}
 
 \textbf{Activity 1: Relationship Between Current and Voltage}
 
-(a) \textit{For the current measurements in this part, start by using your DMM in the 10 Amp or 20 Amp range.  If the current you read is less than 0.4 Amps, you can switch to a mA range.} Connect a single light bulb to your power supply as shown below, measuring both the current $I$ through it and the voltage $\Delta V$ across it as you vary the voltage of the power supply from 0 to 3.0 volts.  Make a graph\footnote{In general, ``plot $A$ \textit{vs.} $B$'' means ``plot $A$ as a function of $B$,'' which implies that thing $B$ should go on the horizontal axis.} of $I$ \textit{vs.} $\Delta V$, for voltages of 0.0, 0.1, 0.3, 0.6, 1.0, 2.0, and 3.0 volts.  Use graphing software (like Excel) for your graph, and then make a pencil sketch of it in the space below.  Is the relationship between $I$ and $\Delta V$ linear? Print your plot and attach it to this unit.
+(a) 
+%\textit{For the current measurements in this part, start by using your DMM in the \textsl{10} amp range.  If the current you read is less than 0.4 Amps, you can switch to the mA range.} 
+Connect a single light bulb to your power supply as shown below, measuring both the current $I$ through it and the voltage $\Delta V$ across it as you vary the voltage of the power supply from 0 to 3.0 volts.  Make a graph\footnote{In general, ``plot $A$ vs. $B$'' means ``plot $A$ as a function of $B$,'' which implies that thing $B$ should go on the horizontal axis.} of $I$ vs. $\Delta V$, for voltages of 0.0, 0.1, 0.3, 0.6, 1.0, 2.0, and 3.0 volts.  Use graphing software (like Excel) for your graph, and then make a pencil sketch of it in the space below.  Is the relationship between $I$ and $\Delta V$ linear? Print your plot and attach it to this unit.
 
 \hspace{0.5in}\includegraphics[width=0.3\textwidth]{electric_circuits2/circ_diag1.pdf}
 \answerspace{0.5 in}
 
-(b) \textit{For the current measurements in this part, change your DMM to a range between 40 mA and 400 mA if you haven't already.} Repeat the measurements in part (a), replacing the light bulb with a resistor with bands colored brown, black, red, and gold.  Again, make a graph of $I$ \textit{vs.} $\Delta V$.  
+(b) \textit{For the current measurements in this part, change your DMM to the mA range if you haven't already.} Repeat the measurements in part (a), replacing the light bulb with a resistor with bands colored brown, black, red, and gold.  Again, make a graph of $I$ vs. $\Delta V$.  
 Is the relationship between the two linear? Print your plot and attach it to this unit.
 \answerspace{1 in}
 
@@ -140,7 +143,7 @@ Measurement: \
 \end{minipage}
 
 
-(b)Which resistor in the circuit above has a larger voltage drop $\Delta V$ across it?   Why?  Check yourself with a measurement.  
+(b) Which resistor in the circuit above has a larger voltage drop $\Delta V$ across it?   Why?  Check yourself with a measurement.  
 
 \vspace{0.2 in}
 \hspace{0.4 in} Prediction:
@@ -149,13 +152,13 @@ Measurement: \
 \hspace{0.4 in} Measurement:  
 \vspace{0.2 in}
 
-(c) Imagine replacing the two resistors in series with a single equivalent resistor $R_{EQ}$.  We can write $R_{EQ}$ in terms of the voltage drops across the resistors as
+(c) Imagine replacing the two resistors in series with a single equivalent resistor $R_{EQ}$.  We can write $R_\text{eq}$ in terms of the voltage drops across the resistors as
 \begin{displaymath}
-R_{EQ} = \frac{\Delta V_{EQ}}{I}= \frac{\Delta V_1 +\Delta V_2 }{I}=\frac{\Delta V_1}{I} + \frac{\Delta V_2}{I}
+R_\text{eq} = \frac{\Delta V_\text{eq}}{I}= \frac{\Delta V_1 +\Delta V_2 }{I}=\frac{\Delta V_1}{I} + \frac{\Delta V_2}{I}
 \end{displaymath}
-Use the equation above as a start to write a general expression for $R_{EQ}$ in terms of $R_1$ and $R_2$ for two resistors in series.
+Use the equation above as a start to write a general expression for $R_\text{eq}$ in terms of $R_1$ and $R_2$ for two resistors in series.
 \begin{displaymath}
-\textrm{For resistors in series: } \boxed{R_{EQ} = \phantom{\rule[-0.1in]{1.0in}{.35in}}}
+\textrm{For resistors in series: } \boxed{R_\text{eq} = \phantom{\rule[-0.1in]{1.0in}{.35in}}}
 \end{displaymath}
 
 \textbf{Activity 4: Two Resistors in Parallel} \par
@@ -178,7 +181,7 @@ Use the equation above as a start to write a general expression for $R_{EQ}$ in 
 (c) What are the currents $I_1$ and $I_2$ through the resistors, in terms of $R_1$, $R_2$, and  $\Delta V$? 
 \answerspace{0.6in}
 
-(d) Imagine replacing the two resistors in parallel with a single equivalent resistor $R_{EQ}$.   We can write the current through the equivalent resistor as $I_{EQ}=I_1+I_2$.  Starting with the definition $R_{EQ}=  \Delta V \slash I_{EQ}$, derive an expression for $R_{EQ}$ in terms of $R_1$ and $R_2$ for two resistors in parallel.  (It's not the same as for resistors in series!)
+(d) Imagine replacing the two resistors in parallel with a single equivalent resistor $R_\text{eq}$.   We can write the current through the equivalent resistor as $I_\text{eq}=I_1+I_2$.  Starting with the definition $R_\text{eq}=  \Delta V \slash I_\text{eq}$, derive an expression for $R_\text{eq}$ in terms of $R_1$ and $R_2$ for two resistors in parallel.  (It's not the same as for resistors in series!)
 
 \begin{center}
 \includegraphics[width=0.7\textwidth]{electric_circuits2/parallel_equiv_bw.pdf}
@@ -187,7 +190,7 @@ Use the equation above as a start to write a general expression for $R_{EQ}$ in 
 
 \begin{displaymath}
 %\textrm{For resistors in parallel: } \boxed{R_{EQ} = \rule[-0.2in]{0.5in}{0in}\rule[0.3in]{0.5in}{0in}} 
-\textrm{For resistors in parallel: } \boxed{R_{EQ} = \phantom{\rule[-0.3in]{1.2in}{.7in}}} 
+\textrm{For resistors in parallel: } \boxed{R_\text{eq} = \phantom{\rule[-0.3in]{1.2in}{.7in}}} 
 \end{displaymath}
 
 \textbf{Activity 5: Using Equivalent Resistances to Solve Problems}
