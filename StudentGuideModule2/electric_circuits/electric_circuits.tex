@@ -33,14 +33,13 @@ I also recommend two pairs of scissors per group, so that each student does thei
 
 \makelabheader %(Space for student name, etc., defined in master.tex)
 
-\bigskip
-\textbf{Objective}
+\medskip
+\textbf{Objectives}
 
-To understand current, voltage, and series and parallel circuits.  And learn how to use a digital multimeter!
+Gain intuition and understanding of current, voltage, and series and parallel circuits.  And learn how to use a digital multimeter!
 
-\bigskip
+\medskip
 \textbf{Apparatus}
-
 \begin{itemize}[nosep]
 \item 2 digital multimeters 
 \item DC power supply 
@@ -50,61 +49,146 @@ To understand current, voltage, and series and parallel circuits.  And learn how
 \item masking tape
 \end{itemize}
 
-\bigskip
-\textbf{Introduction:}
+\medskip
 
-In this lab, you will measure both electric currents and potential differences using your digital multimeters (DMMs).  Details on how to use your multimeter are in Appendix \ref{digital_multimeters}.
+\textbf{Activity 0: Introduction to Multimeters}\footnote{This activity could be done as homework before the rest of the lab.}
 
-To measure the electric current in a circuit, you will need to break the circuit, reconnecting it so that current is forced to flow through the meter, as shown below.  (The ``A'' is the symbol for a current meter, or ammeter.)
+Use the information in Appendix~\ref{digital_multimeters} to answer the following questions.
 
-\begin{center}
-\includegraphics[width=0.8\textwidth]{electric_circuits/how_to_measure_current.pdf}
-\end{center}
-\vspace{-0.2in}
+\begin{enumerate}[labparts]
 
-\begin{newboxed}
-\textbf{Your power supplies have been preset to limit the voltage and current supplied.  Please do not adjust the voltage or current knobs, or we may blow out lots of bulbs and fuses.  Also, for best results, use the black BK meters on the ``400~mA'' current range, and use the red Amprobe meters on the ``10~A'' current range.
-}
-\end{newboxed}
+\item What are the names (that is, the label or at least a part of the label) on each of the four input jacks of your DMM?
+\answerspace{0.3in}
 
-\vspace{0.1 in}
-\textbf{Activity 1: Current and Voltage Measurements}
+\item Which one of the four input jacks is always used, regardless of what kind of measurement is being done?
+\answerspace{0.3in}
 
-%\newpage
-(a) The circuit below consists of a power supply, two ammeters, and a single light bulb.  For the following circuit, predict which of the two ammeters will measure the larger current.  (Or will they be the same?)
+\item Which color wire lead goes into the one input jack that is always used, \textit{and why}?
+\answerspace{0.6in}
 
-\begin{wrapfigure}[1]{l}{0.3\textwidth}
-    \vspace{-0.4 in}
-    \includegraphics[width=0.3\textwidth]{electric_circuits/circ_diag1.pdf}
-\end{wrapfigure}
+\item Volodymyr, Curtis, and Reese want to measure, respectively, the voltage, the current, and the resistance (get it?) of a light bulb in a circuit.  Which one of the three does \textit{NOT} have to disconnect any part of their working circuit to do the measurement? What disassembly do each of the other two need to do on their circuits to perform their respective measurements, and why?
+\begin{itemize}[itemsep = 0.1in]
+\item Volodymyr: 
 
-\vspace{0.2 in}
-Prediction:
-\vspace{1.0 in}
+\item Curtis: 
 
-(b) Build the circuit above, using your two DMMs to measure the current $I$ that flows at the two points in the circuit shown.  Record your measurements.  Was your prediction correct?
-\answerspace{0.8 in}
+\item Reese: 
+\end{itemize}
+
+\item What units can be displayed on your DMM?  (List at least six.)
+\answerspace{0.4in}
+
+\hspace{\fill}...more on next page $\longrightarrow$
 
 \pagebreak
+%\item What are the symbols for AC voltage and DC voltage? And how can you tell whether your DMM is measuring an AC voltage or a DC voltage without looking at the dial?
+Alternating current (AC) means that the current switches direction back and forth quickly---60~times per second for a standard US wall outlet, for instance.  In this lab you will use only direct current (DC), like from a battery, which does not change direction.%
+\footnote{AC literally stands for \textit{alternating current} and DC stands for \textit{direct current.} But we also use \textit{AC} and \textit{DC} as adjectives to describe both voltages and currents, as in ``an AC current'' or ``a DC voltage,'' even though the former litterally means ``an alternating current current'' (redundant), and the latter  means ``a direct current voltage'' (nonsensical).  While illogical, that is nevertheless how the terms are used, just as people will forever use their ``PIN numbers'' to withdraw cash from ``ATM machines.''}
+
+\item The symbol for an AC voltage on your multimeter is a ``V'' with a tilde over it:\raisebox{-0.2ex}{\includegraphics{electric_circuits/V_tilde.pdf}}. What symbol is used for a DC voltage?  
+\answerspace{0.3in}
+
+\item Besides on the selector dial, where else can you look on your DMM to tell whether it is measuring an AC voltage or a DC voltage?
+\answerspace{0.3in}
+
+
+%I loved this question, but it was too hard for students.  Oh well.
+%\item Four students are measuring currents:
+%\begin{itemize}[nosep]
+%\item Anna: measures a 5~A current using the 10 A input jack and the 10 A dial setting.
+%\item Bob: measures a 50 mA current using the 10 A input jack and the 10 A dial setting.
+%\item Chen: measures a 50 mA current using the 10 A input jack and the mA dial setting.
+%\item Dejanay: measures a 5~A current using the mA/$\mu$A input jack and the mA dial setting.
+%\end{itemize}
+%Rank these apocryphal students according to how hard they cry, from least crying to most crying.%
+%\footnote{jk, there's no crying in physics. :-)}  
+%Explain your reasoning.
+%\answerspace{1.5in}
+
+\item Which of the following statements about measuring currents are true? 
+
+\vspace{-0.1in}
+{\renewcommand{\arraystretch}{1.5}
+\begin{center}
+\begin{tabular}{l p{5in}}
+\textbullet~~True $\square$ or False $\square$: & When measuring a current that might be over 400~mA, always use the 10~A dial setting and 10~A input jack.\\
+\textbullet~~True $\square$ or False $\square$: & When measuring a current that is under 400~mA, always use the mA/$\mu$A input jack and either the mA or the $\mu$A  dial setting.\\
+\textbullet~~True $\square$ or False $\square$: & The input jack for current (10~A or mA/$\mu$A) should always~~match the dial setting you are using: 10~A, mA, or $\mu$A.\\
+\textbullet~~True $\square$ or False $\square$: & Replacing a fuse that was accidentally blown by using the wrong current input jack is expensive and time-consuming.\\
+\end{tabular}
+\end{center}
+}
+\end{enumerate}
+
+\medskip
+
+%\textbf{Introduction:}
+%
+%In this lab, you will measure both electric currents and potential differences using your digital multimeters (DMMs).  Details on how to use your multimeter are in Appendix \ref{digital_multimeters}.
+%
+%To measure the electric current in a circuit, you will need to break the circuit, reconnecting it so that current is forced to flow through the meter, as shown below.  (The ``A'' is the symbol for a current meter, or ammeter.)
+%
+%\begin{center}
+%\includegraphics[width=0.8\textwidth]{electric_circuits/how_to_measure_current.pdf}
+%\end{center}
+%\vspace{-0.2in}
+
+
+
+
+\textbf{Activity 1: Current and Voltage Measurements}
+
+The circuit to the right consists of a power supply, a single light bulb, and two ammeters: one measuring current \textit{from} the power supply to the bulb, and one measuring current from the bulb \textit{back to} the power supply.  
+
+(a) \textbf{Predict} which of the two ammeters will measure the larger current.  \\
+(Or will they be the same?)
+
+\begin{wrapfigure}[1]{r}{0.38\textwidth}
+    \vspace{-0.5 in}
+    \includegraphics{electric_circuits/circ_diag1.pdf}
+\end{wrapfigure}
+
+
+\hspace{0.5in}Prediction:
+\answerspace{0.75 in}
+
+
+Now build the circuit above, using your two DMMs to measure the current $I$ that flows at the two points in the circuit shown.  
+
+\vspace{-0.1in}
+\begin{newboxed}
+\textbf{Your power supplies have been preset to limit the voltage and current supplied. 
+ Please do not adjust the voltage or current knobs, or we may blow out lots of bulbs and fuses.  
+ Also, for best results, make all current measurements using the ``10~A'' input settings on your DMM throughout this lab.}
+\end{newboxed}
+\vspace{-0.1in}
+
+(b) Record your measurements below.  Was your prediction correct?
+
+\hspace{0.5in}Measurements:
+\answerspace{0.8 in}
+
+\pagebreak[3]
+%\newpage
 
 \begin{wrapfigure}[10]{r}{0.35\textwidth}
 %    \vspace{-0.5 in}
     \includegraphics[width=0.35\textwidth]{electric_circuits/circ_diag2.pdf}
 \end{wrapfigure}
-Your DMM can also measure the difference in potential $\Delta V$ between any two points in the circuit.  (See Appendix \ref{digital_multimeters} to set up your DMM as a voltmeter.)  To measure a voltage in a circuit, keep your circuit intact (do not break any connections), and simply touch the two leads of the voltmeter to the two places in the circuit you want to measure between.
+Now we'll use the DMM to  measure the difference in potential $\Delta V$ between  two points in the circuit.  (See Appendix~\ref{digital_multimeters} to set up your DMM as a voltmeter.)  To measure a voltage in a circuit, keep your circuit intact (do not break any connections), and simply touch the two leads of the voltmeter to the two places in the circuit you want to measure between.
 
-(c) Remove one of your two DMMs from the circuit, and use it to measure some voltage differences in the circuit as shown.  Hold one lead at point a, and move the other lead to points b, c, and d, recording the results.  Pay attention to whether each reading is in volts (V) or milivolts (mV).
+(c) Remove one of your two DMMs from the circuit, and use it to measure some voltage differences in the circuit as shown.  Hold one lead at point a, and move the other lead to points b, c, and d, recording the results.  Pay attention to whether each reading is in volts (V) or millivolts (mV).
 
 \vspace{0.1 in}
-\hspace{0.5 in} $\Delta V_{ab} = $ \par
-\hspace{0.5 in} $\Delta V_{ac} = $ \par
-\hspace{0.5 in} $\Delta V_{ad} = $ \par
+\hspace{0.5 in} $\Delta V_\text{ab} = $ \par
+\hspace{0.5 in} $\Delta V_\text{ac} = $ \par
+\hspace{0.5 in} $\Delta V_\text{ad} = $ \par
 \vspace{0.2 in}
 
 (d)  Predict the voltage difference between the two points c and d in the circuit above.  Test your prediction with a measurement.  Do they agree? \par
-\hspace{0.5 in} Prediction:   $\Delta V_{cd} = $ \par
+\hspace{0.5 in} Prediction:   $\Delta V_\text{cd} = $ \par
 \vspace{0.2 in}
-\hspace{0.5 in} Measurement:   $\Delta V_{cd} = $ \par
+\hspace{0.5 in} Measurement:   $\Delta V_\text{cd} = $ \par
 \vspace{0.3 in}
 (e) How big is the voltage difference between the two ends of a typical wire in your circuit?
 \answerspace{0.6 in}
@@ -216,9 +300,9 @@ $\Delta V_2 =$ & $\Delta V_2 =$ \\
 Predictions: \hspace{0.7in} & Measurements: \\
 $I_1 =$ & $I_1 =$ \\
 $I_2 =$ & $I_2 =$ \\
-$\Delta V_{ab} =$ & $\Delta V_{ab} =$ \\
-$\Delta V_{bc} =$ & $\Delta V_{bc} =$ \\
-$\Delta V_{de} =$ & $\Delta V_{de} =$ \\
+$\Delta V_\text{ab} =$ & $\Delta V_\text{ab} =$ \\
+$\Delta V_\text{bc} =$ & $\Delta V_\text{bc} =$ \\
+$\Delta V_\text{de} =$ & $\Delta V_\text{de} =$ \\
 Brightest bulb: & Brightest bulb: \\
 \end{tabular}}
 \vspace{0.3in}
@@ -250,7 +334,7 @@ Problem 1: Consider the following circuit:
 (a) If we define the electric potential at the negative terminal of the power supply to be at $V=0$ Volts, what is the potential at each of the points a, b, c, d, e, f, and g?  
 \answerspace{0.7 in}
 
-(b) Rank from smallest to largest the current at each of the lettered points in the circuit.   (You can write ``$I_c<I_a=I_f<I_e...$'' or something like that.) 
+(b) Rank from smallest to largest the current at each of the lettered points in the circuit.   (You can write ``$I_\text{c}<I_\text{a}=I_\text{f}<I_\text{e}...$'' or something like that.) 
 \answerspace{0.7 in}
 
 (c) Which bulb or bulbs will be brightest?  Which bulb or bulbs will be least bright?
@@ -266,19 +350,19 @@ Problem 2: Consider the following circuit:
 \end{center}
 \vspace{-0.1in}
 
-(a) Which is greater, $\Delta V_{ab}$ or  $\Delta V_{ef}$?  Why?
+(a) Which is greater, $\Delta V_\text{ab}$ or  $\Delta V_\text{ef}$?  Why?
 \vspace{0.6 in}
 
 (b) Which bulb is brighter, the one between a and b, or the one between e and f?  Why?
 \vspace{0.6 in}
 
-(c) Which is greater, $I_a$ or $I_e$?  Why?
+(c) Which is greater, $I_\text{a}$ or $I_\text{e}$?  Why?
 \vspace{0.6 in}
 
-(d) Which is greater, $I_c$ or $I_b$? Why?
+(d) Which is greater, $I_\text{c}$ or $I_\text{b}$? Why?
 \vspace{0.6 in}
 
-(e) Which is greater, $\Delta V_{ab}$ or  $\Delta V_{cd}$? Why?
+(e) Which is greater, $\Delta V_\text{ab}$ or  $\Delta V_\text{cd}$? Why?
 \vspace{0.6 in}
 
 (f) Cut out the circuit on the last page of this lab, and fold it so that height above the table represents electric potential.  Now that you have folded it, are there any answers above you'd like to change?  Bring your folded paper to class, and be prepared to discuss your figure with your instructor.
