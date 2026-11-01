@@ -31,11 +31,11 @@ collectively as electromagnetic induction.
 
 \bigskip
 
-\begin{wrapfigure}[10]{r}{0.4\textwidth}
-\vspace{-0.5in}
-    \includegraphics[width=0.4\textwidth]{induction_intro/induction1_setup_2026.pdf}
-\end{wrapfigure}
+\vspace{-0.3in}
+\figuretoright{0.4}[scale=0.7]{induction_intro/induction1_setup_2026.pdf}{
+%    \includegraphics[width=0.4\textwidth]{induction_intro/induction1_setup_2026.pdf}
 
+\vspace{+0.3in}
 \textbf{Apparatus}
 
 \begin{itemize}[nosep]
@@ -49,16 +49,15 @@ collectively as electromagnetic induction.
 \textbf{Activity 1: A Moving Magnet and a Coil}
 
 \begin{enumerate}[labparts]
-\setlength\rightmargin{3in}
 
 \item Connect the small coil to the voltage sensor, and connect the voltage sensor to port  A on the Pasco 550 interface.
-Turn on the computer and open the file \filename{Induction.cap} in the \filename{\coursefolder} folder.
+Turn on the computer and open the file \filename{Induction1.cap} in the \filename{\coursefolder} folder.
 
 \end{enumerate}
 
-\vspace{-0.3in}  
+}%end of \figuretoright command
 
-\begin{enumerate}[resume*]
+\begin{enumerate}[labparts,start=2]
 
 %Ending and Resuming the enumerate environment is a kluge, which is necessary to make the enumerate environment play nicely with the wrapfig environment.  Without the ending and resuming, the changed right margin from the wrapfig persists until the end of the list.  Note that this resuming requires the ``enumitem'' package.
 
