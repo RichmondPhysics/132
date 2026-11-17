@@ -117,22 +117,23 @@ In this part, we'll rewrite the expression in terms of only macroscopic quantiti
 
 \begin{enumerate}[labparts]
 
-\item You remember from Physics 131 that the kinetic energy of a particle is $E_{\rm kin} = \frac{1}{2}mv^2$.  Rewrite the expression for pressure $P$ above in terms of the average kinetic energy of the atoms, $\left<  E_{\rm kin} \right>$.
+\item You remember from Physics 131 that the kinetic energy of a particle is $E_{\rm kin} = \frac{1}{2}mv^2$.  Rewrite the expression for pressure $P$ above in terms of the average kinetic energy of an atom $\left<  E_{\rm kin} \right>$.
 \answerspace{0.6in}
 
 Here's where we're going to use an extremely powerful idea called the equipartition of energy theorem (or sometimes just the ``equipartition theorem'').  \textit{Equipartition} simply means ``divided equally,'' and the basic idea is that on average, the energy of a system is divided equally among all options.
 You saw a taste of equipartition in the previous activity, when you said that on average, $ \left< v_x^2 \right >= \left< v_y^2 \right > = \left< v_z^2 \right > $.  You can think of the kinetic energy of motion along $x$ as 
 $\frac{1}{2}mv_x^2$, and the kinetic energy of motion in the other directions as $\frac{1}{2}mv_y^2$ and $\frac{1}{2}mv_z^2$.  On average, these three kinetic energies should all be the same.
 
-Maybe it's obvious that the energies associated with the three directions of translational motion should be the same.  But the equipartition theorem says that the energy is the same for \textit{all} kinds of motion: translational, rotational, and vibrational kinetic energies, and even for potential energies associated with molecular bonds being compressed or stretched.  On average, each possible way that an atom or molecule can move or can store energy, called a ``degree of freedom,'' (DoF) gets the same amount of energy.
+Maybe it's obvious that the energies associated with the three directions of translational motion should be the same.  But the equipartition theorem says that the energy is the same for \textit{all} kinds of motion: translational, rotational, and vibrational kinetic energies, and even for potential energies associated with molecular bonds being compressed or stretched.  On average, each possible way that an atom or molecule can move or can store energy, called a \textit{degree of freedom} (DoF), gets the same amount of energy.
 
-Furthermore, the equipartition theorem tells us exactly \textit{how much} energy each degree of freedom gets.  On average, the energy stored in each \textit{mode} or \textit{degree of freedom} is $\frac{1}{2}k_BT$ per particle, where $T$ is the temperature and $k_B$ is Boltzmann's constant, $k_B=1.38 \times 10^{-23}$~J/K.  The total energy for $N$ molecules is given by
+Furthermore, the equipartition theorem tells us exactly \textit{how much} energy each degree of freedom gets.  On average, the energy in each degree of freedom of a particle is $\frac{1}{2}k_BT$, where $T$ is the temperature and $k_B$ is Boltzmann's constant, $k_B=1.38 \times 10^{-23}$~J/K.  For a system of $N$ particles, the total energy of the system is given by
+
 \begin{equation*}
 \tag{Equipartition Theorem}
 \textstyle 
-E=N\left(\frac{1}{2}k_BT\right)\bigl({\rm \#DoF}\bigr)
+E_\text{system}=N\left<  E \right> = N \left(\frac{1}{2}k_BT\right)\bigl({\rm \#DoF}\bigr),
 \end{equation*}
-where \#DoF is the number of degrees of freedom for each molecule.
+where \#DoF is the number of degrees of freedom for each particle.
 
 \item How many degrees of freedom are there per particle for our system of monatomic gas atoms in the cube?
 \answerspace{0.5in}
@@ -148,7 +149,7 @@ where \#DoF is the number of degrees of freedom for each molecule.
 
 In fact, the expression you've just written is the ideal gas law, $PV = nRT$.  When it's written that way, $n$ is the number of moles, whereas you wrote it with $N$ as the number of individual molecules.  The ``universal gas constant'' $R$ is really just a handy combination of two other constants, 
 $$R =k_BN_A=8.31~{\rm J/mol ~K,}$$
-where $N_A$ is Avogadro's number, $6.02 \times 10^{23}$ particles/mol. Frankly, the two constants $k_B$ and $N_A$ are arguably a lot more ``universal'' than $R$ is. 
+where $N_A$ is Avogadro's number, $6.022 \times 10^{23}$ particles/mol. Frankly, the two constants $k_B$ and $N_A$ are arguably a lot more ``universal'' than $R$ is. 
 
 \medskip
 
