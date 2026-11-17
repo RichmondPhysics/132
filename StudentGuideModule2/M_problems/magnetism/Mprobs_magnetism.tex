@@ -26,8 +26,8 @@ $B=\mu_0 I / 4\pi y$, into the page
 
 %--------------------------------------------------------------------------------------------------------------
 \begin{Exercise}
-A single wire carries current $I$ in the path shown, with a straight vertical segment and a straight horizontal segment leading to and from a $90\degree$ circular arc of radius~$R$.  
-Find the magnetic field (magnitude and direction) at point~$P$ in the center of the arc.
+A single wire carrying current $I$ is bent into the shape shown above on the right: a straight vertical segment and a straight horizontal segment leading to and from a $90\degree$ circular arc of radius~$R$.  
+Find the magnetic field (magnitude and direction) at point~$P$ in the center of the arc.  (\textit{Hint: you will need to use the Biot-Savart law, breaking the integral up into three segments.})
 \end{Exercise}
 \begin{Answer}
 $B=\mu_0 I / 8R$, into the page
@@ -97,6 +97,7 @@ For this problem, you can use the result you derived in Step~7 of Lab~\ref{biot_
 You are already familiar with the magnetic force 
 
 \begin{minipage}[t]{0.74\textwidth}
+\vspace{-0.1in}
 $$\vec{F}=q\vec{v}\times\vec{B}$$
 on a single moving charge $q$, 
 and in this problem we'll use that as a starting point to find the force on a current-carrying wire in an external magnetic field $\vec{B}$.
@@ -124,11 +125,17 @@ $\vec{B}, ~n_e, ~q_e, ~m_e, ~\tau, ~\ell, ~A,$ and $v_\text{drift}.$
 (d) $\vec{F}=\ell \vec{I} \times \vec{B}$ (f) $\vec{F}=\int I \, d\vec{s} \times \vec{B}$
 \end{Answer}
 
+%\answerspace{0.3in}
+
 %--------------------------------------------------------------------------------------------------------------
 \begin{Exercise}
-Goofus and Gallant are working on the review problems for magnetism, and they want to calculate the magnetic field at the center of a current-carrying circular ring of wire of radius $R$.  Gallant uses the Biot-Savart law and correctly calculates $B=\mu_0I/2R$.  Meanwhile, Goofus thinks that he has come up with a great new way to calculate the field by using Amp\`ere's law instead of  the Biot-Savart law.  He draws a dotted circular path with the same radius $R$, perpendicular to the plane of the current-carrying ring and through the ring's center, as shown below.  Using the dotted circular path as his Ampèrian loop, he applies  Amp\`ere's law as follows: 
+Goofus and Gallant are working on the review problems for magnetism, and they want to calculate the magnetic field at the center of a current-carrying circular ring of wire of radius $R$.  Gallant uses the Biot-Savart
 
-\begin{minipage}{0.7\textwidth}
+\figuretoright{0.3}{M_problems/magnetism/goofus_ampere.pdf}{
+\vspace{-3.6ex}
+law and correctly calculates $B=\mu_0I/2R$.  Meanwhile, Goofus thinks that he has come up with a great new way to calculate the field by using Amp\`ere's law instead of  the Biot-Savart law.  He draws a dotted circular path with the same radius $R$, perpendicular to the plane of the current-carrying ring and through the ring's center, as shown to the right.  Using the dotted circular path as his Ampèrian loop, he applies  Amp\`ere's law as follows: 
+}
+
 \begin{align*}
 \oint \vec{B} \cdot d\vec{s} &= \mu_0 I_\text{enc} \\
 \implies \oint B \, ds &= \mu_0 I_\text{enc} ~~ (\text{b/c } \vec{B} \perp d\vec{s}) \\
@@ -136,15 +143,6 @@ Goofus and Gallant are working on the review problems for magnetism, and they wa
 %B(2\pi R)  &=  \mu_0 I  \\
 \implies B  &=  \frac {\mu_0 I}{2\pi R}\, , \text{ Q.E.D. by Goofus~~(wrong)} \\
 \end{align*}
-\end{minipage}
-\begin{minipage}{0.29\textwidth}
-\vspace{0in}
-%\begin{center}
-
-\includegraphics{M_problems/magnetism/goofus_ampere.pdf}
-%\end {center}
-\end{minipage}
-
 
 Sadly, Goofus sees that his answer is incorrect by a factor of $\pi$.  
 %Gallant sees it too.  
@@ -211,7 +209,7 @@ Two students are determining the mass of an electron by doing the same laborator
 \item What value should they report for the mass of the electron $m_e$?  
 \item What is the uncertainty in $m_e$ due to only the uncertainty in $r$? 
 \item What is the uncertainty in $m_e$ due to all sources of uncertainty?  
-\item Write an expression for $m_e$ involving only quantities that you measured directly; that is, your expression should $m_e$ won't have $B$ in it, but will have $I$, $a$ and $N$.  
+\item Write an expression for $m_e$ involving only quantities that you measured directly; that is, your expression for $m_e$ won't have $B$ in it, but will have $I$, $a$ and $N$.  
 \item The current $I$ in the coils and the accelerating voltage $V$ are both measured by the same meter with an accuracy of $\pm 0.5\%$.  Which of those two has a greater effect on the overall uncertainty in $m_e$, and why is there a difference?
 \end{enumerate}
 \end{Exercise}
@@ -224,14 +222,19 @@ Two students are determining the mass of an electron by doing the same laborator
 \end{Answer}
 
 
-
 %--------------------------------------------------------------------------------------------------------------
 \begin{Exercise}
-A horizontal ring of wire with radius $r$ carries current $I$.  A strong bar magnet is placed underneath it, with its north pole facing up.  As the figure shows, the magnetic field lines from the bar magnet make an angle $\theta$ with the vertical and have a magnitude $B$ where they cross the ring. 
+A horizontal ring of wire with radius $r$ carries a current $I$.
+A strong bar magnet is placed underneath it, with its north pole facing up.  
+As the figure shows, the magnetic field lines from the bar magnet make an angle~$\theta$ 
+with the vertical and have a magnitude $B$ where they cross the ring. 
 \figuretoright{0.35}[scale=0.85]{M_problems/magnetism/ring_over_magnet.pdf}{
 \begin{enumerate}[labparts]
+\newpage
 \item What is the direction of the magnetic force on the specific bit o' length $ds$ illustrated in the drawing, with current $I$ into the page?  
+\newpage
 \item What is the direction of the net magnetic force on the ring?  
+\newpage
 \item What is the magnitude of the net magnetic force on the ring?  
 \item The ring of current is itself acting like a magnet, producing a magnetic field of its own.  Is its north pole pointing up, or down?  
 \item If you replaced the ring of current with a permanent magnet oriented as you just said, would it attract or repel the bar magnet below it?  Is this consistent with what you said in part (b)?
@@ -239,9 +242,8 @@ A horizontal ring of wire with radius $r$ carries current $I$.  A strong bar mag
 }
 \end{Exercise}
 \begin{Answer}
-(a) up and right (b) up (c) $F=2\pi rIB \sin ⁡\theta$ (d) down (e) repel
+(a) up and right (b) up (c) $F=2\pi rIB \sin \theta$ (d) down (e) repel
 \end{Answer}
-
 
 
 
